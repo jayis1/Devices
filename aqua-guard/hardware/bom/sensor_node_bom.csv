@@ -1,0 +1,21 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+STM32L476RG,U1,STM32L476RG,LQFP-64,1,5.80,MCU,STMicroelectronics,STM32L476RG,https://www.st.com/resource/en/datasheet/stm32l476rg.pdf
+SX1261,U2,SX1261,QFN-24,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+EZO-pH Carrier,U3,EZO-pH,DIP-6 Carrier,1,28.00,pH Sensor,Atlas Scientific,EZO-pH,https://files.atlas-scientific.com/EZO_pH_Datasheet.pdf
+EZO-DO Carrier,U4,EZO-DO,DIP-6 Carrier,1,34.00,DO Sensor,Atlas Scientific,EZO-DO,https://files.atlas-scientific.com/EZO_DO_Datasheet.pdf
+EZO-EC Carrier,U5,EZO-EC,DIP-6 Carrier,1,30.00,EC/TDS Sensor,Atlas Scientific,EZO-EC,https://files.atlas-scientific.com/EZO_EC_Datasheet.pdf
+EZO-NH3 Carrier,U6,EZO-NH3,DIP-6 Carrier,1,42.00,Ammonia Sensor,Atlas Scientific,EZO-NH3,https://files.atlas-scientific.com/EZO-NH3_Datasheet.pdf
+EZO-NO2 Carrier,U7,EZO-NO2,DIP-6 Carrier,1,38.00,Nitrite Sensor,Atlas Scientific,EZO-NO2,
+EZO-NO3 Carrier,U8,EZO-NO3,DIP-6 Carrier,1,38.00,Nitrate Sensor,Atlas Scientific,EZO-NO3,
+DS18B20 Waterproof,U9,DS18B20,Probe Stainless,1,3.50,Temp Sensor,Maxim,DS18B20,https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+Turbidity Sensor,U10,TSZ-01,Analog Module,1,4.00,Turbidity,DFRobot,TSZ-01,
+Qi Receiver,U11,Qi 5V 1A,Module,1,3.20,Wireless Charge,Generic,Qi-RX-5V1A,
+MCP73831,U12,MCP73831,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,
+AP2112-3.3,U13,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+Lipo 800mAh,BAT1,800mAh 3.7V,Custom Pouch,1,3.00,Battery,Generic,LP501230,
+868MHz Antenna,ANT1,868MHz Wire,PCB Trace,1,1.50,Antenna,Linx,ANT-868-USP,
+3M DP270 Epoxy,,DP270 50mL,Carton,1,12.00,Potting,3M,DP270,
+Titanium Guards,,Custom Ti,Custom,1,5.00,Electrode Guard,Custom,,
+Neodymium Magnet,,N35 10x3mm,Disc,2,1.00,Magnet,Generic,N35-10x3,
+Passives,,R/C/L 0402,0402,40,0.03,Passive,Various,,
+PCB,,25mm round + strip 4-layer,Custom,1,4.00,PCB,JLCPCB,,

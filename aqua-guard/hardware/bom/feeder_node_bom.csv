@@ -1,0 +1,23 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1,Module,1,3.50,MCU Module,Espressif,ESP32-S3-WROOM-1
+SX1261,U2,SX1261,QFN-24,1,3.80,Sub-GHz Radio,Semtech,SX1261
+OV2640 Camera,U3,OV2640 2MP,Module FPC,1,2.50,Camera,Omnivision,OV2640
+Kamoer NKP Pump,P1-P6,NKP-01-S,Module,6,8.00,Peristaltic Pump,Kamoer,NKP-01-S
+DRV8833,U4-U6,DRV8833,HTSSOP-16,3,1.80,Motor Driver,TI,DRV8833
+MG996R Servo,SV1,MG996R,Standard,1,3.50,Servo,AiJia,MG996R
+50W RGBW LED Array,LED1-4,50W RGBW,Star Board,4,8.00,LED,Generic,50W-RGBW-Star
+AL8860 LED Driver,LD1-4,AL8860,SOT-89,4,1.20,LED Driver,Diodes Inc,AL8860
+LM2596-5V,U7,LM2596-5.0,TO-263,1,1.50,Buck Converter,TI,LM2596-5.0
+AP2112-3.3,U8,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3
+YF-S201 Flow Sensor,F1-F6,YF-S201,Module,6,2.50,Flow Sensor,Generic,YF-S201
+IR Hopper Sensor,IR1,IR Obstacle,Module,1,1.00,IR Sensor,Generic,IR-Obstacle
+NTC 10K Thermistor,NTC1,10K 1%,0402,1,0.10,NTC,Generic,NCP18XH103J03RB
+40mm 5V Fan,FAN1,40mm 5V DC,Frame,1,1.50,Fan,Generic,40mm-5V-DC
+DC Barrel Jack,J1,5.5x2.1mm,SMD,1,0.30,Connector,Generic,DC-5.5-2.1
+868MHz Antenna,ANT1,868MHz Wire,PCB Trace,1,1.50,Antenna,Linx,ANT-868-USP
+Passives,,R/C/L 0402,0402,80,0.03,Passive,Various,
+PCB,,200x80mm 4-layer FR4,Custom,1,4.00,PCB,JLCPCB
+Hopper,,PETG 3D printed,Custom,1,2.00,Enclosure,Custom,
+Rim Mount,,PETG 3D printed,Custom,1,2.00,Bracket,Custom,
+Gooseneck Arms,,4x LED gooseneck,Custom,4,3.00,Arm,Custom,
+24V 3A Power Supply,PS1,24V 3A Desktop,Desktop,1,8.00,Power,MeanWell,GST90A24-P1M
