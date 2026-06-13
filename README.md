@@ -17,6 +17,7 @@ These aren't single chips on a board. Each device system here is:
 | # | System | Nodes | Domain | Description |
 |---|--------|-------|--------|-------------|
 | 1 | Aqua Guard | 4 (Hub, Feeder, Sensor×N, Cloud) | Home Pet Care | AI-powered aquarium ecosystem monitor and autoregulator |
+| 2 | HearthKeep | 4 (Hub, Room Monitor×N, Bed Mat, Wearable Tag) | Elder Safety | Ambient elder safety monitor — mmWave radar fall detection, under-mattress vitals, privacy-first |
 
 ## Structure
 

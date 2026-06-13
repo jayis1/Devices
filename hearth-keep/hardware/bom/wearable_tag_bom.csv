@@ -1,0 +1,13 @@
+# Part,Package,Qty,Unit Price,Total,Notes
+nRF52810,QFN-32 5x5,1,$1.80,$1.80,Ultra-low-power BLE MCU
+LIS2DH12,LGA-12,1,$0.90,$0.90,3-axis accelerometer
+12mm tactile button,Through-hole,1,$0.10,$0.10,Panic button
+Piezo buzzer,12mm SMD,1,$0.30,$0.30,Local alarm
+WS2812B-mini,LED,1,$0.15,$0.15,RGB status LED
+CR2032 holder,SMD,1,$0.20,$0.20,Battery holder
+CR2032 battery,Coin cell,1,$0.30,$0.30,3V 225mAh
+PCB trace antenna,On-board,1,$0.00,$0.00,BLE antenna
+Passives,0402,~15,$0.40,$0.40,Decoupling etc.
+PCB 2-layer,38×26mm,1,$1.00,$1.00,Tag PCB
+Enclosure (ABS),42×28×10mm,1,$1.20,$1.20,Keychain fob
+Lanyard,Nylon,1,$0.15,$0.15,Neck strap
