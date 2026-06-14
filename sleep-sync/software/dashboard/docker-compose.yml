@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  sleepsync-backend:
+    build: ./dashboard/backend
+    container_name: sleepsync-api
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_PATH=/data/sleepsync.db
+      - MQTT_BROKER=broker.hivemq.com
+      - MQTT_PORT=1883
+    volumes:
+      - sleepsync-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/sleep/latest"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  mqtt-broker:
+    image: eclipse-mosquitto:2
+    container_name: sleepsync-mqtt
+    ports:
+      - "1883:1883"
+    volumes:
+      - mosquitto-config:/mosquitto/config
+      - mosquitto-data:/mosquitto/data
+    restart: unless-stopped
+
+volumes:
+  sleepsync-data:
+  mosquitto-config:
+  mosquitto-data:

@@ -1,0 +1,19 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-S3-WROOM-1-N8R8,U1,ESP32-S3-WROOM-1-N8R8,Module,1,4.20,MCU Module,Espressif,ESP32-S3-WROOM-1-N8R8,https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
+UDA1334A,U2,UDA1334A,TSSOP-16,1,1.10,Audio DAC,NXP,UDA1334A,https://www.nxp.com/docs/en/data-sheet/UDA1334A.pdf
+SPH0645LM4H,U3,SPH0645LM4H,Bottom-port module,1,3.50,Microphone,Knowles,SPH0645LM4H,https://www.digikey.com/product-detail/en/knowles/SPH0645LM4H-1/778-SPH0645LM4H-1CT-ND/5330432
+BME280,U4,BME280,LGA-8,1,2.80,Temp/Humidity,Bosch,BME280,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
+SCD40,U5,SCD40,DFN-6,1,7.50,CO2 Sensor,Sensirion,SCD40,https://sensirion.com/media/documents/1C4B7E26/6414B2B6/Sensirion_CO2_Sensors_SCD4x_Datasheet.pdf
+TSL2591,U6,TSL2591,DFN-6,1,2.40,Light Sensor,AMS,TSL2591,https://ams.com/documents/20143/36005/TSL2591_DS000338_3-00.pdf
+3.5-inch IPS TFT,U7,ILI9488 3.5inch,Module 480x320,1,7.50,Display,BuyDisplay,ER-TFT035-6,https://www.buydisplay.com/default/3-5-inch-tft-lcd-display-module-480x320-ili9488-spi
+W25Q128,U8,W25Q128JVEIQ,SOIC-8,1,0.90,Flash,Winbond,W25Q128JVEIQ,https://www.winbond.com/resource-files/w25q128jv%20spi%20revg%2008032017%20rev.a.pdf
+MicroSD Slot,J2,Micro SD Push-Push,SMD,1,0.50,Connector,Molex,5040771891,https://www.molex.com/molex/products/datasheet.jsp?part=active/5040771891.xml
+MCP73831,U9,MCP73831-2ACHI,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+AP2112-3.3,U10,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+LiPo 2000mAh,BAT1,2000mAh 3.7V,Custom,1,4.50,Battery,Generic,LP802030,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+3W Speaker,SP1,3W 40mm full-range,40mm frame,1,1.20,Speaker,CUI,MRP4023,https://www.cui.com/product/resource/mrp4023.pdf
+WS2812B,LED1,WS2812B-2020,4-Pin,1,0.25,RGB LED,Worldsemi,WS2812B,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+Tactile Button,SW1-3,6x6mm tactile,Through-hole,3,0.10,Button,Generic,TS-1185,
+Passives,,R/C/L 0402,0402,50,0.03,Passive,Various,,
+PCB,,120x80mm 4-layer FR4,Custom,1,3.00,PCB,JLCPCB,,

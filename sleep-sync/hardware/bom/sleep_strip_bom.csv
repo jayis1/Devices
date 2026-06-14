@@ -1,0 +1,13 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+nRF52832-QFAA,U1,nRF52832-QFAA,QFN-48 6x6,1,3.60,MCU,Nordic,nRF52832,https://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
+LIS3DH,U2,LIS3DH,LGA-16,1,1.20,Accelerometer,ST,LIS3DH,https://www.st.com/resource/en/datasheet/lis3dh.pdf
+HX711,U3-4,HX711,SOP-16,2,0.80,24-bit ADC,Avia,HX711,https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
+FSR-406,R1-8,FSR-406,Thick film 40mm dia,8,1.50,Force Sensor,Interlink,FSR-406,https://www.interlinkelectronics.com/fsr-406
+TLV70233,U5,TLV70233DBVT,SOT-23-5,1,0.35,LDO,TI,TLV70233,https://www.ti.com/lit/ds/symlink/tlv70233.pdf
+MP2692A,U6,MP2692A,QFN-16,1,1.80,Qi Receiver,MPS,MP2692A,https://www.monolithicpower.com/en/documentview/documentview/index/product/MP2692A
+LiPo 100mAh,BAT1,100mAh 3.7V flex,Flex PCB,1,2.50,Battery,Generic,LiPoflex-100,
+Qi Coil,COIL1,Qi RX coil 5W,Custom,1,1.20,Qi Coil,Wurth,760308103103,https://www.we-online.com/catalog/en/WPT/coils/
+BLE Antenna,ANT1,2.4GHz PCB trace,On-board,1,0.00,PCB Antenna,Nordic,Reference,
+Silicone Sleeve,,180x40x4mm medical silicone,Custom,1,3.00,Enclosure,Custom,Silicone,
+Passives,,R/C/L 0402,0402,30,0.03,Passive,Various,,
+Flex PCB,,180x40mm 2-layer FPC,Custom,1,2.50,PCB,JLCPCB,,

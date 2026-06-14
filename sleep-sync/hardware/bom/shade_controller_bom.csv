@@ -1,0 +1,14 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-C3-MINI-1,U1,ESP32-C3-MINI-1,Module,1,1.80,MCU Module,Espressif,ESP32-C3-MINI-1,https://www.espressif.com/sites/default/files/documentation/esp32-c3_mini-1_datasheet_en.pdf
+TMC2209,U2,TMC2209-LA,QFN-28,1,3.50,Stepper Driver,Trinamic,TMC2209,https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2209_Datasheet_Rev1.10.pdf
+NEMA 11,M1,NEMA 11 12V stepper,NEMA 11,1,5.00,Stepper Motor,Generic,NEMA11-12V,
+VEML7700,U3,VEML7700,DFN-6,1,1.60,Light Sensor,Vishay,VEML7700,https://www.vishay.com/docs/84286/veml7700.pdf
+PT4115,U4-6,PT4115,SOT-89-5,3,0.40,LED Driver,PT,PT4115,
+12V WWA LED Strip,LED1,12V 60LED/m WWA 1m,Strip,1,4.00,LED Strip,Generic,WWA-12V-60,
+DC Barrel Jack,J1,12V 5.5x2.1mm barrel,Through-hole,1,0.25,Connector,Generic,DC-5.5x2.1,
+AP2112-3.3,U7,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+Micro Switch,SW1-2,SS-10GL13 limit,Through-hole,2,0.30,Limit Switch,Omron,SS-10GL13,
+Tactile Button,SW3,6x6mm tactile,Through-hole,1,0.10,Button,Generic,TS-1185,
+Passives,,R/C/L 0402,0402,30,0.03,Passive,Various,,
+PCB,,200x40mm 2-layer FR4,Custom,1,2.00,PCB,JLCPCB,,
+Aluminum Enclosure,,200x40x30mm aluminum,Extruded,1,3.00,Enclosure,Custom,ShadeClamp-200,
