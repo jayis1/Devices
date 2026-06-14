@@ -1,0 +1,25 @@
+Component,Part Number,Description,Qty,Unit_Cost_USD,Total_Cost_USD,Supplier,Notes
+MCU,nRF5340-QIAA,Dual Cortex-M33 BLE 5.0 aQFN94,1,6.50,6.50,Nordic Semi,Application + network core
+WiFi,ESP32-C6-MINI-1,WiFi 6 + BLE module,1,3.20,3.20,Espressif,WiFi uplink to cloud
+Radio,SX1262IMLTRT,Sub-GHz LoRa 868MHz QFN24,1,4.10,4.10,Semtech,Mesh coordinator
+Display,ILI9341 3.2 TFT,320x240 IPS + touch,1,5.50,5.50,BuyDisplay,SPI interface
+Audio Amp,MAX98357A,I2S class-D amp QFN16,1,1.20,1.20,Maxim,Voice alerts
+Microphone,SPH0645LM4H,I2S MEMS mic,1,2.80,2.80,Knowles,Voice commands
+Env Sensor,BME688,T/RH/P/VOC LGA14,1,3.50,3.50,Bosch,Ambient monitoring
+Light Sensor,TSL25911FN,Light-to-digital DFN6,1,2.40,2.40,ams-OSRAM,Ambient light
+Flash,W25Q128JVEIQ,16MB NOR SOIC8,1,0.90,0.90,Winbond,Firmware + data
+SD Slot,microSD push-push,Card connector,1,0.50,0.50,Generic,Timelapse storage
+Charger,MCP73831,LiPo charger SOT23-5,1,0.60,0.60,Microchip,Battery management
+LDO 3.3V,AP2112-3.3,600mA LDO SOT23-5,1,0.40,0.40,Diodes Inc,Main 3.3V rail
+LDO 1.8V,AP6212-1.8,300mA LDO SOT23-5,1,0.35,0.35,Diodes Inc,Radio VDD
+Speaker,3W 8Ω 40mm,Full range speaker,1,1.50,1.50,Generic,Voice output
+Buzzer,Piezo 3V 85dB,Audible alarm,1,0.40,0.40,Generic,Critical alerts
+USB-C,16-pin 3A receptacle,USB-C connector,1,0.50,0.50,Generic,Power + programming
+Battery,Lipo 3000mAh 103040,3.7V LiPo,1,5.00,5.00,Generic,Backup power
+RGB LED,3528 common anode,Status LEDs,5,0.10,0.50,Generic,Zone + status
+Crystal 32MHz,ABM8-32.000MHZ,nRF5340 HSE,1,0.40,0.40,Abracon,Primary clock
+Crystal 32.768k,FC-135,RTC crystal,1,0.30,0.30,Epson,Low-speed clock
+Antenna 868MHz,245AT18A300,Chip antenna,1,0.60,0.60,Johanson,Sub-GHz
+PCB,4-layer 80x60mm,FR4 ENIG,1,2.50,2.50,Custom,Main board
+Passives,Assorted,R/C/L/ESD,1,2.00,2.00,Various,Decoupling + termination
+,,Total,,42.85

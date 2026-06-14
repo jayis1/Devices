@@ -19,6 +19,7 @@ These aren't single chips on a board. Each device system here is:
 | 1 | Aqua Guard | 4 (Hub, Feeder, Sensor×N, Cloud) | Home Pet Care | AI-powered aquarium ecosystem monitor and autoregulator |
 || 2 | HearthKeep | 4 (Hub, Room Monitor×N, Bed Mat, Wearable Tag) | Elder Safety | Ambient elder safety monitor — mmWave radar fall detection, under-mattress vitals, privacy-first |
 || 3 | BreathHome | 4 (Hub, Room Sensor×N, HVAC Controller, Wearable Tag) | Indoor Air Quality | Smart indoor air quality & respiratory health system — multi-sensor monitoring, HVAC actuation, mold prediction, personal exposure tracking |
+|| 4 | UrbanHarvest | 4 (Hub, Grow Pod, Plant Sensor×N, Weather Station) | Urban Farming | Intelligent micro-farming system — automated irrigation, disease detection, harvest prediction, climate control for balconies and rooftops |
 
 ## Structure
 

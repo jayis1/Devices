@@ -1,0 +1,17 @@
+Component,Part Number,Description,Qty,Unit_Cost_USD,Total_Cost_USD,Supplier,Notes
+MCU,STM32WL55CC,Dual M4+M0+ Sub-GHz UFQFPN48,1,4.80,4.80,STMicro,Integrated radio
+Soil Moisture,Capacitive v1.2,Analog corrosion-resistant,1,2.50,2.50,Generic,Soil VWC
+Temp Probe,DS18B20 waterproof,30cm cable OneWire,1,2.00,2.00,Maxim,Root zone temp
+Light,TSL25911FN,Light-to-digital DFN6,1,2.40,2.40,ams-OSRAM,PAR measurement
+Leaf Wetness,Custom interdigitated PCB,Gold ENIG,1,1.50,1.50,Custom,Capacitive wetness
+LDO,HT7333-3.3,250mA ultra-low-Iq SOT89,1,0.40,0.40,Holtek,4µA Iq for battery life
+RGB LED,WS2812B-mini 3.5x3.5mm,Addressable RGB,1,0.25,0.25,Worldsemi,Health status
+Button,12mm tactile waterproof,Boot cover,1,0.30,0.30,Generic,Pairing + manual read
+Antenna,868MHz whip 50mm,SMA connector,1,0.80,0.80,Generic,Through-soil range
+Battery Holder,3x AA Keystone 2479,With door,1,0.60,0.60,Keystone,Alkaline power
+PCB,2-layer 35x120mm,FR4 ENIG,1,1.50,1.50,Custom,Probe form factor
+Enclosure,IP68 35x120x15mm,ASA waterproof,1,2.00,2.00,Custom,Soil-rated
+Crystal 32MHz,ABM8-32.000MHZ,STM32WL HSE,1,0.40,0.40,Abracon,Radio clock
+Crystal 32.768k,FC-135,RTC crystal,1,0.30,0.30,Epson,Low-power timing
+Passives,Assorted,R/C/ESD protection,1,0.80,0.80,Various,Decoupling + protection
+,,Total,,19.85

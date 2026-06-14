@@ -1,0 +1,27 @@
+Component,Part Number,Description,Qty,Unit_Cost_USD,Total_Cost_USD,Supplier,Notes
+MCU,ESP32-S3-WROOM-1-N8R8,Dual Xtensa 8MB PSRAM,1,4.50,4.50,Espressif,Grow pod controller
+Camera,OV2640-FS1019,2MP camera module,1,2.50,2.50,Omnivision,Disease detection
+LED Driver #1,AL8860MP-13,Constant current buck SOT89-5,4,1.10,4.40,Diodes Inc,4-channel LED control
+Radio,SX1261IMLTRT,Sub-GHz LoRa 868MHz,1,3.80,3.80,Semtech,Mesh client
+Stepper A,28BYJ-48,5V stepper motor,2,1.50,3.00,Generic,Nutrient peristaltic pumps
+Stepper Driver,ULN2003A,Darlington array SOIC16,2,0.40,0.80,Generic,Stepper motor drive
+Micro Pump,0622A002BLO,Micro peristaltic pump,1,3.50,3.50,Generic,pH dosing
+H-Bridge,DRV8833,Dual H-bridge HTSSOP16,1,1.20,1.20,TI,pH doser motor
+MOSFET,IRLZ44N,Logic-level N-ch TO-220,1,0.60,0.60,Infineon,Water pump drive
+Flow Sensor,YF-S201,Water flow 1-30L/min,1,2.00,2.00,Generic,Irrigation monitoring
+Env Sensor,BME688,T/RH/P/VOC LGA14,1,3.50,3.50,Bosch,Climate monitoring
+Light Sensor,TSL25911FN,Light-to-digital DFN6,1,2.40,2.40,ams-OSRAM,PAR verification
+Temp Probe,DS18B20 waterproof,1m cable OneWire,1,2.50,2.50,Maxim,Nutrient solution temp
+SSR,SSR-25DA,Solid state relay 25A,1,3.00,3.00,Generic,Heater control
+Humidifier,Ultrasonic 24V 5W,Mist maker disc,1,3.00,3.00,Generic,Humidity control
+Fan,12V DC 80mm PWM,3-wire speed control,1,2.50,2.50,Generic,Ventilation
+Relay,OMRON G5LE-14 5V,10A relay,4,1.50,6.00,Omron,Dry contact control
+Buck 5V,LM2596-5.0,3A step-down TO-263,1,1.20,1.20,TI,24V to 5V
+Buck 12V,LM2596-12.0,3A step-down TO-263,1,1.20,1.20,TI,24V to 12V
+USB-C,16-pin 3A,Receptacle,1,0.50,0.50,Generic,Backup power
+DC Jack,5.5x2.1mm barrel,24V input,1,0.30,0.30,Generic,Main power
+PCB,4-layer 120x80mm,FR4 ENIG,1,4.00,4.00,Custom,Controller board
+Enclosure,IP54 DIN/shelf mount,120x80x40mm,1,3.50,3.50,Custom,Moisture resistant
+LED Strips,4-channel full spectrum,Per pod custom,1,15.00,15.00,Custom,R+B+W+FR channels
+Passives,Assorted,R/C/L/connectors,1,3.00,3.00,Various,Decoupling + termination
+,,Total,,74.40
