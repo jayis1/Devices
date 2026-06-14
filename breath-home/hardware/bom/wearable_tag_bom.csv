@@ -1,0 +1,18 @@
+Component,Part Number,Quantity,Unit Price USD,Total Price USD,Notes,Reference
+nRF52832-QFAA,nRF52832,1,3.20,3.20,BLE 5.0 Cortex-M4F,U1
+Sensirion SGP30,SGP30,1,3.50,3.50,eCO2 + TVOC sensor,U2
+Sensirion SHT40-AD1B,SHT40,1,1.20,1.20,Temperature + humidity,U3
+ST LIS2DH12,LIS2DH12,1,0.80,0.80,3-axis accelerometer,U4
+TLV73333P,TLV73333P,1,0.30,0.30,3.3V LDO,U5
+MCP73831,MCP73831,1,0.80,0.80,Lipo charger IC,U6
+Lipo 120mAh,LIPO-120,1,2.50,2.50,3.7V 302020 size,BAT1
+ERM LRA motor 4mm,VIB-4MM,1,0.40,0.40,Vibration motor haptic,MOT1
+WS2812B mini,WS2812B-MINI,1,0.15,0.15,RGB LED,LED1
+USB-C connector,USB-C-F,1,0.50,0.50,Charging,CON1
+8mm tactile button,BTN-8MM,1,0.10,0.10,Symptom button,SW1
+PCB trace antenna,ANT-TRACE,1,0.00,0.00,2.4GHz on PCB,ANT1
+4-layer PCB,PCB-35x26,1,2.00,2.00,35x26mm FR4,PCB
+Polycarbonate shell,ENC-38x28x8,1,1.50,1.50,Clip-on pod medical grade,ENC
+Spring steel clip,CLIP-COLLAR,1,0.20,0.20,Shirt collar clip,CLIP
+Passives/connectors,MISC-TAG,1,1.00,1.00,R/C/headers,MISC
+,,TOTAL,,17.15,

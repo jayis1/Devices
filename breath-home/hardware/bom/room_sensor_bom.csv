@@ -1,0 +1,21 @@
+Component,Part Number,Quantity,Unit Price USD,Total Price USD,Notes,Reference
+STM32WB55CGU6,STM32WB55CG,1,4.50,4.50,Dual-core Cortex-M4+M0+ Sub-GHz+BLE,U1
+Sensirion SPS30,SPS30,1,12.00,12.00,Particulate sensor PM1-10,U2
+Sensirion SCD41,SCD41,1,8.50,8.50,Photoacoustic CO2 sensor,U3
+Sensirion SGP41,SGP41,1,4.20,4.20,VOC + NOx sensor,U4
+Sensirion SFA30,SFA30,1,5.50,5.50,Formaldehyde sensor,U5
+Bosch BME688,BME688,1,3.80,3.80,Temp/humidity/pressure/IAQ,U6
+AMS TSL25911,TSL25911,1,1.80,1.80,Ambient light sensor,U7
+SX1261IMLTRT,SX1261,1,2.80,2.80,Sub-GHz radio 868MHz,U8
+RadonEye RD200M,RD200M,0-1,45.00,0-45.00,Radon detector (basement only),U9
+AP2112-3.3,AP2112-3.3,2,0.40,0.80,3.3V LDO regulator,U10
+USB-C connector,USB-C-F,1,0.50,0.50,5V power,CON1
+3x AA battery holder,BAT-AA-3,1,0.40,0.40,Battery backup,BAT1
+868MHz chip antenna,ANT-868,1,0.50,0.50,Integrated antenna,ANT1
+RGB LED 5050,LED-RGB-5050,1,0.10,0.10,Status indicator,LED1
+6mm tactile button,BTN-6MM,1,0.10,0.10,Setup/pairing,SW1
+4-layer PCB,PCB-70x60,1,2.50,2.50,70x60mm FR4,PCB
+ABS/polycarbonate enclosure,ENC-80x80x22,1,2.00,2.00,Indoor/IP65,ENC
+Passives/connectors,MISC-RS,1,2.00,2.00,R/C/headers,MISC
+,,TOTAL (without radon),,51.60,
+,,TOTAL (with radon),,96.60,
