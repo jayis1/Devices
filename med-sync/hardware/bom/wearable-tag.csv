@@ -1,0 +1,17 @@
+# Part,Package,Qty,Unit_Price,Total_Price,Reference
+nRF52833,QFN-48 6x6,1,3.50,3.50,U1
+MAX30101,TQFN-24,1,4.80,4.80,U2
+ADXL362,3x3 LGA,1,3.50,3.50,U3
+BMI160,LGA-14,1,2.00,2.00,U4
+DRV2605L,VQFN-10,1,1.80,1.80,U5
+ERM vibration motor,4mm coin,1,0.80,0.80,M1
+RGB LED,0603,1,0.10,0.10,D1
+Tactile side button,4mm SMD,1,0.10,0.10,SW1
+CR2032 battery holder,SMD,1,0.30,0.30,BH1
+CR2032 coin cell,240mAh,1,0.50,0.50,BAT1
+PCB trace antenna,2.4GHz,1,0.00,0.00,ANT1
+NTAG I2C NHS3100,TSSOP-8,1,0.60,0.60,U6
+Passives R/C,0402,~25,0.60,0.60,MISC
+PCB 4-layer,40x30mm,1,1.50,1.50,PCB1
+Silicone wristband,Custom,1,2.00,2.00,MECH1
+IP54 case 2-piece,Custom,1,1.50,1.50,MECH2

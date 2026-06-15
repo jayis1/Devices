@@ -23,6 +23,7 @@ These aren't single chips on a board. Each device system here is:
 || 5 | SleepSync | 4 (Hub, Sleep Strip, Climate Node, Shade Controller×N) | Sleep Health | AI-powered sleep environment optimizer — BCG sleep staging, smart alarm, adaptive soundscapes, climate + light control, apnea detection |
 || 6 | ErgoFlow | 4 (Hub, Chair Pad, Desk Controller, Wearable Tag) | Workspace Wellness | AI-powered adaptive workspace wellness system — mmWave pose detection, pressure mapping, motorized sit-stand desk, circadian lighting, RSI risk prediction |
 || 7 | FlowGuard | 4 (Hub, Valve Controller, Pipe Sensor×N, Appliance Monitor×N) | Home Water Protection | AI-powered water leak detection, pipe health monitoring, and flood prevention — acoustic leak detection, motorized shutoff valve, freeze prediction, flow disaggregation |
+|| 8 | MedSync | 4 (Hub, Pill Station, Room Beacon×N, Wearable Tag) | Medication Adherence | AI-powered medication adherence and health monitoring — motorized pill dispenser, weight verification, pulse oximetry, fall detection, proximity reminders, caregiver alerts |
 
 ## Structure
 

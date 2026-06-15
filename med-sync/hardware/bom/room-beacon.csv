@@ -1,0 +1,15 @@
+# Part,Package,Qty,Unit_Price,Total_Price,Reference
+nRF52832,QFN-48 6x6,1,3.20,3.20,U1
+AM312 PIR sensor,Module,1,0.80,0.80,U2
+SHT40,DFN-4 2.5x2.5,1,1.50,1.50,U3
+VEML7700,LGA-4,1,1.80,1.80,U4
+SPH0645LM4H,MEMS mic module,1,2.80,2.80,U5
+WS2812B single LED,5050 SMD,1,0.08,0.08,D1
+Piezo buzzer,12mm SMD,1,0.40,0.40,BZ1
+Push button 6mm,6mm tactile,1,0.10,0.10,SW1
+CR2477 battery holder,SMD,1,0.30,0.30,BH1
+CR2477 coin cell,1000mAh,1,2.00,2.00,BAT1
+PCB trace antenna,2.4GHz,1,0.00,0.00,ANT1
+Passives R/C,0402,~25,0.60,0.60,MISC
+PCB 4-layer,45x30mm,1,1.50,1.50,PCB1
+Adhesive pad,3M VHB,1,0.20,0.20,MECH1
