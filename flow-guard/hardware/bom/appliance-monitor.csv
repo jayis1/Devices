@@ -1,0 +1,16 @@
+# FlowGuard Appliance Monitor BOM
+Item,Part,Package,Qty,Unit_Price_USD,Total_Price_USD,Supplier,Part_Number,Notes
+1,nRF52832,QFN-48 6x6,1,3.20,3.20,Mouser,947-NRF52832-QDAA,Zigbee end device
+2,YF-S201,Flow meter,1,3.50,3.50,AliExpress,YF-S201,Hall-effect flow
+3,BME280,LGA-8 2.5x2.5,1,2.80,2.80,DigiKey,828-106401,T/H/P sensor
+4,XGZP6847A,Diff pressure,1,4.00,4.00,DigiKey,XGZP6847A,Fixture pressure
+5,DS18B20 waterproof,Probe,1,2.50,2.50,DigiKey,DS18B20-Waterproof,Water temp
+6,Stainless steel probe pads (x2),Custom,1,0.80,0.80,AliExpress,Custom,Leak detection
+7,AA battery holder (2x),SMD,1,0.40,0.40,DigiKey,2477-KE2S-ND,2× AA batteries
+8,RGB LED,5050 SMD,1,0.15,0.15,Mouser,604-APTIC2024,Status indicator
+9,Antenna 2.4GHz,PCB trace,1,0.00,0.00,N/A,N/A,On-board inverted-F
+10,Passives (R/C),0402,~20,0.50,0.50,DigiKey,Various,Decoupling
+11,PCB 4-layer,80x50mm,1,2.00,2.00,JLCPCB,Custom,4-layer ENIG
+12,Adhesive pad,3M VHB,1,0.20,0.20,AliExpress,3M-VHB,Wall/floor mount
+13,Compression fitting,3/8",1,1.00,1.00,AliExpress,3/8-Comp,Flow meter install
+,,Subtotal,,$20.05,20.05

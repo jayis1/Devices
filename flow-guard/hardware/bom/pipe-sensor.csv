@@ -1,0 +1,17 @@
+# FlowGuard Pipe Sensor BOM
+Item,Part,Package,Qty,Unit_Price_USD,Total_Price_USD,Supplier,Part_Number,Notes
+1,nRF52832,QFN-48 6x6,1,3.20,3.20,Mouser,947-NRF52832-QDAA,Zigbee router + sensor
+2,ADXL362,3x3 LGA,1,3.50,3.50,DigiKey,146-1067-ND,Ultra-low-power accelerometer
+3,SPH0645LM4H,MEMS mic module,1,2.80,2.80,DigiKey,1650-SPH0645LM4H-B,I2S acoustic capture
+4,DS18B20 waterproof,Probe,1,2.50,2.50,DigiKey,DS18B20-Waterproof,Pipe surface temp
+5,SHT40,DFN-4 2.5x2.5,1,1.50,1.50,DigiKey,1649-SHT40-AD1B-R3,Ambient humidity
+6,Conductive leak trace,Copper tape+pads,1,0.50,0.50,AliExpress,Custom,Water detection
+7,CR2477 battery holder,SMD,1,0.30,0.30,DigiKey,BCR2477-ND,Coin cell holder
+8,CR2477 coin cell,1000mAh,1,2.00,2.00,DigiKey,CR2477-ND,3V primary battery
+9,Green LED,0603,1,0.05,0.05,Mouser,604-APT1601,Heartbeat indicator
+10,Antenna 2.4GHz,PCB trace,1,0.00,0.00,N/A,N/A,On-board inverted-F
+11,Passives (R/C),0402,~25,0.60,0.60,DigiKey,Various,Decoupling
+12,PCB 4-layer,45x30mm,1,1.50,1.50,JLCPCB,Custom,Ultra-compact
+13,Hose clamp / zip-tie mount,Stainless,1,0.30,0.30,AliExpress,Custom,Pipe mounting
+14,Thermal paste tube,5g,1,1.00,1.00,DigiKey,TC-5G-ND,DS18B20 contact
+,,Subtotal,,$19.75,19.75
