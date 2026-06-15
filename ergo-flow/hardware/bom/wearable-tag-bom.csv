@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit_Price,Total,Supplier,Part_Number,Notes
+MCU,nRF52833,1,3.80,3.80,Nordic,nRF52833-QIAA,BLE5.2 + Direction Finding
+IMU,ICM-42688-P,1,3.20,3.20,TDK,ICM-42688-P,6-axis high-precision IMU
+Magnetometer,MMC5603,1,1.40,MEMSIC,MMC5603JL,3-axis magnetometer
+Pulse Ox,MAX30101,1,4.50,4.50,ADI,MAX30101EFD+,Heart rate + SpO2 sensor
+ERM Motor,4mm coin vibe,1,0.60,0.60,Various,PB1214L,4mm vibration motor
+LED,WS2812B,1,0.15,0.15,WS,WS2812B,Single RGB LED
+LiPo Battery,150mAh 3.7V,1,2.80,2.80,Various,LIPO-150-37,301520 form factor
+Charger IC,MCP73831,1,0.60,0.60,Microchip,MCP73831T-2ACI,500mA USB LiPo charger
+DC-DC,TPS62740,1,0.90,0.90,TI,TPS62740DSS,3.3V buck converter
+USB-C,USB4085,1,0.40,0.40,GCT,USB4085-GF-030,USB 2.0 Type-C
+PCB,4-layer 35x25mm,1,2.00,2.00,Various,,Compact wrist-size PCB
+Antenna,2.4GHz chip antenna,1,0.40,0.40,Johanson,2450AT18A100,Ceramic chip antenna
+Passives,R/C/L assort,1,1.00,1.00,Various,,0201/0402 ultra-small
+Enclosure,3D printed resin,1,2.50,2.50,Various,,SLA printed resin case
+Strap,Silicone band,1,1.50,1.50,Various,,20mm silicone watch band
+Total,,,,23.75,,

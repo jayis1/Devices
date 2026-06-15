@@ -21,6 +21,7 @@ These aren't single chips on a board. Each device system here is:
 || 3 | BreathHome | 4 (Hub, Room Sensor×N, HVAC Controller, Wearable Tag) | Indoor Air Quality | Smart indoor air quality & respiratory health system — multi-sensor monitoring, HVAC actuation, mold prediction, personal exposure tracking |
 || 4 | UrbanHarvest | 4 (Hub, Grow Pod, Plant Sensor×N, Weather Station) | Urban Farming | Intelligent micro-farming system — automated irrigation, disease detection, harvest prediction, climate control for balconies and rooftops |
 || 5 | SleepSync | 4 (Hub, Sleep Strip, Climate Node, Shade Controller×N) | Sleep Health | AI-powered sleep environment optimizer — BCG sleep staging, smart alarm, adaptive soundscapes, climate + light control, apnea detection |
+|| 6 | ErgoFlow | 4 (Hub, Chair Pad, Desk Controller, Wearable Tag) | Workspace Wellness | AI-powered adaptive workspace wellness system — mmWave pose detection, pressure mapping, motorized sit-stand desk, circadian lighting, RSI risk prediction |
 
 ## Structure
 

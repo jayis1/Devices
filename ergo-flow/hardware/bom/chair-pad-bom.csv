@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit_Price,Total,Supplier,Part_Number,Notes
+MCU,nRF52832,1,3.60,3.60,Nordic,nRF52832-QFAA,BLE5.0 MCU
+Pressure Sensors,FSR-402,16,1.20,19.20,Interlink,FSR-402,Force sensing resistors
+Multiplexer,CD74HC4067,2,0.70,1.40,TI,CD74HC4067MT,16-ch analog mux
+ADC,ADS1115,1,2.10,2.10,TI,ADS1115IDGSR,16-bit 4-ch ADC
+IMU,LSM6DSOX,1,2.80,2.80,ST,LSM6DSOXTR,6-axis accel+gyro
+Haptic,ERM motor + DRV2605L,1,1.60,1.60,TI,DRV2605L + ERM-3642,Vibration motor + driver
+LED,WS2812B,1,0.15,0.15,WS,WS2812B,Single RGB LED
+LiPo Battery,1000mAh 3.7V,1,3.50,3.50,Various,LIPO-1000-37,402535 form factor
+Charger IC,BQ24072,1,1.10,1.10,TI,BQ24072RQGT,1A USB LiPo charger
+USB-C,USB4085,1,0.40,0.40,GCT,USB4085-GF-030,USB 2.0 Type-C
+Buck-Boost,TLV62569,1,0.80,0.80,TI,TLV62569DBVR,3.3V buck-boost
+PCB,4-layer 200x150mm,1,5.00,5.00,Various,,Flexible FPC for pressure grid
+Antenna,PCB trace,1,0.00,0.00,N/A,,2.4GHz meander antenna on PCB
+Passives,R/C/L assort,1,1.50,1.50,Various,,0402 passives + FSR pullups
+Enclosure,Flexible TPU pad,1,4.00,4.00,Various,,Overmolded TPU enclosure
+Total,,,,50.55,,
