@@ -1,0 +1,13 @@
+# Part,Package,Qty,Unit Price,Total,Notes
+STM32L476RGT6,LQFP-64,1,$4.20,$4.20,Ultra-low-power MCU (Cortex-M4, DSP for BCG)
+SX1261,QFN-24,1,$3.50,$3.50,Sub-GHz LoRa radio (low power)
+FSR-402,Force sensor 18mm,4,$1.20,$4.80,Ballistocardiography sensors
+LIS3DH,LGA-16,1,$1.50,$1.50,3-axis accelerometer (position detection)
+SHT40,I2C temp/humidity,1,$1.20,$1.20,Mattress surface temperature
+CR2450 battery holder,SMD,1,$0.30,$0.30,Coin cell holder
+CR2450 battery,Coin cell,1,$0.80,$0.80,3V lithium (18+ months life)
+868MHz chip antenna,IC-215,1,$0.80,$0.80,Compact antenna
+Conductive traces (flex PCB),Custom,2,$0.50,$1.00,Wetness detection traces
+Passives (R/C/L),0402,~30,$0.80,$0.80,Decoupling/bias/filter
+PCB 2-layer flex,200x300mm,1,$4.00,$4.00,Ultra-thin flex PCB (under mattress)
+,,Total,,$23.90,
