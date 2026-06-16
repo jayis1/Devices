@@ -1,0 +1,18 @@
+Item,Part,Quantity,Unit_Cost_USD,Total_Cost_USD,Source,Notes
+1,ESP32-S3-WROOM-1-N16R8,1,5.50,5.50,Mouser,Main MCU with WiFi+BLE 16MB flash 8MB PSRAM
+2,CC1101 module 868MHz,1,2.80,2.80,AliExpress,Sub-GHz radio for circuit monitor and solar node communication
+3,DS3231 RTC module,1,1.20,1.20,LCSC,Accurate real-time clock for offline timestamping
+4,ILI9341 2.8inch TFT optional,1,4.50,4.50,AliExpress,Local status display - can be omitted for cost reduction
+5,microSD card socket,1,0.40,0.40,LCSC,Offline data buffering
+6,CH340C USB-UART,1,0.60,0.60,LCSC,Debug and programming interface
+7,WS2812B RGB LED,3,0.15,0.45,AliExpress,Status indicators
+8,Piezo buzzer 3.3V,1,0.30,0.30,LCSC,Audible alarm for arc faults and overloads
+9,MP28167 buck converter,1,0.80,0.80,Mouser,5V to 3.3V 2A buck converter
+10,TP4056 + DW01A battery management,1,0.50,0.50,LCSC,18650 battery charging and protection
+11,18650 battery holder,1,0.30,0.30,LCSC,Battery holder for offline operation
+12,Samsung 18650 2600mAh,1,4.00,4.00,Battery Depot,Backup power for internet outages
+13,USB-C connector,1,0.20,0.20,LCSC,Power input connector
+14,Tactile button 6mm,2,0.05,0.10,LCSC,Config and reset buttons
+15,Resistors capacitors assorted,1,0.50,0.50,Assorted,Various values for voltage dividers decoupling pull-ups
+16,4-layer PCB 50x80mm,1,3.00,3.00,JLCPCB,Main hub PCB
+17,3D printed enclosure,1,2.00,2.00,DIY,Wall-mount enclosure near breaker panel

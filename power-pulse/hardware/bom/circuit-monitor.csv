@@ -1,0 +1,18 @@
+Item,Part,Quantity,Unit_Cost_USD,Total_Cost_USD,Source,Notes
+1,STM32G474RET6,1,4.20,4.20,Mouser,170MHz Cortex-M4F with DSP instructions 512KB flash
+2,ADS131E08IPHP TQFP-48,1,6.50,6.50,Mouser,8-channel 24-bit simultaneous sampling ADC for CT inputs
+3,SCT-013-030 30A CT,16,3.50,56.00,DigiKey,Split-core current transformers - clamp on breaker wires
+4,CC1101 module 868MHz,1,2.80,2.80,AliExpress,Sub-GHz radio link to hub
+5,ISO7741 quad digital isolator,3,1.80,5.40,Mouser,Isolation barrier between CT inputs and MCU
+6,HLK-PM03 AC-DC 5V600mA,1,2.50,2.50,AliExpress,Isolated AC-DC power supply - panel powered
+7,AP2112 3.3V LDO,1,0.30,0.30,LCSC,5V to 3.3V regulation
+8,AT24C256 EEPROM,1,0.40,0.40,LCSC,Calibration data persistence
+9,TMP117 temperature sensor,1,1.20,1.20,Mouser,Panel temperature monitoring for overheating detection
+10,Small voltage transformer PT,1,3.00,3.00,LCSC,Mains voltage measurement transformer
+11,LM358 op-amp circuit,1,0.80,0.80,LCSC,Signal conditioning for voltage sense
+12,0805 LEDs RGB,3,0.05,0.15,LCSC,Status indicators
+13,SMA antenna connector,1,0.30,0.30,LCSC,External antenna connection
+14,Wire terminal blocks 8-position,2,1.00,2.00,LCSC,CT wire connections
+15,4-layer PCB 100x120mm,1,5.00,5.00,JLCPCB,Circuit monitor PCB
+16,DIN-rail mount enclosure,1,3.00,3.00,DIY,Mounts inside breaker panel
+17,Resistors capacitors assorted,1,1.00,1.00,Assorted,Burden resistors filter caps decoupling

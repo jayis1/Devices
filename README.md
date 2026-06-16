@@ -25,6 +25,7 @@ These aren't single chips on a board. Each device system here is:
 || 7 | FlowGuard | 4 (Hub, Valve Controller, Pipe Sensor×N, Appliance Monitor×N) | Home Water Protection | AI-powered water leak detection, pipe health monitoring, and flood prevention — acoustic leak detection, motorized shutoff valve, freeze prediction, flow disaggregation |
 || 8 | MedSync | 4 (Hub, Pill Station, Room Beacon×N, Wearable Tag) | Medication Adherence | AI-powered medication adherence and health monitoring — motorized pill dispenser, weight verification, pulse oximetry, fall detection, proximity reminders, caregiver alerts |
 || 9 | FreshKeep | 4 (Hub, Fridge Node, Pantry Node, Stove Guard) | Kitchen Intelligence | AI-powered kitchen intelligence — food waste elimination, spoilage prediction, kitchen fire prevention, auto grocery lists, barcode inventory, recipe suggestions |
+|| 10 | PowerPulse | 4 (Hub, Circuit Monitor, Appliance Tag×N, Solar Node) | Home Energy & Safety | AI-powered home energy intelligence — per-circuit monitoring, arc fault detection, appliance tagging, solar MPPT optimization, time-of-use bill reduction |
 
 ## Structure
 
