@@ -1,0 +1,24 @@
+# Part,Package,Qty,Unit Price,Total,Notes
+ESP32-S3-WROOM-1,Module,1,$3.50,$3.50,Main MCU (camera + barcode)
+SX1261,QFN-24,1,$3.80,$3.80,Sub-GHz radio
+OV2640 camera module,Module,1,$2.50,$2.50,Shelf view camera
+HW-490 barcode scanner,Module,1,$8.00,$8.00,Barcode in/out scanning
+HX711 24-bit ADC,SOIC-16,6,$0.80,$4.80,6 shelf weight interfaces
+Load cell 10kg,Bar type,6,$3.00,$18.00,Per-shelf weight tracking
+SHT40 temp/humidity,DFN-4,1,$1.80,$1.80,Main temp/humidity
+SHT30 temp/humidity,DFN-4,3,$1.20,$3.60,Per-shelf humidity
+TSL2591 light sensor,Module,2,$3.50,$7.00,Door open detection (x2)
+SH1106 1.3" OLED,Module,1,$2.50,$2.50,Inventory display
+MG90S servo motor,Standard,1,$2.00,$2.00,Lazy susan rotation
+WS2812B LED strip,60 LEDs/m x 0.5m,1,$2.50,$2.50,Shelf lighting
+AP2112-3.3,SOT-223,1,$0.30,$0.30,3.3V regulator
+LM2596-5V buck,TO-263,1,$1.50,$1.50,5V power supply
+Lipo 1200mAh,Custom pouch,1,$3.00,$3.00,Battery backup
+MCP73831,SOT-23-5,1,$0.40,$0.40,Battery charger
+USB-C receptacle,16-pin SMD,1,$0.35,$0.35,Power/data
+Antenna 868MHz,Wire/PCB,1,$1.50,$1.50,Sub-GHz antenna
+Piezo buzzer,12mm SMD,1,$0.40,$0.40,Barcode confirmation beep
+Magnetic door sensor,Module,1,$1.00,$1.00,Auto-scan trigger
+Passives,0402,~60,$1.50,$1.50,Decoupling/bias
+PCB 4-layer,180x60mm,1,$4.00,$4.00,Custom PCB
+,,Total,,$78.45,

@@ -1,0 +1,19 @@
+# Part,Package,Qty,Unit Price,Total,Notes
+RP2040,QFN-56 7x7,1,$1.20,$1.20,Main MCU
+ESP32-C6-MINI-1,Module,1,$3.20,$3.20,WiFi/BLE bridge
+SX1262,QFN-24,1,$4.50,$4.50,Sub-GHz radio (1W for hub)
+2.8" IPS TFT (ILI9341),Module,1,$6.80,$6.80,Status display
+32MB W25Q256,SOIC-8,1,$1.80,$1.80,Flash storage
+SD card slot,Micro push-push,1,$0.50,$0.50,Data logging
+MCP73831,SOT-23-5,1,$0.40,$0.40,Battery charger
+AP2112-3.3,SOT-223,1,$0.30,$0.30,3.3V regulator
+AP6212-1.8,SOT-23-5,1,$0.35,$0.35,1.8V regulator
+Lipo 2000mAh,Custom,1,$4.50,$4.50,Battery backup
+USB-C receptacle,16-pin SMD,1,$0.35,$0.35,Power/data
+SMA connector,Edge-mount,1,$0.80,$0.80,Antenna connector
+Antenna 868MHz,Wire/PCB,1,$1.50,$1.50,Sub-GHz antenna
+Piezo buzzer,12mm SMD,1,$0.40,$0.40,Alarm buzzer
+MAX9814 microphone module,Module,1,$1.20,$1.20,Voice status
+Passives (R/C/L/inductors),0402,~60,$1.50,$1.50,Decoupling/bias
+PCB 4-layer,120x80mm,1,$3.00,$3.00,Custom PCB
+,,Total,,$32.10,

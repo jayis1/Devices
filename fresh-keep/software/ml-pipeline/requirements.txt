@@ -1,0 +1,5 @@
+torch>=2.1.0
+torchvision>=0.16.0
+Pillow>=10.0.0
+numpy>=1.24.0
+tflite-runtime>=2.14.0  # For on-device inference testing
