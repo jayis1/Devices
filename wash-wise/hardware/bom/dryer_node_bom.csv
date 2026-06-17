@@ -1,0 +1,19 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1-N8,Module,1,3.20,MCU Module,Espressif,ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-u_datasheet_en.pdf
+SX1261,U2,SX1261,QFN-16,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+MPXV7002DP,U3,MPXV7002DP,Unibody-8,1,5.50,Differential Pressure,NXP,MPXV7002DP,https://www.nxp.com/docs/en/data-sheet/MPXV7002.pdf
+MAX6675,U4,MAX6675,SO-8,1,2.20,Thermocouple ADC,Maxim,MAX6675,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6675.pdf
+K-type Thermocouple,TC1,K-type Probe 1m,Stainless,1,1.80,Thermocouple,Generic,K-Type-1m,
+DS18B20,U5,DS18B20,TO-92,1,1.50,Temperature Sensor,Maxim,DS18B20,https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+SHT40,U6,SHT40,DFN-4,1,1.40,Humidity Sensor,Sensirion,SHT40,https://sensirion.com/media/documents/6C6WC0SP/Sensirion_Datasheet_SHT4x.pdf
+ADXL313,U7,ADXL313,WLCSP-12,1,1.20,Accelerometer,Analog Devices,ADXL313,https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL313.pdf
+ACS712,U8,ACS712ELCTR-30A,SOIC-8,1,1.80,Current Sensor,Allegro,ACS712,https://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx
+MQ-2,U9,MQ-2 Smoke Gas,Module,1,1.50,Gas Sensor,Generic,MQ-2,https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-2.pdf
+MCP73831,U10,MCP73831-2ACHI,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+AP2112-3.3,U11,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+Lipo 500mAh,BAT1,500mAh 3.7V,Custom,1,2.50,Battery,Generic,LP502025,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+868MHz Antenna,ANT1,868MHz Whip,SMA,1,1.50,Antenna,Linx,ANT-868-USP,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+Passives,,R/C/L 0402,0402,35,0.03,Passive,Various,,
+PCB,,70x50mm 4-layer FR4,Custom,1,2.00,PCB,JLCPCB,,

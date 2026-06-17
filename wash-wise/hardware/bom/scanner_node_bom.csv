@@ -1,0 +1,17 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1-N16R8,Module,1,3.50,MCU Module,Espressif,ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-u_datasheet_en.pdf
+SX1261,U2,SX1261,QFN-16,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+OV2640,CAM1,OV2640 2MP,Module,1,3.20,Camera,Omnivision,OV2640,https://www.ovt.com/download/sensorpdf/53/OmniVision%20OV2640%20CameraCube.pdf
+1.3" ST7789,DSP1,ST7789 240x240,Module,1,2.80,Display,BuyDisplay,ER-TFT1.3-1,https://www.buydisplay.com/default/1-3-inch-tft-lcd-display-module-240x240-st7789-spi
+White LED,D1,White LED 0805,0805,1,0.08,LED,Generic,White-0805,
+UV-A LED 365nm,D2,UV-A 365nm 0805,0805,1,0.45,UV LED,Lumileds,LZ1-00UV00,https://www.lumileds.com/uploads/4/PS-Attachment-LUXEON-UV.pdf
+IR LED 940nm,D3,IR 940nm 0805,0805,1,0.12,IR LED,Vishay,VSMY3940X01,
+MCP73831,U3,MCP73831-2ACHI,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+AP2112-3.3,U4,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+Lipo 1000mAh,BAT1,1000mAh 3.7V,Custom,1,3.00,Battery,Generic,LP402030,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+868MHz Antenna,ANT1,868MHz PCB Trace,Custom,1,0.00,Antenna,PCB,,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+Cap Touch Button,T1,_CAP Touch Pad,PCB,3,0.00,Button,PCB,,
+Passives,,R/C/L 0402,0402,25,0.03,Passive,Various,,
+PCB,,60x40mm 4-layer FR4,Custom,1,1.50,PCB,JLCPCB,,

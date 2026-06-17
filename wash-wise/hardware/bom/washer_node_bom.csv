@@ -1,0 +1,18 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1-N16R8,Module,1,3.50,MCU Module,Espressif,ESP32-S3-WROOM-1,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-u_datasheet_en.pdf
+SX1261,U2,SX1261,QFN-16,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+ADXL313,U3,ADXL313,WLCSP-12,1,1.20,Accelerometer,Analog Devices,ADXL313,https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL313.pdf
+YF-S201,FL1,YF-S201 Hall Flow,Inline,1,2.50,Flow Sensor,Generic,YF-S201,https://cdn-shop.adafruit.com/datasheets/YF-S201.pdf
+DS18B20,U4,DS18B20,TO-92,1,1.50,Temperature Sensor,Maxim,DS18B20,https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+SHT40,U5,SHT40,DFN-4,1,1.40,Humidity Sensor,Sensirion,SHT40,https://sensirion.com/media/documents/6C6WC0SP/Sensirion_Datasheet_SHT4x.pdf
+ACS712,U6,ACS712ELCTR-20A,SOIC-8,1,1.80,Current Sensor,Allegro,ACS712,https://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx
+HX711,U7,HX7241 24-bit ADC,SOP-16,1,0.90,Load Cell ADC,Avia Semi,HX711,https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf
+5kg Load Cell,LC1,5kg Strain Gauge,Aluminum,1,3.50,Load Cell,Generic,YZC-133,
+Kamoer NKP Pump,P1,NKP Peristaltic 12V,Inline,1,4.80,Pump,Kamoer,NKP-D,https://www.kamoer.com/Products/ShowProduct.asp?ID=128
+MP1584,U8,MP1584 Buck,SOT-23-6,1,0.30,Buck Converter,MonolithicPower,MP1584,https://www.monolithicpower.com/en/documentview/productdocument/mp1584.pdf
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+868MHz Antenna,ANT1,868MHz Whip,SMA,1,1.50,Antenna,Linx,ANT-868-USP,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+12V DC Jack,J2,12V DC Barrel,Panel,1,0.40,Connector,Generic,DC-5521,
+Passives,,R/C/L 0402,0402,40,0.03,Passive,Various,,
+PCB,,80x60mm 4-layer FR4,Custom,1,2.00,PCB,JLCPCB,,
