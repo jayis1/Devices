@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit Price,Total,Notes
+MCU,ESP32-S3-MINI-1,1,$3.00,$3.00,Audio processing + WiFi
+Sub-GHz Radio,SX1262,1,$3.80,$3.80,868/915MHz LoRa
+DAC,PCM5102A,1,$2.50,$2.50,32-bit/384kHz audio DAC
+Audio Amp,MAX98306,1,$1.80,$1.80,2x3W Class-D stereo
+Speakers,TDM-0303K0P 3W,2,$1.50,$3.00,Full range 8ohm stereo
+Microphone,SPH0645LM4H-6,1,$2.80,$2.80,Reference feedback mic
+Memory,8MB PSRAM + 16MB Flash,1,$1.50,$1.50,Audio buffers
+LDO,AP2112K-3.3,1,$0.30,$0.30,3.3V rail
+Buck,SY8089,1,$0.40,$0.40,1.8V rail
+RGB LED,WS2812B-2020,1,$0.15,$0.15,Status indicator
+IR LEDs,IR333C,2,$0.10,$0.20,Night indicator
+USB-C,USB-C 2.0 connector,1,$0.40,$0.40,Power only
+Passives,Caps+Resistors,1,$1.50,$1.50,Decoupling etc
+PCB,4-layer FR4 100x50mm,1,$2.50,$2.50,Custom
+Enclosure,3D-printed ABS,1,$3.00,$3.00,Parabolic reflector
+,,Total,,$26.05,

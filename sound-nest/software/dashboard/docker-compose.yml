@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MQTT_BROKER=mqtt
+      - DB_PATH=/data/soundnest.db
+    volumes:
+      - dashboard_data:/data
+    depends_on:
+      - mqtt
+    restart: unless-stopped
+
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - mqtt_data:/mosquitto/data
+      - mqtt_config:/mosquitto/config
+    restart: unless-stopped
+
+volumes:
+  dashboard_data:
+  mqtt_data:
+  mqtt_config:

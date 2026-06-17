@@ -1,0 +1,15 @@
+Component,Part,Qty,Unit Price,Total,Notes
+MCU,nRF52832-module,1,$2.80,$2.80,BLE 5.0
+Microphone,SPH0645LM4H-6,1,$2.80,$2.80,MEMS I2S digital
+Accelerometer,LIS2DH12,1,$0.80,$0.80,Activity detection
+Haptic Motor,ERM 303-100,1,$0.50,$0.50,Vibration motor
+RGB LED,APA106-2020,1,$0.10,$0.10,Indicator
+Battery,100mAh Li-Po,1,$2.00,$2.00,3.7V rechargeable
+Charger,MCP73831,1,$0.40,$0.40,USB-C charging
+LDO,AP2112K-3.3,1,$0.30,$0.30,3.3V reg
+USB-C,USB-C 2.0 connector,1,$0.40,$0.40,Charging port
+Buttons,Tactile switch,2,$0.05,$0.10,Mute + pair
+Passives,Caps+Resistors,1,$0.80,$0.80,Decoupling etc
+PCB,4-layer FR4 45x30mm,1,$2.00,$2.00,Badge form factor
+Enclosure,Injection-molded PC,1,$2.00,$2.00,Clip-on badge
+,,Total,,$15.90,

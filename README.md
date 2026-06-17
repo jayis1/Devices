@@ -26,7 +26,8 @@ These aren't single chips on a board. Each device system here is:
 || 8 | MedSync | 4 (Hub, Pill Station, Room Beacon×N, Wearable Tag) | Medication Adherence | AI-powered medication adherence and health monitoring — motorized pill dispenser, weight verification, pulse oximetry, fall detection, proximity reminders, caregiver alerts |
 || 9 | FreshKeep | 4 (Hub, Fridge Node, Pantry Node, Stove Guard) | Kitchen Intelligence | AI-powered kitchen intelligence — food waste elimination, spoilage prediction, kitchen fire prevention, auto grocery lists, barcode inventory, recipe suggestions |
 || 10 | PowerPulse | 4 (Hub, Circuit Monitor, Appliance Tag×N, Solar Node) | Home Energy & Safety | AI-powered home energy intelligence — per-circuit monitoring, arc fault detection, appliance tagging, solar MPPT optimization, time-of-use bill reduction |
-|| 11 | CradleKeep | 4 (Hub, Crib Pad, Nursery Monitor, Feeding Station) | Infant Care | AI-powered infant monitoring and care system — ballistocardiography breathing detection, cry classification, bottle warming+tracking, nursery environment optimization |
+|| 11 | CradleKeep | 4 (Hub, Crib Pad, Nursery Monitor, Feeding Station) | Infant Care | AI-powered infant monitoring and care system — ballistocardiography breathing detection, cry classification, bottle warming+tracking, nursery environment optimization ||
+|| 12 | SoundNest | 4 (Hub, Room Sensor×N, Masking Speaker×N, Wearable Tag×N) | Home Acoustics | AI-powered home acoustic intelligence — 4-mic array sound classification, adaptive noise masking, personal sound dose tracking, tinnitus relief, privacy masking |
 
 ## Structure
 

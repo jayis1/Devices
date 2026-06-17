@@ -1,0 +1,15 @@
+Component,Part,Qty,Unit Price,Total,Notes
+MCU,nRF52840-module,1,$3.50,$3.50,BLE + Sub-GHz SPI
+Sub-GHz Radio,SX1262,1,$3.80,$3.80,868/915MHz LoRa
+Microphones,SPH0645LM4H-6,4,$2.80,$11.20,MEMS I2S 4-mic array
+Temp/Humidity,SHT40-AD1B,1,$1.50,$1.50,±0.2°C ±1.8%RH
+Light Sensor,VEML7700,1,$1.20,$1.20,Ambient light lux
+PIR Motion,AM312,1,$0.50,$0.50,Occupancy detect
+RGB LED,WS2812B-2020,1,$0.15,$0.15,Status indicator
+Battery Holder,CR123A x2 holder,1,$0.40,$0.40,6V input
+LDO,AP2112K-3.3,1,$0.30,$0.30,3.3V/600mA reg
+Antenna,868MHz PCB trace,1,$0.00,$0.00,On PCB
+Passives,Caps+Resistors,1,$1.00,$1.00,Decoupling etc
+PCB,4-layer FR4 60x60mm,1,$2.50,$2.50,Custom
+Enclosure,Injection-molded PC,1,$2.50,$2.50,Ceiling/wall mount
+,,Total,,$28.55,
