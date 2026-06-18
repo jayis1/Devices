@@ -1,0 +1,20 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+RP2040,U1,RP2040,QFN-56 7x7,1,1.20,MCU,Raspberry Pi,RP2040,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+ESP32-C6-MINI-1,U2,ESP32-C6-MINI-1,Module,1,3.20,MCU Module,Espressif,ESP32-C6-MINI-1,https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+SX1262,U3,SX1262,QFN-24,1,4.50,Sub-GHz Radio,Semtech,SX1262,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1262
+3.2-inch IPS TFT,U4,ILI9488 3.2inch,Module,1,7.20,Display,BuyDisplay,ER-TFT032-4,https://www.buydisplay.com/default/3-2-inch-tft-lcd-display-module-320x480-ili9488-spi
+W25Q256,U5,W25Q256,SOIC-8,1,1.80,Flash,Winbond,W25Q256JVEIQ,https://www.winbond.com/resource-files/w25q256jv%20spi%20revg%2008032017%20rev.a.pdf
+PCF8563,U6,PCF8563,SOIC-8,1,0.50,RTC,NXP,PCF8563T,https://www.nxp.com/docs/en/data-sheet/PCF8563.pdf
+CR1220,BAT2,CR1220,CR1220-holder,1,0.20,RTC Battery,Generic,CR1220,
+SD Card Slot,J2,Micro SD Push-Push,SMD,1,0.50,Connector,Molex,5040771891,
+MCP73831,U7,MCP73831-2ACHI,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,
+AP2112-3.3,U8,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+AP6212-1.8,U9,AP6212-1.8,SOT-23-5,1,0.35,LDO,Diodes Inc,AP6212-1.8,
+LiPo 2500mAh,BAT1,2500mAh 3.7V,Custom,1,5.20,Battery,Generic,LP803562,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+915MHz Antenna,ANT1,915MHz Whip,SMA,1,1.50,Antenna,Linx,ANT-916-USP,
+Relay Module,K1,5V Relay SRD-05VDC,DIP,1,1.20,Relay,SONGLE,SRD-05VDC-SL-C,
+RGB LED,D1,WS2812B,5050,1,0.20,LED,Worldsemi,WS2812B,
+Passives,,R/C/L 0402,0402,55,0.03,Passive,Various,,
+PCB,,120x80mm 4-layer FR4,Custom,1,3.50,PCB,JLCPCB,,

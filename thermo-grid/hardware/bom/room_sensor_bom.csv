@@ -1,0 +1,17 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+STM32WL55JC,U1,STM32WL55JC,QFN-48 7x7,1,4.80,MCU+Radio,STMicroelectronics,STM32WL55JC,https://www.st.com/resource/en/datasheet/stm32wl55jc.pdf
+MLX90640,U2,MLX90640,TO-39,1,7.50,Thermal IR Array,Melexis,MLX90640,https://www.melexis.com/en/product/MLX90640
+SHT45,U3,SHT45,DFN-4,1,1.20,Temp/Humidity,Sensirion,SHT45,https://sensirion.com/products/catalog/SHT45
+SDP810,U4,SDP810,DFN-8,1,3.50,Air Velocity,Sensirion,SDP810,https://sensirion.com/products/catalog/SDP810
+BMP390,U5,BMP390,LGA-10,1,1.80,Barometric Pressure,Bosch,BMP390,https://www.bosch-sensortec.com/products/environmental-sensors/bmp390/
+HLK-LD2410B,U6,HLK-LD2410B,Module,1,2.20,mmWave Radar,Hi-Link,HLK-LD2410B,https://www.hlk-tech.com/HLK-LD2410B
+AM612,U7,AM612,DIP-3,1,0.40,PIR Sensor,NANYA,AM612,
+ALS-PT19,U8,ALS-PT19,1206,1,0.20,Light Sensor,EVERLIGHT,ALS-PT19,
+SCD41,U9,SCD41,DFN-10,1,8.50,CO2 Sensor (optional),Sensirion,SCD41,
+MCP73831,U10,MCP73831-2ACHI,SOT-23-5,1,0.40,Solar Charger,Microchip,MCP73831,
+0.5W Solar Panel,SP1,0.5W 5V 100mA,50x50mm,1,1.20,Solar Panel,Generic,
+AA Battery Holder,BAT1,2× AA Holder,AAx2,1,0.40,Battery Holder,Keystone,2462,
+SMA Connector,J1,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+915MHz PCB Antenna,ANT1,PCB Trace Antenna,PCB,1,0.00,Antenna,PCB,
+PCB,,80x50mm 4-layer FR4,Custom,1,3.00,PCB,JLCPCB,,
+Passives,,R/C/L 0402,0402,45,0.03,Passive,Various,,

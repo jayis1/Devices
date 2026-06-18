@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - thermo-data:/data
+    environment:
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    restart: unless-stopped
+
+volumes:
+  thermo-data:
