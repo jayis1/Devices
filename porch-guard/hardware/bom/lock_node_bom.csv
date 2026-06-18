@@ -1,0 +1,17 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+nRF52840,U1,nRF52840 QFAA,QFN-73,1,3.50,MCU,Nordic,nRF52840,https://infocenter.nordicsemi.com/pdf/nRF52840_PS_v1.1.pdf
+A4988,U2,A4988 Stepper Driver,SOIC-16,1,0.90,Motor Driver,Allegro,A4988,https://www.allegromicro.com/~/media/Files/Datasheets/A4988-Datasheet.ashx
+Stepper Motor,M1,NEMA-8 Stepper,Custom,1,4.20,Stepper Motor,Generic,NEMA-8,
+Relay,RL1,5V Relay SPDT,Through-hole,1,0.60,Relay,Omron,G5LE-1,
+Optocoupler,OC1,PC817,DIP-4,1,0.20,Optocoupler,Sharp,PC817,
+LIS2DH12,U3,LIS2DH12 3-axis Accel,LGA-12,1,1.20,Accelerometer,STMicro,LIS2DH12,https://www.st.com/resource/en/datasheet/lis2dh12.pdf
+Reed Switch,RD1,Reed Switch Cyl,Cylinder,1,0.40,Reed Switch,Generic,MK3-14-A,
+Capacitive Keypad,KP1,12-key Capacitive Touch,Custom,1,2.20,Keypad,Generic,CAP-KEYPAD-12,
+SX1261,U4,SX1261,QFN-24,1,3.80,Sub-GHz Radio,Semtech,SX1261,
+AP2112-3.3,U5,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+AA Holder,BAT1,4×AA Holder,Through-hole,1,0.50,Battery Holder,Keystone,2460,
+AA Battery,BAT2,AA Alkaline,Cylinder,4,0.20,Battery,Energizer,E91,
+Buzzer,BZ1,12mm Magnetic Buzzer,SMD,1,0.40,Buzzer,Murata,PKMCS0909A40,
+LED,D1,RGB LED 5050,5050,1,0.20,LED,Worldsemi,WS2812B,
+Passives,,R/C/L 0402,0402,40,0.03,Passive,Various,,
+PCB,,80x50mm 4-layer FR4,Custom,1,2.50,PCB,JLCPCB,,

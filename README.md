@@ -29,6 +29,7 @@ These aren't single chips on a board. Each device system here is:
 || 11 | CradleKeep | 4 (Hub, Crib Pad, Nursery Monitor, Feeding Station) | Infant Care | AI-powered infant monitoring and care system — ballistocardiography breathing detection, cry classification, bottle warming+tracking, nursery environment optimization ||
 || 12 | SoundNest | 4 (Hub, Room Sensor×N, Masking Speaker×N, Wearable Tag×N) | Home Acoustics | AI-powered home acoustic intelligence — 4-mic array sound classification, adaptive noise masking, personal sound dose tracking, tinnitus relief, privacy masking |
 | 13 | WashWise | 4 (Hub, Washer Node, Dryer Node, Stain Scanner) | Laundry Care & Fire Safety | AI-powered laundry care, fire-safety & sustainability system — multispectral stain/fabric ID, auto-detergent dosing, lint fire prediction, dryness detection, energy & water optimization |
+| 14 | PorchGuard | 4 (Hub, Porch Camera, Mailbox, Lock) | Home Delivery Security | AI-powered porch security & delivery intelligence — package detection, person re-ID, pirate behavior detection, mail tracking, motorized deadbolt + one-time courier codes, garage parcel drop |
 
 ## Structure
 

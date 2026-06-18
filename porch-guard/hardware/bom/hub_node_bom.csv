@@ -1,0 +1,20 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+RP2040,U1,RP2040,QFN-56 7x7,1,1.20,MCU,Raspberry Pi,RP2040,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+ESP32-C6-MINI-1,U2,ESP32-C6-MINI-1,Module,1,3.20,MCU Module,Espressif,ESP32-C6-MINI-1,https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
+SX1262,U3,SX1262,QFN-24,1,4.50,Sub-GHz Radio,Semtech,SX1262,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1262
+2.4-inch IPS TFT,U4,ILI9341 2.4inch,Module,1,5.80,Display,BuyDisplay,ER-TFT024-4,https://www.buydisplay.com/default/2-4-inch-tft-lcd-display-module-240x320-ili9341-spi
+W25Q256,U5,W25Q256,SOIC-8,1,1.80,Flash,Winbond,W25Q256JVEIQ,https://www.winbond.com/resource-files/w25q256jv%20spi%20revg%2008032017%20rev.a.pdf
+SD Card Slot,J2,Micro SD Push-Push,SMD,1,0.50,Connector,Molex,5040771891,https://www.molex.com/molex/products/datasheet.jsp?part=active/5040771891.xml
+MCP73831,U6,MCP73831-2ACHI,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,https://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+AP2112-3.3,U7,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+AP6212-1.8,U8,AP6212-1.8,SOT-23-5,1,0.35,LDO,Diodes Inc,AP6212-1.8,
+LiPo 2500mAh,BAT1,2500mAh 3.7V,Custom,1,5.20,Battery,Generic,LP803562,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+915MHz Antenna,ANT1,915MHz Whip,SMA,1,1.50,Antenna,Linx,ANT-916-USP,
+Piezo Siren,BZ1,100dB Magnetic Siren,SMD,1,2.80,Siren,Murata,PKN13S14D15,
+MAX9814,U9,MAX9814,DFN-8,1,1.80,Mic Amp,Maxim,MAX9814,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9814.pdf
+Electret Mic,MIC1,9mm Electret,Through-hole,1,0.60,Microphone,CUI,CMC-5044PF-A,
+RGB LED,D1,WS2812B,5050,1,0.20,LED,Worldsemi,WS2812B,
+Passives,,R/C/L 0402,0402,60,0.03,Passive,Various,,
+PCB,,120x80mm 4-layer FR4,Custom,1,3.00,PCB,JLCPCB,,

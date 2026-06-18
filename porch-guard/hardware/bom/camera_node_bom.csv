@@ -1,0 +1,22 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+ESP32-S3-WROOM-1,U1,ESP32-S3-WROOM-1-N8R8,Module,1,3.80,MCU Module,Espressif,ESP32-S3-WROOM-1-N8R8,https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
+SX1261,U2,SX1261,QFN-24,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+OV2640,CAM1,OV2640 2MP 160deg,Module,1,4.20,Camera Module,Omnivision,OV2640,https://www.ovt.com/wp-content/uploads/2021/03/OV2640-DS-AAP-20210123_.pdf
+HLK-LD2410,RAD1,LD2410 24GHz mmWave,Module,1,2.50,Presence Radar,Hi-Link,HLK-LD2410,https://www.hlktech.net/en/products/LD2410
+AM612,PIR1,AM612 PIR Sensor,TO-5,1,1.20,PIR Sensor,Nicera,AM612,https://www.nicera.com.cn/products/pir-sensor/am612
+INMP441,MIC1,INMP441 I2S MEMS,LGA-9,1,1.80,Microphone,InvenSense,INMP441,https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf
+MAX98357A,AMP1,MAX98357A I2S Amp,QFN-16,1,1.40,Audio Amp,Maxim,MAX98357A,https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A.pdf
+Speaker,SPK1,28mm 8ohm Speaker,Custom,1,0.80,Speaker,Generic,28mm-speaker,
+White LED,D1,5000K 0.5W White,0805,1,0.15,LED,Osram,LW W5AM,
+IR LED,D2,940nm IR 0.5W,0805,4,0.20,IR LED,Vishay,TSHG6210,
+Tilt Sensor,T1,SW-420 Tilt,Cylinder,1,0.40,Tilt Sensor,Generic,SW-420,
+MicroSD Slot,J2,Micro SD Push-Push,SMD,1,0.50,Connector,Molex,5040771891,
+MCP73831,U3,MCP73831,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,
+AP2112-3.3,U4,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+Supercap,C1,1F 5.5V Supercap,Cylinder,1,1.20,Supercapacitor,Generic,SC-1F-5V5,
+Doorbell Buck,U5,MP1584 24VAC-5V Buck,Module,1,1.10,Buck Converter,MPS,MP1584,
+USB-C,J1,USB-C 16pin,SMD,1,0.35,Connector,Generic,USB-C-16pin,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+915MHz Antenna,ANT1,915MHz Whip,SMA,1,1.50,Antenna,Linx,ANT-916-USP,
+Passives,,R/C/L 0402,0402,50,0.03,Passive,Various,,
+PCB,,100x50mm 4-layer FR4,Custom,1,2.50,PCB,JLCPCB,,

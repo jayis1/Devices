@@ -1,0 +1,18 @@
+# Name,Reference,Value,Footprint,Quantity,UnitPrice,Category,Manufacturer,MPN,Datasheet
+STM32L011K4,U1,STM32L011K4T3R,QFN-32,1,1.10,MCU,STMicro,STM32L011K4,https://www.st.com/resource/en/datasheet/stm32l011k4.pdf
+SX1261,U2,SX1261,QFN-24,1,3.80,Sub-GHz Radio,Semtech,SX1261,https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1261
+HX711,U3,HX711 24-bit ADC,SOIC-16,1,0.80,Load Cell ADC,Avia,HX711,https://www.mouser.com/datasheet/2/813/hx711_english-1024415.pdf
+1kg Load Cell,LC1,1kg Single Point Load Cell,Custom,1,3.20,Load Cell,Phidgets,3133_0,https://www.phidgets.com/docs/3133_0_Primary_Product.pdf
+DS18B20,U4,DS18B20 TO-92,TO-92,1,0.40,Temperature,Maxim,DS18B20,https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf
+ALS-PT19,L1,ALS-PT19 Ambient Light,0603,1,0.30,Light Sensor,Everlight,ALS-PT19,https://www.everlight.com/en/Product/ALS-PT19
+LIS2DH12,U5,LIS2DH12 3-axis Accel,LGA-12,1,1.20,Accelerometer,STMicro,LIS2DH12,https://www.st.com/resource/en/datasheet/lis2dh12.pdf
+Reed Switch,RD1,Reed Switch Cyl,Cylinder,1,0.40,Reed Switch,Generic,MK3-14-A,
+MCP73831,U6,MCP73831-2,SOT-23-5,1,0.40,Battery Charger,Microchip,MCP73831,
+AP2112-3.3,U7,AP2112-3.3,SOT-223,1,0.30,LDO,Diodes Inc,AP2112-3.3,
+Solar Panel,SOL1,0.5W 5V Solar,Custom,1,1.50,Solar Panel,Generic,0.5W-5V,
+CR2032 Holder,BAT1,2×CR2032 Holder,SMD,1,0.40,Battery Holder,Keystone,1067,
+CR2032,BAT2,CR2032 Lithium,Coin,2,0.25,Battery,Energizer,CR2032,
+SMA Connector,J3,SMA Edge Mount,SMD,1,0.80,RF Connector,Amphenol,901-10510-2,
+915MHz Antenna,ANT1,915MHz PCB Trace Antenna,PCB,1,0.40,Antenna,Linx,ANT-916-USP,
+Passives,,R/C/L 0402,0402,30,0.03,Passive,Various,,
+PCB,,60x40mm 4-layer FR4,Custom,1,1.80,PCB,JLCPCB,,
