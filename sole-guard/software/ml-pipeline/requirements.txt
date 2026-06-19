@@ -1,0 +1,7 @@
+torch==2.2.0
+torchvision==0.17.0
+numpy==1.26.4
+pillow==10.2.0
+pyserial==3.5
+tflite-runtime==2.14.0
+# For TFLite export: ai-edge-torch or onnx + onnx2tf

@@ -1,0 +1,15 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU nRF52840,Nordic,nRF52840-QIAA-R,1,4.20,4.20,BLE mesh + ADC
+U2,IMU LSM6DSO32,ST,LSM6DSO32TR,1,2.80,2.80,32g accel + gyro
+U3,Analog Mux CD74HC4067,TI,CD74HC4067NSR,2,0.80,1.60,16:1 mux (FSR+therm)
+U4,Charger MCP73831,Microchip,MCP73831T-2ACI/OT,1,0.40,0.40,
+U5,LDO 3.0V TLV743,TI,TLV74330SDBZR,1,0.35,0.35,
+U6,Qi RX 5W receiver,IDT/PNI,P9222-R,1,1.80,1.80,5W Qi receiver
+FSR1-24,Force Sensor FSR-402,Interlink,FSR 402,24,0.60,14.40,12.7mm circular
+TH1-8,NTC Thermistor 10k,Vishay,NTCLE100E3103JB0,8,0.30,2.40,B=3977 ±0.1C
+BAT1,LiPo 350mAh,PKCell,402535,1,3.20,3.20,1.5mm thin pouch
+LED1,SMD LED 0603 red,Lite-On,LTST-C193KRKT,1,0.05,0.05,status
+X1,Crystal 32MHz,Abracon,ABM8-32.000MHZ,1,0.25,0.25,nRF
+MISC,Passives+flex PCB+coating,-,-,1,1.80,1.80,R,C,flex substrate
+,,Total Qty1,,27.80,27.80,per insole (x2 needed)
+,,Total Qty10k,,,14.20,14.20,per insole volume

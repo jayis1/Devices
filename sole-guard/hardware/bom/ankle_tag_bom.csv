@@ -1,0 +1,16 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU nRF52840,Nordic,nRF52840-QIAA-R,1,4.20,4.20,BLE mesh relay
+U2,IMU LSM6DSO32,ST,LSM6DSO32TR,1,2.80,2.80,
+U3,Temp TMP117,TI,TMP117AIDRVR,1,1.50,1.50,±0.1C digital
+U4,Bioimpedance AD5940,ADI,AD5940BCBZ,1,6.50,6.50,EIS 1-100kHz
+U5,Analog Switch HSPA256,ADI,ADG726BRUZ,1,1.80,1.80,electrode mux
+U6,Charger MCP73831,Microchip,MCP73831T-2ACI/OT,1,0.40,0.40,
+U7,LDO 3.0V TLV743,TI,TLV74330SDBZR,1,0.35,0.35,
+U8,Qi RX 5W receiver,IDT/PNI,P9222-R,1,1.80,1.80,
+BAT1,LiPo 180mAh,PKCell,502030,1,1.80,1.80,
+LED1,SMD LED 0603,Lite-On,LTST-C193TGKT,1,0.05,0.05,green
+EL1-4,Ag/AgCl electrode snap,3M,2228,4,0.20,0.80,disposable weekly
+X1,Crystal 32MHz,Abracon,ABM8-32.000MHZ,1,0.25,0.25,
+MISC,Passives+PCB+enclosure band,-,-,1,1.85,1.85,R,C,IP67 case
+,,Total Qty1,,24.10,24.10,
+,,Total Qty10k,,,12.60,12.60,volume

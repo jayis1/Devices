@@ -31,6 +31,7 @@ These aren't single chips on a board. Each device system here is:
 | 13 | WashWise | 4 (Hub, Washer Node, Dryer Node, Stain Scanner) | Laundry Care & Fire Safety | AI-powered laundry care, fire-safety & sustainability system — multispectral stain/fabric ID, auto-detergent dosing, lint fire prediction, dryness detection, energy & water optimization |
 | 14 | PorchGuard | 4 (Hub, Porch Camera, Mailbox, Lock) | Home Delivery Security | AI-powered porch security & delivery intelligence — package detection, person re-ID, pirate behavior detection, mail tracking, motorized deadbolt + one-time courier codes, garage parcel drop |
 | 15 | ThermoGrid | 4 (Hub, Room Sensor×N, Zone Actuator×M, Comfort Tag) | Home Thermal Comfort & Energy | AI-powered home thermal comfort & energy optimization — radiant temperature sensing (MLX90640), per-zone HVAC control, personal comfort learning (wearable skin temp + HR), thermal mass forecasting, solar self-consumption, 20-40% energy savings |
+| 16 | SoleGuard | 4 (Hub, Smart Insole×2, Ankle Tag, Foot Scanner) | Diabetic Foot Health | AI-powered diabetic foot ulcer prevention — 24-point plantar pressure mapping, bilateral skin-temp asymmetry (>2.2°C clinical threshold), gait decline + fall detection, ankle edema (bioimpedance), multispectral wound scanning, 21-day ulcer-risk forecast, offloading alerts |
 
 ## Structure
 
