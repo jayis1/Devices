@@ -1,0 +1,5 @@
+torch>=2.1.0
+numpy>=1.24
+scipy>=1.11
+librosa>=0.10  # for audio feature extraction in production
+tflite-runtime>=2.14  # for model verification

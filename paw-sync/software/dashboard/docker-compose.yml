@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_USER: paw
+      POSTGRES_PASSWORD: paw
+      POSTGRES_DB: pawsync
+    ports:
+      - "5432:5432"
+    volumes:
+      - paw-db:/var/lib/postgresql/data
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://paw:paw@db:5432/pawsync
+      MQTT_HOST: mosquitto
+      MQTT_PORT: "1883"
+    depends_on:
+      - db
+      - mosquitto
+
+volumes:
+  paw-db:

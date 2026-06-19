@@ -1,0 +1,17 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU nRF52840,Nordic,nRF52840-QIAA-R,1,4.20,4.20,BLE5.3 + mesh + TFLite Micro
+U2,PPG MAX30101,Maxim,MAX30101EFD+,1,2.80,2.80,Green+IR heart rate
+U3,IMU LSM6DSO32,ST,LSM6DSO32X,1,2.40,2.40,32g accel + gyro
+U4,Qi RX BQ51013B,TI,BQ51013BRHLR,1,1.80,1.80,5W wireless charge receiver
+U5,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+U6,SPI Flash W25Q128,Winbond,W25Q128JVEIQ,1,0.80,0.80,16MB model+buffer
+RT1,NTC Thermistor 10kΩ,Murata,NCP18XH103F03RB,1,0.20,0.20,Skin temp ±0.1°C
+LED1,SMD LED green 0603,Lite-On,LTST-C193TGKT,1,0.05,0.05,Charging status
+LED2,SMD LED red 0603,Lite-On,LTST-C193CKT,1,0.05,0.05,Low battery / alert
+BAT1,LiPo 180mAh,PKCell,602530,1,2.50,2.50,3.7V pouch 5-7 day
+FLEX1,Flex PCB 0.1mm PET,Custom,-,1,2.00,2.00,Sensor traces along collar
+ENC1,Enclosure PC/ABS,Custom,-,1,1.50,1.50,28x22x10mm IP67
+Q1,Qi RX coil,Wurth,760308101106,1,1.50,1.50,5W RX coil
+MISC,Passives+PCB+clip,-,-,1,2.40,2.40,R,C,connectors,collar clip
+,,Total Qty1,,24.80,24.80,
+,,Total Qty10k,,,14.20,14.20,volume pricing
