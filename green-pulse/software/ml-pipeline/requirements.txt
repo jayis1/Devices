@@ -1,0 +1,5 @@
+torch>=2.2
+numpy>=1.26
+torchvision>=0.17
+ultralytics>=8.1  # for pest detector (YOLOv8)
+# ai-edge-torch  # for TFLite export (install separately)

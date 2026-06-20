@@ -1,0 +1,18 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU ESP32-C6,Espressif,ESP32-C6-WROOM-1,1,2.80,2.80,WiFi6 + Sub-GHz via SX1262
+U2,Radio SX1262,Semtech,SX1262IMLDRT,1,3.20,3.20,Sub-GHz 868/915MHz
+U3,Flow Sensor YF-S401,YF,YF-S401,1,2.50,2.50,Hall-effect turbine flow
+U4,Pressure MPX5010DP,NXP,MPX5010DP,1,3.50,3.50,Differential pressure 0-10kPa
+U5,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+U6,Boost 12V MT3608,Aerosemi,MT3608,1,0.50,0.50,3.7V→12V for solenoid (battery mode)
+Q1-2,MOSFET AO3400,AOS,AO3400A,2,0.10,0.20,Solenoid open/close drivers
+D1-2,Flyback diode 1N4148,Diodes,1N4148,2,0.05,0.10,Solenoid flyback
+SOL1,Latching Solenoid 12V,Goyen,SCG223D012,1,4.50,4.50,Normally closed dual-coil
+LED1-2,SMD LED 0603,Lite-On,LTST-C193,2,0.05,0.10,Green+Red status
+BAT1,18650 2600mAh,Samsung,INR18650-26J,1,3.50,3.50,Backup battery
+SW1-3,DIP switch 3-pos,CTS,206-3,1,0.30,0.30,Zone ID bits
+J1,DC jack 5.5×2.1,Tensility,54-00163,1,0.40,0.40,12V adapter input
+ANT1,Sub-GHz antenna,Johanson,0868AT43A0020,1,1.00,1.00,868MHz chip antenna
+MISC,Passives+PCB+enclosure,-,-,1,4.00,4.00,R,C,IP65 case,connectors
+,,Total Qty1,,27.65,27.65,
+,,Total Qty10k,,,15.80,15.80,volume pricing

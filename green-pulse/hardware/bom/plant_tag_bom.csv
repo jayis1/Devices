@@ -1,0 +1,14 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU nRF52832,Nordic,nRF52832-QFAA-R,1,3.50,3.50,BLE SoC + Sub-GHz via SX1262
+U2,Radio SX1262,Semtech,SX1262IMLDRT,1,3.20,3.20,Sub-GHz 868/915MHz
+U3,Light sensor VEML7700,Vishay,VEML7700-TR,1,1.80,1.80,Ambient lux 0-120k
+U4,Temp/Humidity SHT40,Sensirion,SHT40-AD1B-R2,1,1.50,1.50,±0.2°C ±1.8%RH
+U5,Cap. Soil Moisture Sensor,Acapela,Soil-Moisture-CAP,1,2.50,2.50,Capacitive VWC probe
+BAT1,CR2477 coin cell,Energizer,CR2477,1,1.20,1.20,3.0V 1Ah lithium
+LED1,SMD LED 0603,Lite-On,LTST-C193,1,0.05,0.05,Status indicator
+SW1,Tactile switch,C&K,PTS636SK50SMR,1,0.15,0.15,Pairing button
+ANT1,PCB trace antenna,-,-,0,0,0,Integrated PCB antenna (no cost)
+X1,Crystal 32MHz,Abracon,ABM8-32.000MHZ,1,0.35,0.35,nRF52832
+MISC,Passives+PCB+enclosure,-,-,1,1.50,1.50,R,C,probe housing,PCB
+,,Total Qty1,,14.20,14.20,
+,,Total Qty10k,,,6.50,6.50,volume pricing
