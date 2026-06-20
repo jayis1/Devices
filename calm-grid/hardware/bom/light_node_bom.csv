@@ -1,0 +1,17 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU ESP32-C6,Espressif,ESP32-C6-WROOM-1,1,2.80,2.80,WiFi6 + BLE5.3
+U2,LED Driver TLC5973,TI,TLC5973FKTTR,1,2.40,2.40,16-ch PWM LED driver
+U3,Ambient Light TSL2591,ams,TSL2591FN,1,2.80,2.80,Closed-loop lux feedback
+U4,Flash W25Q128,Winbond,W25Q128JVEIQ,1,0.90,0.90,16MB scene cache
+U5,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+U6,Buck 5V MP1584,MPS,MP1584EN,1,0.80,0.80,12V→5V step-down
+DS1,OLED 0.96" SSD1306,Adafruit,3264,1,2.20,2.20,128x64 I2C
+LED1,WS2812 RGB,Worldsemi,WS2812B,1,0.20,0.20,Status LED
+LED2,Tunable-white strip 24W,Lumens,LFS-24W-CT,1,6.50,6.50,2700K+6500K dual channel
+SW1,Button tactile,E-Switch,200SPV1T1B1M2QEH,1,0.30,0.30,Manual override
+SW2,Wall switch detect,-,-,1,0.40,0.40,Opto-isolated AC switch sense
+J1,DC Jack 5.5x2.1,Kycon,KCDX-020-SN0,1,0.50,0.50,12V input
+PSU1,PSU 12V/2A,MeanWell,RS-25-12,1,6.00,6.00,Enclosed 12V/2.1A supply
+MISC,Passives+PCB+enclosure+heatsink,-,-,1,1.20,1.20,R,C,PCB,case,thermal
+,,Total Qty1,,26.80,26.80,
+,,Total Qty10k,,,15.20,15.20,volume pricing

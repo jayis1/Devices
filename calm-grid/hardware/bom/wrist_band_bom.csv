@@ -1,0 +1,18 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU nRF52840,Nordic,nRF52840-QIAA-R,1,4.20,4.20,BLE mesh + sampling + ML
+U2,PPG MAX30101,Maxim,MAX30101,1,3.80,3.80,Heart rate + HRV
+U3,EDA AFE AD5940,Analog Devices,AD5940BCBZ,1,5.80,5.80,Electrodermal activity
+U4,IMU LSM6DSO32,ST,LSM6DSO32TR,1,2.40,2.40,32g accel + gyro
+U5,Temp TMP117,TI,TMP117AIDRVR,1,1.90,1.90,±0.1°C digital skin temp
+U6,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+U7,Qi RX BQ51013B,TI,BQ51013BRHLR,1,2.20,2.20,5W wireless charge receiver
+U8,Flash W25Q128,Winbond,W25Q128JVEIQ,1,0.90,0.90,16MB model+buffer
+E1-2,Ag/AgCl electrode,3M,2228,2,0.50,1.00,EDA skin contact electrodes
+BAT1,LiPo 220mAh,PKCell,602030,1,3.20,3.20,3.7V pouch
+LED1-2,SMD LED 0603,Lite-On,LTST-C193,2,0.05,0.10,green/red
+X1,Crystal 32MHz,Abracon,ABM8-32.000MHZ,1,0.25,0.25,nRF52840
+Q1,Qi RX coil,Wurth,760308101113,1,1.50,1.50,5W RX coil
+F1,Flex PCB 0.1mm PET,-,-,1,1.50,1.50,sensor routing substrate
+MISC,Passives+enclosure+strap,-,-,1,0.60,0.60,R,C,PC/ABS case,silicone strap
+,,Total Qty1,,28.60,28.60,
+,,Total Qty10k,,,16.10,16.10,volume pricing

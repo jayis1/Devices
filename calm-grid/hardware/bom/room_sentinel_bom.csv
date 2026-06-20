@@ -1,0 +1,16 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU ESP32-S3,Espressif,ESP32-S3-WROOM-1-N16R8,1,3.20,3.20,Dual-core 240MHz
+U2,PSRAM 8MB,Espressif,ESP-PSRAM-8MB,1,1.80,1.80,Model + audio buffer
+U3,Ambient Light VEML7700,Vishay,VEML7700-TR,1,1.90,1.90,Lux + CCT
+U4,Temp/Humidity SHT40,Sensirion,SHT40-AD1B-R2,1,1.60,1.60,±0.2°C / ±1.8%RH
+U5,Flash W25Q128,Winbond,W25Q128JVEIQ,1,0.90,0.90,16MB model cache
+MIC1-6,MEMS Mic SPH0645LM4H-B,Knowles,SPH0645LM4H-B,6,1.80,10.80,I2S 6-mic array
+LED1-2,IR LED 940nm 0603,Everlight,IR17-21C/TR8,2,0.30,0.60,Night indicator
+LED3,SMD LED 0603 blue,Lite-On,LTST-C193TB,1,0.05,0.05,Active indicator
+J1,USB-C 16-pin,Amphenol,12401598E412A,1,0.80,0.80,
+J2,MicroSD socket,Amphenol,114-00841-68,1,0.90,0.90,
+SW1,Mic mute switch,E-Switch,200SPV1T1B1M2QEH,1,0.40,0.40,Physical privacy
+X1,Crystal 40MHz,Abracon,ABLS-40.000MHZ,1,0.25,0.25,ESP32-S3
+MISC,Passives+PCB+enclosure+mount,-,-,1,0.60,0.60,R,C,PCB,case,bracket
+,,Total Qty1,,23.50,23.50,
+,,Total Qty10k,,,13.40,13.40,volume pricing

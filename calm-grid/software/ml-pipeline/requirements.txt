@@ -1,0 +1,5 @@
+torch>=2.1.0
+numpy>=1.24
+scipy>=1.11
+librosa>=0.10
+tflite-runtime>=2.14
