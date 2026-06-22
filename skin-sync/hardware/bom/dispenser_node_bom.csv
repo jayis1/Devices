@@ -1,0 +1,19 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU ESP32-C6,Espressif,ESP32-C6-WROOM-1,1,2.80,2.80,WiFi6 + Sub-GHz
+U2,Radio SX1262,Semtech,SX1262IMLDRT,1,3.20,3.20,Sub-GHz from hub
+U3,OLED SSD1306 0.96",Solomon,SSD1306,1,1.50,1.50,128x64 monochrome
+U4,Charger TP4056,Nanjing,TP4056,1,0.30,0.30,LiPo charge
+U5,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+U6-9,HX711 Load Cell Amp,Avia,HX711,4,1.20,4.80,24-bit ADC per slot
+U10,RFID MFRC522,NXP,MFRC52202HN,1,1.50,1.50,Cartridge identification
+M1-4,Peristaltic pump 3V,Kamo,KP5A-3V-F,4,2.50,10.00,0.3-0.5 ml/sec
+V1-4,Solenoid valve 3V NC,Gardena,124-3V,4,1.80,7.20,Normally-closed anti-drip
+LC1-4,Load cell 5kg,SparkFun,TAL220,4,3.00,12.00,±0.1g product weight
+BAT1,18650 LiPo 2600mAh,Samsung,INR18650-25R,1,4.50,4.50,3.7V backup
+J1,USB-C 16-pin,Amphenol,12401598E412A,1,0.80,0.80,
+SW1-4,Tactile switch,C&K,PTS636,4,0.15,0.60,Manual dispense per slot
+ANT1,Sub-GHz PCB antenna,-,-,1,0.50,0.50,868MHz trace
+X1,Crystal 40MHz,Abracon,ABM8-40.000MHZ,1,0.35,0.35,ESP32-C6
+MISC,Passives+PCB+enclosure+MOSFETs+tubing,-,-,1,3.00,3.00,R,C,MOSFET,PCB,case,tubing
+,,Total Qty1,,52.45,52.45,
+,,Total Qty10k,,,18.00,18.00,volume pricing (pumps dominant cost)

@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_DB: skinsync
+      POSTGRES_USER: skin
+      POSTGRES_PASSWORD: ss_secret_change_me
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    ports:
+      - "1883:1883"
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql://skin:***@db:5432/skinsync
+      MQTT_HOST: mosquitto
+      MQTT_PORT: "1883"
+    depends_on:
+      - db
+      - mosquitto
+    ports:
+      - "8000:8000"
+
+volumes:
+  pgdata:

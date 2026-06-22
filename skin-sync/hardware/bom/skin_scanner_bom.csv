@@ -1,0 +1,20 @@
+RefDes,Part,Manufacturer,MPN,Qty,UnitCost(USD),ExtCost(USD),Notes
+U1,MCU ESP32-S3,Espressif,ESP32-S3-WROOM-1-N16R8,1,3.50,3.50,16MB flash 8MB PSRAM WiFi6
+U2,Camera OV5640,Omnivision,OV5640-AF,1,6.50,6.50,5MP autofocus
+U3,OLED SH1106 1.3",Solomon,SH1106,1,3.50,3.50,128x64 monochrome
+U4,IMU LSM6DSL,ST,LSM6DSLTR,1,2.80,2.80,6-axis accel+gyro for angle guidance
+U5,Charger TP4056,Nanjing,TP4056,1,0.30,0.30,LiPo charge
+U6,LDO 3.3V RT9013,Richtek,RT9013-33GB,1,0.40,0.40,
+LED-W,White 5500K LED 2835,Everlight,2835W1C,12,0.08,0.96,CRI>90 surface illumination
+LED-UV,UV 365nm LED 3535,Lumini,3535UV365,6,0.50,3.00,Bacterial fluorescence
+LED-NIR,NIR 850nm LED 3535,Epistar,3535IR850,8,0.35,2.80,Sub-surface inflammation
+LED-POL,White polarized 2835,Everlight,2835W1C,12,0.08,0.96,+ polarizer film
+POL1,Linear polarizer film,3M,3M-Vikuiti,1,0.80,0.80,Glare elimination
+BAT1,18650 LiPo 2600mAh,Samsung,INR18650-25R,1,4.50,4.50,3.7V
+J1,USB-C 16-pin,Amphenol,12401598E412A,1,0.80,0.80,
+J2,MicroSD socket,Amphenol,114-00841-68,1,0.90,0.90,
+SW1-4,Tactile switch,C&K,PTS636,4,0.15,0.60,Capture/mode/lesion/identify
+X1,Crystal 40MHz,Abracon,ABM8-40.000MHZ,1,0.35,0.35,ESP32-S3
+MISC,Passives+PCB+enclosure+MOSFETs,-,-,1,4.00,4.00,R,C,MOSFET gates,PCB,case
+,,Total Qty1,,41.77,41.77,
+,,Total Qty10k,,,24.00,24.00,volume pricing
