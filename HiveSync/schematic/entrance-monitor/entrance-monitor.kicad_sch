@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b2c3d4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7)
+
+  (title_block
+    (title "HiveSync Entrance Monitor")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "HiveSync")
+  )
+
+  (lib_symbols)
+
+  (text "HiveSync Entrance Monitor Schematic\nESP32-S3 + OV5640 + IR LEDs + CC1101 + ICS-43434 + SHT40\n\nCamera on DVP interface (8-bit parallel)\nIR LEDs on GPIO (NPN driver)\nCC1101 on SPI\nICS-43434 on I2S\nSHT40 on I2C\nSD card on SPI2\nPower: 18650 + 2W solar" (at 200 200) (uuid text1))
+)

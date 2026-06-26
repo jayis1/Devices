@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c3d4e5f6-a7b8-c9d0-e1f2-a3b4c5d6e7f8)
+
+  (title_block
+    (title "HiveSync Smart Feeder")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "HiveSync")
+  )
+
+  (lib_symbols)
+
+  (text "HiveSync Smart Feeder Schematic\nnRF52840 + CC1101 + HX711 + MG996R servo + 28BYJ-48 stepper + SHT40\n\nnRF52840: Main MCU + BLE\nCC1101: 868 MHz mesh on SPI\nHX711: Load cell on GPIO\nMG996R: Syrup valve on PWM (TIMER1)\n28BYJ-48: Patty advance on GPIO (ULN2003 driver)\nSHT40: Feeder temp/humidity on I2C\nPower: 18650 + TP4056 + 2W solar" (at 200 200) (uuid text1))
+)

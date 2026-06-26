@@ -1,0 +1,21 @@
+Item,Component,Part Number,Quantity,Unit_Cost_USD,Total_Cost_USD,Supplier,Notes
+1,SBC,Raspberry Pi Zero 2W,1,15.00,15.00,Raspberry Pi,Quad-core A53 hub
+2,Co-processor,ESP32-S3-WROOM-1,1,3.50,3.50,DigiKey,Wi-Fi + BLE + radio control
+3,Sub-GHz Radio,CC1101,1,2.10,2.10,Mouser,868 MHz mesh radio
+4,LTE Modem,BG96,1,12.00,12.00,DigiKey,LTE-M/NB-IoT fallback
+5,SIM Holder,nano-SIM holder,1,0.40,0.40,DigiKey,For LTE SIM
+6,Storage,32GB eMMC module,1,6.00,6.00,DigiKey,Local data buffer
+7,GPS Module,PA1616S,1,5.50,5.50,DigiKey,Location + geofencing
+8,Voltage Regulator,TPS563200,1,1.20,1.20,DigiKey,5V buck for Pi
+9,Voltage Regulator,TLV1117LV33,1,0.50,0.50,DigiKey,3.3V for peripherals
+10,Solar Charge Controller,TP4056,1,0.50,0.50,DigiKey,Li-Ion charging
+11,Battery,18650 Li-Ion 3400mAh,2,4.00,8.00,Amazon,Power storage
+12,Battery Holder,18650 dual holder,1,0.80,0.80,DigiKey,Battery holder
+13,Solar Panel,5W 6V panel,1,5.00,5.00,eBay,Outdoor rated
+14,Antenna 868MHz,Whip + SMA cable,1,2.50,2.50,DigiKey,External antenna
+15,Antenna LTE,Patched antenna,1,2.00,2.00,DigiKey,LTE antenna
+16,Antenna GPS,Ceramic patch,1,1.50,1.50,DigiKey,GPS antenna
+17,PCB,4-layer FR4 100×80mm,1,5.00,5.00,JLCPCB,Carrier board
+18,Enclosure,IP67 NEMA box,1,8.00,8.00,eBay,Weatherproof outdoor
+19,Cables,Assorted jumper + USB,1,2.00,2.00,Assorted,Internal wiring
+20,Total,,,,,75.00,
