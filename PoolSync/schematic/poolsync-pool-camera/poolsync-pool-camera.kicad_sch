@@ -1,0 +1,144 @@
+(kicad_sch
+  (version 20240101)
+  (generator "eeschema")
+  (uuid poolsync-pool-camera-schematic)
+
+  ;; PoolSync Pool Camera — ESP32-S3 + IMX477 + IR + PIR + Speaker
+
+  (title_block
+    (title "PoolSync Pool Camera")
+    (date "2026-06-26")
+    (rev "1.0")
+    (company "PoolSync Project")
+    (comment 1 "ESP32-S3 + IMX477 4K Camera + IR-cut + PIR + Speaker"))
+
+  ;; ============================================================
+  ;; POWER — 5V Solar + LiPo with MPPT charger
+  ;; ============================================================
+
+  ;; Solar panel input
+  (symbol (lib_id "Connector:Conn_01x02") (at 30 30 0)
+    (property "Reference" "J1") (property "Value" "5V/2A Solar Panel")
+    (property "Footprint" "Connector:PhoenixContact_MC_1_5_G_2"))
+
+  ;; MPPT LiPo charger
+  (symbol (lib_id "Battery_Management:CN3801") (at 65 35 0)
+    (property "Reference" "U1") (property "Value" "CN3801 (MPPT Charger)")
+    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"))
+
+  ;; LiPo battery
+  (symbol (lib_id "Battery:Battery_Cell") (at 30 55 0)
+    (property "Reference" "BT1") (property "Value" "3.7V/4000mAh LiPo")
+    (property "Footprint" "Battery:BatteryHolder_Keystone_1042_18650"))
+
+  ;; 3.3V LDO
+  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 110 35 0)
+    (property "Reference" "U2") (property "Value" "AP2112K-3.3")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"))
+  (symbol (lib_id "Device:C_Small") (at 100 40 0)
+    (property "Reference" "C1") (property "Value" "10uF"))
+  (symbol (lib_id "Device:C_Small") (at 120 40 0)
+    (property "Reference" "C2") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; ESP32-S3 — CAMERA + Wi-Fi PROCESSING
+  ;; ============================================================
+
+  (symbol (lib_id "RF_Module:ESP32-S3-WROOM-1") (at 200 80 0)
+    (property "Reference" "U3") (property "Value" "ESP32-S3-WROOM-1-N8R8")
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1"))
+
+  ;; Decoupling
+  (symbol (lib_id "Device:C_Small") (at 180 60 0)
+    (property "Reference" "C3") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 187 60 0)
+    (property "Reference" "C4") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 194 60 0)
+    (property "Reference" "C5") (property "Value" "10uF"))
+
+  ;; PSRAM (8MB for image buffer)
+  (symbol (lib_id "Memory_RAM:ESP-PSRAM64") (at 270 65 0)
+    (property "Reference" "U4") (property "Value" "ESP-PSRAM64 (8MB)")
+    (property "Footprint " "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"))
+
+  ;; ============================================================
+  ;; IMX477R — 12MP CAMERA SENSOR
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Image:IMX477R") (at 200 150 0)
+    (property "Reference" "U5") (property "Value" "IMX477R 12MP 4K")
+    (property "Footprint" "Sensor_Image:IMX477_Land_Pattern"))
+
+  ;; IR-cut filter driver (dual-coil mechanical IR cut)
+  (symbol (lib_id "Driver_Relay:IR_Cut_Filter_Driver") (at 280 150 0)
+    (property "Reference" "U6") (property "Value" "IR-Cut Filter Driver (ICM-208)")
+    (property "Footprint" "Package_SO:SOP-4"))
+
+  ;; IR illuminator LED array (850nm for night vision)
+  (symbol (lib_id "Device:LED_IR") (at 310 150 0)
+    (property "Reference" "D1") (property "Value" "850nm IR LED Array 3W")
+    (property "Footprint" "LED_SMD:LED_IR_3535"))
+  (symbol (lib_id "Transistor_FET:SI2302DS") (at 300 145 0)
+    (property "Reference" "Q1") (property "Value" "SI2302DS (IR driver)")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"))
+  (symbol (lib_id "Device:R_Small") (at 295 140 0)
+    (property "Reference" "R1") (property "Value" "10Ω"))
+
+  ;; Lens connector (C-mount or CS-mount)
+  (symbol (lib_id "Connector:Conn_01x02") (at 340 150 0)
+    (property "Reference" "J2") (property "Value" "CS-Mount Lens")
+    (property "Footprint" "Connector:CS_Mount_Lens"))
+
+  ;; ============================================================
+  ;; TSL2591 — AMBIENT LIGHT SENSOR (exposure control)
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Optical:TSL2591") (at 280 100 0)
+    (property "Reference" "U7") (property "Value" "TSL2591")
+    (property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1mm"))
+
+  ;; ============================================================
+  ;; PIR MOTION SENSOR — Safety detection
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Motion:AM312") (at 30 120 0)
+    (property "Reference" "U8") (property "Value" "AM312 PIR")
+    (property "Footprint" "Sensor_Motion:PIR_AM312"))
+
+  ;; ============================================================
+  ;; SPEAKER — Verbal warnings
+  ;; ============================================================
+
+  (symbol (lib_id "Amplifier_Audio:MAX98357A") (at 110 140 0)
+    (property "Reference" "U9") (property "Value" "MAX98357A (3W Class-D)")
+    (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm"))
+  (symbol (lib_id "Device:Speaker") (at 160 140 0)
+    (property "Reference" "LS1") (property "Value" "3W 8Ω Waterproof Speaker")
+    (property "Footprint" "Speaker:Speaker_40x20mm_Waterproof"))
+
+  ;; ============================================================
+  ;; eMMC — Edge image buffer (32 GB)
+  ;; ============================================================
+
+  (symbol (lib_id "Memory_Flash:MTFC4GACAJCN-4M_WT") (at 200 210 0)
+    (property "Reference" "U10") (property "Value" "32GB eMMC 5.1")
+    (property "Footprint" "Package_BGA:FBGA-153"))
+
+  ;; ============================================================
+  ;; STATUS LEDs
+  ;; ============================================================
+
+  (symbol (lib_id "Device:LED_Small") (at 340 30 0)
+    (property "Reference" "D2") (property "Value" "PWR Green"))
+  (symbol (lib_id "Device:LED_Small") (at 340 40 0)
+    (property "Reference" "D3") (property "Value" "Wi-Fi Blue"))
+  (symbol (lib_id "Device:LED_Small") (at 340 50 0)
+    (property "Reference" "D4") (property "Value" "MOTION Red"))
+  (symbol (lib_id "Device:R_Small") (at 335 30 0)
+    (property "Reference" "R2") (property "Value" "1kΩ"))
+  (symbol (lib_id "Device:R_Small") (at 335 40 0)
+    (property "Reference" "R3") (property "Value" "1kΩ"))
+  (symbol (lib_id "Device:R_Small") (at 335 50 0)
+    (property "Reference" "R4") (property "Value" "1kΩ"))
+
+)

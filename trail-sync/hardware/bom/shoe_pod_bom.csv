@@ -1,0 +1,14 @@
+Component,Part Number,Quantity,Unit Price (Qty1),Unit Price (10k),Purpose,Notes
+MCU,nRF52833-QIAA,1,$6.00,$2.50,Sub-GHz TX + 200Hz sampling + on-device gait CNN,Arm Cortex-M4 64MHz 256KB Flash 64KB RAM
+Sub-GHz Radio,SX1262IMLTRT,1,$3.20,$1.50,868/915 MHz mesh to wrist unit,Long range ultra-low power
+IMU,LSM6DSL,1,$2.50,$1.10,3D accel ±16G + 3D gyro ±2000dps,Ground impact pronation cadence
+Pressure Insole,24× FSR array custom,1,$8.00,$3.00,24-point plantar pressure mapping,Heel midfoot forefoot toe zones
+Strain Gauge,2× strain gauge + HX711,1,$3.50,$1.50,Ground reaction force vertical + AP,Vertical + anterior-posterior GRF
+Battery,CR2477 coin cell 1Ah,1,$2.00,$0.80,30+ day life at 200Hz sampling + 5s TX,Replaceable
+Antenna,PCB trace 868/915MHz,1,$0.50,$0.20,Compact in-shoe antenna,Custom PCB trace
+Crystal,32.768kHz,1,$0.15,$0.05,Low-power RTC,For timing between samples
+Passives,Resistors/Caps/Inductors,1,$1.50,$0.60,Decoupling bias filtering,Assorted SMD 0402
+PCB,4-layer FR4 45x28mm,1,$2.00,$0.50,Ultra-compact midsole PCB,ENIG finish
+Enclosure,IP67 polyurethane pod,1,$1.50,$0.50,45x28x8mm midsole pocket or lace clip,Trail proof
+,,,,,
+TOTAL,,,$30.85,$11.25,,

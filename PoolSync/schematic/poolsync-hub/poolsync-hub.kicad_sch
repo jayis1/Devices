@@ -1,0 +1,203 @@
+(kicad_sch
+  (version 20240101)
+  (generator "eeschema")
+  (uuid poolsync-hub-schematic)
+
+  ;; PoolSync Hub — RP2040 + ESP32-S3 + SX1262 Sub-GHz Gateway
+  ;; Coordinates all pool nodes, runs local rules engine, bridges to cloud
+
+  (title_block
+    (title "PoolSync Hub")
+    (date "2026-06-26")
+    (rev "1.0")
+    (company "PoolSync Project")
+    (comment 1 "RP2040 + ESP32-S3 + SX1262 Sub-GHz Gateway"))
+
+  ;; ============================================================
+  ;; POWER SECTION — 5V USB-C Input → 3.3V LDO
+  ;; ============================================================
+
+  ;; USB-C Connector
+  (symbol (lib_id "Connector:USB_C_GSUSB") (at 30 30 0)
+    (property "Reference" "J1") (property "Value" "USB-C 5V/3A")
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105"))
+
+  ;; 5V→3.3V LDO for RP2040
+  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 70 30 0)
+    (property "Reference" "U1") (property "Value" "AP2112K-3.3")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"))
+  ;; C1 — Input cap
+  (symbol (lib_id "Device:C_Small") (at 58 34 0)
+    (property "Reference" "C1") (property "Value" "10uF")
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"))
+  ;; C2 — Output cap
+  (symbol (lib_id "Device:C_Small") (at 82 34 0)
+    (property "Reference" "C2") (property "Value" "10uF")
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"))
+
+  ;; 5V→3.3V LDO for ESP32-S3 (separate rail)
+  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 70 55 0)
+    (property "Reference" "U2") (property "Value" "AP2112K-3.3")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"))
+  ;; C3 — Input cap
+  (symbol (lib_id "Device:C_Small") (at 58 59 0)
+    (property "Reference" "C3") (property "Value" "10uF")
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"))
+  ;; C4 — Output cap
+  (symbol (lib_id "Device:C_Small") (at 82 59 0)
+    (property "Reference" "C4") (property "Value" "10uF")
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"))
+
+  ;; ============================================================
+  ;; RP2040 — MAIN MCU (Sub-GHz Radio, Rules Engine, Display)
+  ;; ============================================================
+
+  (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 160 70 0)
+    (property "Reference" "U3") (property "Value" "RP2040")
+    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"))
+
+  ;; 16MB QSPI Flash
+  (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 220 55 0)
+    (property "Reference" "U4") (property "Value" "W25Q128JVS (16MB)")
+    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"))
+  ;; C5 — Flash decoupling
+  (symbol (lib_id "Device:C_Small") (at 220 70 0)
+    (property "Reference" "C5") (property "Value" "100nF")
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric"))
+
+  ;; Crystal 12 MHz for RP2040
+  (symbol (lib_id "Device:Crystal_Small") (at 115 80 0)
+    (property "Reference" "Y1") (property "Value" "12MHz")
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"))
+  ;; C6, C7 — Crystal load caps
+  (symbol (lib_id "Device:C_Small") (at 108 88 0)
+    (property "Reference" "C6") (property "Value" "15pF")
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric"))
+  (symbol (lib_id "Device:C_Small") (at 122 88 0)
+    (property "Reference" "C7") (property "Value" "15pF")
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric"))
+
+  ;; RP2040 decoupling caps (8× 100nF + 1× 10uF)
+  (symbol (lib_id "Device:C_Small") (at 145 40 0)
+    (property "Reference" "C8") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 152 40 0)
+    (property "Reference" "C9") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 159 40 0)
+    (property "Reference" "C10") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 166 40 0)
+    (property "Reference" "C11") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 145 100 0)
+    (property "Reference" "C12") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 152 100 0)
+    (property "Reference" "C13") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 159 100 0)
+    (property "Reference" "C14") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 166 100 0)
+    (property "Reference" "C15") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 175 40 0)
+    (property "Reference" "C16") (property "Value" "10uF"))
+
+  ;; BOOT button
+  (symbol (lib_id "Switch:SW_Push") (at 125 55 0)
+    (property "Reference" "SW1") (property "Value" "BOOT")
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H6mm"))
+
+  ;; ============================================================
+  ;; ESP32-S3 — WIRELESS MCU (Wi-Fi 6, BLE 5.0, Cloud Bridge)
+  ;; ============================================================
+
+  (symbol (lib_id "RF_Module:ESP32-S3-WROOM-1") (at 300 80 0)
+    (property "Reference" "U5") (property "Value" "ESP32-S3-WROOM-1-N8R8")
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1"))
+
+  ;; ESP32 decoupling
+  (symbol (lib_id "Device:C_Small") (at 280 60 0)
+    (property "Reference" "C17") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 287 60 0)
+    (property "Reference" "C18") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 294 60 0)
+    (property "Reference" "C19") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; SX1262 — SUB-GHZ RADIO (868 MHz LoRa)
+  ;; ============================================================
+
+  (symbol (lib_id "RF_Module:SX1262IMLSTR") (at 160 160 0)
+    (property "Reference" "U6") (property "Value" "SX1262")
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"))
+
+  ;; TCXO 32 MHz for SX1262
+  (symbol (lib_id "Device:Crystal_Small") (at 125 170 0)
+    (property "Reference" "Y2") (property "Value" "32MHz TCXO")
+    (property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"))
+
+  ;; SX1262 matching network
+  (symbol (lib_id "Device:L_Small") (at 200 150 0)
+    (property "Reference" "L1") (property "Value" "15nH")
+    (property "Footprint" "Inductor_SMD:L_0402_1005Metric"))
+  (symbol (lib_id "Device:C_Small") (at 210 155 0)
+    (property "Reference" "C20") (property "Value" "3.9pF"))
+
+  ;; SMA Antenna connector
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 225 150 0)
+    (property "Reference" "J2") (property "Value" "SMA_868MHz")
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"))
+
+  ;; SX1262 decoupling
+  (symbol (lib_id "Device:C_Small") (at 140 180 0)
+    (property "Reference" "C21") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 147 180 0)
+    (property "Reference" "C22") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; SPI BUS — RP2040 ↔ SX1262, RP2040 ↔ ESP32-S3
+  ;; ============================================================
+  ;; SPI0: RP2040 SPI0 → SX1262 (MOSI=GP3, MISO=GP0, SCK=GP2, CS=GP1, DIO1=GP4, BUSY=GP5, NRST=GP6)
+  ;; UART0: RP2040 UART0 → ESP32-S3 (TX=GP8, RX=GP9)
+  ;; SPI1: RP2040 SPI1 → Display ILI9341
+
+  ;; ============================================================
+  ;; DISPLAY — 2.8" IPS LCD (ILI9341)
+  ;; ============================================================
+
+  (symbol (lib_id "Display_Graphic:ILI9341_2.8in_SPI") (at 310 160 0)
+    (property "Reference" "D1") (property "Value" "2.8\" IPS LCD 320x240")
+    (property "Footprint" "Display_TFT:ILI9341_2.8in_240x320"))
+
+  ;; Display backlight driver (N-channel MOSFET)
+  (symbol (lib_id "Transistor_FET:SI2302DS") (at 280 175 0)
+    (property "Reference" "Q1") (property "Value" "SI2302DS")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"))
+
+  ;; ============================================================
+  ;; STATUS LEDs
+  ;; ============================================================
+
+  (symbol (lib_id "Device:LED_Small") (at 340 30 0)
+    (property "Reference" "D2") (property "Value" "PWR Green"))
+  (symbol (lib_id "Device:LED_Small") (at 340 40 0)
+    (property "Reference" "D3") (property "Value" "LINK Blue"))
+  (symbol (lib_id "Device:LED_Small") (at 340 50 0)
+    (property "Reference" "D4") (property "Value" "ALERT Red"))
+  (symbol (lib_id "Device:R_Small") (at 335 30 0)
+    (property "Reference" "R1") (property "Value" "1kΩ"))
+  (symbol (lib_id "Device:R_Small") (at 335 40 0)
+    (property "Reference" "R2") (property "Value" "1kΩ"))
+  (symbol (lib_id "Device:R_Small") (at 335 50 0)
+    (property "Reference" "R3") (property "Value" "1kΩ"))
+
+  ;; ============================================================
+  ;; CONNECTORS
+  ;; ============================================================
+
+  ;; Debug header (SWD + UART)
+  (symbol (lib_id "Connector:Conn_01x06") (at 30 150 0)
+    (property "Reference" "J3") (property "Value" "Debug (SWD+UART)")
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"))
+
+  ;; Expansion header (I2C, SPI, GPIO)
+  (symbol (lib_id "Connector:Conn_02x10") (at 30 180 0)
+    (property "Reference" "J4") (property "Value" "Expansion (I2C/SPI/GPIO)")
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"))
+
+)

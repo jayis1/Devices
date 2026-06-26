@@ -1,0 +1,27 @@
+Component,Part Number,Quantity,Unit Price (Qty1),Unit Price (10k),Purpose,Notes
+MCU,nRF52832-QFAA,1,$8.50,$3.40,BLE + Sub-GHz + sensor sampling + on-device ML,Arm Cortex-M4 64MHz 512KB Flash 64KB RAM
+Sub-GHz Radio,SX1262IMLTRT,1,$3.20,$1.50,868/915 MHz Sub-GHz mesh,Long range low power +50dBm output
+LoRa Radio,RFM95W-915S2,1,$5.50,$2.80,LoRa 868/915 MHz 5-15km backcountry relay,Semtech SX1276 based
+GPS,u-blox SAM-M10Q,1,$12.00,$6.50,Multi-constellation GNSS,<1m accuracy 25mA acquisition
+Barometric Altimeter,BMP390,1,$2.80,$1.20,Altitude ±0.5m and storm prediction,Pressure ±0.03 hPa
+PPG + SpO2,MAX30101,1,$4.50,$2.20,Heart rate HRV blood oxygen,Red+IR+Green LEDs photodetector
+Skin Temperature,TMP117,1,$1.80,$0.80,±0.1°C skin temperature,Medical-grade accuracy
+IMU,LSM6DSL,1,$2.50,$1.10,3D accel + gyro for fall detection,±16G ±2000dps
+OLED Display,SH1106 1.3" 128x64,1,$3.00,$1.40,Sunlight-readable pace/nav/alerts,I2C interface
+Haptic Driver,DRV2605L,1,$1.50,$0.60,Navigation prompts SOS vibrate,LRA driver
+Microphone,SPH0645LM4H-B,1,$2.80,$1.30,30-sec audio clip for SOS,I2S digital output
+Flash Memory,W25Q128JVEIQ,1,$1.20,$0.50,Trail map tiles gait cache activity ring,128Mbit 16MB
+RTC,PCF8563,1,$0.60,$0.25,Timekeeping when GPS unavailable,I2C
+Battery,18650 LiFePO4 2600mAh,1,$4.00,$2.00,72-hr continuous GPS + Sub-GHz + LoRa,USB-C rechargeable
+USB-C Connector,USB-C 16-pin,1,$0.50,$0.20,Charging + data,USB PD not needed
+Voltage Regulator,TPS62825,1,$0.80,$0.30,3.3V 500mA step-down,High efficiency
+Antenna,PCB trace 868/915MHz + ceramic GPS,1,$1.00,$0.40,Compact wrist-mountable,Custom PCB design
+LEDs,3× SMD RGB,1,$0.30,$0.10,GPS lock SOS low battery,Status indicators
+Buttons,3× tactile 4.5mm,1,$0.30,$0.10,Power/select SOS mode,IP67 rated
+Crystal,32.768kHz,1,$0.15,$0.05,RTC crystal,Low power
+Passives,Resistors/Caps/Inductors,1,$2.00,$0.80,Decoupling bias filtering,Assorted SMD 0402/0603
+PCB,4-layer FR4 52x42mm,1,$3.00,$0.80,Custom wrist-mountable PCB,ENIG finish
+Watchband,Silicone sport 22mm,1,$2.00,$0.50,Quick-release band,Universal 22mm
+Enclosure,IP67 polycarbonate,1,$3.50,$1.20,Rain mud creek crossing proof,52x42x15mm
+,,,,,
+TOTAL,,,$61.75,$33.95,,

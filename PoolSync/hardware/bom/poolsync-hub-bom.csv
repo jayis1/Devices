@@ -1,0 +1,29 @@
+Component,Part Number,Quantity,Unit Price ($),Total Price ($),Description,Supplier,Package
+RP2040,RP2040,1,1.50,1.50,Dual-core Cortex-M0+ 133MHz MCU,Raspberry Pi,QFN-56
+ESP32-S3-WROOM-1-N8R8,ESP32-S3-WROOM-1-N8R8,1,4.20,4.20,Wi-Fi 6 + BLE 5.0 module with 8MB flash + 8MB PSRAM,Espressif,Module
+SX1262IMLSTR,SX1262,1,3.80,3.80,868MHz Sub-GHz LoRa transceiver,Semtech,QFN-24
+W25Q128JVS,W25Q128JVS,1,0.60,0.60,16MB QSPI flash,Winbond,SOP-8
+AP2112K-3.3,AP2112K-3.3,2,0.35,0.70,3.3V 300mA LDO,Diodes Inc,SOT-23-5
+Crystal 12MHz,ABM8-12.000MHZ,1,0.20,0.20,12MHz crystal for RP2040,Abracon,3215
+Crystal 32MHz TCXO,ECS-TXO-32MHz,1,0.80,0.80,32MHz TCXO for SX1262,ECS,3.2x2.5
+Crystal 32.768kHz,Abs25-32.768kHz,1,0.15,0.15,32.768kHz RTC crystal,Abracon,3215
+ILI9341 2.8" LCD,ER-TFT028-2,1,5.50,5.50,2.8" 320x240 IPS LCD display,Eastrising,Module
+USB-C Connector,USB4105-GF-A,1,0.40,0.40,USB-C 5V/3A receptacle,GCT,USB-C
+SI2302DS N-MOSFET,SI2302DS,1,0.08,0.08,N-channel MOSFET for LCD backlight,Vishay,SOT-23
+LED Green,LTST-C191KGKT,1,0.04,0.04,Green status LED,Lite-On,0805
+LED Blue,LTST-C191TBKT,1,0.04,0.04,Blue status LED,Lite-On,0805
+LED Red,LTST-C191KRKT,1,0.04,0.04,Red alert LED,Lite-On,0805
+Resistor 1kΩ,RC0805FR-071KL,3,0.01,0.03,1kΩ resistor for LEDs,Yageo,0805
+Resistor 10kΩ,RC0805FR-0710KL,4,0.01,0.04,10kΩ pull-up/pull-down,Yageo,0805
+Capacitor 100nF,CL21B104KBCNNNC,10,0.01,0.10,100nF decoupling caps,Samsung,0402
+Capacitor 10uF,CL21A106KAYNNNE,4,0.03,0.12,10uF bulk caps,Samsung,0805
+Capacitor 15pF,C0402C150J5GACTU,2,0.01,0.02,15pF crystal load caps,Kemet,0402
+Capacitor 20pF,C0402C200J5GACTU,2,0.01,0.02,20pF crystal load caps,Kemet,0402
+Inductor 15nH,LQG15HS15NJ02D,1,0.05,0.05,15nH for SX1262 matching,Murata,0402
+Capacitor 3.9pF,GRM1555C1H3R9CA01D,1,0.01,0.01,3.9pF for SX1262 matching,Murata,0402
+SMA Connector,132289,1,0.60,0.60,SMA edge-mount antenna connector,Amphenol,Edge
+Pin Header 1x6,PRPC006SAAN-RC,1,0.15,0.15,Debug header (SWD+UART),Sullins,2.54mm
+Pin Header 2x10,PRPC020SAAN-RC,1,0.25,0.25,Expansion header (I2C/SPI/GPIO),Sullins,2.54mm
+PCB (4-layer),,1,2.50,2.50,4-layer 100x80mm FR4 PCB,,100x80mm
+IP65 Enclosure,1551IP,1,3.50,3.50,IP65 wall-mount polycarbonate enclosure,Hammond,1551IP
+,Total BOM,42,,41.98,Total hub BOM cost at 1K units

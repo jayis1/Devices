@@ -1,0 +1,37 @@
+Component,Part Number,Quantity,Unit Price ($),Total Price ($),Description,Supplier,Package
+STM32L476RGTx,STM32L476RGTx,1,5.20,5.20,Ultra-low-power Cortex-M4 MCU 1MB flash,ST,QFP-64
+SX1262IMLSTR,SX1262,1,3.80,3.80,868MHz Sub-GHz LoRa transceiver,Semtech,QFN-24
+TPS63020,TPS63020,1,2.10,2.10,Buck-boost converter 4.5V→3.3V,TI,VSON-10
+ISFET pH Probe,ISFET-PH-01,1,12.00,12.00,Solid-state ISFET pH sensor 0-14 pH ±0.01,Sensorex,Titanium body
+ADA4530-1,ADA4530-1,2,3.50,7.00,fA input bias op-amp (pH + ORP buffer),ADI,SOIC-8
+AD8606,AD8606,2,1.20,2.40,Dual precision op-amp (pH amp + potentiostat),ADI,MSOP-8
+Platinum ORP Electrode,ORP-PT-01,1,8.00,8.00,Platinum ORP electrode ±1mV,Vernier,Titanium body
+Amperometric Cl Sensor,AMP-CL-01,1,15.00,15.00,3-electrode amperometric free Cl 0-10ppm ±0.02,Sensorex,Titanium body
+DS18B20 Waterproof,DS18B20-P,1,1.80,1.80,Waterproof temperature probe -55°C to +125°C,Maxim,TO-92
+Toroidal Conductivity,TOR-COND-01,1,8.50,8.50,Inductive toroidal conductivity 0-100mS/cm,Mettler,Toroidal
+TSL2591,TSL2591,1,2.80,2.80,Digital light sensor (turbidity receiver),AMS,DFN-6
+IR LED 880nm,SFH-205,1,0.20,0.20,880nm IR LED for turbidity measurement,ams-OSRAM,0805
+Crystal 8MHz,ABM8-8.000MHZ,1,0.15,0.15,8MHz HSE crystal,Abracon,3215
+Crystal 32.768kHz,Abs25-32.768kHz,1,0.15,0.15,32.768kHz LSE crystal,Abracon,3215
+Crystal 32MHz TCXO,ECS-TXO-32MHz,1,0.80,0.80,32MHz TCXO for SX1262,ECS,3.2x2.5
+Battery AA LiFeS2,L91-AA,3,1.50,4.50,AA lithium iron disulfide 1.5V 3000mAh,Energizer,AA
+Battery Holder 3xAA,2468,1,0.80,0.80,3× AA battery holder,Keystone,2468
+Capacitor 100nF,CL21B104KBCNNNC,10,0.01,0.10,100nF decoupling,Samsung,0402
+Capacitor 10uF,CL21A106KAYNNNE,3,0.03,0.09,10uF bulk caps,Samsung,0805
+Capacitor 470uF,UPW1J471MHD,1,0.30,0.30,470uF buck-boost input cap,Nichicon,8x11mm
+Capacitor 220uF,UPW1J221MHD,1,0.25,0.25,220uF buck-boost output cap,Nichicon,8x11mm
+Capacitor 12pF,C0402C120J5GACTU,2,0.01,0.02,12pF crystal load,Kemet,0402
+Capacitor 20pF,C0402C200J5GACTU,2,0.01,0.02,20pF crystal load,Kemet,0402
+Inductor 2.2uH,SRR1260-2R2M,1,0.35,0.35,2.2uH buck-boost inductor,Bourns,12.5x12.5mm
+Inductor 15nH,LQG15HS15NJ02D,1,0.05,0.05,15nH SX1262 matching,Murata,0402
+Capacitor 3.9pF,GRM1555C1H3R9CA01D,1,0.01,0.01,3.9pF SX1262 matching,Murata,0402
+Resistor 10kΩ 0.1%,RG2012N-103-W-T1,2,0.15,0.30,10kΩ 0.1% pH calibration resistors,Susumu,0805
+Resistor 1kΩ 0.1%,RG2012N-102-W-T1,1,0.15,0.15,1kΩ 0.1% Cl sensor resistor,Susumu,0805
+Resistor 4.7kΩ,RC0805FR-074KL,1,0.01,0.01,DS18B20 pull-up,Yageo,0805
+Resistor 100Ω,RC0805FR-07100RL,1,0.01,0.01,IR LED resistor,Yageo,0805
+SMA Connector,132289,1,0.60,0.60,SMA edge-mount antenna connector,Amphenol,Edge
+IP68 Cable Gland,CG-16-IP68,1,0.30,0.30,IP68 cable gland for titanium body,,M16
+PCB (4-layer),,1,3.00,3.00,4-layer 60x30mm FR4 PCB,,60x30mm
+IP68 Titanium Enclosure,Ti-Housing-01,1,10.00,10.00,IP68 titanium sensor body,Custom,Titanium
+Potting Compound,EP-300,1,2.00,2.00,Epoxy potting compound for electronics,MG Chemicals,
+,Total BOM,59,,64.68,Total chemistry probe BOM cost at 1K units

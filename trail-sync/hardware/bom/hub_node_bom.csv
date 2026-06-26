@@ -1,0 +1,20 @@
+Component,Part Number,Quantity,Unit Price (Qty1),Unit Price (10k),Purpose,Notes
+MCU,ESP32-S3-N16R8,1,$5.50,$2.80,WiFi6 + BLE + edge compute + route planner,Dual core 240MHz 16MB Flash 8MB PSRAM
+Sub-GHz Radio,SX1262IMLTRT,1,$3.20,$1.50,868/915 MHz mesh to wrist units + beacons,Long range
+LoRa Radio,RFM95W-915S2,1,$5.50,$2.80,LoRa relay to distant beacons,Semtech SX1276
+GPS,u-blox SAM-M10Q,1,$12.00,$6.50,Hub position known reference at trailhead,Multi-constellation
+Display,ILI9488 4.0" IPS TFT,1,$6.00,$3.00,Group dashboard positions vitals pace,480x320 SPI
+Flash Memory,W25Q256JVEIQ,1,$2.00,$0.80,Trail maps route plans 30-day activity,256Mbit 32MB
+MicroSD,MicroSD slot + 32GB card,1,$3.00,$1.20,Trail map storage + offline data,Off-the-shelf card
+RTC,PCF8563 + CR1220,1,$0.80,$0.35,Timekeeping for activity logs,I2C + coin cell
+Audio,MAX98357A + 28mm speaker,1,$2.50,$1.00,SOS relay alert storm warning siren,I2S amplifier
+Power,5V USB-C + 18650 LiPo 3500mAh,1,$4.50,$2.00,Mains or vehicle + 8hr backup,USB-C charging
+Voltage Regulator,TPS62825,1,$0.80,$0.30,3.3V 1A step-down,High efficiency
+LEDs,WS2812 RGB + 4× SMD,1,$1.50,$0.50,Group status all green SOS pulsing red,NeoPixel + discrete
+Antenna,868/915MHz whip + LoRa whip,1,$2.00,$0.80,External antennas for range,Vehicle or home mount
+Crystal,32.768kHz,1,$0.15,$0.05,RTC crystal,Low power
+Passives,Resistors/Caps/Inductors,1,$2.50,$1.00,Decoupling bias filtering,Assorted SMD 0603
+PCB,4-layer FR4 100x80mm,1,$4.00,$1.00,Larger hub board,ENIG finish
+Enclosure,ABS enclosure,1,$3.00,$0.80,Desktop or vehicle mount,100x80x30mm
+,,,,,
+TOTAL,,,$58.45,$25.40,,

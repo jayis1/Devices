@@ -1,0 +1,21 @@
+Component,Part Number,Quantity,Unit Price (Qty1),Unit Price (10k),Purpose,Notes
+MCU,nRF52833-QIAA,1,$6.00,$2.50,Sub-GHz + LoRa control + beacon logic,Arm Cortex-M4 64MHz 256KB Flash 64KB RAM
+Sub-GHz Radio,SX1262IMLTRT,1,$3.20,$1.50,868/915 MHz mesh to wrist units 50m,Long range low power
+LoRa Radio,RFM95W-915S2,1,$5.50,$2.80,LoRa 868/915 MHz 5-15km mesh relay,Semtech SX1276 based
+GPS,u-blox SAM-M10Q,1,$12.00,$6.50,Beacon position set once at install,Multi-constellation <1m
+PIR Sensor,AM312,1,$0.80,$0.30,Motion detection wildlife + hiker proximity,Wake from sleep
+Temp/Humidity,BME280,1,$2.00,$0.90,Trail conditions temperature humidity,Temperature ±1°C humidity ±3%
+PM2.5 Sensor,PMS5003,1,$5.00,$2.50,Wildfire smoke AQI reporting,Optional add-on
+Solar Panel,5W monocrystalline,1,$4.00,$1.80,Solar charging 2-year life,100x60mm panel
+Charge Controller,MCP73871,1,$1.50,$0.60,Solar LiFePO4 charge management,MPPT solar charging
+Battery,18650 LiFePO4 1500mAh,1,$3.00,$1.20,30+ day backup solar daily top-up,Solar + battery
+Flash Memory,W25Q128JVEIQ,1,$1.20,$0.50,Trail database beacon firmware relay queue,128Mbit 16MB
+LEDs,3× SMD RGB,1,$0.30,$0.10,Trail junction indicator + SOS relay,Color = difficulty
+Antenna,868/915 MHz whip + LoRa,1,$2.00,$0.80,5-15 km LoRa range between beacons,External whip antenna
+Crystal,32.768kHz,1,$0.15,$0.05,Low-power RTC,Beacon timing
+Passives,Resistors/Caps/Inductors,1,$2.00,$0.80,Decoupling bias filtering,Assorted SMD 0603
+PCB,4-layer FR4 120x80mm,1,$4.00,$1.00,Larger board for solar + antenna,ENIG finish
+Enclosure,IP67 polycarbonate camo,1,$4.00,$1.50,120x80x40mm tree/pole mount,UV resistant
+Mounting,Tree strap + pole bracket,1,$1.00,$0.30,Trail mounting hardware,Stainless steel
+,,,,,
+TOTAL,,,$53.45,$22.65,,

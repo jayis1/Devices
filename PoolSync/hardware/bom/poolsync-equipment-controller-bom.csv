@@ -1,0 +1,35 @@
+Component,Part Number,Quantity,Unit Price ($),Total Price ($),Description,Supplier,Package
+STM32F407VGTx,STM32F407VGTx,1,6.80,6.80,Cortex-M4 168MHz MCU 1MB flash,ST,QFP-100
+SX1262IMLSTR,SX1262,1,3.80,3.80,868MHz Sub-GHz LoRa transceiver,Semtech,QFN-24
+GBU4K,GBU4K,1,0.50,0.50,4A bridge rectifier for 24VAC input,Vishay,GBU
+LM2596T-5.0,LM2596T-5.0,1,0.80,0.80,24V→5V 3A buck converter 5V output,TI,TO-263-5
+AMS1117-3.3,AMS1117-3.3,1,0.20,0.20,5V→3.3V 1A LDO,Advanced Monolithic,SOT-223
+ULN2803A,ULN2803A,1,0.50,0.50,8-channel darlington relay driver,TI,DIP-18
+G2R-1-DC5,G2R-1-DC5,8,1.20,9.60,16A SPDT relay 5VDC coil,Omron,G2R
+A4988,A4988,3,1.50,4.50,Stepper motor driver for peristaltic pumps,Allegro,QFN-28
+NEMA-8 Peristaltic Pump,PP-05-LL,3,5.00,15.00,5 RPM peristaltic pump with tubing,Boxer,NEMA-8
+YF-S201,YF-S201,1,0.80,0.80,1-30 L/min water flow sensor,,G1/2"
+MPX5010DP,MPX5010DP,1,3.50,3.50,Differential pressure sensor 0-10 kPa,NXP,SOP-6
+ACS712-30A,ACS712ELCTR-30A,1,2.50,2.50,30A AC current sensor (GFCI monitor),Allegro,SOIC-8
+Crystal 8MHz,ABM8-8.000MHZ,1,0.15,0.15,8MHz HSE crystal,Abracon,3215
+Crystal 32MHz TCXO,ECS-TXO-32MHz,1,0.80,0.80,32MHz TCXO for SX1262,ECS,3.2x2.5
+Inductor 33uH,SRR1260-330M,1,0.50,0.50,33uH buck converter inductor,Bourns,12.5x12.5mm
+Capacitor 470uF,UPW1J471MHD,1,0.30,0.30,470uF input cap for buck,Nichicon,8x11mm
+Capacitor 220uF,UPW1J221MHD,1,0.25,0.25,220uF output cap for buck,Nichicon,8x11mm
+Capacitor 100nF,CL21B104KBCNNNC,15,0.01,0.15,100nF decoupling,Samsung,0402
+Capacitor 10uF,CL21A106KAYNNNE,5,0.03,0.15,10uF bulk caps,Samsung,0805
+Capacitor 20pF,C0402C200J5GACTU,2,0.01,0.02,20pF crystal load,Kemet,0402
+Inductor 15nH,LQG15HS15NJ02D,1,0.05,0.05,15nH SX1262 matching,Murata,0402
+Capacitor 3.9pF,GRM1555C1H3R9CA01D,1,0.01,0.01,3.9pF SX1262 matching,Murata,0402
+Resistor 10kΩ,RC0805FR-071KL,5,0.01,0.05,10kΩ pull-ups,Yageo,0805
+Resistor 1kΩ,RC0805FR-071KL,3,0.01,0.03,1kΩ resistors,Yageo,0805
+SMA Connector,132289,1,0.60,0.60,SMA edge-mount antenna connector,Amphenol,Edge
+Terminal Block 5.08mm,1729169,8,0.30,2.40,5.08mm screw terminal for relay outputs,Phoenix,5.08mm
+Terminal Block 5.08mm Input,1729168,2,0.30,0.60,5.08mm screw terminal for 24VAC input,Phoenix,5.08mm
+GFCI Module,GFCI-15A,1,3.00,3.00,15A GFCI protection module,,Module
+Fuse Holder + 5A Fuse,FH-5A,1,0.50,0.50,5A slow-blow fuse + holder,,Module
+Varistor 275VAC,V275LA40A,1,0.20,0.20,Metal oxide varistor for surge protection,Littelfuse,10mm
+PCB (4-layer),,1,4.00,4.00,4-layer 120x80mm FR4 PCB,,120x80mm
+NEMA 4X Enclosure,NEMA-4X-12x10,1,8.00,8.00,NEMA 4X fiberglass enclosure 12x10x6",,NEMA-4X
+Lockable Hasp + Padlock,LP-100,1,1.00,1.00,Lockable hasp and padlock,,Kit
+,Total BOM,70,,54.53,Total equipment controller BOM cost at 1K units

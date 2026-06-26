@@ -1,0 +1,189 @@
+(kicad_sch
+  (version 20240101)
+  (generator "eeschema")
+  (uuid poolsync-chemistry-probe-schematic)
+
+  ;; PoolSync Chemistry Probe — STM32L476 + ISFET pH + ORP + Amperometric Cl + Sub-GHz
+
+  (title_block
+    (title "PoolSync Chemistry Probe")
+    (date "2026-06-26")
+    (rev "1.0")
+    (company "PoolSync Project")
+    (comment 1 "STM32L476RG + ISFET pH + ORP + Amperometric Cl + SX1262"))
+
+  ;; ============================================================
+  ;; POWER — 3× AA LiFeS2 → 3.3V Buck-Boost
+  ;; ============================================================
+
+  (symbol (lib_id "Battery:Battery_Cell") (at 30 30 0)
+    (property "Reference" "BT1") (property "Value" "AA LiFeS2 ×3 (4.5V)")
+    (property "Footprint" "Battery:BatteryHolder_Keystone_2468_3xAA"))
+
+  ;; Buck-Boost regulator (4.5V → 1.5–4.5V range → 3.3V)
+  (symbol (lib_id "Regulator_Switching:TPS63020") (at 70 30 0)
+    (property "Reference" "U1") (property "Value" "TPS63020")
+    (property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.2x2mm"))
+  (symbol (lib_id "Device:L_Small") (at 55 25 0)
+    (property "Reference" "L1") (property "Value" "2.2uH")
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric"))
+  (symbol (lib_id "Device:C_Small") (at 50 35 0)
+    (property "Reference" "C1") (property "Value" "10uF"))
+  (symbol (lib_id "Device:C_Small") (at 90 35 0)
+    (property "Reference" "C2") (property "Value" "22uF"))
+
+  ;; ============================================================
+  ;; STM32L476RG — MAIN MCU
+  ;; ============================================================
+
+  (symbol (lib_id "MCU_ST_STM32L4:STM32L476RGTx") (at 160 80 0)
+    (property "Reference" "U2") (property "Value" "STM32L476RGTx")
+    (property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"))
+
+  ;; 32.768 kHz RTC crystal
+  (symbol (lib_id "Device:Crystal_Small") (at 115 70 0)
+    (property "Reference" "Y1") (property "Value" "32.768kHz")
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"))
+  (symbol (lib_id "Device:C_Small") (at 108 78 0)
+    (property "Reference" "C3") (property "Value" "12pF"))
+  (symbol (lib_id "Device:C_Small") (at 122 78 0)
+    (property "Reference" "C4") (property "Value" "12pF"))
+
+  ;; 8 MHz HSE crystal
+  (symbol (lib_id "Device:Crystal_Small") (at 115 90 0)
+    (property "Reference" "Y2") (property "Value" "8MHz")
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"))
+  (symbol (lib_id "Device:C_Small") (at 108 98 0)
+    (property "Reference" "C5") (property "Value" "20pF"))
+  (symbol (lib_id "Device:C_Small") (at 122 98 0)
+    (property "Reference" "C6") (property "Value" "20pF"))
+
+  ;; Decoupling
+  (symbol (lib_id "Device:C_Small") (at 145 55 0)
+    (property "Reference" "C7") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 152 55 0)
+    (property "Reference" "C8") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 159 55 0)
+    (property "Reference" "C9") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 166 55 0)
+    (property "Reference" "C10") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 175 55 0)
+    (property "Reference" "C11") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; ISFET pH SENSOR — Solid-state pH measurement
+  ;; ============================================================
+
+  ;; ISFET pH probe connector (Titanium housing, chemical-resistant)
+  (symbol (lib_id "Sensor_Chemical:ISFET_pH") (at 280 50 0)
+    (property "Reference" "S1") (property "Value" "ISFET pH Probe 0-14 pH ±0.01")
+    (property "Footprint" "Sensor:ISFET_pH_BNC"))
+
+  ;; pH signal conditioning (high-impedance buffer + instrumentation amp)
+  (symbol (lib_id "Amplifier_Operational:ADA4530-1") (at 310 55 0)
+    (property "Reference" "U3") (property "Value" "ADA4530-1 (fA bias)")
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"))
+  (symbol (lib_id "Amplifier_Operational:AD8606") (at 340 55 0)
+    (property "Reference" "U4") (property "Value" "AD8606 (dual precision)")
+    (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"))
+
+  ;; 2-point pH calibration buffer resistors
+  (symbol (lib_id "Device:R_Small") (at 280 70 0)
+    (property "Reference" "R1") (property "Value" "10kΩ 0.1%"))
+  (symbol (lib_id "Device:R_Small") (at 290 70 0)
+    (property "Reference" "R2") (property "Value" "10kΩ 0.1%"))
+
+  ;; ============================================================
+  ;; ORP SENSOR — Platinum electrode, redox potential
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Chemical:ORP_Platinum") (at 280 100 0)
+    (property "Reference" "S2") (property "Value" "Platinum ORP Electrode ±1mV")
+    (property "Footprint" "Sensor:ORP_BNC"))
+
+  (symbol (lib_id "Amplifier_Operational:ADA4530-1") (at 310 105 0)
+    (property "Reference" "U5") (property "Value" "ADA4530-1")
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"))
+
+  ;; ============================================================
+  ;; AMPEROMETRIC FREE CHLORINE SENSOR — 0-10 ppm ±0.02
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Chemical:Amperometric_Cl2") (at 280 145 0)
+    (property "Reference" "S3") (property "Value" "Amperometric Free Cl 0-10ppm ±0.02")
+    (property "Footprint" "Sensor:Amperometric_Cl2_3Electrode"))
+
+  ;; Potentiostat circuit (3-electrode: working, reference, counter)
+  (symbol (lib_id "Amplifier_Operational:AD8606") (at 310 150 0)
+    (property "Reference" "U6") (property "Value" "AD8606 (potentiostat)")
+    (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"))
+  (symbol (lib_id "Device:R_Small") (at 295 145 0)
+    (property "Reference" "R3") (property "Value" "1kΩ 0.1%"))
+
+  ;; ============================================================
+  ;; TEMPERATURE — DS18B20 Waterproof
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Temperature:DS18B20") (at 280 180 0)
+    (property "Reference" "S4") (property "Value" "DS18B20 Waterproof")
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_3_Wide"))
+  (symbol (lib_id "Device:R_Small") (at 275 175 0)
+    (property "Reference" "R4") (property "Value" "4.7kΩ"))
+
+  ;; ============================================================
+  ;; CONDUCTIVITY — Inductive Toroidal Sensor
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Chemical:Toroidal_Conductivity") (at 380 50 0)
+    (property "Reference" "S5") (property "Value" "Inductive Conductivity 0-100mS/cm")
+    (property "Footprint" "Sensor:Toroidal_Conductivity"))
+
+  ;; Excitation coil driver
+  (symbol (lib_id "Transistor_FET:SI2302DS") (at 350 55 0)
+    (property "Reference" "Q1") (property "Value" "SI2302DS")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"))
+  (symbol (lib_id "Device:C_Small") (at 345 65 0)
+    (property "Reference" "C12") (property "Value" "100nF"))
+
+  ;; ============================================================
+  ;; TURBIDITY — TSL2591 + IR LED pair
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Optical:TSL2591") (at 380 100 0)
+    (property "Reference" "S6") (property "Value" "TSL2591 Light Sensor")
+    (property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1mm"))
+
+  ;; IR LED for turbidity measurement
+  (symbol (lib_id "Device:LED_IR") (at 410 100 0)
+    (property "Reference" "D1") (property "Value" "IR LED 880nm 20mA")
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric"))
+  (symbol (lib_id "Device:R_Small") (at 405 95 0)
+    (property "Reference" "R5") (property "Value" "100Ω"))
+
+  ;; ============================================================
+  ;; SX1262 — SUB-GHz RADIO
+  ;; ============================================================
+
+  (symbol (lib_id "RF_Module:SX1262IMLSTR") (at 160 170 0)
+    (property "Reference" "U7") (property "Value" "SX1262")
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"))
+
+  (symbol (lib_id "Device:Crystal_Small") (at 125 180 0)
+    (property "Reference" "Y3") (property "Value" "32MHz TCXO"))
+  (symbol (lib_id "Device:L_Small") (at 200 165 0)
+    (property "Reference" "L2") (property "Value" "15nH"))
+  (symbol (lib_id "Device:C_Small") (at 210 170 0)
+    (property "Reference" "C13") (property "Value" "3.9pF"))
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 225 165 0)
+    (property "Reference" "J1") (property "Value" "SMA 868MHz")
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"))
+
+  ;; ============================================================
+  ;; CONNECTOR — IP68 Titanium waterproof
+  ;; ============================================================
+
+  (symbol (lib_id "Connector:Conn_01x04") (at 30 170 0)
+    (property "Reference" "J2") (property "Value" "IP68 Sensor Cable (pwr+data)")
+    (property "Footprint" "Connector:IP68_Bulgin_SMB"))
+
+)

@@ -1,0 +1,189 @@
+(kicad_sch
+  (version 20240101)
+  (generator "eeschema")
+  (uuid poolsync-equipment-controller-schematic)
+
+  ;; PoolSync Equipment Controller — STM32F407 + 8× Relay + 3× Peristaltic + SX1262
+
+  (title_block
+    (title "PoolSync Equipment Controller")
+    (date "2026-06-26")
+    (rev "1.0")
+    (company "PoolSync Project")
+    (comment 1 "STM32F407VG + 8×Relay + 3×Peristaltic Pump + SX1262 + GFCI"))
+
+  ;; ============================================================
+  ;; POWER — 24VAC Pool Transformer → 5V/3A → 3.3V
+  ;; ============================================================
+
+  ;; 24VAC input from pool transformer
+  (symbol (lib_id "Connector:Conn_01x02") (at 30 30 0)
+    (property "Reference" "J1") (property "Value" "24VAC Input (Pool Transformer)")
+    (property "Footprint" "Connector:PhoenixContact_MC_1_5_G_2"))
+
+  ;; Bridge rectifier
+  (symbol (lib_id "Diode_Bridge:GBU4K") (at 65 30 0)
+    (property "Reference" "D1") (property "Value" "GBU4K (4A Bridge Rect)")
+    (property "Footprint" "Diode_THT:Diode_Bridge_GBU"))
+
+  ;; 24V→5V buck converter
+  (symbol (lib_id "Regulator_Switching:LM2596T-5.0") (at 105 30 0)
+    (property "Reference" "U1") (property "Value" "LM2596T-5.0")
+    (property "Footprint" "Package_TO_SOT_SMD:TO-263-5_Tab3"))
+  (symbol (lib_id "Device:L_Small") (at 95 25 0)
+    (property "Reference" "L1") (property "Value" "33uH"))
+  (symbol (lib_id "Device:C_Small") (at 85 35 0)
+    (property "Reference" "C1") (property "Value" "470uF"))
+  (symbol (lib_id "Device:C_Small") (at 125 35 0)
+    (property "Reference" "C2") (property "Value" "220uF"))
+
+  ;; 5V→3.3V LDO
+  (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 155 30 0)
+    (property "Reference" "U2") (property "Value" "AMS1117-3.3")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223"))
+  (symbol (lib_id "Device:C_Small") (at 145 35 0)
+    (property "Reference" "C3") (property "Value" "10uF"))
+  (symbol (lib_id "Device:C_Small") (at 170 35 0)
+    (property "Reference" "C4") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; STM32F407VG — MAIN MCU
+  ;; ============================================================
+
+  (symbol (lib_id "MCU_ST_STM32F4:STM32F407VGTx") (at 240 100 0)
+    (property "Reference" "U3") (property "Value" "STM32F407VGTx")
+    (property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"))
+
+  ;; 8 MHz crystal
+  (symbol (lib_id "Device:Crystal_Small") (at 195 80 0)
+    (property "Reference" "Y1") (property "Value" "8MHz")
+    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"))
+  (symbol (lib_id "Device:C_Small") (at 188 88 0)
+    (property "Reference" "C5") (property "Value" "20pF"))
+  (symbol (lib_id "Device:C_Small") (at 202 88 0)
+    (property "Reference" "C6") (property "Value" "20pF"))
+
+  ;; Decoupling (100nF per VDD + bulk)
+  (symbol (lib_id "Device:C_Small") (at 225 65 0)
+    (property "Reference" "C7") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 232 65 0)
+    (property "Reference" "C8") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 239 65 0)
+    (property "Reference" "C9") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 246 65 0)
+    (property "Reference" "C10") (property "Value" "100nF"))
+  (symbol (lib_id "Device:C_Small") (at 253 65 0)
+    (property "Reference" "C11") (property "Value" "10uF"))
+
+  ;; ============================================================
+  ;; 8× SPDT RELAY ARRAY — Pump, Heater, Lights, Valves
+  ;; ============================================================
+
+  ;; Relay driver (ULN2803A darlington array)
+  (symbol (lib_id "Driver_Relay:ULN2803A") (at 370 50 0)
+    (property "Reference" "U4") (property "Value" "ULN2803A")
+    (property "Footprint" "Package_DIP:DIP-18_W7.62mm"))
+
+  ;; 8× SPDT 16A relays (Omron G2R-1)
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 35 0)
+    (property "Reference" "K1") (property "Value" "Pump (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 50 0)
+    (property "Reference" "K2") (property "Value" "Heater (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 65 0)
+    (property "Reference" "K3") (property "Value" "Pool Light (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 80 0)
+    (property "Reference" "K4") (property "Value" "Spa Light (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 95 0)
+    (property "Reference" "K5") (property "Value" "Valve 1 (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 110 0)
+    (property "Reference" "K6") (property "Value" "Valve 2 (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 125 0)
+    (property "Reference" "K7") (property "Value" "Blower (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+  (symbol (lib_id "Relay:G2R-1-DC5") (at 430 140 0)
+    (property "Reference" "K8") (property "Value" "Spare (16A SPDT)")
+    (property "Footprint" "Relay_THT:Relay_SPDT_Omron-G2R-1"))
+
+  ;; ============================================================
+  ;; 3× PERISTALTIC PUMP DRIVERS — Acid, Chlorine, Clarifier
+  ;; ============================================================
+
+  ;; Stepper driver for Pump 1 (Acid)
+  (symbol (lib_id "Driver_Motor:A4988") (at 100 160 0)
+    (property "Reference" "U5") (property "Value" "A4988 (Acid Pump)")
+    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.5mm_EP2.4x2.4mm"))
+  (symbol (lib_id "Motor:Stepper_Motor") (at 160 160 0)
+    (property "Reference" "M1") (property "Value" "NEMA-8 Peristaltic (Acid)")
+    (property "Footprint" "Motor:NEMA8"))
+
+  ;; Stepper driver for Pump 2 (Chlorine)
+  (symbol (lib_id "Driver_Motor:A4988") (at 100 195 0)
+    (property "Reference" "U6") (property "Value" "A4988 (Chlorine Pump)")
+    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.5mm_EP2.4x2.4mm"))
+  (symbol (lib_id "Motor:Stepper_Motor") (at 160 195 0)
+    (property "Reference" "M2") (property "Value" "NEMA-8 Peristaltic (Chlorine)")
+    (property "Footprint" "Motor:NEMA8"))
+
+  ;; Stepper driver for Pump 3 (Clarifier)
+  (symbol (lib_id "Driver_Motor:A4988") (at 100 230 0)
+    (property "Reference" "U7") (property "Value" "A4988 (Clarifier Pump)")
+    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.5mm_EP2.4x2.4mm"))
+  (symbol (lib_id "Motor:Stepper_Motor") (at 160 230 0)
+    (property "Reference" "M3") (property "Value" "NEMA-8 Peristaltic (Clarifier)")
+    (property "Footprint" "Motor:NEMA8"))
+
+  ;; ============================================================
+  ;; FLOW SENSOR — YF-S201 dosing verification
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Flow:YF-S201") (at 280 200 0)
+    (property "Reference" "S1") (property "Value" "YF-S201 (1-30 L/min)")
+    (property "Footprint" "Sensor_Flow:YF-S201"))
+  (symbol (lib_id "Device:R_Small") (at 275 195 0)
+    (property "Reference" "R1") (property "Value" "10kΩ"))
+
+  ;; ============================================================
+  ;; PRESSURE SENSOR — Filter clog + entrapment detection
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Pressure:MPX5010DP") (at 280 230 0)
+    (property "Reference" "S2") (property "Value" "MPX5010DP (0-10 kPa diff)")
+    (property "Footprint" "Sensor_Pressure:MPX5010DP"))
+
+  ;; ============================================================
+  ;; GFCI MONITORING — AC current for ground fault detection
+  ;; ============================================================
+
+  (symbol (lib_id "Sensor_Current:ACS712-30A") (at 350 230 0)
+    (property "Reference" "U8") (property "Value" "ACS712-30A (GFCI Monitor)")
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"))
+
+  ;; ============================================================
+  ;; SX1262 — SUB-GHz RADIO
+  ;; ============================================================
+
+  (symbol (lib_id "RF_Module:SX1262IMLSTR") (at 240 200 0)
+    (property "Reference" "U9") (property "Value" "SX1262")
+    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"))
+  (symbol (lib_id "Device:Crystal_Small") (at 205 210 0)
+    (property "Reference" "Y2") (property "Value" "32MHz TCXO"))
+  (symbol (lib_id "Device:L_Small") (at 280 195 0)
+    (property "Reference" "L2") (property "Value" "15nH"))
+  (symbol (lib_id "Device:C_Small") (at 290 200 0)
+    (property "Reference" "C11") (property "Value" "3.9pF"))
+  (symbol (lib_id "Connector:Conn_Coaxial") (at 305 195 0)
+    (property "Reference" "J2") (property "Value" "SMA 868MHz")
+    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"))
+
+  ;; ============================================================
+  ;; NEMA 4X ENCLOSURE — Weatherproof, lockable
+  ;; ============================================================
+  ;; (Mechanical: represented in mechanical design files, not schematic)
+
+)
