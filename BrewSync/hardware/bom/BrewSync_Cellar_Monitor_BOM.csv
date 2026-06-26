@@ -1,0 +1,22 @@
+Ref,Qty,Value,Description,Manufacturer,PartNumber,Footprint,Unit_Price,Extended_Price,Notes
+U1,1,STM32L476RG,MCU ARM Cortex-M4F 1MB Flash,STMicroelectronics,STM32L476RGT6,LQFP-64,4.12,4.12,Main MCU
+U2,1,SX1262,Sub-GHz transceiver 868/915MHz,Semtech,SX1262MB1JAS,QFN-24,3.50,3.50,Radio module
+U3,1,SHT40,Temp/humidity sensor ±0.1°C,Sensirion,SHT40-AD1B-R3,DFN-4,1.80,1.80,Ambient monitoring
+U4,1,BMP390,Barometric pressure sensor,Bosch,BMP390,8-LGA,1.50,1.50,Pressure
+U5,1,LIS2DH12,3-axis accelerometer low-power,STMicroelectronics,LIS2DH12TR,LGA-16,0.90,0.90,Vibration/theft
+U6,1,TSL2591,Light sensor UV/IR/visible,ams-OSRAM,TSL25911FNFN,LGA-6,2.20,2.20,UV exposure
+U7,1,MCP73871,Li-Ion battery charger,Microchip,MCP73871-2CCI,QFN-20,1.80,1.80,Battery management
+U8,1,AP2112K-3.3,3.3V LDO 600mA,Diodes Inc,AP2112K-3.3,SOT-23-5,0.25,0.25,Power regulation
+Y1,1,32.768kHz,32.768kHz crystal,Epson,Q13FC135000020,FC-135,0.30,0.30,RTC crystal
+Y2,1,8MHz,8MHz crystal,Abracon,ABM8-8.000MHZ,HC49/SMD,0.40,0.40,MCU crystal
+C1-C6,6,100nF,100nF ceramic capacitor 0402,Murata,GRM155R71C104KA88D,0402,0.02,0.12,Decoupling
+C7,1,10uF,10uF ceramic capacitor 0603,Murata,GRM188R61C106MA73D,0603,0.08,0.08,Bulk
+R1-R4,4,10k,10k resistor 0402,Yageo,RC0402FR-0710KL,0402,0.005,0.02,Pull-ups
+ANT1,1,868MHz,868MHz chip antenna,Johanson,0868AT43A0020,0805,1.20,1.20,Sub-GHz antenna
+J1,1,USB-C,USB-C receptacle 2.0,Amphenol,12401832E422A,USB-C,0.60,0.60,Programming/power
+BT1,1,18650,18650 Li-Ion battery holder,Keeppower,HR-18650,18650,0.80,0.80,Battery holder
+SW1,1,Tactile,Tactile switch 6x3.5mm,Alps,SKQGAFE010,SMD,0.15,0.15,Reset
+ENC1,1,IP67,IP67 wall-mount enclosure,Hammond,1554,Custom,3.00,3.00,Weatherproof
+PCB1,1,Custom,4-layer PCB 40x60mm ENIG,Various,Custom,2.00,2.00,Main PCB
+,,,,,,,
+,Total:,,,,$22.97

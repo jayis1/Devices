@@ -1,0 +1,25 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid e3b0c442-98fc-11c2-a8c4-0242ac130003)
+  (paper "A4")
+  (title_block
+    (title "BrewSync Fermenter Node")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "BrewSync / Devices")
+    (comment 1 "STM32L476RG + SX1262 + Sensors")
+    (comment 2 "Fermentation monitoring: SG, temp, CO2, pressure, pH")
+  )
+  (lib_symbols)
+  ;; This is a placeholder schematic file.
+  ;; Full KiCad schematic would include:
+  ;; - U1: STM32L476RG (MCU)
+  ;; - U2: SX1262 (Sub-GHz radio)
+  ;; - U3: ADXL362 (accelerometer for tilt SG)
+  ;; - U4: SCD41 (CO2 sensor)
+  ;; - U5: DS18B20 (temperature probe)
+  ;; - U6: MS5837 (pressure sensor)
+  ;; - U7: EZO-pH (pH interface)
+  ;; - U8: MCP73871 (battery charger)
+  ;; - Power supply, decoupling, antenna matching
+  ;; See hardware/bom/ for complete component list
+)

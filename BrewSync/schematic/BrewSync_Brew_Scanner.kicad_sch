@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid e3b0c442-98fc-11c2-a8c4-0242ac130006)
+  (paper "A4")
+  (title_block
+    (title "BrewSync Brew Scanner")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "BrewSync / Devices")
+    (comment 1 "ESP32-S3 + AS7341 + VL53L1X + SCD41 + LCD")
+    (comment 2 "Handheld brew-day scanner: spectral analysis, volume, CO2")
+  )
+  (lib_symbols)
+)

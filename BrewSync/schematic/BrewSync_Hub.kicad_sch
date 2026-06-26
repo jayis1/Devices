@@ -1,0 +1,26 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid e3b0c442-98fc-11c2-a8c4-0242ac130004)
+  (paper "A4")
+  (title_block
+    (title "BrewSync Hub")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "BrewSync / Devices")
+    (comment 1 "RP2040 + ESP32-C3 + SX1262 + LCD + Relays")
+    (comment 2 "Central coordinator with Wi-Fi bridge and temperature control")
+  )
+  (lib_symbols)
+  ;; This is a placeholder schematic file.
+  ;; Full KiCad schematic would include:
+  ;; - U1: RP2040 (protocol coordinator MCU)
+  ;; - U2: ESP32-C3-WROOM-02 (Wi-Fi/BLE module)
+  ;; - U3: SX1262 (Sub-GHz radio)
+  ;; - U4: SHT40 (temp/humidity)
+  ;; - U5: BMP390 (barometric pressure)
+  ;; - U6: W25Q128 (SPI flash)
+  ;; - LCD1: 3.5" IPS LCD (480x320, SPI)
+  ;; - REL1-2: 5V relay modules (heating/cooling)
+  ;; - BUZ1: Piezo buzzer
+  ;; - UART bridge between RP2040 and ESP32-C3
+  ;; See hardware/bom/ for complete component list
+)

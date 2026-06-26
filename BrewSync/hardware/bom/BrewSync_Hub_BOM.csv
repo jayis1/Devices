@@ -1,0 +1,27 @@
+Ref,Qty,Value,Description,Manufacturer,PartNumber,Footprint,Unit_Price,Extended_Price,Notes
+U1,1,RP2040,Dual-core ARM Cortex-M0+ 264KB SRAM,Raspberry Pi,RP2040,QFN-56,1.50,1.50,Protocol coordinator
+U2,1,ESP32-C3,Single-core RISC-V Wi-Fi/BLE,Espressif,ESP32-C3-WROOM-02,QFN-32,2.80,2.80,Wi-Fi/MQTT bridge
+U3,1,SX1262,Sub-GHz transceiver 868/915MHz,Semtech,SX1262MB1JAS,QFN-24,3.50,3.50,Sub-GHz radio
+U4,1,SHT40,Temp/humidity sensor ±0.1°C,Sensirion,SHT40-AD1B-R3,DFN-4,1.80,1.80,Ambient monitoring
+U5,1,BMP390,Barometric pressure sensor,Bosch,BMP390,8-LGA,1.50,1.50,Barometer
+U6,1,W25Q128,128Mbit SPI flash for RP2040,Winbond,W25Q128JVSI,SOP-8,0.80,0.80,Firmware storage
+U7,1,AP2112K-3.3,3.3V LDO 600mA,Diodes Inc,AP2112K-3.3,SOT-23-5,0.25,0.25,3.3V rail
+U8,1,AP2112K-1.8,1.8V LDO 600mA,Diodes Inc,AP2112K-1.8,SOT-23-5,0.25,0.25,1.8V rail
+LCD1,1,3.5" IPS,3.5" IPS LCD 480x320 SPI,HX8357,Generic,SPI,5.50,5.50,Status display
+REL1-2,2,5V Relay,5V relay module 10A/250VAC,Songle,SRD-05VDC-SL-C,Through-hole,0.80,1.60,Heating/cooling
+BUZ1,1,Piezo,Piezo buzzer 5V 2kHz,CUI,PS1240P02CT3,SMD,0.30,0.30,Alerts
+Y1,1,12MHz,12MHz crystal for RP2040,Abracon,ABM8-12.000MHZ,HC49/SMD,0.40,0.40,RP2040 clock
+Y2,1,32.768kHz,32.768kHz crystal for ESP32-C3,Epson,Q13FC135000020,FC-135,0.30,0.30,RTC
+C1-C10,10,100nF,100nF ceramic capacitor 0402,Murata,GRM155R71C104KA88D,0402,0.02,0.20,Decoupling
+C11-C12,2,10uF,10uF ceramic capacitor 0603,Murata,GRM188R61C106MA73D,0603,0.08,0.16,Bulk
+C13,1,100uF,100uF electrolytic 6.3V,Panasonic,EEE0JA101UP,Radial,0.30,0.30,Relay bulk
+R1-R8,8,10k,10k resistor 0402,Yageo,RC0402FR-0710KL,0402,0.005,0.04,Pull-ups
+R9-R10,2,1k,1k resistor 0402,Yageo,RC0402FR-071KL,0402,0.005,0.01,LED resistors
+LED1-2,2,LED,LED green/red 0603,Kingbright,APHHS1005,0603,0.05,0.10,Status LEDs
+ANT1,1,868MHz,868MHz chip antenna,Johanson,0868AT43A0020,0805,1.20,1.20,Sub-GHz antenna
+J1,1,USB-C,USB-C receptacle 2.0,Amphenol,12401832E422A,USB-C,0.60,0.60,Power
+J2,1,Screw,2-pin screw terminal 5mm pitch,Phoenix,1725656,5mm,0.30,0.30,Relay output
+PCB1,1,Custom,4-layer PCB 80x100mm ENIG,Various,Custom,4.50,4.50,Main PCB
+ENC1,1,Desktop,Desktop enclosure w/ LCD cutout,Hammond,1455N2202,Custom,5.00,5.00,Desktop case
+,,,,,,,
+,Total:,,,,$38.36

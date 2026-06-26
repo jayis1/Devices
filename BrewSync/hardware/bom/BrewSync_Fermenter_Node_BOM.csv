@@ -1,0 +1,29 @@
+Ref,Qty,Value,Description,Manufacturer,PartNumber,Footprint,Unit_Price,Extended_Price,Notes
+U1,1,STM32L476RG,MCU ARM Cortex-M4F 1MB Flash 128KB RAM,STMicroelectronics,STM32L476RGT6,LQFP-64,4.12,4.12,Main MCU
+U2,1,SX1262,Sub-GHz transceiver 868/915MHz,Semtech,SX1262MB1JAS,QFN-24,3.50,3.50,Radio module
+U3,1,ADXL362,3-axis accelerometer ultra-low-power,Analog Devices,ADXL362BCCZ,LGA-16,2.80,2.80,Tilt SG sensor
+U4,1,SCD41,CO2 sensor 400-5000ppm,Sensirion,SCD41,DFN-6,8.90,8.90,CO2 evolution
+U5,1,DS18B20,Temperature probe waterproof ±0.1°C,Maxim,DS18B20+,TO-92,1.20,1.20,Temperature
+U6,1,MS5837,Pressure sensor 0-30bar,TE Connectivity,MS5837-30BA,QFN-8,4.50,4.50,Fermentation pressure
+U7,1,EZO-pH,Embedded pH circuit ±0.01,Atlas Scientific,EZO-pH,Module,18.00,18.00,pH monitoring
+U8,1,MCP73871,Li-Ion battery charger MCP73871,Microchip,MCP73871-2CCI,QFN-20,1.80,1.80,Battery management
+U9,1,AP2112K-3.3,3.3V LDO 600mA,Diodes Inc,AP2112K-3.3,SOT-23-5,0.25,0.25,Power regulation
+U10,1,AP2112K-1.8,1.8V LDO 600mA,Diodes Inc,AP2112K-1.8,SOT-23-5,0.25,0.25,Radio VDD
+Y1,1,32.768kHz,32.768kHz crystal +/-20ppm,Epson,Q13FC135000020,FC-135,0.30,0.30,RTC crystal
+Y2,1,8MHz,8MHz crystal +/-30ppm,Abracon,ABM8-8.000MHZ,HC49/SMD,0.40,0.40,MCU crystal
+C1-C8,8,100nF,100nF ceramic capacitor 0402,Murata,GRM155R71C104KA88D,0402,0.02,0.16,Decoupling
+C9,1,10uF,10uF ceramic capacitor 0603,Murata,GRM188R61C106MA73D,0603,0.08,0.08,Bulk
+C10,1,4.7uF,4.7uF ceramic capacitor 0603,Samsung,CL10A475KP8NNNC,0603,0.06,0.06,LDO output
+R1-R6,6,10k,10k resistor 0402,Yageo,RC0402FR-0710KL,0402,0.005,0.03,Pull-ups
+L1,1,10uH,10uH inductor 2A,Wurth,74404021000,1210,0.40,0.40,Switcher
+D1,1,RB521S30,Schottky diode 30V 200mA,ROHM,RB521S30T1G,SOD-523,0.10,0.10,Protection
+ANT1,1,868MHz,868MHz chip antenna,Johanson,0868AT43A0020,0805,1.20,1.20,Sub-GHz antenna
+J1,1,USB-C,USB-C receptacle 2.0,Amphenol,12401832E422A,USB-C,0.60,0.60,Programming/power
+J2,1,pH-BNC,pH probe BNC connector,Amphenol,31-5321-10RFX,BNC,1.50,1.50,pH probe
+BT1,1,18650,18650 Li-Ion battery holder,Keeppower,HR-18650,18650,0.80,0.80,Battery holder
+SW1,1,Tactile,Tactile switch 6x3.5mm,Alps,SKQGAFE010,SMD,0.15,0.15,Reset button
+ENC1,1,IP65,IP65 food-safe POM enclosure,Hammond,1554,Custom,3.50,3.50,Waterproof housing
+MAG1,2,Magnet,Neodymium magnet N42 10x3mm,Various,N42-D10x3,Disc,0.15,0.30,Magnetic mount
+PCB1,1,Custom,4-layer PCB 50x80mm ENIG,Various,Custom,3.00,3.00,Main PCB
+,,,,,,,
+,Total:,,,,$45.26

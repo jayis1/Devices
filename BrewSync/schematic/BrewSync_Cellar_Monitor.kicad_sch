@@ -1,0 +1,13 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid e3b0c442-98fc-11c2-a8c4-0242ac130005)
+  (paper "A4")
+  (title_block
+    (title "BrewSync Cellar Monitor")
+    (date "2025-06-26")
+    (rev "1.0")
+    (company "BrewSync / Devices")
+    (comment 1 "STM32L476RG + SX1262 + Environment Sensors")
+    (comment 2 "Ambient monitoring: temp, humidity, pressure, vibration, light")
+  )
+  (lib_symbols)
+)
