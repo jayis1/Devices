@@ -1,0 +1,21 @@
+Ref,Qty,MPN,Description,UnitUSD,ExtUSD
+U1,1,RP2040,Dual-core Cortex-M0+ MCU QFN-56,0.80,0.80
+U2,1,ESP32-C3-WROOM-02,BLE 5.0 + Wi-Fi 4 module,2.60,2.60
+U3,1,ST7701-IPS-5.0-720x1280,5.0" IPS LCD 720x1280,7.20,7.20
+U4,1,SHT40-AD1B-R2,Ambient temp/humidity ±0.1°C,0.40,0.40
+U5,1,VEML6075,UV-A/UV-B index sensor,0.60,0.60
+U6,1,SPH0645LM4H-B1ME,I2S MEMS microphone,1.10,1.10
+U7,1,MAX98357AEWO+,3.2W class-D I2S amp,1.00,1.00
+U8,1,MP2359,3A step-down buck 3.3V,0.30,0.30
+J1,1,USB-C 16-pin,USB-C receptacle 5V,0.20,0.20
+L1,1,4.7µH 3A,Power inductor,0.15,0.15
+C1-C4,4,10µF 0805,Ceramic caps,0.03,0.12
+C5,1,22µF 1206,Output bulk cap,0.08,0.08
+R1-R6,6,10k 0603,Pull-ups/dividers,0.01,0.06
+LED1,1,WS2812B-2020 x16,NeoPixel ring 16 RGB,1.20,1.20
+SPK1,1,40mm 4Ω 1.5W,Speaker,0.80,0.80
+SW1,1,Tactile switch,Reset,0.05,0.05
+PCB,1,4-layer 100x60mm,PCB,1.50,1.50
+ENC,1,Mirror mount ABS,Enclosure + bezel,3.20,3.20
+MISC,1,Assorted,Connectors/standoffs/screws,0.80,0.80
+TOTAL,24.80

@@ -1,0 +1,26 @@
+Ref,Qty,MPN,Description,UnitUSD,ExtUSD
+U1,1,ESP32-S3-WROOM-1-N16R8,Dual-core 240MHz BLE+WiFi module,3.40,3.40
+U2,1,OV5640-AutoFocus,5MP DVP autofocus camera,5.20,5.20
+U3,1,TP4056,Li-Ion charger USB-C,0.20,0.20
+U4,1,MT3608,Boost 5V for camera,0.25,0.25
+U5,1,AP2112K-3.3,LDO 3.3V,0.15,0.15
+U6,1,VL53L1XCBV0JC,ToF 30-200mm distance,2.80,2.80
+U7,1,SHT40-AD1B-R2,Temp/humidity,0.40,0.40
+U8,1,ST7789-IPS-2.0-320x240,2.0" IPS LCD,2.40,2.40
+J1,1,USB-C 16-pin,USB-C receptacle,0.20,0.20
+BAT1,1,103040 1200mAh Li-Po,3.7V battery,1.60,1.60
+LED405,4,VLUV4A2-405nm,405nm violet LED (plaque fluor),0.45,1.80
+LED470,2,VLMB470nm,470nm blue LED,0.30,0.60
+LED525,2,VLPM525nm,525nm green LED,0.30,0.60
+LED660,2,VLMR660nm,660nm red LED,0.30,0.60
+LED850,4,VSMY9851-850nm,850nm NIR LED,0.55,2.20
+BUZ1,1,Piezo buzzer,Audible cue,0.15,0.15
+C1-C5,5,10µF 0805,Ceramic caps,0.03,0.15
+C6,1,22µF 1206,Bulk,0.08,0.08
+R1-R8,8,10k/100R 0603,Drivers/dividers,0.01,0.08
+L1,1,4.7µH 2A,Boost inductor,0.15,0.15
+PCB,1,4-layer 40x140mm,PCB,1.50,1.50
+ENC,1,Handheld ABS + retractor,Enclosure + cheek retractor,1.80,1.80
+LENS,1,Disposable lens cover x10,Hygiene covers,0.60,0.60
+MISC,1,Assorted,Screws/buttons/flex,0.54,0.54
+TOTAL,32.40

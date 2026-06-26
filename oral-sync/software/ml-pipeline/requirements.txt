@@ -1,0 +1,13 @@
+torch==2.3.0
+torchvision==0.18.0
+tensorflow==2.16.1
+ultralytics==8.2.0
+lightgbm==4.3.0
+onnxmltools==1.16.0
+tf2onnx==1.16.0
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+pillow==10.3.0
+matplotlib==3.8.4
+albumentations==1.4.4

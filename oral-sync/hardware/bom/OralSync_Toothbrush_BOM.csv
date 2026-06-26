@@ -1,0 +1,19 @@
+Ref,Qty,MPN,Description,UnitUSD,ExtUSD
+U1,1,nRF52840-QIAA-R,Cortex-M4F BLE 5.0 SoC QFN-73,4.20,4.20
+U2,1,ICM-42688-P,6-axis IMU SPI ±16g,1.80,1.80
+U3,1,MCP73831T-2ACI/OT,Li-Ion charger 500mA USB-C,0.30,0.30
+U4,1,AP2112K-3.3,LDO 3.3V 600mA,0.15,0.15
+J1,1,USB-C 16-pin,USB-C receptacle,0.20,0.20
+BAT1,1,502030 500mAh Li-Po,3.7V Li-Po battery,1.20,1.20
+FSR1,1,Interlink FSR 402,Force-sensing resistor 0.1-10N,1.50,1.50
+LRA1,1,Pico Vibe 305-100,Linear resonant actuator,0.80,0.80
+XTAL1,1,32.768kHz,Watch crystal,0.10,0.10
+LED1,1,0603 green,Status LED,0.05,0.05
+C1-C3,3,10µF 0805,Ceramic caps,0.03,0.09
+C4,1,4.7µF 0805,Decoupling,0.03,0.03
+R1-R4,4,10k 0603,Dividers/pull-ups,0.01,0.04
+ANT1,1,BLE chip antenna,2.4GHz PCB antenna,0.20,0.20
+PCB,1,4-layer 30x120mm wand,PCB,0.80,0.80
+ENC,1,IP67 wand sleeve,Clip-on sensor collar enclosure,0.60,0.60
+MISC,1,Assorted,Screws/contact pads,0.24,0.24
+TOTAL,11.20

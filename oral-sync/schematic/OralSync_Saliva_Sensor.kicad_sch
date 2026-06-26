@@ -1,0 +1,66 @@
+(kicad_sch
+  (version 20240108)
+  (generator "OralSync")
+  (uuid "11111111-0004-4aaa-8000-000000000004")
+  (paper "A4")
+  (title_block
+    (title "OralSync Saliva Sensor")
+    (company "jayis1 Devices")
+    (rev "1.0")
+    (comment 1 "STM32L432KC + SPBTLE-RF + ISFET pH + NO2⁻ amperometry + HX711")
+  )
+
+  ; ─── Power: CR2477 coin → 3.3V boost (TPS61099), ~3µA sleep ───
+  (symbol (lib_id "Battery:Battery_Cell") (at 30 35 0) (uuid "bat-coin"))
+  (property "MPN" "CR2477 3.0V 1000mAh" (at 30 35 0))
+  (symbol (lib_id "Regulator_Switching:TPS61099") (at 65 40 0) (uuid "vreg-boost"))
+  (property "MPN" "TPS61099XDRVR" (at 65 40 0))
+
+  ; ─── STM32L432KC (ultra-low-power Cortex-M4F) ───
+  (symbol (lib_id "MCU_ST_STM32L4:STM32L432KCUx") (at 130 90 0) (uuid "mcu-stm32"))
+  (property "MPN" "STM32L432KCU6" (at 130 90 0))
+  ; PA0=ISFET pH ADC IN0  PA1=NO2⁻ amperometry ADC IN1
+  ; PA2=USART2 TX→BlueNRG  PA3=USART2 RX←BlueNRG
+  ; PA4=SPI CS(SPBTLE) PA5=SCK PA6=MISO PA7=MOSI
+  ; PA8=HX711 DAT PA9=HX711 SCK PA10=DS18B20 1-Wire
+  ; PB0=NO2⁻ WE bias DAC(PWM→RC) PB1=LED PB6=I2C SCL PB7=I2C SDA
+
+  ; ─── SPBTLE-RF (BlueNRG-2 SPI BLE module) ───
+  (symbol (lib_id "RF_Module:SPBTLE-RF") (at 230 70 0) (uuid "ble-mod"))
+  (property "MPN" "SPBTLE-RF1" (at 230 70 0))
+  ; SPI: CS=PA4 SCK=PA5 MISO=PA6 MOSI=PA7  IRQ=PB2  CSB=PB5
+  ; UART alt: PA2/PA3
+
+  ; ─── ISFET pH sensor (replaceable tip, Hanna-style) ───
+  (symbol (lib_id "Sensor:ISFET_pH") (at 230 120 0) (uuid "s-ph"))
+  (property "MPN" "Hanna HI-1410D replaceable" (at 230 120 0))
+  ; → PA0/ADC IN0
+
+  ; ─── Nitrite electrochemical 3-electrode sensor ───
+  (symbol (lib_id "Sensor:Nitrite_3electrode") (at 270 120 0) (uuid "s-no2"))
+  (property "MPN" "NO2⁻ amperometric 3E" (at 270 120 0))
+  ; WE bias: PB0 (PWM→RC)  sense: PA1/ADC IN1
+
+  ; ─── DS18B20 sample temperature ───
+  (symbol (lib_id "Sensor_Temperature:DS18B20") (at 230 160 0) (uuid "s-ds18b20"))
+  (property "MPN" "DS18B20+" (at 230 160 0))
+  ; 1-Wire: PA10
+
+  ; ─── HX711 load cell (buffer titration micro-volume) ───
+  (symbol (lib_id "Sensor:HX711") (at 230 200 0) (uuid "s-hx711"))
+  (property "MPN" "HX711" (at 230 200 0))
+  ; DAT=PA8 SCK=PA9  → 5kg load cell for titration mass
+
+  ; ─── Calibration EEPROM (I2C) ───
+  (symbol (lib_id "Memory_EEPROM:24LC02B") (at 320 160 0) (uuid "eeprom"))
+  (property "MPN" "24LC02B-I/OT" (at 320 160 0))
+  ; SCL=PB6 SDA=PB7
+
+  (symbol (lib_id "power:GND") (at 30 50 0) (uuid "gnd1"))
+  (symbol (lib_id "power:+3V3") (at 80 35 0) (uuid "vcc3v3"))
+  (symbol (lib_id "power:+BATT") (at 45 35 0) (uuid "vbatt"))
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

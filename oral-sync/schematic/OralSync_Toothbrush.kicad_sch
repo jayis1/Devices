@@ -1,0 +1,60 @@
+(kicad_sch
+  (version 20240108)
+  (generator "OralSync")
+  (uuid "11111111-0002-4aaa-8000-000000000002")
+  (paper "A4")
+  (title_block
+    (title "OralSync Smart Toothbrush Node")
+    (company "jayis1 Devices")
+    (rev "1.0")
+    (comment 1 "nRF52840 + ICM-42688-P + FSR 402 + LRA")
+  )
+
+  ; ─── Power: 500mAh Li-Po + MCP73831 USB-C charger → 3.3V LDO ───
+  (symbol (lib_id "Connector:USB_C_Receptacle") (at 30 30 0) (uuid "pwr-usb"))
+  (symbol (lib_id "Battery:Battery_Cell") (at 30 60 0) (uuid "bat-lipo"))
+  (property "MPN" "502030 500mAh Li-Po" (at 30 60 0))
+  (symbol (lib_id "MCU_Module:MCP73831T-2ACI") (at 60 45 0) (uuid "chg-ic"))
+  (property "MPN" "MCP73831T-2ACI/OT" (at 60 45 0))
+  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 90 45 0) (uuid "vreg-ldo"))
+  (property "MPN" "AP2112K-3.3" (at 90 45 0))
+
+  ; ─── nRF52840 SoC (BLE 5.0, Cortex-M4F) ───
+  (symbol (lib_id "MCU_Nordic:nRF52840-QIAA") (at 130 90 0) (uuid "mcu-nrf52840"))
+  (property "MPN" "nRF52840-QIAA-R" (at 130 90 0))
+  ; P0.03=IMU INT1(wake)  P0.04=FSR→SAADC AIN2
+  ; P0.11=LRA PWM  P0.13=SPI CS  P0.14=MISO  P0.15=MOSI  P0.16=SCK
+  ; P0.17=Battery sense AIN0  P0.19=Charge status  P0.21=LED
+  ; P0.23-24=32kHz xtal
+
+  ; ─── ICM-42688-P 6-axis IMU (SPI) ───
+  (symbol (lib_id "Sensor_Motion:ICM-42688-P") (at 230 70 0) (uuid "s-imu"))
+  (property "MPN" "ICM-42688-P" (at 230 70 0))
+  ; CS=P0.13  SCK=P0.16  MOSI=P0.15  MISO=P0.14  INT1=P0.03
+
+  ; ─── FSR 402 force-sensing resistor at brush neck (ADC) ───
+  (symbol (lib_id "Sensor:FSR-402") (at 230 120 0) (uuid "s-fsr"))
+  (property "MPN" "Interlink FSR 402" (at 230 120 0))
+  ; → voltage divider → P0.04/AIN2
+
+  ; ─── LRA haptic (Pico Vibe, PWM) ───
+  (symbol (lib_id "Motor:LRA") (at 230 160 0) (uuid "act-lra"))
+  (property "MPN" "Pico Vibe 305-100" (at 230 160 0))
+  ; enable=P0.11 (PWM0)
+
+  ; ─── Status LED ───
+  (symbol (lib_id "Device:LED") (at 230 200 0) (uuid "led-stat"))
+  ; P0.21
+
+  ; ─── 32.768 kHz crystal ───
+  (symbol (lib_id "Device:Crystal") (at 130 130 0) (uuid "xtal-32k"))
+  ; P0.23-24
+
+  (symbol (lib_id "power:GND") (at 30 75 0) (uuid "gnd1"))
+  (symbol (lib_id "power:+3V3") (at 105 40 0) (uuid "vcc3v3"))
+  (symbol (lib_id "power:+BATT") (at 45 55 0) (uuid "vbatt"))
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

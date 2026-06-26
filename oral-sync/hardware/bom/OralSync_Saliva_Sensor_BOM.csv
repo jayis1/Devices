@@ -1,0 +1,23 @@
+Ref,Qty,MPN,Description,UnitUSD,ExtUSD
+U1,1,STM32L432KCU6,Ultra-low-power Cortex-M4F QFN-32,3.20,3.20
+U2,1,SPBTLE-RF1,BlueNRG-2 SPI BLE module,2.80,2.80
+U3,1,TPS61099XDRVR,3.3V boost converter,0.80,0.80
+U4,1,DS18B20+,1-Wire temperature ±0.5°C,0.60,0.60
+U5,1,HX711,24-bit load cell ADC,0.80,0.80
+U6,1,24LC02B-I/OT,I2C calibration EEPROM,0.20,0.20
+BAT1,1,CR2477,3.0V 1000mAh coin cell,1.20,1.20
+PH1,1,Hanna HI-1410D,ISFET pH replaceable tip,3.50,3.50
+NO2,1,NO2⁻ 3-electrode,Nitrite amperometric sensor,3.20,3.20
+LC1,1,5kg load cell,Titration micro-volume,1.20,1.20
+XTAL1,1,32.768kHz,RTC crystal,0.10,0.10
+LED1,1,0603 green,Status LED,0.05,0.05
+C1-C3,3,10µF 0805,Ceramic caps,0.03,0.09
+C4,1,100µF tantalum,Bulk for boost,0.20,0.20
+R1-R6,6,10k/100R 0603,Bias/dividers,0.01,0.06
+L1,1,2.2µH,Boost inductor,0.10,0.10
+ANT1,1,BLE chip antenna,2.4GHz,0.20,0.20
+PCB,1,4-layer 40x60mm,PCB,0.80,0.80
+ENC,1,Benchtop dock ABS,Enclosure + cuvette tray,1.30,1.30
+CUV,1,Disposable cuvette x30,Sample cups,0.30,0.30
+MISC,1,Assorted,Contacts/screws,0.60,0.60
+TOTAL,19.60

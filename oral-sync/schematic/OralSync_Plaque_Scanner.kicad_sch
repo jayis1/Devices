@@ -1,0 +1,78 @@
+(kicad_sch
+  (version 20240108)
+  (generator "OralSync")
+  (uuid "11111111-0003-4aaa-8000-000000000003")
+  (paper "A3")
+  (title_block
+    (title "OralSync Plaque Scanner")
+    (company "jayis1 Devices")
+    (rev "1.0")
+    (comment 1 "ESP32-S3 + OV5640 + 5-band spectral LED ring + VL53L1X + ST7789")
+  )
+
+  ; ─── Power: 1200mAh Li-Po + TP4056 USB-C charger → 3.3V + 5V camera ───
+  (symbol (lib_id "Connector:USB_C_Receptacle") (at 30 30 0) (uuid "pwr-usb"))
+  (symbol (lib_id "Battery:Battery_Cell") (at 30 65 0) (uuid "bat-lipo"))
+  (property "MPN" "103040 1200mAh Li-Po" (at 30 65 0))
+  (symbol (lib_id "Battery_Charger:TP4056") (at 60 45 0) (uuid "chg-ic"))
+  (property "MPN" "TP4056" (at 60 45 0))
+  (symbol (lib_id "Regulator_Switching:MT3608") (at 100 45 0) (uuid "vreg-boost"))
+  (property "MPN" "MT3608" (at 100 45 0))  ; → 5V for camera
+  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 130 45 0) (uuid "vreg-ldo"))
+  (property "MPN" "AP2112K-3.3" (at 130 45 0))
+
+  ; ─── ESP32-S3 (dual-core 240MHz, DVP camera, vector instr) ───
+  (symbol (lib_id "RF_Module:ESP32-S3-WROOM-1") (at 160 90 0) (uuid "mcu-esp32s3"))
+  (property "MPN" "ESP32-S3-WROOM-1-N16R8" (at 160 90 0))
+  ; GPIO0=VSYNC GPIO1=HREF GPIO2=PCLK GPIO3=XCLK(20MHz)
+  ; GPIO4-11=D0-D7 (8-bit DVP) GPIO12=PWDN GPIO13=RESET
+  ; GPIO14=SDA(SCCB) GPIO15=SCL  GPIO16=VL53 XSHUT GPIO17=VL53 INT
+  ; GPIO18=405nm PWM GPIO19=470nm GPIO20=525nm GPIO21=660nm
+  ; GPIO33=850nm GPIO34-35=SHT40 I2C GPIO36-39=ST7789 SPI GPIO40=buzzer
+  ; GPIO41=charge status GPIO42=battery ADC1
+
+  ; ─── OV5640 autofocus camera (5MP, DVP 8-bit) ───
+  (symbol (lib_id "Sensor_Image:OV5640") (at 270 50 0) (uuid "cam-ov5640"))
+  (property "MPN" "OV5640-AutoFocus" (at 270 50 0))
+  ; D0-D7=GPIO4-11  VSYNC=GPIO0  HREF=GPIO1  PCLK=GPIO2  XCLK=GPIO3
+  ; PWDN=GPIO12  RESET=GPIO13  SDA=GPIO14  SCL=GPIO15
+
+  ; ─── Multispectral LED ring (5 bands + white) ───
+  (symbol (lib_id "LED:LED_405nm") (at 270 110 0) (uuid "led-405"))
+  (property "MPN" "VLUV4A2-405nm" (at 270 110 0))  ; PWM=GPIO18
+  (symbol (lib_id "LED:LED_470nm") (at 300 110 0) (uuid "led-470"))
+  (property "MPN" "VLMB470nm" (at 300 110 0))      ; PWM=GPIO19
+  (symbol (lib_id "LED:LED_525nm") (at 330 110 0) (uuid "led-525"))
+  (property "MPN" "VLPM525nm" (at 330 110 0))      ; PWM=GPIO20
+  (symbol (lib_id "LED:LED_660nm") (at 270 140 0) (uuid "led-660"))
+  (property "MPN" "VLMR660nm" (at 270 140 0))      ; PWM=GPIO21
+  (symbol (lib_id "LED:LED_850nm") (at 300 140 0) (uuid "led-850"))
+  (property "MPN" "VSMY9851-850nm" (at 300 140 0)) ; PWM=GPIO33
+
+  ; ─── VL53L1X ToF distance (focus) ───
+  (symbol (lib_id "Sensor_Distance:VL53L1X") (at 270 180 0) (uuid "s-vl53l1x"))
+  (property "MPN" "VL53L1XCBV0JC" (at 270 180 0))
+  ; XSHUT=GPIO16  INT=GPIO17  I2C shared
+
+  ; ─── SHT40 ───
+  (symbol (lib_id "Sensor_Humidity:SHT40") (at 330 180 0) (uuid "s-sht40"))
+  (property "MPN" "SHT40-AD1B-R2" (at 330 180 0))
+  ; SDA=GPIO34 SCL=GPIO35
+
+  ; ─── ST7789 2.0" 320×240 IPS LCD ───
+  (symbol (lib_id "Display:ST7789_2inch") (at 360 50 0) (uuid "disp-lcd"))
+  (property "MPN" "ST7789-IPS-2.0-320x240" (at 360 50 0))
+  ; DC=GPIO36 CS=GPIO37 SCK=GPIO38 SDA=GPIO39
+
+  ; ─── Buzzer ───
+  (symbol (lib_id "Device:Buzzer") (at 360 110 0) (uuid "act-buz"))
+  ; GPIO40
+
+  (symbol (lib_id "power:GND") (at 30 80 0) (uuid "gnd1"))
+  (symbol (lib_id "power:+3V3") (at 145 40 0) (uuid "vcc3v3"))
+  (symbol (lib_id "power:+5V") (at 115 40 0) (uuid "vcc5v"))
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

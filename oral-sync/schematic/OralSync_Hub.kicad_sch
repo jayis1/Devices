@@ -1,0 +1,70 @@
+(kicad_sch
+  (version 20240108)
+  (generator "OralSync")
+  (uuid "11111111-0001-4aaa-8000-000000000001")
+  (paper "A3")
+  (title_block
+    (title "OralSync Hub — Smart Mirror Hub")
+    (company "jayis1 Devices")
+    (rev "1.0")
+    (comment 1 "RP2040 + ESP32-C3 + ST7701 5\" LCD")
+  )
+
+  ; ─── Power: 5V USB-C → 3.3V (MP2359) + 1.8V (LCD IO) ───
+  (symbol (lib_id "Connector:USB_C_Receptacle") (at 30 30 0) (uuid "pwr-usb"))
+  (symbol (lib_id "Regulator_Switching:MP2359") (at 60 30 0) (uuid "pwr-buck"))
+  (symbol (lib_id "Device:L") (at 75 30 0) (uuid "pwr-ind"))
+  (symbol (lib_id "Device:C") (at 85 35 0) (uuid "pwr-cout"))
+
+  ; ─── RP2040 (Core 0: LCD + OSMP state machine; Core 1: TFLite coach) ───
+  (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 130 80 0) (uuid "mcu-rp2040"))
+  (property "MPN" "RP2040" (at 130 80 0))
+  ; LCD 8-bit 8080 bus: GP0–GP7 = DB0–DB7
+  ; GP8=WR GP9=RS/DC GP10=RD GP11=CS GP12=RESET
+  ; GP13=NeoPixel GP14-16=I2S spk GP17-18=UART0 to ESP32-C3
+  ; GP19=ESP BOOT0 GP20=ESP EN GP21-22=I2C0(SHT40,VEML6075)
+  ; GP26-28=I2S mic
+
+  ; ─── ESP32-C3 (BLE 5.0 central + Wi-Fi 4 MQTT bridge) ───
+  (symbol (lib_id "RF_Module:ESP32-C3-WROOM-02") (at 230 80 0) (uuid "mcu-esp32c3"))
+  (property "MPN" "ESP32-C3-WROOM-02" (at 230 80 0))
+  ; GPIO2=UART1 RX←RP2040 TX  GPIO3=UART1 TX→RP2040 RX
+  ; GPIO5=LCD backlight PWM  GPIO9=BOOT  GPIO10=EN/RST
+
+  ; ─── Display: 5.0" 720×1280 IPS, ST7701 driver, SPI config + 8-bit 8080 ───
+  (symbol (lib_id "Display:ST7701_5inch_IPS") (at 320 50 0) (uuid "disp-lcd"))
+  (property "MPN" "ST7701-IPS-5.0-720x1280" (at 320 50 0))
+
+  ; ─── SHT40 ambient T/RH ───
+  (symbol (lib_id "Sensor_Humidity:SHT40") (at 320 130 0) (uuid "s-sht40"))
+  (property "MPN" "SHT40-AD1B-R2" (at 320 130 0))
+  ; I2C0: SDA=GP21 SCL=GP22
+
+  ; ─── VEML6075 UV index ───
+  (symbol (lib_id "Sensor:VEML6075") (at 360 130 0) (uuid "s-veml6075"))
+  (property "MPN" "VEML6075" (at 360 130 0))
+  ; I2C0 shared
+
+  ; ─── I2S MEMS mic (SPH0645LM4H) ───
+  (symbol (lib_id "Sensor_Audio:SPH0645LM4H") (at 320 180 0) (uuid "s-mic"))
+  (property "MPN" "SPH0645LM4H-B1ME" (at 320 180 0))
+  ; WS=GP26 SCK=GP27 SD=GP28
+
+  ; ─── MAX98357A class-D I2S speaker amp ───
+  (symbol (lib_id "Audio_Amplifier:MAX98357A") (at 230 180 0) (uuid "amp-spk"))
+  (property "MPN" "MAX98357AEWO+" (at 230 180 0))
+  ; BCK=GP14 LRCK=GP15 DIN=GP16 → 1.5W 4Ω speaker
+
+  ; ─── NeoPixel ring 16 RGB (WS2812B) ───
+  (symbol (lib_id "LED:WS2812B") (at 230 220 0) (uuid "led-neo"))
+  (property "MPN" "WS2812B-2020 x16" (at 230 220 0))
+  ; DIN=GP13
+
+  (symbol (lib_id "power:GND") (at 30 45 0) (uuid "gnd1"))
+  (symbol (lib_id "power:+3V3") (at 90 25 0) (uuid "vcc3v3"))
+  (symbol (lib_id "power:+5V") (at 45 25 0) (uuid "vcc5v"))
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
