@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["react", "react-native"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false
+  },
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}

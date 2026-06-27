@@ -1,0 +1,20 @@
+Designator,Part,Manufacturer,MPN,Qty,UnitPrice,TotalPrice,Notes
+U1,Raspberry Pi Pico,Raspberry Pi,SC0915,1,4.00,4.00,RP2040 board
+U2,HM-19 BLE 5.0 Module,HM,HM-19,1,5.00,5.00,BLE UART module
+U3,SSD1306 OLED 0.96",Solomon,SSD1306,1,2.00,2.00,128x64 I2C display
+U4,Sensirion SCD41 CO2 Sensor,Sensirion,SCD41,1,40.00,40.00,NDIR CO2
+U5,TCA9548A I2C Multiplexer,Texas Instruments,TCA9548A,1,2.00,2.00,I2C bus mux
+U6,MCP3201 12-bit SPI ADC,Microchip,MCP3201,1,2.50,2.50,pH ADC
+U7,TP4056 Li-Ion Charger,Nanjing,TP4056,1,0.50,0.50,Battery charger
+U8,DW01A Battery Protection,Fortune,DW01A,1,0.20,0.20,Battery protection
+S1,DS18B20 Waterproof Temp,Maxim,DS18B20,4,2.50,10.00,4 depth probes
+S2,Capiv-1.2 Capacitive Moisture,Capacitive,CAP-12,3,2.00,6.00,3 depth sensors
+S3,Analog pH Probe + Kit,Atlas Scientific,ENV-40-PH,1,12.50,12.50,pH measurement
+S3b,MCP3201 pH Interface Circuit,Various,MCP3201-KIT,1,2.50,2.50,pH signal conditioning
+J1,USB-C Receptacle,Amphenol,12401548E4,1,0.50,0.50,Programming/power
+BT1,18650 Battery Holder,Keeppower,18650-1S,1,0.70,0.70,Battery holder
+BT2,18650 2200mAh,Samsung,INR18650-22P,1,3.50,3.50,Li-ion cell
+PCB1,Custom Probe PCB,JLCPCB,PCB-PROBE,1,3.00,3.00,Probe shaft PCB
+ENC1,IP65 Probe Housing,Generic,ENC-PROBE,1,3.00,3.00,Waterproof wand
+MISC,Passives + Probe Shaft + Cables,Various,,1,3.00,3.00,Shaft/cables
+,,Total,,,94.70,Soil Probe total

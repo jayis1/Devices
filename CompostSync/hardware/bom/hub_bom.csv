@@ -1,0 +1,21 @@
+Designator,Part,Manufacturer,MPN,Qty,UnitPrice,TotalPrice,Notes
+U1,ESP32-WROOM-32E,Espressif,ESP32-WROOM-32E,1,3.20,3.20,WiFi+BLE MCU
+U2,SX1262 LoRa Module,Waveshare,RFM95W-SX1262,1,8.50,8.50,868MHz LoRa
+U3,SSD1306 OLED 0.96",Solomon,SSD1306,1,2.00,2.00,128x64 I2C display
+U4,BME280 Temp/Humidity/Pressure,Bosch,BME280,1,3.50,3.50,Ambient conditions
+U5,microSD Socket,Amphenol,101-00560-68,1,1.50,1.50,SD card slot
+U6,AP2112 LDO 3.3V,Diodes,AP2112K-3.3,1,0.30,0.30,3.3V regulator
+U7,TP4056 Li-Ion Charger,Nanjing,TP4056,1,0.50,0.50,Battery charger
+U8,DW01A Battery Protection,Fortune,DW01A,1,0.20,0.20,Overcharge/discharge
+U9,FS8205A Dual MOSFET,Fortune,FS8205A,1,0.50,0.50,Battery protection MOSFET
+D1,WS2812B RGB LED,Worldsemi,WS2812B,1,0.30,0.30,Status LED
+J1,USB-C Receptacle,Amphenol,12401548E4,1,0.50,0.50,USB power
+BT1,18650 Battery Holder,Keeppower,18650-1S,1,0.70,0.70,Battery holder
+BT2,18650 3000mAh,LG,INR18650MH1,1,4.00,4.00,Li-ion cell
+PV1,5V 1W Solar Panel,Generic,SP-1W-5V,1,2.00,2.00,Solar panel
+ANT1,868MHz PCB Antenna,Generic,ANT-868,1,1.00,1.00,LoRa antenna
+PCB1,Custom PCB,JLCPCB,PCB-001,1,3.00,3.00,2-layer PCB
+ENC1,3D Printed Enclosure PETG,Generic,ENC-HUB,1,1.50,1.50,Weatherproof
+MISC,Passives + Headers,Various,,1,2.00,2.00,Resistors/caps/connectors
+SD1,8GB microSD Card,SanDisk,SDSDQAB-008G,1,1.00,1.00,Local storage
+,,Total,,,34.20,Hub total

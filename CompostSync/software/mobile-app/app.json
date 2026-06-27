@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "CompostSync",
+    "slug": "compostsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1a1a1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.compostsync.app"
+    },
+    "android": {
+      "package": "com.compostsync.app",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.CAMERA",
+        "android.permission.INTERNET"
+      ]
+    }
+  }
+}

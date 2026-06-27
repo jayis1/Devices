@@ -1,0 +1,14 @@
+Designator,Part,Manufacturer,MPN,Qty,UnitPrice,TotalPrice,Notes
+U1,Adafruit Feather nRF52840 Express,Adafruit,4062,1,24.95,24.95,nRF52840 board
+U2,SX1262 LoRa Module,Waveshare,RFM95W-SX1262,1,8.50,8.50,868MHz LoRa
+U3,BME280 Temp/Humidity/Pressure,Bosch,BME280,1,3.50,3.50,Weather sensor
+U4,MCP73871 Solar LiPo Charger,Microchip,MCP73871,1,5.00,5.00,Solar charge controller
+S1,Davis 6410 Anemometer (Wind Speed+Vane),Davis Instruments,6410,1,85.00,85.00,Wind speed+direction
+S2,Tipping Bucket Rain Gauge,Generic,RG-200,1,25.00,25.00,Rainfall 0.2mm/tip
+PV1,6V 2W Solar Panel,Generic,SP-2W-6V,1,4.00,4.00,Solar panel
+BT1,LiPo 2000mAh 3.7V,Generic,LP-2000,1,6.00,6.00,LiPo battery
+ANT1,868MHz Whip Antenna,Generic,ANT-868-W,1,1.00,1.00,LoRa antenna
+PCB1,Adapter PCB,JLCPCB,PCB-WX,1,2.00,2.00,Interface PCB
+ENC1,Stevenson Screen Enclosure,3D Printed,SS-001,1,5.00,5.00,Radiation shield
+MISC,Mast Mount + Cables + Passives,Various,,1,5.00,5.00,Mounting hardware
+,,Total,,,171.95,Weather Station total

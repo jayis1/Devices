@@ -1,0 +1,4 @@
+{
+  "meta": { "filename": "weather-station.kicad_pro", "version": 1 },
+  "board": { "design_settings": { "defaults": { "board_outline_thickness": 1.6 } } }
+}

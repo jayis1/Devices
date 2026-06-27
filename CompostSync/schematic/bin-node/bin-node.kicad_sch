@@ -1,0 +1,69 @@
+(kicad_p
+  (version 20231120)
+  (generator "compostsync")
+  (paper "A4")
+  (title_block
+    (title "CompostSync Bin Node Schematic")
+    (date "2026-06-27")
+    (rev "1.0")
+    (company "CompostSync")
+    (comment 1 "ESP32-WROOM-32E + SX1262 LoRa + SCD41 CO2 + MQ-4 + HX711 + DS18B20×3 + Servo")
+    (comment 2 "Solar powered, IP65 enclosure")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "+3V3")
+  (net 3 "+5V")
+  (net 4 "VBAT")
+  (net 10 "SPI_MOSI")
+  (net 11 "SPI_MISO")
+  (net 12 "SPI_SCK")
+  (net 13 "SX_NSS")
+  (net 14 "SX_RST")
+  (net 15 "SX_DIO1")
+  (net 16 "SX_BUSY")
+  (net 20 "I2C_SDA")
+  (net 21 "I2C_SCL")
+  (net 30 "DS18B20_1")
+  (net 31 "DS18B20_2")
+  (net 32 "DS18B20_3")
+  (net 33 "MOIST_1_ADC")
+  (net 34 "MOIST_2_ADC")
+  (net 35 "MOIST_3_ADC")
+  (net 36 "MQ4_ADC")
+  (net 37 "HX711_DOUT")
+  (net 38 "HX711_SCK")
+  (net 39 "SERVO_PWM")
+  (net 40 "LED_WS2812"))
+
+  ; Pin assignments:
+  ; GPIO14 → SPI_MOSI (SX1262)
+  ; GPIO12 → SPI_MISO (SX1262)
+  ; GPIO13 → SPI_SCK (SX1262)
+  ; GPIO15 → SX_NSS
+  ; GPIO2  → SX_RST
+  ; GPIO4  → SX_DIO1
+  ; GPIO5  → SX_BUSY
+  ; GPIO21 → I2C_SDA (SCD41)
+  ; GPIO22 → I2C_SCL (SCD41)
+  ; GPIO32 → DS18B20_1 (OneWire)
+  ; GPIO33 → DS18B20_2 (OneWire)
+  ; GPIO34 → DS18B20_3 (OneWire, input only)
+  ; GPIO35 → MOIST_1_ADC (ADC1_CH7, input only)
+  ; GPIO36 → MOIST_2_ADC (ADC1_CH0, input only)
+  ; GPIO39 → MOIST_3_ADC (ADC1_CH3, input only)
+  ; GPIO25 → MQ4_ADC (ADC2_CH8)
+  ; GPIO26 → HX711_DOUT
+  ; GPIO27 → HX711_SCK
+  ; GPIO18 → SERVO_PWM (LEDC)
+  ; GPIO19 → LED_WS2812
+
+)

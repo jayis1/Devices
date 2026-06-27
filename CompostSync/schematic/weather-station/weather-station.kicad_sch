@@ -1,0 +1,53 @@
+(kicad_p
+  (version 20231120)
+  (generator "compostsync")
+  (paper "A4")
+  (title_block
+    (title "CompostSync Weather Station Schematic")
+    (date "2026-06-27")
+    (rev "1.0")
+    (company "CompostSync")
+    (comment 1 "nRF52840 + SX1262 LoRa + BME280 + Anemometer + Rain Gauge")
+    (comment 2 "Solar powered, Stevenson screen enclosure")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "+3V3")
+  (net 3 "VBAT")
+  (net 4 "VSOLAR")
+  (net 10 "I2C_SDA")
+  (net 11 "I2C_SCL")
+  (net 12 "SPI_MOSI")
+  (net 13 "SPI_MISO")
+  (net 14 "SPI_SCK")
+  (net 15 "SX_NSS")
+  (net 16 "SX_RST")
+  (net 17 "SX_DIO1")
+  (net 18 "SX_BUSY")
+  (net 20 "WIND_SPEED_IRQ")
+  (net 21 "WIND_DIR_ADC")
+  (net 22 "RAIN_IRQ")
+  (net 23 "VBAT_MON"))
+
+  ; Pin assignments (nRF52840 / Feather):
+  ; P0.26 → I2C_SDA (BME280)
+  ; P0.27 → I2C_SCL (BME280)
+  ; P1.01 → WIND_SPEED_IRQ (GPIOTE, anemometer reed switch)
+  ; P0.04 → WIND_DIR_ADC (ADC, wind vane potentiometer)
+  ; P1.02 → RAIN_IRQ (GPIOTE, tipping bucket reed switch)
+  ; P1.15 → SPI_MOSI (SX1262)
+  ; P1.13 → SPI_MISO (SX1262)
+  ; P1.14 → SPI_SCK (SX1262)
+  ; P1.12 → SX_NSS
+  ; P1.11 → SX_RST
+  ; P1.10 → SX_DIO1
+  ; P0.08 → SX_BUSY
+  ; VBAT  → VBAT_MON (ADC for battery monitoring)
+
+)
