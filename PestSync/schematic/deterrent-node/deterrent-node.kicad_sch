@@ -1,0 +1,16 @@
+(kicad_sch
+  (version 20230118)
+  (generator "PestSync Deterrent Node Reference Schematic")
+  (uuid "00000000-0000-0000-0000-000000000004")
+  (title_block (title "PestSync Deterrent Node") (company "PestSync"))
+  ;; U1: ESP32-C3
+  ;; U2: SX1262 (SPI: MOSI=2, MISO=3, SCK=4, NSS=5, RST=6, DIO1=7, BUSY=8)
+  ;; LS1-LS2: 40kHz piezo ultrasonic transducers (GPIO9, LEDC PWM + MOSFET)
+  ;; D1: High-intensity white strobe LED (GPIO10, MOSFET)
+  ;; AT1: Piezo atomizer disc for essential oil (GPIO1, MOSFET)
+  ;; SENSOR: Capacitive oil level (ADC1_CH0 = GPIO0)
+  ;; D2: WS2812B status LED (GPIO18)
+  ;; SW1: Mode button (GPIO19)
+  ;; Power: TP4056 + DW01 + 18650 + USB-C + AP2112 LDO
+  ;; Antenna: 868 MHz whip on SMA edge
+)

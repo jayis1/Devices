@@ -1,0 +1,6 @@
+(kicad_project
+  (version 7)
+  (name "PestSync Hub")
+  (board "hub.kicad_pcb")
+  (schema "hub.kicad_sch")
+)

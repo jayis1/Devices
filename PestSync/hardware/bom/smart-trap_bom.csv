@@ -1,0 +1,14 @@
+Component,Part,Qty,Unit Price,Total,Notes
+MCU,ESP32-C3,1,2.50,2.50,RISC-V single-core low-power
+Sub-GHz Radio,SX1262 module,1,8.50,8.50,868 MHz mesh
+Load Cell,50g load cell + HX711,1,6.00,6.00,Catch weight verification
+Reed Switch,Glass reed switch + magnet,1,0.50,0.50,Snap trap trigger detection
+Accelerometer,ADXL362 ultra-low power,1,6.00,6.00,Tamper detection
+Bait Sensor,Capacitive probe (custom),1,1.00,1.00,Bait level monitoring
+Status LED,Bicolor red/green LED,1,0.30,0.30,Armed=green triggered=red
+Power Boost,TPS61099 boost (AA to 3.3V),1,1.50,1.50,AA battery boost converter
+Battery Holder,2x AA holder + alkaline cells,1,1.00,1.00,Long-life primary cells
+PCB,Custom PCB,1,3.00,3.00,2-layer FR4
+Enclosure,3D printed trap adapter,1,2.00,2.00,Retrofits onto existing traps
+Miscellaneous,Passives + connectors + antenna,1,2.00,2.00,Resistors caps etc
+,,Total:,34.30,

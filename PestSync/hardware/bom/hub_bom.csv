@@ -1,0 +1,15 @@
+Component,Part,Qty,Unit Price,Total,Notes
+MCU,ESP32-WROOM-32E,1,3.20,3.20,Main SoC with WiFi + BLE
+Sub-GHz Radio,SX1262 module (Waveshare),1,8.50,8.50,868 MHz LoRa
+Display,SSD1306 OLED 0.96" 128x64 I2C,1,2.00,2.00,Status display
+Ambient Sensor,BME280 breakout,1,3.50,3.50,Temp/humidity/pressure
+microSD,MicroSD socket + 8GB card,1,2.50,2.50,Local data logging
+Status LED,WS2812B,1,0.30,0.30,RGB status indicator
+Power Management,TP4056 + DW01 + 18650 holder,1,1.20,1.20,Charger + protection
+Battery,18650 3000 mAh,1,4.00,4.00,Backup power
+Solar Panel,5V 1W panel,1,2.00,2.00,Trickle charge backup
+Connector,USB-C breakout,1,0.50,0.50,Power input + programming
+PCB,Custom PCB,1,3.00,3.00,2-layer FR4
+Enclosure,3D printed PETG,1,1.50,1.50,Indoor enclosure
+Miscellaneous,Passives + headers + antenna,1,2.00,2.00,Resistors caps etc
+,,Total:,34.20,

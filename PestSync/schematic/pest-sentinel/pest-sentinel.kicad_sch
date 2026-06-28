@@ -1,0 +1,29 @@
+(kicad_sch
+  (version 20230118)
+  (generator "PestSync Pest Sentinel Reference Schematic")
+  (uuid "00000000-0000-0000-0000-000000000002")
+  
+  (title_block
+    (title "PestSync Pest Sentinel")
+    (company "PestSync")
+  )
+  
+  ;; U1: ESP32-S3-N8R2 (8MB PSRAM)
+  ;;   Camera DVP bus: D0=GPIO4, D2-D7=GPIO11-16, VSYNC=5, HREF=6, PCLK=7
+  ;;   XCLK=GPIO8 (20MHz LEDC), SCCB SDA=9, SCL=10
+  ;;   PIR=GPIO17 (interrupt)
+  ;;   MLX90640 I2C: SDA=GPIO18, SCL=GPIO8 (via I2C mux)
+  ;;   SX1262 SPI: MOSI=38, MISO=37, SCK=36, NSS=35, RST=1, DIO1=2, BUSY=3
+  ;;   IR LED=GPIO41 (MOSFET gate)
+  ;;   WS2812B=GPIO42
+  ;;   Button=GPIO21
+  ;;
+  ;; U2: OV2640 camera module (DVP parallel, 2MP, IR-cut removable)
+  ;; U3: MLX90640 thermal array (32×24, I2C 0x33, 400kHz)
+  ;; U4: AM312 PIR sensor
+  ;; U5: SX1262 Sub-GHz module
+  ;; D1-D2: 850nm IR LEDs (high-power, MOSFET driven)
+  ;; D3: WS2812B status LED
+  ;; Power: TP4056 + DW01 + 18650 + USB-C + AP2112 LDO
+  ;; Antenna: 868 MHz whip on SMA edge
+)

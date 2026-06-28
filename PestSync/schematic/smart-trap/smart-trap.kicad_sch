@@ -1,0 +1,14 @@
+(kicad_sch
+  (version 20230118)
+  (generator "PestSync Smart Trap Reference Schematic")
+  (uuid "00000000-0000-0000-0000-000000000003")
+  (title_block (title "PestSync Smart Trap") (company "PestSync"))
+  ;; U1: ESP32-C3
+  ;; U2: SX1262 (SPI: MOSI=2, MISO=3, SCK=4, NSS=5, RST=6, DIO1=7, BUSY=8)
+  ;; U3: HX711 (DOUT=GPIO1, SCK=GPIO10) + 50g load cell
+  ;; SW1: Reed switch (GPIO0, INT, pull-up)
+  ;; U4: ADXL362 (SPI: CS=21, INT=20, CLK=22, MISO=23, MOSI=19)
+  ;; SENSOR: Capacitive bait (ADC1_CH0 = GPIO9)
+  ;; D1: Bicolor LED (GPIO18)
+  ;; Power: TPS61099 boost (2× AA → 3.3V) + USB-C
+)

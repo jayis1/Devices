@@ -1,0 +1,40 @@
+(kicad_sch
+  (version 20230118)
+  (generator "PestSync Hub Reference Schematic")
+  (uuid "00000000-0000-0000-0000-000000000001")
+  
+  (title_block
+    (title "PestSync Hub")
+    (company "PestSync")
+  )
+  
+  ;; Component placement notes (reference for full KiCad drawing):
+  ;; 
+  ;; U1: ESP32-WROOM-32E
+  ;;   Pin assignments see firmware/hub/main.c
+  ;;
+  ;; U2: SX1262 Sub-GHz module (SPI bus 2)
+  ;;   MOSI=GPIO14, MISO=GPIO12, SCK=GPIO13, NSS=GPIO15
+  ;;   RST=GPIO2, DIO1=GPIO4, BUSY=GPIO5
+  ;;
+  ;; U3: SSD1306 OLED 0.96" 128x64 (I2C)
+  ;;   SDA=GPIO21, SCL=GPIO22, ADDR=0x3C
+  ;;
+  ;; U4: BME280 (I2C shared with OLED)
+  ;;   SDA=GPIO21, SCL=GPIO22, ADDR=0x76
+  ;;
+  ;; U5: microSD card slot (SPI2)
+  ;;   MISO=GPIO19, MOSI=GPIO23, SCK=GPIO18, CS=GPIO25
+  ;;
+  ;; D1: WS2812B status LED (GPIO26)
+  ;; SW1: Mode button (GPIO27, active low with pull-up)
+  ;;
+  ;; Power:
+  ;;   J1: USB-C connector → AP2112 3.3V LDO
+  ;;   U6: TP4056 Li-ion charger
+  ;;   U7: DW01 battery protection
+  ;;   BT1: 18650 battery holder
+  ;;   J2: Solar panel input (5V 1W)
+  ;;
+  ;; Antenna: 868 MHz whip antenna on SMA edge connector
+)

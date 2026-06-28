@@ -1,0 +1,13 @@
+{
+  "name": "PestSync",
+  "displayName": "PestSync",
+  "expo": {
+    "name": "PestSync",
+    "slug": "pestsync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "foregroundImage": "", "backgroundColor": "#2c3e50" } }
+  }
+}

@@ -1,0 +1,6 @@
+(kicad_project
+  (version 7)
+  (name "PestSync Pest Sentinel")
+  (board "pest-sentinel.kicad_pcb")
+  (schema "pest-sentinel.kicad_sch")
+)

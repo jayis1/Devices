@@ -1,0 +1,6 @@
+(kicad_project
+  (version 7)
+  (name "PestSync Smart Trap")
+  (board "smart-trap.kicad_pcb")
+  (schema "smart-trap.kicad_sch")
+)

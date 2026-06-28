@@ -1,0 +1,7 @@
+(kicad_pcb
+  (version 20230118)
+  (generator "PestSync Deterrent Node PCB Reference")
+  (board_thickness 1.6)
+  (copper_layers 2)
+  ;; 45×35mm 2-layer board
+)

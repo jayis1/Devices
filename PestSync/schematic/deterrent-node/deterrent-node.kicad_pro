@@ -1,0 +1,6 @@
+(kicad_project
+  (version 7)
+  (name "PestSync Deterrent Node")
+  (board "deterrent-node.kicad_pcb")
+  (schema "deterrent-node.kicad_sch")
+)

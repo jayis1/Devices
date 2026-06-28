@@ -1,0 +1,7 @@
+(kicad_pcb
+  (version 20230118)
+  (generator "PestSync Smart Trap PCB Reference")
+  (board_thickness 1.6)
+  (copper_layers 2)
+  ;; 40×30mm 2-layer board
+)
