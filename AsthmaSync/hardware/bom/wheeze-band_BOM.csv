@@ -1,0 +1,16 @@
+Component,Qty,Manufacturer,Mfr Part,Description,Unit Cost (qty1),Unit Cost (qty1k)
+nRF52840 QFAA,1,Nordic,nRF52840-QFAA-R,SoC BLE 5.0 1MB flash 256KB RAM,4.20,2.10
+SPH0645LM4H-B,1,Knowles,SPH0645LM4H-B,I²S MEMS microphone 65dB SNR,2.80,1.40
+MAX30101,1,Maxim,MAX30101,PPG sensor green/red/IR (HR/HRV/SpO2),3.50,1.75
+TMP117,1,TI,TMP117,Digital temp sensor ±0.1°C I²C,1.80,0.90
+LSM6DSO,1,ST,LSM6DSO,6-axis IMU for activity context,1.80,0.90
+TP4056,1,Nanjing Top Power,TP4056,USB-C Li-ion charger,0.30,0.15
+200mAh LiPo,1,Generic,,3.7V 200mAh LiPo 302030,2.00,1.00
+USB-C connector,1,Amphenol,12401598E4#2A,USB-C 2.0 receptacle,0.70,0.35
+LRA haptic motor,1,Jinlong Machinery,G0832022,Linear resonant actuator 5x5mm,1.20,0.60
+Green LED 0603,1,Lite-On,LTST-C193KGKT-5A,0603 SMD green LED,0.10,0.05
+Tactile button,1,Omron,B3SN-3112P,3x4mm tactile switch,0.30,0.15
+PCB (4-layer),1,Custom,,30x25mm 4-layer FR4,1.50,0.75
+Silicone wristband,1,Custom,,Hypoallergenic silicone band + housing,1.50,0.50
+Passives (R/C/L),1,Various,,0402 resistors capacitors inductors,0.70,0.35
+,,,Total Wheeze Band BOM:,22.10,11.30

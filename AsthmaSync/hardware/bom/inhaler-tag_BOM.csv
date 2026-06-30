@@ -1,0 +1,13 @@
+Component,Qty,Manufacturer,Mfr Part,Description,Unit Cost (qty1),Unit Cost (qty1k)
+nRF52840 QFAA,1,Nordic,nRF52840-QFAA-R,SoC BLE 5.0 1MB flash 256KB RAM,4.20,2.10
+LSM6DSO,1,ST,LSM6DSO,6-axis IMU (accel+gyro) I²C,1.80,0.90
+PCB antenna,1,Custom,,2.4 GHz PCB trace antenna,0.00,0.00
+Blue LED 0603,1,Lite-On,LTST-C193TBK-5A,0603 SMD blue LED,0.10,0.05
+Piezo buzzer 10mm,1,PUI Audio,SMT-0942-T-R,10mm SMD piezo buzzer,0.50,0.25
+Tactile button 3x4,1,Omron,B3SN-3112P,3x4mm tactile switch,0.30,0.15
+CR2032 holder,1,Linx,BAT-HLD-001-SMT,SMD CR2032 battery holder,0.40,0.20
+CR2032 battery,1,Energizer,CR2032,3V 220mAh lithium coin cell,0.50,0.25
+Silicone sleeve,1,Custom,,Injection-molded silicone MDI sleeve,1.00,0.35
+PCB (4-layer round),1,Custom,,18mm diameter 4-layer circular FR4,1.00,0.50
+Passives (R/C/L),1,Various,,0402 resistors capacitors,0.30,0.15
+,,,Total Inhaler Tag BOM:,9.80,4.50

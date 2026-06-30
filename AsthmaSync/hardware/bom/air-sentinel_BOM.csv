@@ -1,0 +1,17 @@
+Component,Qty,Manufacturer,Mfr Part,Description,Unit Cost (qty1),Unit Cost (qty1k)
+ESP32-S3-WROOM-1-N8R2,1,Espressif,ESP32-S3-WROOM-1-N8R2,SoC module 8MB flash 2MB PSRAM,3.80,1.80
+SX1262IMLTRT,1,Semtech,SX1262IMLTRT,Sub-GHz transceiver,3.80,1.90
+SX1262 antenna,1,Molex,2067610001,868 MHz chip antenna,0.80,0.40
+PMSA003I,1,Plantower,PMSA003I,PM1.0/2.5/10 particle sensor I²C,8.50,4.50
+BME688,1,Bosch,BME688,VOC/IAQ + temp + humidity + pressure,4.50,2.20
+SGP40,1,Sensirion,SGP40-D-R4,VOC index sensor (formaldehyde),2.80,1.40
+SCD41,1,Sensirion,SCD41,NDIR CO2 sensor 400-5000ppm,8.20,4.10
+TP4056,1,Nanjing Top Power,TP4056,USB-C Li-ion charger (battery backup),0.30,0.15
+18650 holder,1,Keeppower,18650-PCBHLD,Spring-loaded 18650 battery holder,0.50,0.25
+18650 battery,1,Samsung,INR18650-25R,2500mAh Li-ion 20A discharge,3.50,1.75
+WS2812B LED,1,Worldsemi,WS2812B,RGB status LED,0.20,0.10
+USB-C connector,1,Amphenol,12401598E4#2A,USB-C 2.0 receptacle,0.70,0.35
+PCB (4-layer),1,Custom,,90x70mm 4-layer FR4,2.50,1.20
+Enclosure (3D printed),1,Custom,,Ventilated PLA+ enclosure 100x80x40mm,2.00,1.00
+Passives (R/C/L),1,Various,,Resistors capacitors inductors,1.50,0.75
+,,,Total Air Sentinel BOM:,34.60,16.80

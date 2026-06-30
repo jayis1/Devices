@@ -1,0 +1,14 @@
+# AsthmaSync Dashboard Requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+asyncpg==0.29.0
+aiomqtt==2.0.1
+numpy==1.26.2
+pandas==2.1.4
+scikit-learn==1.3.2
+xgboost==2.0.3
+shap==0.44.1
+torch==2.1.2
+reportlab==4.0.7
+python-multipart==0.0.6

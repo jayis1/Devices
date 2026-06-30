@@ -1,0 +1,10 @@
+# AsthmaSync ML Pipeline Requirements
+torch==2.1.2
+numpy==1.26.2
+pandas==2.1.4
+scikit-learn==1.3.2
+xgboost==2.0.3
+shap==0.44.1
+joblib==1.3.2
+tflite-runtime==2.14.0  # for edge model export
+tensorflow==2.15.0      # for TFLite export

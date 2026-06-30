@@ -1,0 +1,18 @@
+Component,Qty,Manufacturer,Mfr Part,Description,Unit Cost (qty1),Unit Cost (qty1k)
+ESP32-S3-WROOM-1-N16R8,1,Espressif,ESP32-S3-WROOM-1-N16R8,SoC module 16MB flash 8MB PSRAM,4.50,2.20
+SX1262IMLTRT,1,Semtech,SX1262IMLTRT,Sub-GHz transceiver 868/915 MHz,3.80,1.90
+SX1262 antenna,1,Molex,2067610001,868/915 MHz chip antenna,0.80,0.40
+ILI9341 TFT 2.4",1,Hantronix,HDA-240320D-1,2.4" 240x320 TFT display SPI,5.50,2.80
+TP4056,1,Nanjing Top Power,TP4056,Li-ion charge controller (backup battery),0.30,0.15
+CR2032 holder,1,Linx,BAT-HLD-001,RTC backup battery holder,0.40,0.20
+CR2032 battery,1,Energizer,CR2032,3V lithium coin cell (RTC backup),0.50,0.25
+microSD socket,1,Hirose,DM3AT-SF-PEJ2S5,microSD card socket push-push,0.80,0.40
+WS2812B LED,1,Worldsemi,WS2812B,RGB LED addressable,0.20,0.10
+Piezo buzzer,1,CUI Devices,CEM-1203(42),Magnetic buzzer 3.3V,0.60,0.30
+USB-C connector,1,Amphenol,12401598E4#2A,USB-C 2.0 receptacle,0.70,0.35
+3x tactile buttons,3,Omron,B3SN-3112P,Tactile switch 6x6mm,0.30,0.15
+PCB (4-layer),1,Custom,,100x80mm 4-layer FR4,3.00,1.50
+Enclosure (3D printed),1,Custom,,PLA+ enclosure 110x90x35mm,2.00,1.00
+Passives (R/C/L),1,Various,,Resistors capacitors inductors,1.50,0.75
+Power supply module,1,Hi-Link,HLK-5M05,5V/5W AC-DC module (mains),2.50,1.50
+,,,Total Hub BOM:,28.40,14.20
