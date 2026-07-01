@@ -1,0 +1,15 @@
+Item,Qty,MPN,Manufacturer,Description,Unit Cost (USD),Extended Cost
+nRF52840 QFAA,1,nRF52840,Nordic,SoC: ARM Cortex-M4F 64MHz 1MB flash 256KB RAM BLE 5.0,4.80,4.80
+HX711,1,HX711,AVIA,24-bit load cell ADC programmable gain,1.20,1.20
+Load cell 5kg,1,TAL220-5kg,TE Connectivity,5kg strain gauge load cell bar,3.50,3.50
+LSM6DSO,1,LSM6DSO,ST,6-axis IMU accel+gyro for tilt detection,2.50,2.50
+CR2032 holder,1,CR2032-BS-1,MPD,CR2032 coin cell holder,0.30,0.30
+CR2032 battery,1,CR2032,Energizer,3V 220mAh lithium coin cell,0.50,0.50
+LED blue,1,150080BS75000,Würth,0805 blue LED,0.10,0.10
+Piezo buzzer,1,PS1240P02BT,Murata,Piezo buzzer 4kHz SMT,0.40,0.40
+Tactile switch,1,PTS636-SLW,C&K,6x6mm SMT tactile button,0.15,0.15
+PCB antenna 2.4GHz,1,2450-AT,Kyocera,2.4 GHz chip antenna for BLE,0.50,0.50
+Passive components,1,,Yageo/Murata,Resistors/capacitors/ferrite beads,1.00,1.00
+PCB,1,,JLCPCB,2-layer FR4 25mm disc,1.50,1.50
+Silicone sleeve,1,,Custom,Silicone bottle sleeve with load cell mount,1.50,1.50
+Total,13,,,,$18.45

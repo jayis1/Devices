@@ -1,0 +1,16 @@
+# MigraineSync Backend Dependencies
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+asyncpg>=0.29.0
+aiomqtt>=2.0.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+reportlab>=4.0.0
+onnxruntime>=1.17.0
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+shap>=0.44.0
+tensorflow>=2.16.0
+tflite-runtime>=2.16.0

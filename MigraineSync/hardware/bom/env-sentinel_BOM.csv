@@ -1,0 +1,19 @@
+Item,Qty,MPN,Manufacturer,Description,Unit Cost (USD),Extended Cost
+ESP32-S3-WROOM-1-N8R2,1,ESP32-S3-WROOM-1-N8R8,Espressif,SoC: dual-core 240MHz 8MB flash 2MB PSRAM,3.80,3.80
+SX1262IMLTRT,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver 868/915 MHz,5.20,5.20
+TCXO 32MHz,1,TXC-7V-32.000M,TXC,32 MHz TCXO for SX1262,0.80,0.80
+RF antenna 868MHz,1,ANT-868-USP,Johanson,868 MHz chip antenna,1.20,1.20
+BMP390,1,BMP390,Bosch,High-precision barometric pressure ±3Pa,3.50,3.50
+VEML7700,1,VEML7700,Vishay,Ambient light sensor 0-120klux,2.80,2.80
+BME688,1,BME688,Bosch,Gas sensor VOC IAQ + temp/humidity/pressure,5.50,5.50
+SCD41,1,SCD41,Sensirion,NDIR CO2 sensor 400-5000ppm,6.50,6.50
+SHT45,1,SHT45,Sensirion,Temp ±0.1C + humidity ±1.5%RH,2.20,2.20
+SPL06-007,1,SPL06-007,Goertek,Digital sound pressure level sensor,2.00,2.00
+TCA9548A,1,TCA9548A,TI,I2C multiplexer 8-channel,1.20,1.20
+WS2812B LED,1,WS2812B,Worldsemi,RGB LED status indicator,0.30,0.30
+USB-C connector,1,USB4105-GF-A,GCT,USB-C 16-pin SMT receptacle,0.50,0.50
+TP4056,1,TP4056,NanJing Top,Li-ion charger (for optional 18650 backup),0.40,0.40
+Passive components,1,,Yageo/Murata,Resistors/capacitors/ferrite beads,2.00,2.00
+PCB,1,,JLCPCB,4-layer FR4 70x50mm,2.00,2.00
+Enclosure,1,,Custom,3D printed PLA ventilated enclosure,1.50,1.50
+Total,16,,,,$32.60

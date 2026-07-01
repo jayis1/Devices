@@ -1,0 +1,18 @@
+Item,Qty,MPN,Manufacturer,Description,Unit Cost (USD),Extended Cost
+ESP32-S3-WROOM-1-N16R8,1,ESP32-S3-WROOM-1-N16R8,Espressif,SoC: dual-core 240MHz 16MB flash 8MB PSRAM,4.50,4.50
+SX1262IMLTRT,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver 868/915 MHz LoRa/FSK,5.20,5.20
+TCXO 32MHz,1,TXC-7V-32.000M,TXC,32 MHz TCXO for SX1262,0.80,0.80
+RF antenna 868MHz,1,ANT-868-USP,Johanson,868 MHz chip antenna,1.20,1.20
+ILI9341 2.4 TFT,1,ILI9341-2.4,ILItek,2.4 inch 320x240 TFT LCD SPI,3.50,3.50
+microSD socket,1,DM3AT-SF,JAE,microSD card socket push-push,0.60,0.60
+WS2812B LED,1,WS2812B,Worldsemi,RGB LED addressable,0.30,0.30
+USB-C connector,1,USB4105-GF-A,GCT,USB-C 16-pin SMT receptacle,0.50,0.50
+TP4056,1,TP4056,NanJing Top,Linear Li-ion charger (for backup battery),0.40,0.40
+18650 holder,1,18650-BH-1,Keeppower,18650 battery holder (optional backup),0.50,0.50
+CR2032 holder,1,CR2032-BS-1,MPD,CR2032 coin cell holder for RTC backup,0.30,0.30
+DS3231 RTC,1,DS3231SN,Maxim,I2C RTC with TCXO ±2ppm,2.50,2.50
+Tactile switches,3,PTS636-SLW,C&K,6x6mm SMT tactile switch,0.15,0.45
+Passive components,1,,Yageo/Murata,Resistors/capacitors/ferrite beads/inductors,2.00,2.00
+PCB,1,,JLCPCB,4-layer FR4 80x50mm,2.00,2.00
+Enclosure,1,,Custom,3D printed PLA enclosure,1.50,1.50
+Total,15,,,,$24.75

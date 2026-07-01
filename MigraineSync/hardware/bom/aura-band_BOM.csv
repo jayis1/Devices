@@ -1,0 +1,18 @@
+Item,Qty,MPN,Manufacturer,Description,Unit Cost (USD),Extended Cost
+nRF52840 QFAA,1,nRF52840,Nordic,SoC: ARM Cortex-M4F 64MHz 1MB flash 256KB RAM BLE 5.0,4.80,4.80
+MAX30101,1,MAX30101,Maxim,PPG sensor green/red/IR LED + photodetector,4.20,4.20
+TMP117,1,TMP117,TI,Digital temp sensor ±0.1C I2C,1.80,1.80
+BMP390,1,BMP390,Bosch,Barometric pressure ±3Pa ultra-low-power,3.50,3.50
+VEML7700,1,VEML7700,Vishay,Ambient light sensor 0-120klux,2.80,2.80
+LSM6DSO,1,LSM6DSO,ST,6-axis IMU accel+gyro I2C,2.50,2.50
+TP4056,1,TP4056,NanJing Top,Li-ion charger USB-C,0.40,0.40
+LiPo battery 200mAh,1,502030-200,Various,200mAh 3.7V LiPo with protection,2.50,2.50
+USB-C connector,1,USB4105-GF-A,GCT,USB-C 16-pin SMT,0.50,0.50
+Vibrator motor,1,1027-LR,Various,10mm coin vibration motor,0.80,0.80
+Tactile switch,1,PTS636-SLW,C&K,6x6mm SMT tactile button,0.15,0.15
+LED green,1,150080GS75000,Würth,0805 green LED,0.10,0.10
+PCB antenna 2.4GHz,1,2450-AT,Kyocera,2.4 GHz chip antenna for BLE,0.50,0.50
+Passive components,1,,Yageo/Murata,Resistors/capacitors/ferrite beads,1.50,1.50
+PCB,1,,JLCPCB,4-layer FR4 40x30mm rigid-flex,3.00,3.00
+Silicone wristband,1,,Custom,Silicone wristband housing,1.50,1.50
+Total,15,,,,$27.55
