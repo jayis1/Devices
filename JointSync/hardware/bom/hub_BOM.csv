@@ -1,0 +1,18 @@
+JointSync Hub BOM
+#,Part,Qty,Unit Price,Extended,Source
+1,ESP32-S3-WROOM-1-N8R8,1,4.20,4.20,Mouser
+2,CC1120RHBR (Sub-GHz transceiver),1,5.50,5.50,Mouser
+3,7.5" e-paper display (Waveshare 7502),1,28.00,28.00,Waveshare
+4,TMP117 (ambient temp ±0.1°C),1,2.80,2.80,Mouser
+5,BMP390 (barometric pressure),1,2.40,2.40,Mouser
+6,MP2322 buck converter (3.3V/2A),1,2.10,2.10,Mouser
+7,MCP73831 Li-ion charger,1,1.20,1.20,Mouser
+8,TPS63020 buck-boost (3.3V),1,4.80,4.80,Mouser
+9,18650 Li-ion 3200 mAh,1,3.50,3.50,Battery Mart
+10,USB-C connector (16-pin SMT),1,0.80,0.80,Mouser
+11,WS2812B LED,3,0.45,1.35,Mouser
+12,PCB (4-layer 80×60mm),1,8.00,8.00,JLCPCB
+13,Enclosure (3D printed),1,3.00,3.00,DIY
+14,Passive components (R C L),40,0.08,3.00,Various
+15,SMA connector + 868 MHz antenna,1,2.50,2.50,Mouser
+Total,,,71.25,

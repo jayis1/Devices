@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_DB: jointsync
+      POSTGRES_USER: jointsync
+      POSTGRES_PASSWORD: jointsync
+    ports:
+      - "5432:5432"
+    volumes:
+      - jointsync_db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jointsync"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    healthcheck:
+      test: ["CMD", "mosquitto_sub", "-h", "localhost", "-t", "test", "-C", "1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      mqtt:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://jointsync:jointsync@db:5432/jointsync
+      MQTT_BROKER: mqtt
+      MQTT_PORT: 1883
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+volumes:
+  jointsync_db:

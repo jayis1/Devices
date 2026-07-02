@@ -1,0 +1,47 @@
+(kicad_sch
+  (version 20231120)
+  (generator "kicad_sym_util")
+  (uuid "00000000-0000-0000-0000-000000000002")
+  (paper "A3")
+  (title_block
+    (title "JointSync Joint Tag — Main Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (comment 1 "nRF52840 + BMI270 + TMP117 + MAX30101")
+    (comment 2 "JointSync System — Joint Tag Node (28mm circular)")
+  )
+  (lib_symbols)
+  (symbol
+    (lib_id "MCU_Module:nRF52840_QFAA")
+    (at 127 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Motion:BMI270")
+    (at 50.8 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Temperature:TMP117")
+    (at 50.8 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Optical:MAX30101")
+    (at 50.8 101.6 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Memory_Flash:MX25R6435F")
+    (at 203.2 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:TPS22917")
+    (at 203.2 101.6 0)
+    (unit 1)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

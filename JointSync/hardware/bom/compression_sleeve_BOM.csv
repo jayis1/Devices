@@ -1,0 +1,19 @@
+JointSync Smart Compression Sleeve BOM
+#,Part,Qty,Unit Price,Extended,Source
+1,ESP32-S3-MINI-1,1,2.50,2.50,Mouser
+2,CC1120RHBR (Sub-GHz),1,5.50,5.50,Mouser
+3,DRV8833 motor driver,1,1.80,1.80,Mouser
+4,SC20N micro-pump (12V DC),1,8.00,8.00,Amazon
+5,BMP390 (barometric pressure),1,2.40,2.40,Mouser
+6,NAU7802 24-bit ADC (load cell),1,1.50,1.50,Mouser
+7,Load cell (1 kg micro),1,2.50,2.50,SparkFun
+8,Solenoid valve (3V 2-way NC),2,3.50,7.00,Amazon
+9,MCP73831 charger,1,1.20,1.20,Mouser
+10,LiPo battery 500 mAh (3.7V),1,3.00,3.00,Battery Mart
+11,Neoprene sleeve (per size),1,5.00,5.00,Custom
+12,Air bladder (TPU),1,3.50,3.50,Custom
+13,PCB (4-layer 50×30mm),1,4.00,4.00,JLCPCB
+14,USB-C connector,1,0.80,0.80,Mouser
+15,SMA connector + antenna,1,2.50,2.50,Mouser
+16,Passive components,25,0.08,2.00,Various
+Total,,,51.20,

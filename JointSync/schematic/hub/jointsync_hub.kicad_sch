@@ -1,0 +1,54 @@
+(kicad_sch
+  (version 20231120)
+  (generator "kicad_sym_util")
+  (uuid "00000000-0000-0000-0000-000000000001")
+  (paper "A3")
+  (title_block
+    (title "JointSync Hub — Main Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (comment 1 "ESP32-S3 + CC1120 Sub-GHz + E-Paper Display")
+    (comment 2 "JointSync System — Hub Node")
+  )
+  (lib_symbols)
+  (symbol
+    (lib_id "MCU_Module:ESP32-S3-WROOM-1-N8R8")
+    (at 127 76.2 0)
+    (unit 1)
+    (instances (project "jointsync_hub"))
+  )
+  (symbol
+    (lib_id "RF_Module:CC1120RHBR")
+    (at 203.2 76.2 0)
+    (unit 1)
+    (instances (project "jointsync_hub"))
+  )
+  (symbol
+    (lib_id "Display:E-Paper_7.5in_Waveshare")
+    (at 127 152.4 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Temperature:TMP117")
+    (at 50.8 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Pressure:BMP390")
+    (at 50.8 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:MP2322")
+    (at 203.2 127 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:MCP73831")
+    (at 177.8 127 0)
+    (unit 1)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
