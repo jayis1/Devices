@@ -1,0 +1,70 @@
+(kicad_sch
+  (version 20231120)
+  (generator "kicad_sym_util")
+  (uuid "00000000-0000-0000-0000-000000000001")
+  (paper "A3")
+  (title_block
+    (title "DriveSync Dash Hub — Main Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (comment 1 "ESP32-S3 + OV5640 + 940nm IR + LSM6DSO + MAX98357A")
+    (comment 2 "DriveSync System — Dash Hub Node")
+  )
+  (lib_symbols)
+  (symbol
+    (lib_id "MCU_Module:ESP32-S3-WROOM-1-N8R8")
+    (at 127 76.2 0)
+    (unit 1)
+    (instances (project "drivesync_hub"))
+  )
+  (symbol
+    (lib_id "Sensor:OV5640_Camera_Module")
+    (at 50.8 50.8 0)
+    (unit 1)
+    (instances (project "drivesync_hub"))
+  )
+  (symbol
+    (lib_id "Sensor:IR_LED_Array_940nm")
+    (at 50.8 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Motion:LSM6DSO")
+    (at 203.2 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Audio:MAX98357A")
+    (at 203.2 76.2 0)
+    (unit 1)
+    (instances (project "drivesync_hub"))
+  )
+  (symbol
+    (lib_id "Motor:ERM_Haptic")
+    (at 203.2 101.6 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:MP2322")
+    (at 127 127 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:MCP73831")
+    (at 101.6 127 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 76.2 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Device:C")
+    (at 76.2 76.2 0)
+    (unit 1)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

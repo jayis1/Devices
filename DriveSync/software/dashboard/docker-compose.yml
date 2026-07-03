@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_DB: drivesync
+      POSTGRES_USER: drivesync
+      POSTGRES_PASSWORD: drivesync
+    ports:
+      - "5432:5432"
+    volumes:
+      - drivesync_pgdata:/var/lib/postgresql/data
+
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://drivesync:drivesync@postgres:5432/drivesync
+      MQTT_BROKER: mqtt
+      MQTT_PORT: "1883"
+    depends_on:
+      - postgres
+      - mqtt
+
+volumes:
+  drivesync_pgdata:

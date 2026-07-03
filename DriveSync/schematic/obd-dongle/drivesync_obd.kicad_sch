@@ -1,0 +1,53 @@
+(kicad_sch
+  (version 20231120)
+  (generator "kicad_sym_util")
+  (uuid "00000000-0000-0000-0000-000000000004")
+  (paper "A3")
+  (title_block
+    (title "DriveSync OBD-II Dongle — Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (comment 1 "RP2040 + MCP2515 + MCP2551 + nRF52832")
+    (comment 2 "DriveSync System — OBD-II Dongle")
+  )
+  (lib_symbols)
+  (symbol
+    (lib_id "MCU_Module:RP2040")
+    (at 127 76.2 0)
+    (unit 1)
+    (instances (project "drivesync_obd"))
+  )
+  (symbol
+    (lib_id "Interface_CAN:MCP2515")
+    (at 50.8 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Interface_CAN:MCP2551")
+    (at 50.8 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "RF_Module:nRF52832")
+    (at 203.2 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Connector:OBD-II")
+    (at 127 127 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Power:MP2322")
+    (at 203.2 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "LED:WS2812B")
+    (at 203.2 101.6 0)
+    (unit 1)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

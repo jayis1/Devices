@@ -1,0 +1,15 @@
+DriveSync Steering Wheel Node BOM
+#,Part,Qty,Unit Price,Extended,Source
+1,nRF52840 module (Fanstel BT840),1,5.80,5.80,DigiKey
+2,LSM6DSO 6-axis IMU,1,3.10,3.10,Mouser
+3,FDC2214 capacitance-to-digital,1,4.20,4.20,TI
+4,DRV2605L haptic driver + ERM,1,2.40,2.40,Adafruit
+5,CR2477 coin cell holder,1,0.50,0.50,DigiKey
+6,CR2477 battery (1000 mAh),1,2.80,2.80,Battery Mart
+7,WS2812B LED,1,0.45,0.45,Mouser
+8,Tactile button,1,0.20,0.20,DigiKey
+9,PCB (4-layer 40×30mm),1,3.00,3.00,JLCPCB
+10,Enclosure (3D printed strap-on),1,2.00,2.00,DIY
+11,Copper tape (grip electrodes),1,1.00,1.00,3M
+12,Passive components,25,0.08,2.00,Various
+Total,,,27.45,

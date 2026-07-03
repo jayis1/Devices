@@ -1,0 +1,15 @@
+DriveSync Seat Belt Tag BOM
+#,Part,Qty,Unit Price,Extended,Source
+1,nRF52840 module (Fanstel BT840),1,5.80,5.80,DigiKey
+2,MAX30101 PPG sensor,1,4.50,4.50,Maxim
+3,LSM6DSO 6-axis IMU,1,3.10,3.10,Mouser
+4,DRV2605L haptic driver + ERM,1,2.40,2.40,Adafruit
+5,CR2477 coin cell holder,1,0.50,0.50,DigiKey
+6,CR2477 battery,1,2.80,2.80,Battery Mart
+7,WS2812B LED,1,0.45,0.45,Mouser
+8,Tactile button,1,0.20,0.20,DigiKey
+9,PCB (4-layer 35×25mm),1,2.80,2.80,JLCPCB
+10,Enclosure (3D printed clip),1,2.50,2.50,DIY
+11,Silicone PPG window,1,0.80,0.80,McMaster
+12,Passive components,30,0.08,2.40,Various
+Total,,,28.25,

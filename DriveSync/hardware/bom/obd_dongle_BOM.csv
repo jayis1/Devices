@@ -1,0 +1,16 @@
+DriveSync OBD-II Dongle BOM
+#,Part,Qty,Unit Price,Extended,Source
+1,RP2040 (Pico module),1,4.00,4.00,RPi
+2,nRF52832 BLE module,1,4.50,4.50,DigiKey
+3,MCP2515 CAN controller,1,2.20,2.20,Microchip
+4,MCP2551 CAN transceiver,1,1.80,1.80,Microchip
+5,16 MHz crystal,1,0.50,0.50,DigiKey
+6,MP2322 buck (12V→3.3V),1,2.10,2.10,Mouser
+7,OBD-II connector (16-pin),1,2.50,2.50,DigiKey
+8,OBD-II enclosure (molded),1,4.00,4.00,AliExpress
+9,WS2812B LED,2,0.45,0.90,Mouser
+10,Tactile button,1,0.20,0.20,DigiKey
+11,PCB (2-layer 55×30mm),1,4.00,4.00,JLCPCB
+12,Passive components,30,0.08,2.40,Various
+13,USB-C connector (debug),1,0.80,0.80,Mouser
+Total,,,29.90,

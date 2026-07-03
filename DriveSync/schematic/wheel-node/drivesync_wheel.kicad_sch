@@ -1,0 +1,53 @@
+(kicad_sch
+  (version 20231120)
+  (generator "kicad_sym_util")
+  (uuid "00000000-0000-0000-0000-000000000002")
+  (paper "A3")
+  (title_block
+    (title "DriveSync Steering Wheel Node — Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (comment 1 "nRF52840 + LSM6DSO + FDC2214 + DRV2605L")
+    (comment 2 "DriveSync System — Steering Wheel Node")
+  )
+  (lib_symbols)
+  (symbol
+    (lib_id "MCU_Module:nRF52840_BTM840")
+    (at 127 76.2 0)
+    (unit 1)
+    (instances (project "drivesync_wheel"))
+  )
+  (symbol
+    (lib_id "Sensor_Motion:LSM6DSO")
+    (at 50.8 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Sensor_Capacitive:FDC2214")
+    (at 50.8 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Motor:DRV2605L")
+    (at 203.2 50.8 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Device:Battery_Cell")
+    (at 203.2 76.2 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "LED:WS2812B")
+    (at 203.2 101.6 0)
+    (unit 1)
+  )
+  (symbol
+    (lib_id "Switch:SW_Push")
+    (at 76.2 101.6 0)
+    (unit 1)
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
