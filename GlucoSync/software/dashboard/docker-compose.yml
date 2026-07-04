@@ -1,0 +1,53 @@
+# GlucoSync Cloud Backend — Docker Compose
+# FastAPI + TimescaleDB + Mosquitto MQTT
+
+version: "3.8"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      POSTGRES_DB: glucosync
+      POSTGRES_USER: glucosync
+      POSTGRES_PASSWORD: glucosync_dev_pw
+    ports:
+      - "5432:5432"
+    volumes:
+      - glucosync_pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U glucosync"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    healthcheck:
+      test: ["CMD", "mosquitto_pub", "-t", "test", "-m", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://glucosync:glucosync_dev_pw@db:5432/glucosync
+      MQTT_BROKER: mqtt
+      MQTT_PORT: 1883
+    depends_on:
+      db:
+        condition: service_healthy
+      mqtt:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  glucosync_pgdata:

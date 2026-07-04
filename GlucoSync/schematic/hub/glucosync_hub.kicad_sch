@@ -1,0 +1,123 @@
+(kicad_sch
+  (version 20231120)
+  (generator "glucosync")
+  (generator_version "1.0")
+  (uuid "a1b2c3d4-0001-4a00-8000-000000000001")
+  (paper "A4")
+  (title_block
+    (title "GlucoSync Metabolic Hub")
+    (date "2026-07-04")
+    (rev "1.0")
+    (company "Devices Project")
+    (comment 1 "ESP32-S3-WROOM-1-N8R2 — CGM bridge + glucose forecast")
+  )
+
+  ; ── Sheet Labels ──
+  (symbol "U1" ; ESP32-S3-WROOM-1-N8R2
+    (at 127 76)
+    (property "Value" "ESP32-S3-WROOM-1-N8R2")
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1")
+    (property "Mouser" "356-ESP32-S3-WROOM1N8R2")
+  )
+
+  (symbol "U2" ; UC8151D E-ink Display
+    (at 200 50)
+    (property "Value" "UC8151D 2.9\" E-ink (296×128)")
+    (property "Footprint" "Display:Waveshare_2.9_Eink")
+  )
+
+  (symbol "U3" ; LSM6DSO IMU
+    (at 200 90)
+    (property "Value" "LSM6DSO 6-axis IMU")
+    (property "Footprint" "Package_LCC:QFN-16-1EP_3x3mm")
+    (property "Mouser" "511-LSM6DSO")
+  )
+
+  (symbol "U4" ; MAX98357A I²S Amplifier
+    (at 200 120)
+    (property "Value" "MAX98357A I²S Amp + Speaker")
+    (property "Footprint" "Package_DFN:DFN-8-1EP")
+    (property "Adafruit" "3006")
+  )
+
+  (symbol "U5" ; MCP73831 Li-ion Charger
+    (at 60 130)
+    (property "Value" "MCP73831 Li-ion Charger")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5")
+  )
+
+  (symbol "U6" ; MP2322 Buck Converter
+    (at 40 90)
+    (property "Value" "MP2322 5V→3.3V Buck")
+    (property "Footprint" "Package_SO:TSOT-23-6")
+  )
+
+  ; ── Pin Connections ──
+  ; ESP32-S3 → UC8151D E-ink (SPI)
+  ;   GPIO4  → SCK
+  ;   GPIO5  → DIN (MOSI)
+  ;   GPIO6  → CS
+  ;   GPIO7  → DC
+  ;   GPIO8  → RST
+  ;   GPIO9  → BUSY
+  ;
+  ; ESP32-S3 → LSM6DSO (I²C bus)
+  ;   GPIO38 → SDA
+  ;   GPIO37 → SCL
+  ;   GPIO41 → INT1
+  ;
+  ; ESP32-S3 → MAX98357A (I²S)
+  ;   GPIO42 → DIN
+  ;   GPIO39 → BCLK
+  ;   GPIO40 → LRCLK
+  ;
+  ; ESP32-S3 → ERM Haptic
+  ;   GPIO1  → PWM (via DRV2605L)
+  ;
+  ; ESP32-S3 → USB-C
+  ;   GPIO19 → D-
+  ;   GPIO20 → D+
+  ;
+  ; ESP32-S3 → Battery ADC
+  ;   GPIO14 → Voltage divider
+  ;
+  ; ESP32-S3 → Buttons
+  ;   GPIO21 → Dismiss button
+  ;   GPIO47 → Snooze button
+
+  (symbol "BT1" ; 18650 Li-ion battery holder
+    (at 30 130)
+    (property "Value" "18650 3200mAh Li-ion")
+  )
+
+  (symbol "J1" ; USB-C connector
+    (at 20 60)
+    (property "Value" "USB-C 16-pin")
+  )
+
+  (symbol "J2" ; FFC for e-ink
+    (at 180 50)
+    (property "Value" "FFC 8-pin (e-ink)")
+  )
+
+  ; ── Net labels ──
+  (net "VCC_3V3")
+  (net "GND")
+  (net "VCC_5V")
+  (net "VBAT")
+  (net "I2C_SCL")
+  (net "I2C_SDA")
+  (net "SPI_SCK")
+  (net "SPI_MOSI")
+  (net "SPI_CS_EINK")
+  (net "I2S_DIN")
+  (net "I2S_BCLK")
+  (net "I2S_LRCLK")
+  (net "IMU_INT1")
+  (net "HAPTIC_PWM")
+  (net "USB_DP")
+  (net "USB_DM")
+  (net "BAT_ADC")
+  (net "BTN_DISMISS")
+  (net "BTN_SNOOZE")
+)

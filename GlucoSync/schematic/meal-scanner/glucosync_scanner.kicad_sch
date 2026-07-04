@@ -1,0 +1,113 @@
+(kicad_sch
+  (version 20231120)
+  (generator "glucosync")
+  (generator_version "1.0")
+  (uuid "a1b2c3d4-0002-4a00-8000-000000000002")
+  (paper "A4")
+  (title_block
+    (title "GlucoSync Meal Scanner")
+    (date "2026-07-04")
+    (rev "1.0")
+    (company "Devices Project")
+    (comment 1 "ESP32-S3 + OV5640 + 5-band spectral LEDs")
+  )
+
+  (symbol "U1" ; ESP32-S3-WROOM-1-N8R2
+    (at 127 76)
+    (property "Value" "ESP32-S3-WROOM-1-N8R2")
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1")
+  )
+
+  (symbol "U2" ; OV5640 Camera
+    (at 60 50)
+    (property "Value" "OV5640 5MP Auto-Focus Camera")
+    (property "Footprint" "Camera:OV5640_DVP")
+  )
+
+  (symbol "U3" ; BME280
+    (at 200 90)
+    (property "Value" "BME280 Temp/Humidity Sensor")
+    (property "Footprint" "Package_LCC:BME280")
+  )
+
+  (symbol "U4" ; MCP73831 LiPo Charger
+    (at 200 130)
+    (property "Value" "MCP73831 LiPo Charger")
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5")
+  )
+
+  ; ── 5× Spectral LEDs ──
+  (symbol "D1" (at 30 120)
+    (property "Value" "White LED (Broadband)")
+    (property "Footprint" "LED_THT:LED_D5.0mm")
+  )
+  (symbol "D2" (at 45 120)
+    (property "Value" "470nm Blue LED")
+    (property "Footprint" "LED_THT:LED_D5.0mm")
+  )
+  (symbol "D3" (at 60 120)
+    (property "Value" "660nm Red LED")
+    (property "Footprint" "LED_THT:LED_D5.0mm")
+  )
+  (symbol "D4" (at 75 120)
+    (property "Value" "850nm NIR LED")
+    (property "Footprint" "LED_THT:LED_D5.0mm")
+  )
+  (symbol "D5" (at 90 120)
+    (property "Value" "940nm IR LED")
+    (property "Footprint" "LED_THT:LED_D5.0mm")
+  )
+
+  ; ── MOSFET drivers for LEDs ──
+  (symbol "Q1" (at 30 105) (property "Value" "AO3400 N-MOSFET (White)"))
+  (symbol "Q2" (at 45 105) (property "Value" "AO3400 N-MOSFET (470nm)"))
+  (symbol "Q3" (at 60 105) (property "Value" "AO3400 N-MOSFET (660nm)"))
+  (symbol "Q4" (at 75 105) (property "Value" "AO3400 N-MOSFET (850nm)"))
+  (symbol "Q5" (at 90 105) (property "Value" "AO3400 N-MOSFET (940nm)"))
+
+  (symbol "J1" ; USB-C
+    (at 180 130)
+    (property "Value" "USB-C 16-pin")
+  )
+
+  (symbol "J2" ; FFC for camera
+    (at 40 50)
+    (property "Value" "FFC 24-pin (camera)")
+  )
+
+  ; ── Pin Connections ──
+  ; ESP32-S3 → OV5640 (DVP 8-bit parallel)
+  ;   GPIO4-7, 15-18  → D0-D7
+  ;   GPIO12 → PCLK, GPIO13 → VSYNC, GPIO14 → HREF
+  ;   GPIO8 → SIOC (I²C SCL), GPIO9 → SIOD (I²C SDA)
+  ;   GPIO10 → XCLK, GPIO11 → RESET
+  ;
+  ; ESP32-S3 → Spectral LED MOSFETs
+  ;   GPIO21 → Q1 gate (White)
+  ;   GPIO38 → Q2 gate (470nm)
+  ;   GPIO37 → Q3 gate (660nm)
+  ;   GPIO39 → Q4 gate (850nm)
+  ;   GPIO40 → Q5 gate (940nm)
+  ;
+  ; ESP32-S3 → BME280 (I²C)
+  ;   GPIO41 → SDA, GPIO42 → SCL
+  ;
+  ; ESP32-S3 → USB-C
+  ;   GPIO19 → D-, GPIO20 → D+
+  ;
+  ; ESP32-S3 → Battery ADC
+  ;   GPIO14 → LiPo voltage divider
+  ;
+  ; ESP32-S3 → Scan button
+  ;   GPIO47 → Tactile button
+
+  (net "VCC_3V3")
+  (net "GND")
+  (net "VBAT_LIPO")
+  (net "CAM_D0" "CAM_D1" "CAM_D2" "CAM_D3" "CAM_D4" "CAM_D5" "CAM_D6" "CAM_D7")
+  (net "CAM_PCLK" "CAM_VSYNC" "CAM_HREF" "CAM_XCLK" "CAM_RESET")
+  (net "I2C_SCL" "I2C_SDA")
+  (net "LED_WHITE_EN" "LED_470_EN" "LED_660_EN" "LED_850_EN" "LED_940_EN")
+  (net "USB_DP" "USB_DM")
+  (net "BAT_ADC" "SCAN_BTN")
+)

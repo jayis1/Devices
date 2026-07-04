@@ -1,0 +1,17 @@
+# GlucoSync Activity Band — BOM
+# Total estimated cost: ~$29.75
+
+Part,Qty,Unit Price,Extended,Manufacturer,MPN,Source,Notes
+nRF52840 Module Fanstel BT840,1,5.80,5.80,Fanstel,BT840,DigiKey,BLE 5.0 module
+MAX30101 PPG Sensor,1,4.50,4.50,Maxim,MAX30101,Maxim Direct,Reflective PPG green+IR
+LSM6DSO 6-axis IMU,1,3.10,3.10,ST Micro,LSM6DSO,Mouser,QFN-16 3x3mm
+DRV2605L Haptic Driver + ERM,1,2.40,2.40,TI,DRV2605L,Adafruit,#2305,I2C haptic
+CR2477 Coin Cell Holder,1,0.50,0.50,Keystone,3002,DigiKey,Coin cell holder
+CR2477 Battery 1000mAh,1,2.80,2.80,Energizer,CR2477,Battery Mart,3.0V lithium
+WS2812B LED,1,0.45,0.45,Worldsemi,WS2812B,Mouser,Status LED
+Tactile Button,1,0.20,0.20,E-Switch,TL3305,DigiKey,Pairing button
+PCB 4-layer 40x25mm,1,3.00,3.00,JLCPCB,N/A,JLCPCB,4-layer ENIG
+Enclosure 3D Printed Wrist,1,2.50,2.50,DIY,N/A,DIY,PLA wrist housing
+Silicone Wrist Strap,1,1.50,1.50,various,N/A,Amazon,Adjustable band
+Passive R/C/L,25,0.08,2.00,Various,N/A,Various,Resistors caps inductors
+PPG Optical Glass Window,1,1.00,1.00,Edmund,N/A,Edmund Optics,Skin contact glass

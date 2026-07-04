@@ -1,0 +1,20 @@
+# GlucoSync Metabolic Hub — BOM
+# Total estimated cost: ~$50.45
+
+Part,Qty,Unit Price,Extended,Manufacturer,MPN,Source,Notes
+ESP32-S3-WROOM-1-N8R2,1,4.50,4.50,Espressif,ESP32-S3-WROOM-1-N8R2,Mouser,8MB flash 2MB PSRAM
+UC8151D 2.9" E-ink Display 296x128,1,9.50,9.50,Waveshare,WS-29001,Waveshare,SPI interface
+LSM6DSO 6-axis IMU,1,3.10,3.10,ST Micro,LSM6DSO,Mouser,QFN-16 3x3mm
+MAX98357A I2S Amp + Speaker,1,4.50,4.50,Maxim,MAX98357A,Adafruit,#3006
+ERM Haptic Motor + DRV2605L,1,2.80,2.80,TI,DRV2605L,DigiKey,I2C haptic driver
+MP2322 Buck 5V→3.3V/2A,1,2.10,2.10,MPS,MP2322,Mouser,SOT-23-6
+USB-C 16-pin Connector,1,0.80,0.80,Amphenol,USB-C-16,Mouser,Power only
+18650 Li-ion 3200mAh (UPS),1,3.50,3.50,Samsung,INR18650-32E,Battery Mart,Backup power
+MCP73831 Li-ion Charger,1,1.20,1.20,Microchip,MCP73831T,Mouser,SOT-23-5
+WS2812B LED,3,0.45,1.35,Worldsemi,WS2812B,Mouser,Status LEDs
+Tactile Button,2,0.20,0.40,E-Switch,TL3305,DigiKey,Dismiss + Snooze
+PCB 4-layer 80x60mm,1,8.00,8.00,JLCPCB,N/A,JLCPCB,4-layer ENIG
+Enclosure 3D Printed,1,5.00,5.00,DIY,N/A,DIY,PLA nightstand
+Passive R/C/L,50,0.08,4.00,Various,N/A,Various,Resistors caps inductors
+FFC Cable 8-pin,1,1.50,1.50,Various,N/A,AliExpress,E-ink to board
+PCB BLE/Wi-Fi Antenna,1,1.20,1.20,Johanson,2450AT18B100,Mouser,2.4GHz chip antenna

@@ -1,0 +1,14 @@
+# GlucoSync Insulin Pen Tag — BOM
+# Total estimated cost: ~$19.05
+
+Part,Qty,Unit Price,Extended,Manufacturer,MPN,Source,Notes
+nRF52840 Module Fanstel BT840,1,5.80,5.80,Fanstel,BT840,DigiKey,BLE 5.0 module
+LSM6DSO 6-axis IMU,1,3.10,3.10,ST Micro,LSM6DSO,Mouser,QFN-16 3x3mm
+CR2477 Coin Cell Holder,1,0.50,0.50,Keystone,3002,DigiKey,Coin cell holder
+CR2477 Battery 1000mAh,1,2.80,2.80,Energizer,CR2477,Battery Mart,3.0V lithium
+WS2812B LED,1,0.45,0.45,Worldsemi,WS2812B,Mouser,Status LED
+Tactile Button,1,0.20,0.20,E-Switch,TL3305,DigiKey,Pairing button
+PCB 4-layer 25x15mm,1,2.50,2.50,JLCPCB,N/A,JLCPCB,4-layer ENIG
+Enclosure 3D Printed Pen Clip,1,1.50,1.50,DIY,N/A,DIY,PLA clip-on pod
+Spring Clip Mechanism,1,1.00,1.00,DIY,N/A,DIY,Pen barrel attachment
+Passive R/C/L,15,0.08,1.20,Various,N/A,Various,Resistors caps inductors

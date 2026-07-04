@@ -1,0 +1,81 @@
+(kicad_sch
+  (version 20231120)
+  (generator "glucosync")
+  (generator_version "1.0")
+  (uuid "a1b2c3d4-0003-4a00-8000-000000000003")
+  (paper "A4")
+  (title_block
+    (title "GlucoSync Activity Band")
+    (date "2026-07-04")
+    (rev "1.0")
+    (company "Devices Project")
+    (comment 1 "nRF52840 + MAX30101 PPG + LSM6DSO IMU")
+  )
+
+  (symbol "U1" ; nRF52840 module (Fanstel BT840)
+    (at 100 70)
+    (property "Value" "Fanstel BT840 (nRF52840)")
+    (property "Footprint" "RF_Module:Fanstel_BT840")
+    (property "DigiKey" "BC832V1")
+  )
+
+  (symbol "U2" ; MAX30101 PPG
+    (at 180 50)
+    (property "Value" "MAX30101 PPG Sensor")
+    (property "Footprint" "Package_DFN:DFN-8-1EP_3.5x3.5mm")
+    (property "Maxim" "MAX30101")
+  )
+
+  (symbol "U3" ; LSM6DSO IMU
+    (at 180 90)
+    (property "Value" "LSM6DSO 6-axis IMU")
+    (property "Footprint" "Package_LCC:QFN-16-1EP_3x3mm")
+    (property "Mouser" "511-LSM6DSO")
+  )
+
+  (symbol "U4" ; DRV2605L Haptic Driver
+    (at 60 120)
+    (property "Value" "DRV2605L Haptic Driver + ERM")
+    (property "Footprint" "Package_SON:VSON-10-1EP_4x4mm")
+    (property "Adafruit" "2305")
+  )
+
+  (symbol "BT1" ; CR2477 coin cell
+    (at 30 70)
+    (property "Value" "CR2477 3.0V 1000mAh")
+    (property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2477")
+  )
+
+  (symbol "J1" ; PPG optical window (glass)
+    (at 180 35)
+    (property "Value" "PPG Optical Glass Window")
+  )
+
+  ; ── Pin Connections ──
+  ; nRF52840 → MAX30101 (I²C bus 1)
+  ;   P0.24 → SDA
+  ;   P0.25 → SCL
+  ;   P0.26 → INT (PPG data ready)
+  ;
+  ; nRF52840 → LSM6DSO (I²C bus 2)
+  ;   P0.27 → SDA
+  ;   P0.28 → SCL
+  ;   P0.29 → INT1 (data ready)
+  ;
+  ; nRF52840 → DRV2605L (I²C)
+  ;   P0.06 → EN (motor enable)
+  ;
+  ; nRF52840 → Button
+  ;   P0.08 → Tactile (pairing)
+  ;
+  ; nRF52840 → LED
+  ;   P0.09 → WS2812B (status)
+  ;
+  ; nRF52840 → Battery ADC
+  ;   P0.19 → Voltage divider
+
+  (net "VCC_3V" "GND" "VBAT")
+  (net "I2C1_SDA" "I2C1_SCL" "PPG_INT")
+  (net "I2C2_SDA" "I2C2_SCL" "IMU_INT1")
+  (net "ERM_EN" "BTN_PAIR" "STATUS_LED" "BAT_ADC")
+)
