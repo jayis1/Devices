@@ -1,0 +1,75 @@
+(kicad_sch (version 20230121) (generator "eeschema")
+  (uuid "sightsync-desk-v1")
+  (paper "A4")
+  (title_block
+    (title "SightSync Desk Sentinel")
+    (date "2026-07-06")
+    (rev "1.0")
+    (company "Devices / SightSync"))
+
+  (lib_symbols)
+
+  ;; ── U1: ESP32-S3-WROOM-1 ────────────────────────────────────────
+  (symbol (lib_id "MCU_Module:ESP32-S3-WROOM-1") (at 127 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U1" (at 127 76.2 0))
+    (property "Value" "ESP32-S3-WROOM-1-N8R2" (at 127 88.9 0))
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1" (at 127 76.2 0)))
+
+  ;; ── U2: CC1101 Sub-GHz ──────────────────────────────────────────
+  (symbol (lib_id "RF:CC1101") (at 190.5 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U2" (at 190.5 76.2 0))
+    (property "Value" "CC1101RGP" (at 190.5 88.9 0))
+    (property "Footprint" "Package_SO:VQFN-20-1EP_4x4mm_P0.5mm" (at 190.5 76.2 0)))
+
+  ;; ── U3: VL53L1X ToF Distance Sensor ─────────────────────────────
+  (symbol (lib_id "Sensor_Distance:VL53L1X") (at 50.8 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U3" (at 50.8 127 0))
+    (property "Value" "VL53L1X" (at 50.8 139.7 0))
+    (property "Footprint" "Sensor:VL53L1X_ST" (at 50.8 127 0)))
+
+  ;; ── U4: VEML7700 Ambient Light Sensor ───────────────────────────
+  (symbol (lib_id "Sensor:VEML7700") (at 88.9 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U4" (at 88.9 127 0))
+    (property "Value" "VEML7700" (at 88.9 139.7 0)))
+
+  ;; ── U5: TCS34725 RGBC Color Sensor ──────────────────────────────
+  (symbol (lib_id "Sensor_Color:TCS34725") (at 127 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U5" (at 127 127 0))
+    (property "Value" "TCS34725" (at 127 139.7 0)))
+
+  ;; ── U6: APDS9306 Blue Light Sensor ──────────────────────────────
+  (symbol (lib_id "Sensor:APDS9306") (at 165.1 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U6" (at 165.1 127 0))
+    (property "Value" "APDS9306-025" (at 165.1 139.7 0)))
+
+  ;; ── U7: SSD1306 0.96" OLED ──────────────────────────────────────
+  (symbol (lib_id "Display:SSD1306_0.96in") (at 203.2 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U7" (at 203.2 127 0))
+    (property "Value" "SSD1306_128x64" (at 203.2 139.7 0)))
+
+  ;; ── U8: MCP1603T-3302 3.3V LDO ───────────────────────────────────
+  (symbol (lib_id "Regulator_Linear:MCP1603T-3302") (at 88.9 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U8" (at 88.9 76.2 0))
+    (property "Value" "MCP1603T-3302" (at 88.9 88.9 0)))
+
+  ;; ── Net connections (summary) ────────────────────────────────────
+  ;; ESP32-S3 GPIO8  → I²C SDA (VL53L1X, VEML7700, TCS34725, APDS9306, SSD1306)
+  ;; ESP32-S3 GPIO9  → I²C SCL (all sensors)
+  ;; ESP32-S3 GPIO4  → CC1101 SPI CS (SPI2)
+  ;; ESP32-S3 GPIO5  → CC1101 SPI CLK
+  ;; ESP32-S3 GPIO6  → CC1101 SPI MISO
+  ;; ESP32-S3 GPIO7  → CC1101 SPI MOSI
+  ;; ESP32-S3 GPIO10 → CC1101 GDO0
+  ;; ESP32-S3 GPIO2  → USB-C 5V detect
+  ;; USB-C 5V → MCP1603T → ESP32-S3 3.3V
+
+  (sheet_instances (path "/" (page "1")))
+)

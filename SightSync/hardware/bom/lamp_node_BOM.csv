@@ -1,0 +1,14 @@
+Item,Qty,Part Number,Description,Supplier,Unit Cost (qty 1),Unit Cost (qty 1K),Extended Cost (qty 1),Extended Cost (qty 1K)
+1,1,RP2040,Dual-core ARM Cortex-M0+ 264KB RAM,Raspberry Pi,$1.20,$0.80,$1.20,$0.80
+2,1,CC1101RGP,Sub-GHz transceiver 868 MHz QFN-20,Digi-Key,$2.80,$1.60,$2.80,$1.60
+3,1,TLC5971,16-channel 16-bit LED driver TSSOP-28,Texas Inst,$2.95,$1.70,$2.95,$1.70
+4,1,VEML7700,Ambient light sensor 0-120klux I2C,Adafruit,$4.95,$2.80,$4.95,$2.80
+5,1,MP1584EN,3.3V buck converter 12V-to-3.3V SOT-23,Digi-Key,$0.80,$0.40,$0.80,$0.40
+6,60,Warm-white LED 2700K,2700K warm-white 0.5W 2835 SMD LED,Amazon,$6.00,$3.50,$6.00,$3.50
+7,60,Cool-white LED 6500K,6500K cool-white 0.5W 2835 SMD LED,Amazon,$6.00,$3.50,$6.00,$3.50
+8,1,Aluminum housing,Aluminum lamp housing Ø80x220mm,Local,$10.00,$6.00,$10.00,$6.00
+9,1,Rotary encoder,KY-040 rotary encoder with button,Amazon,$1.50,$0.80,$1.50,$0.80
+10,1,12V/2A power supply,12V 2A DC barrel jack adapter,Amazon,$4.00,$2.50,$4.00,$2.50
+11,1,PCB,4-layer FR4 Ø80mm circular PCB,JLCPCB,$3.50,$1.20,$3.50,$1.20
+12,1,Heatsink,Aluminum heatsink for TLC5971,Local,$1.20,$0.60,$1.20,$0.60
+,,,,,,Total:,$42.80,$28.40

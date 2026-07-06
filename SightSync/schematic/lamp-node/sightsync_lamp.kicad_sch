@@ -1,0 +1,84 @@
+(kicad_sch (version 20230121) (generator "eeschema")
+  (uuid "sightsync-lamp-v1")
+  (paper "A4")
+  (title_block
+    (title "SightSync Smart Lamp Node")
+    (date "2026-07-06")
+    (rev "1.0")
+    (company "Devices / SightSync"))
+
+  (lib_symbols)
+
+  ;; ── U1: RP2040 ───────────────────────────────────────────────────
+  (symbol (lib_id "MCU_RaspberryPi:RP2040") (at 127 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U1" (at 127 76.2 0))
+    (property "Value" "RP2040" (at 127 88.9 0))
+    (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm" (at 127 76.2 0)))
+
+  ;; ── U2: CC1101 Sub-GHz ──────────────────────────────────────────
+  (symbol (lib_id "RF:CC1101") (at 190.5 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U2" (at 190.5 76.2 0))
+    (property "Value" "CC1101RGP" (at 190.5 88.9 0))
+    (property "Footprint" "Package_SO:VQFN-20-1EP_4x4mm_P0.5mm" (at 190.5 76.2 0)))
+
+  ;; ── U3: TLC5971 16-Channel LED Driver ────────────────────────────
+  (symbol (lib_id "Driver_LED:TLC5971") (at 50.8 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U3" (at 50.8 127 0))
+    (property "Value" "TLC5971" (at 50.8 139.7 0))
+    (property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm" (at 50.8 127 0)))
+
+  ;; ── U4: VEML7700 Ambient Light Sensor ───────────────────────────
+  (symbol (lib_id "Sensor:VEML7700") (at 88.9 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U4" (at 88.9 127 0))
+    (property "Value" "VEML7700" (at 88.9 139.7 0)))
+
+  ;; ── U5: MP1584EN Buck Converter ──────────────────────────────────
+  (symbol (lib_id "Regulator_Switching:MP1584EN") (at 127 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U5" (at 127 127 0))
+    (property "Value" "MP1584EN" (at 127 139.7 0))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-8" (at 127 127 0)))
+
+  ;; ── LED1-60: Warm-white LED strip (2700K) ────────────────────────
+  (symbol (lib_id "LED:WW_LED_2700K_2835") (at 165.1 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "LED1-60" (at 165.1 127 0))
+    (property "Value" "WW_2700K_2835_x60" (at 165.1 139.7 0)))
+
+  ;; ── LED61-120: Cool-white LED strip (6500K) ──────────────────────
+  (symbol (lib_id "LED:CW_LED_6500K_2835") (at 203.2 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "LED61-120" (at 203.2 127 0))
+    (property "Value" "CW_6500K_2835_x60" (at 203.2 139.7 0)))
+
+  ;; ── SW1: Rotary Encoder ──────────────────────────────────────────
+  (symbol (lib_id "Device:RotaryEncoder") (at 50.8 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "SW1" (at 50.8 76.2 0))
+    (property "Value" "KY-040" (at 50.8 88.9 0)))
+
+  ;; ── Net connections (summary) ────────────────────────────────────
+  ;; RP2040 GP0  → TLC5971 SPI CLK (SPI0)
+  ;; RP2040 GP1  → TLC5971 SPI MOSI
+  ;; RP2040 GP2  → TLC5971 LATCH
+  ;; RP2040 GP3  → TLC5971 BLANK
+  ;; RP2040 GP4  → I²C SDA (VEML7700)
+  ;; RP2040 GP5  → I²C SCL (VEML7700)
+  ;; RP2040 GP6  → CC1101 SPI CS (SPI1)
+  ;; RP2040 GP7  → CC1101 SPI CLK
+  ;; RP2040 GP8  → CC1101 SPI MISO
+  ;; RP2040 GP9  → CC1101 SPI MOSI
+  ;; RP2040 GP10 → CC1101 GDO0
+  ;; RP2040 GP12 → Rotary Encoder A
+  ;; RP2040 GP13 → Rotary Encoder B
+  ;; RP2040 GP14 → Button
+  ;; 12V/2A → MP1584EN → 3.3V (RP2040 + sensors)
+  ;; 12V direct → TLC5971 → WW LED strip (ch 0-7)
+  ;; 12V direct → TLC5971 → CW LED strip (ch 8-15)
+
+  (sheet_instances (path "/" (page "1")))
+)

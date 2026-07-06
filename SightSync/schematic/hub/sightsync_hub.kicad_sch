@@ -1,0 +1,92 @@
+(kicad_sch (version 20230121) (generator "eeschema")
+  (uuid "sightsync-hub-v1")
+  (paper "A4")
+  (title_block
+    (title "SightSync Vision Hub")
+    (date "2026-07-06")
+    (rev "1.0")
+    (company "Devices / SightSync"))
+
+  (lib_symbols)
+
+  ;; ── U1: ESP32-S3-WROOM-1 ────────────────────────────────────────
+  (symbol (lib_id "MCU_Module:ESP32-S3-WROOM-1") (at 127 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U1" (at 127 76.2 0))
+    (property "Value" "ESP32-S3-WROOM-1-N16R8" (at 127 88.9 0))
+    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1" (at 127 76.2 0)))
+
+  ;; ── U2: CC1101 Sub-GHz Transceiver ──────────────────────────────
+  (symbol (lib_id "RF:CC1101") (at 190.5 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U2" (at 190.5 76.2 0))
+    (property "Value" "CC1101RGP" (at 190.5 88.9 0))
+    (property "Footprint" "Package_SO:VQFN-20-1EP_4x4mm_P0.5mm" (at 190.5 76.2 0)))
+
+  ;; ── U3: SSD1680 E-ink Display ───────────────────────────────────
+  (symbol (lib_id "Display:SSD1680_2.9in") (at 50.8 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U3" (at 50.8 127 0))
+    (property "Value" "SSD1680_2.9in_296x128" (at 50.8 139.7 0)))
+
+  ;; ── U4: MAX98357A I²S Audio Amp ──────────────────────────────────
+  (symbol (lib_id "Audio:MAX98357A") (at 88.9 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U4" (at 88.9 127 0))
+    (property "Value" "MAX98357A" (at 88.9 139.7 0)))
+
+  ;; ── U5: DRV2605L Haptic Driver ───────────────────────────────────
+  (symbol (lib_id "Driver_Haptic:DRV2605L") (at 127 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U5" (at 127 127 0))
+    (property "Value" "DRV2605L" (at 127 139.7 0)))
+
+  ;; ── U6: BMP390 Barometric Pressure ───────────────────────────────
+  (symbol (lib_id "Sensor_Pressure:BMP390") (at 165.1 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U6" (at 165.1 127 0))
+    (property "Value" "BMP390" (at 165.1 139.7 0)))
+
+  ;; ── U7: TP4056 Li-ion Charger ────────────────────────────────────
+  (symbol (lib_id "Battery_Management:TP4056") (at 50.8 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U7" (at 50.8 76.2 0))
+    (property "Value" "TP4056" (at 50.8 88.9 0)))
+
+  ;; ── U8: MCP1603T-3302 3.3V LDO ───────────────────────────────────
+  (symbol (lib_id "Regulator_Linear:MCP1603T-3302") (at 88.9 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U8" (at 88.9 76.2 0))
+    (property "Value" "MCP1603T-3302" (at 88.9 88.9 0)))
+
+  ;; ── D1: SK6812 LED Ring (12 LEDs) ────────────────────────────────
+  (symbol (lib_id "LED:SK6812_RING_12") (at 203.2 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "D1" (at 203.2 127 0))
+    (property "Value" "SK6812_12RING" (at 203.2 139.7 0)))
+
+  ;; ── Net connections (summary) ────────────────────────────────────
+  ;; ESP32-S3 GPIO4  → SSD1680 SCK (SPI3)
+  ;; ESP32-S3 GPIO5  → SSD1680 MOSI (SPI3)
+  ;; ESP32-S3 GPIO7  → SSD1680 CS
+  ;; ESP32-S3 GPIO8  → SSD1680 DC
+  ;; ESP32-S3 GPIO9  → SSD1680 RST
+  ;; ESP32-S3 GPIO10 → SSD1680 BUSY
+  ;; ESP32-S3 GPIO11 → I²C SDA (BMP390, DRV2605L)
+  ;; ESP32-S3 GPIO12 → I²C SCL (BMP390, DRV2605L)
+  ;; ESP32-S3 GPIO13 → MAX98357 BCLK (I²S)
+  ;; ESP32-S3 GPIO14 → MAX98357 LRCLK
+  ;; ESP32-S3 GPIO15 → MAX98357 DIN
+  ;; ESP32-S3 GPIO16 → SK6812 data
+  ;; ESP32-S3 GPIO17 → CC1101 SPI CS (SPI2)
+  ;; ESP32-S3 GPIO18 → CC1101 SPI CLK
+  ;; ESP32-S3 GPIO19 → CC1101 SPI MISO
+  ;; ESP32-S3 GPIO20 → CC1101 SPI MOSI
+  ;; ESP32-S3 GPIO21 → CC1101 GDO0 (IRQ)
+  ;; ESP32-S3 GPIO22 → CC1101 GDO2
+  ;; ESP32-S3 GPIO38 → DRV2605L GPIO trigger
+  ;; TP4056 → 18650 battery → MCP1603T → ESP32-S3 3.3V
+  ;; USB-C 5V → TP4056 VBUS
+
+  (sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,16 @@
+Item,Qty,Part Number,Description,Supplier,Unit Cost (qty 1),Unit Cost (qty 1K),Extended Cost (qty 1),Extended Cost (qty 1K)
+1,1,nRF52840 QFAA,BLE 5.0 SoC 256KB flash 256KB RAM,Mouser,$5.60,$3.40,$5.60,$3.40
+2,1,VSMY129408,IR LED 940nm 940nm 100mA SMD,Digi-Key,$0.75,$0.40,$0.75,$0.40
+3,1,VEMT5700X,Photodiode 940nm Si PIN SMD,Digi-Key,$1.20,$0.70,$1.20,$0.70
+4,1,TMP117,Digital temperature sensor ±0.1°C I2C,Texas Inst,$2.95,$1.70,$2.95,$1.70
+5,1,LSM6DSO,6-axis IMU accel+gyro SPI/IC,Adafruit,$4.95,$2.90,$4.95,$2.90
+6,1,APDS9306-025,Digital ambient light sensor I2C 470nm,Digi-Key,$2.10,$1.20,$2.10,$1.20
+7,2,CR2032 holder,CR2032 coin cell holder SMD,Digi-Key,$0.40,$0.20,$0.80,$0.40
+8,2,CR2032,CR2032 3V lithium coin cell 220mAh,Amazon,$0.50,$0.30,$1.00,$0.60
+9,1,BAT54 Schottky,Schottky diode ideal ORing SOD-323,Digi-Key,$0.15,$0.08,$0.15,$0.08
+10,1,Status LED,0603 SMD LED green,Digi-Key,$0.10,$0.05,$0.10,$0.05
+11,1,Tactile button,4x4mm SMD tactile button,Digi-Key,$0.20,$0.10,$0.20,$0.10
+12,1,PCB,4-layer FR4 25x12mm PCB,JLCPCB,$1.50,$0.50,$1.50,$0.50
+13,1,Enclosure,Glass-filled PBT 25x12x8mm,Local,$1.20,$0.60,$1.20,$0.60
+14,1,Silicone clip,Eyeglass temple silicone clip,Local,$0.60,$0.30,$0.60,$0.30
+,,,,,,Total:,$21.30,$14.60

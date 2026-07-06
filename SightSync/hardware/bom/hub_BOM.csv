@@ -1,0 +1,16 @@
+Item,Qty,Part Number,Description,Supplier,Unit Cost (qty 1),Unit Cost (qty 1K),Extended Cost (qty 1),Extended Cost (qty 1K)
+1,1,ESP32-S3-WROOM-1-N16R8,MCU WiFi+BLE 16MB flash 8MB PSRAM,Mouser,$5.40,$3.20,$5.40,$3.20
+2,1,CC1101RGP,Sub-GHz transceiver 868 MHz QFN-20,Digi-Key,$2.80,$1.60,$2.80,$1.60
+3,1,SSD1680 2.9" E-ink,2.9 inch 296x128 e-ink display module,Adafruit,$14.95,$8.50,$14.95,$8.50
+4,1,MAX98357A,I2S 3.2W audio amplifier mono,Adafruit,$5.95,$3.20,$5.95,$3.20
+5,1,DRV2605L,Haptic driver I2C for LRA/ERM,Adafruit,$3.95,$2.10,$3.95,$2.10
+6,1,SK6812-3535,NeoPixel RGB LED 12-ring,Amazon,$3.20,$1.80,$3.20,$1.80
+7,1,BMP390,Barometric pressure sensor I2C,Adafruit,$9.95,$5.50,$9.95,$5.50
+8,1,TP4056,Li-ion charge controller USB-C,Mouser,$1.20,$0.60,$1.20,$0.60
+9,1,18650 holder,18650 battery holder PCB mount,Amazon,$1.50,$0.80,$1.50,$0.80
+10,1,18650 3350mAh,18650 Li-ion 3.7V 3350mAh battery,Ebay,$4.50,$3.00,$4.50,$3.00
+11,1,MCP1603T-3302,3.3V LDO regulator SOT-23,Digi-Key,$0.95,$0.50,$0.95,$0.50
+12,1,USB-C connector,USB-C 16-pin SMD female,Digi-Key,$1.40,$0.70,$1.40,$0.70
+13,1,PCB,4-layer FR4 90x65mm PCB,JLCPCB,$3.50,$1.20,$3.50,$1.20
+14,1,Enclosure,3D-printed PLA enclosure 90x65x22mm,Local,$1.50,$0.80,$1.50,$0.80
+,,,,,,Total:,$48.20,$32.10

@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator "eeschema")
+  (uuid "sightsync-eyetag-v1")
+  (paper "A4")
+  (title_block
+    (title "SightSync Wearable Eye Tag")
+    (date "2026-07-06")
+    (rev "1.0")
+    (company "Devices / SightSync"))
+
+  (lib_symbols)
+
+  ;; ── U1: nRF52840 QFAA ────────────────────────────────────────────
+  (symbol (lib_id "MCU_Nordic:nRF52840_QFAA") (at 127 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U1" (at 127 76.2 0))
+    (property "Value" "nRF52840_QFAA" (at 127 88.9 0))
+    (property "Footprint" "Package_DFN_QFN:QFN-73-1EP_7x7mm_P0.5mm" (at 127 76.2 0)))
+
+  ;; ── D1: VSMY129408 IR LED 940 nm ─────────────────────────────────
+  (symbol (lib_id "LED:VSMY129408") (at 50.8 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "D1" (at 50.8 127 0))
+    (property "Value" "VSMY129408" (at 50.8 139.7 0)))
+
+  ;; ── D2: VEMT5700X Photodiode ─────────────────────────────────────
+  (symbol (lib_id "Sensor_Optical:VEMT5700X") (at 88.9 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "D2" (at 88.9 127 0))
+    (property "Value" "VEMT5700X" (at 88.9 139.7 0)))
+
+  ;; ── U2: TMP117 Digital Temperature Sensor ────────────────────────
+  (symbol (lib_id "Sensor_Temperature:TMP117") (at 127 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U2" (at 127 127 0))
+    (property "Value" "TMP117" (at 127 139.7 0)))
+
+  ;; ── U3: LSM6DSO 6-axis IMU ───────────────────────────────────────
+  (symbol (lib_id "Sensor_Motion:LSM6DSO") (at 165.1 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U3" (at 165.1 127 0))
+    (property "Value" "LSM6DSO" (at 165.1 139.7 0)))
+
+  ;; ── U4: APDS9306 Blue Light Sensor ───────────────────────────────
+  (symbol (lib_id "Sensor:APDS9306") (at 203.2 127 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "U4" (at 203.2 127 0))
+    (property "Value" "APDS9306-025" (at 203.2 139.7 0)))
+
+  ;; ── BAT1, BAT2: CR2032 Coin Cells ────────────────────────────────
+  (symbol (lib_id "Device:Battery_CR2032") (at 50.8 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "BAT1" (at 50.8 76.2 0))
+    (property "Value" "CR2032" (at 50.8 88.9 0)))
+  (symbol (lib_id "Device:Battery_CR2032") (at 63.5 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "BAT2" (at 63.5 76.2 0))
+    (property "Value" "CR2032" (at 63.5 88.9 0)))
+
+  ;; ── D3: BAT54 Schottky (ideal diode OR-ing) ──────────────────────
+  (symbol (lib_id "Diode:BAT54") (at 88.9 76.2 0)
+    (in_bom yes) (on_board yes)
+    (property "Ref" "D3" (at 88.9 76.2 0))
+    (property "Value" "BAT54" (at 88.9 88.9 0)))
+
+  ;; ── Net connections (summary) ────────────────────────────────────
+  ;; nRF52840 P0.26 → IR LED PWM (940 nm)
+  ;; nRF52840 P0.27 → Photodiode ADC (transimpedance amp)
+  ;; nRF52840 P0.06 → I²C SDA (TMP117, APDS9306)
+  ;; nRF52840 P0.07 → I²C SCL
+  ;; nRF52840 P0.22 → LSM6DSO SPI CS
+  ;; nRF52840 P0.23 → LSM6DSO SPI CLK
+  ;; nRF52840 P0.24 → LSM6DSO SPI MISO
+  ;; nRF52840 P0.25 → LSM6DSO SPI MOSI
+  ;; nRF52840 P0.11 → LSM6DSO INT1
+  ;; nRF52840 P0.12 → TMP117 ALERT
+  ;; nRF52840 P0.15 → Button (pair + reset)
+  ;; nRF52840 P0.13 → Status LED
+  ;; nRF52840 P0.31 → Battery voltage (SAADC)
+  ;; CR2032 ×2 → BAT54 Schottky ideal-diode OR → nRF52840 VDD
+
+  (sheet_instances (path "/" (page "1")))
+)
