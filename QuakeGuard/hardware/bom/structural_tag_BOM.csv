@@ -1,0 +1,18 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+RP2040 QFN-56,1,RP2040,Raspberry Pi,$1.00,$1.00,Dual-core M0+ 133MHz MCU
+W25Q16JVSIQ flash,1,W25Q16JVSIQ,Winbond,$0.60,$0.60,2MB SPI flash for firmware
+350Ω strain gauge,2,CEA-06-250UW-350,Vishay,$3.50,$7.00,Foil strain gauge 350Ω
+HX711 24-bit ADC,1,HX711,AVIA Semiconductor,$1.50,$1.50,24-bit weigh-scale ADC
+LIS3DH accelerometer,1,LIS3DH,ST Microelectronics,$1.80,$1.80,3-axis I2C accelerometer
+DS18B20 temperature,1,DS18B20,Maxim Integrated,$1.20,$1.20,1-Wire digital temperature
+CC1101 868MHz radio,1,CC1101RGP,TI,$3.50,$3.50,Sub-GHz transceiver
+TPS63020 buck-boost,1,TPS63020DSJR,TI,$3.20,$3.20,6V to 3.3V high-efficiency
+CR2032 holder,3,CR2032-HD-6V,Generic,$0.30,$0.90,3× CR2032 series holders
+CR2032 battery,3,CR2032,Energizer,$0.50,$1.50,3V lithium coin cell
+LED red,1,LED-R-5mm,Generic,$0.10,$0.10,Status indicator
+LED green,1,LED-G-5mm,Generic,$0.10,$0.10,Heartbeat indicator
+PCB,1,2-layer 40x30mm,JLCPCB,$2.00,$2.00,2-layer FR4 PCB
+Epoxy enclosure,1,EPOXY-40x30x15,Generic,$3.00,$3.00,Sealed epoxy enclosure
+VHB 5950 tape,1,VHB-5950-STRIP,3M,$0.50,$0.50,Industrial adhesive strip
+Misc components,,Caps/Resistors/Inductors,Various,$2.00,$2.00,Passives and connectors
+TOTAL,,,,$26.80,Structural tag total

@@ -1,0 +1,18 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+ESP32-S3-WROOM-1-N8R2,1,ESP32-S3-WROOM-1-N8R2,Espressif,$6.50,$6.50,8MB flash 2MB PSRAM MCU
+ADXL355BCCZ accelerometer,1,ADXL355BCCZ,Analog Devices,$18.00,$18.00,±2g 20-bit 1µg/√Hz MEMS
+LIS3DHH accelerometer,1,LIS3DHH,ST Microelectronics,$12.00,$12.00,±2.5g high-precision cross-validation
+DS18B20 temperature,1,DS18B20,Maxim Integrated,$1.20,$1.20,1-Wire digital temperature
+CC1101 868MHz radio,1,CC1101RGP,TI,$3.50,$3.50,Sub-GHz transceiver
+TPS63020 buck-boost,1,TPS63020DSJR,TI,$3.20,$3.20,High-efficiency DC-DC
+TP4056 charger,1,TP4056,Nanjing Top Power,$0.50,$0.50,Li-Ion charge controller
+18650 battery holder,1,BAT-18650-HD,Generic,$0.50,$0.50,Single 18650 holder
+18650 Li-Ion 3400mAh,1,INR18650-34G,Samsung,$4.00,$4.00,Protected 18650 cell UPS
+SK6812 LED,1,SK6812,WorldSemi,$0.50,$0.50,Single RGB status LED
+USB-C connector,1,USB4105-GF-A,Amphenol,$0.80,$0.80,USB-C 5V power input
+PCB,1,4-layer 60x60mm,JLCPCB,$3.00,$3.00,4-layer FR4 PCB
+Enclosure,1,ABS-60x60x30,Generic,$5.00,$5.00,Compact ABS enclosure
+Leveling bubble,1,BUBBLE-10mm,Generic,$0.20,$0.20,For horizontal placement
+3M VHB tape,1,VHB-5950,3M,$0.30,$0.30,Adhesive mounting
+Misc components,,Caps/Resistors/Inductors,Various,$2.00,$2.00,Passives and connectors
+TOTAL,,,,$56.70,Floor node total

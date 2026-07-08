@@ -1,0 +1,104 @@
+(kicad_sch
+  (version 20231120)
+  (generator "quakeguard")
+  (layer "F.Cu")
+  (net 0 "")
+  ;;
+  ;; QuakeGuard Auto-Shutoff Controller — ESP32-C3-WROOM-02
+  ;; Motorized gas + water valve shutoff, equipment relays, gas sensing
+  ;;
+  ;; POWER:
+  ;;   12V DC adapter → LM2596 → 5V → AP2112 → 3.3V
+  ;;   2× 18650 UPS → boost → 12V (for valve motors)
+  ;;
+  ;; ESP32-C3-WROOM-02 (U1)
+  ;;   Pin 2  (3V3)     → PWR_3V3
+  ;;   Pin 3  (EN)      → RC reset
+  ;;   Pin 4  (GPIO1)   → MQ-8 analog (H2 gas sensor)
+  ;;   Pin 5  (GPIO2)   → MQ-4 analog (CH4 gas sensor)
+  ;;   Pin 6  (GPIO3)   → DS18B20 1-Wire (temp)
+  ;;   Pin 7  (GPIO4)   → Gas valve STEP (stepper driver)
+  ;;   Pin 8  (GPIO5)   → Gas valve DIR
+  ;;   Pin 9  (GPIO6)   → Water valve PWM (DRV8871 IN1)
+  ;;   Pin 10 (GPIO7)   → Water valve IN2 (DRV8871)
+  ;;   Pin 11 (GPIO8)   → Relay 1 (elevator drop)
+  ;;   Pin 12 (GPIO9)   → Reed switch (gas valve position, input)
+  ;;   Pin 13 (GPIO10)  → Reed switch (water valve position, input)
+  ;;   Pin 14 (GPIO18)  → SPI CLK (CC1101)
+  ;;   Pin 15 (GPIO19)  → SPI MISO
+  ;;   Pin 16 (GPIO20)  → SPI MOSI
+  ;;   Pin 17 (GPIO21)  → CC1101 CSn
+  ;;   Pin 18 (GPIO22)  → CC1101 GD0 (RX interrupt)
+  ;;   Additional relay GPIOs: via I2C GPIO expander (PCF8574, addr 0x20)
+  ;;     P0 → Relay 2 (awning retract)
+  ;;     P1 → Relay 3 (non-essential power cut)
+  ;;     P2 → Relay 4 (gas appliance cutoff)
+  ;;
+  ;; CC1101 868 MHz Sub-GHz Radio (U2)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SI ← MOSI   SO → MISO   SCLK ← CLK   CSn ← GPIO21
+  ;;   GD0 → GPIO22
+  ;;   ANT → 868 MHz external SMA antenna
+  ;;
+  ;; MQ-8 Hydrogen Gas Sensor (U3)
+  ;;   VCC → 5V   GND → GND   AOUT → GPIO1 (ADC1_CH1)
+  ;;   VH (heater) → 5V (preheat 48h before first use)
+  ;;
+  ;; MQ-4 Methane Gas Sensor (U4)
+  ;;   VCC → 5V   GND → GND   AOUT → GPIO2 (ADC1_CH2)
+  ;;   VH (heater) → 5V
+  ;;
+  ;; DS18B20 Temperature (U5)
+  ;;   VCC → 3.3V   GND → GND   DQ → GPIO3 (1-Wire, 4.7k pull-up)
+  ;;
+  ;; NEMA 17 Stepper Motor + DM542T Driver (M1, U6)
+  ;;   STEP ← GPIO4 (PWM pulse, 1000 steps/s)
+  ;;   DIR  ← GPIO5 (high = close, low = open)
+  ;;   EN   → GND (always enabled)
+  ;;   V+   → 12V (from LM2596 or UPS boost)
+  ;;   V-   → GND
+  ;;   A+/A- → Stepper coil A   B+/B- → Stepper coil B
+  ;;   1.5 rev = 300 steps = close 3/4" ball valve (90°)
+  ;;
+  ;; DRV8871 DC Motor Driver (U7) — for water ball valve
+  ;;   VM → 12V   VCC → 3.3V   GND → GND
+  ;;   IN1 ← GPIO6 (PWM, forward = close)
+  ;;   IN2 ← GPIO7 (reverse = open, for testing)
+  ;;   OUT1 → DC motor +   OUT2 → DC motor -
+  ;;   nFAULT → (input with pull-up, optional)
+  ;;
+  ;; 3/4" Motorized Ball Valve (V1, gas)
+  ;;   Stepper-driven, 90° quarter turn
+  ;;   Reed switch magnet on valve stem → GPIO9 (position sensor)
+  ;;
+  ;; 1" Motorized Ball Valve (V2, water)
+  ;;   DC-motor-driven, 90° quarter turn
+  ;;   Reed switch magnet on valve stem → GPIO10 (position sensor)
+  ;;
+  ;; SRD-05VDC Relays ×4 (K1-K4)
+  ;;   K1 coil ← GPIO8 (elevator drop contact)
+  ;;   K2 coil ← PCF8574 P0 (awning retract)
+  ;;   K3 coil ← PCF8574 P1 (power cut)
+  ;;   K4 coil ← PCF8574 P2 (gas appliance cutoff)
+  ;;   Contacts: NO/NC, 10A @ 250VAC
+  ;;
+  ;; PCF8574 I2C GPIO Expander (U8)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SDA ← (I2C, shared)   SCL ← (I2C, shared)
+  ;;   Address: 0x20 (A0=A1=A2=0)
+  ;;   P0-P2 → Relay coils K2-K4
+  ;;
+  ;; LM2596 Buck (U9)
+  ;;   VIN ← 12V adapter   VOUT → 5V / 3A
+  ;;
+  ;; AP2112 LDO (U10)
+  ;;   VIN ← 5V   VOUT → 3.3V / 300mA
+  ;;
+  ;; TP4056 + 18650 ×2 UPS (U11)
+  ;;   VIN ← 12V (always charging)   BAT → 2× 18650 (parallel, protected)
+  ;;   → Boost converter → 12V (for valve motors during power outage)
+  ;;
+  ;; 12V DC Input (J1)
+  ;;   Barrel jack → LM2596 input
+  ;;
+)

@@ -1,0 +1,86 @@
+(kicad_sch
+  (version 20231120)
+  (generator "quakeguard")
+  (layer "F.Cu")
+  (net 0 "")
+  ;;
+  ;; QuakeGuard Structural Health Tag — RP2040
+  ;; Battery-powered strain + vibration monitoring for load-bearing structures
+  ;;
+  ;; POWER:
+  ;;   3× CR2032 (6V) → TPS63020 buck-boost → 3.3V
+  ;;   Target: 12-month battery life, 5-min sampling interval
+  ;;
+  ;; RP2040 QFN-56 (U1)
+  ;;   Pin 1  (RUN)      → RC reset + tactile button
+  ;;   Pin 2  (GPIO0)    → HX711 SCK (clock, output)
+  ;;   Pin 3  (GPIO1)    → HX711 DOUT (data, input)
+  ;;   Pin 4  (GPIO2)    → I2C SDA → LIS3DH
+  ;;   Pin 5  (GPIO3)    → I2C SCL → LIS3DH
+  ;;   Pin 6  (GPIO4)    → CC1101 CSn (SPI1 CS)
+  ;;   Pin 7  (GPIO5)    → DS18B20 1-Wire
+  ;;   Pin 8  (GPIO6)    → SPI1 SCK → CC1101
+  ;;   Pin 9  (GPIO7)    → SPI1 MOSI → CC1101
+  ;;   Pin 10 (GPIO8)    → SPI1 MISO → CC1101
+  ;;   Pin 11 (GPIO9)    → CC1101 GD0 (RX interrupt, wake source)
+  ;;   Pin 12 (GPIO10)   → CC1101 GD2 (unused or TX interrupt)
+  ;;   Pin 13 (GPIO25)   → LED red (status / pairing)
+  ;;   Pin 14 (GPIO26)   → LED green (heartbeat)
+  ;;   Pin 15 (GPIO23)   → HX711 power control (MOSFET gate, for power-down between samples)
+  ;;   Pin 16 (GPIO24)   → LIS3DH INT1 (data ready, wake)
+  ;;   Pin 17 (GPIO29)   → ADC (battery voltage divider, monitor CR2032 level)
+  ;;
+  ;; W25Q16JVSIQ 2MB SPI Flash (U2)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   CS ← GPIO (flash CS, on SPI0)   SCK ← SPI0 SCK
+  ;;   MOSI ← SPI0 MOSI   MISO → SPI0 MISO
+  ;;   (Boot ROM: holds firmware + waveform storage)
+  ;;
+  ;; HX711 24-Bit ADC (U3)
+  ;;   VCC → 3.3V (switched via MOSFET, GPIO23)
+  ;;   GND → GND
+  ;;   AVDD → 2.6V (internal LDO)   AGND → GND
+  ;;   INA+/INA- ← Strain gauge bridge (full Wheatstone bridge, 350Ω ×4)
+  ;;   SCK ← GPIO0   DOUT → GPIO1
+  ;;   Rate: 80 Hz (RATE pin → GND for 80 SPS)
+  ;;   Resolution: 24-bit (0.1 µV input referred → ~0.1 µStrain)
+  ;;
+  ;; 350Ω Strain Gauge ×4 (SG1-SG4, full Wheatstone bridge)
+  ;;   Mounted on structural element (beam/column/foundation wall)
+  ;;   Two gauges: axial (tension/compression)
+  ;;   Two gauges: transverse (Poisson compensation)
+  ;;   Wired to HX711 INA+/INA- via bridge completion network
+  ;;
+  ;; LIS3DH 3-Axis Accelerometer (U4)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SDA ← GPIO2   SCL ← GPIO3   (I2C addr 0x19)
+  ;;   INT1 → GPIO24 (data ready / activity interrupt, wake source)
+  ;;   Range: ±2g, ODR: 100 Hz (sampling mode) / 1 Hz (low-power wake)
+  ;;
+  ;; DS18B20 Temperature (U5)
+  ;;   VCC → 3.3V   GND → GND   DQ → GPIO5 (1-Wire, 4.7k pull-up)
+  ;;   Purpose: thermal compensation for strain gauge readings
+  ;;
+  ;; CC1101 868 MHz Sub-GHz Radio (U6)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SI ← GPIO7   SO → GPIO8   SCLK ← GPIO6   CSn ← GPIO4
+  ;;   GD0 → GPIO9 (RX interrupt — wake RP2040 from deep sleep)
+  ;;   ANT → 868 MHz PCB antenna (compact, on-board)
+  ;;
+  ;; TPS63020 Buck-Boost (U7)
+  ;;   VIN ← CR2032 ×3 (6V)   VOUT → 3.3V / 500mA
+  ;;
+  ;; CR2032 Holders ×3 (BAT1-3)
+  ;;   Series connection → 6V → TPS63020 input
+  ;;   Total capacity: ~225 mAh (CR2032 @ 6V series)
+  ;;
+  ;; LED ×2 (LED1 red, LED2 green)
+  ;;   LED1 ← GPIO25 (red: status/alert/pairing)
+  ;;   LED2 ← GPIO26 (green: heartbeat)
+  ;;   1k series resistor each
+  ;;
+  ;; Battery Voltage Monitor
+  ;;   Voltage divider: 6V → 2M/1M → GPIO29 (ADC, 0-3.3V)
+  ;;   Threshold: 4.5V = ~0% battery (3 × 1.5V)
+  ;;
+)

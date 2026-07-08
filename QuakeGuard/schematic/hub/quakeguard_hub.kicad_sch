@@ -1,0 +1,112 @@
+(kicad_sch
+  (version 20231120)
+  (generator "quakeguard")
+  (layer "F.Cu")
+  (net 0 "")
+  ;;
+  ;; QuakeGuard Hub Schematic — ESP32-S3-WROOM-1-N16R8
+  ;; Central coordinator: P-wave CNN, consensus, shutoff dispatch,
+  ;;   cellular backup, e-ink display, siren, family check-in
+  ;;
+  ;; POWER:
+  ;;   USB-C 5V → TPS63020 buck-boost → 3.3V (net PWR_3V3)
+  ;;   2× 18650 UPS → TP4056 charge → MCP16301 boost → 3.3V backup
+  ;;
+  ;; ESP32-S3-WROOM-1-N16R8 (U1)
+  ;;   Pin 2  (3V3)      → PWR_3V3
+  ;;   Pin 3  (EN)       → RC reset (10k + 0.1uF) + tactile button
+  ;;   Pin 4-5 (IO0/IO1) → UART0 TX/RX (debug + flash)
+  ;;   Pin 6  (GPIO4)    → I2S BCK  → MAX98357A BCLK
+  ;;   Pin 7  (GPIO5)    → I2S LRCK → MAX98357A LRC
+  ;;   Pin 8  (GPIO6)    → I2S DIN  → MAX98357A DIN
+  ;;   Pin 9  (GPIO7)    → HC-SR501 PIR OUT (input, pull-down)
+  ;;   Pin 10 (GPIO8)    → I2C SDA → DS3231, DRV2605L, SHT40
+  ;;   Pin 11 (GPIO9)    → I2C SCL → DS3231, DRV2605L, SHT40
+  ;;   Pin 12 (GPIO10)   → SPI CLK  → CC1101 + microSD (shared)
+  ;;   Pin 13 (GPIO11)   → SPI MISO → CC1101 + microSD
+  ;;   Pin 14 (GPIO12)   → SPI MOSI → CC1101 + microSD
+  ;;   Pin 15 (GPIO13)   → CC1101 CSn (SPI CS0)
+  ;;   Pin 16 (GPIO14)   → CC1101 GD0 (interrupt, input)
+  ;;   Pin 17 (GPIO15)   → e-ink CS (SPI CS1)
+  ;;   Pin 18 (GPIO16)   → e-ink DC
+  ;;   Pin 19 (GPIO17)   → UART2 TX → SIM7000 RXD
+  ;;   Pin 20 (GPIO18)   → UART2 RX → SIM7000 TXD
+  ;;   Pin 21 (GPIO21)   → SIM7000 PWRKEY (output)
+  ;;   Pin 22 (GPIO35)   → microSD CS (SPI CS2)
+  ;;   Pin 23 (GPIO36)   → e-ink RST
+  ;;   Pin 24 (GPIO37)   → e-ink BUSY (input)
+  ;;   Pin 25 (GPIO38)   → microSD CD (card detect, input)
+  ;;   Pin 26 (GPIO39)   → SIM7000 STATUS (input)
+  ;;   Pin 27 (GPIO48)   → SK6812 LED ring data (RMT output)
+  ;;
+  ;; CC1101 Sub-GHz Radio (U2)
+  ;;   VCC → 3.3V, GND → GND
+  ;;   SI   ← MOSI    SO  → MISO
+  ;;   SCLK ← CLK     CSn ← GPIO13
+  ;;   GD0  → GPIO14 (packet RX interrupt)
+  ;;   GD2  → (unused or antenna diversity)
+  ;;   ANT  → 868 MHz monopole + matching network
+  ;;
+  ;; SIM7000A LTE Modem (U3)
+  ;;   VBAT → 3.8V (from separate LDO, 2A peak)
+  ;;   RXD  ← GPIO17 (UART2 TX)   TXD → GPIO18 (UART2 RX)
+  ;;   PWRKEY ← GPIO21
+  ;;   STATUS → GPIO39
+  ;;   SIM → nano-SIM holder (U4)
+  ;;   ANT → LTE antenna (SMA)
+  ;;
+  ;; 2.9" e-ink Display (J1, 24-pin FPC)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   CS  ← GPIO15  DC ← GPIO16  RST ← GPIO36  BUSY → GPIO37
+  ;;   SCK ← GPIO10  MOSI ← GPIO12  (shared SPI)
+  ;;
+  ;; MAX98357A I2S Amp + Speaker (U5)
+  ;;   VIN → 5V   GND → GND
+  ;;   BCLK ← GPIO4   LRC ← GPIO5   DIN ← GPIO6
+  ;;   GAIN → GND (9 dB)  SD → 3.3V (enabled)
+  ;;   SPK → 3W 4Ω speaker
+  ;;
+  ;; DRV2605L Haptic Driver + LRA (U6)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SDA ← GPIO8   SCL ← GPIO9   (I2C addr 0x5A)
+  ;;   IN → (internal waveform)   OUT → LRA motor
+  ;;
+  ;; SK6812 LED Ring (LED1-24)
+  ;;   DIN ← GPIO48   VCC → 5V   GND → GND
+  ;;   DOUT → cascade
+  ;;
+  ;; DS3231 RTC (U7)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SDA ← GPIO8   SCL ← GPIO9   (I2C addr 0x68)
+  ;;   VBAT → CR2032
+  ;;   32kHz → (optional, unused)
+  ;;
+  ;; SHT40 Temp/Humidity (U8)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SDA ← GPIO8   SCL ← GPIO9   (I2C addr 0x44)
+  ;;
+  ;; HC-SR501 PIR (U9)
+  ;;   VCC → 5V   GND → GND   OUT → GPIO7
+  ;;
+  ;; TPS63020 Buck-Boost (U10)
+  ;;   VIN ← USB-C 5V (or MCP16301 backup)
+  ;;   VOUT → 3.3V / 2A
+  ;;
+  ;; TP4056 Charger (U11)
+  ;;   VIN ← USB-C 5V   BAT → 2× 18650 (parallel, protected)
+  ;;   CHRG → LED (charging)   STDBY → LED (full)
+  ;;
+  ;; MCP16301 Boost (U12)
+  ;;   VIN ← 18650 (3.7V)   VOUT → 5V (backup rail)
+  ;;
+  ;; microSD Socket (J2)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   CS ← GPIO35   SCK ← GPIO10   MOSI ← GPIO12   MISO ← GPIO11
+  ;;   CD → GPIO38
+  ;;
+  ;; USB-C Connector (J3)
+  ;;   VBUS → 5V (TPS63020 input)
+  ;;   CC1/CC2 → 5.1k pull-down (power sink)
+  ;;   D+/D- → (unused or ESP32-S3 USB-OTG for flashing)
+  ;;
+)

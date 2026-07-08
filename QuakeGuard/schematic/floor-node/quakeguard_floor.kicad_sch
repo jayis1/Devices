@@ -1,0 +1,69 @@
+(kicad_sch
+  (version 20231120)
+  (generator "quakeguard")
+  (layer "F.Cu")
+  (net 0 "")
+  ;;
+  ;; QuakeGuard Seismic Floor Node — ESP32-S3-WROOM-1-N8R2
+  ;; Distributed MEMS accelerometer for P-wave detection
+  ;;
+  ;; POWER:
+  ;;   USB-C 5V → TPS63020 → 3.3V (net PWR_3V3)
+  ;;   1× 18650 UPS → TP4056 → MCP16301 → 3.3V backup
+  ;;
+  ;; ESP32-S3-WROOM-1-N8R2 (U1)
+  ;;   Pin 2  (3V3)     → PWR_3V3
+  ;;   Pin 3  (EN)      → RC reset
+  ;;   Pin 4-5 (IO0/IO1)→ UART0 TX/RX (debug)
+  ;;   Pin 6  (GPIO0)   → Tactile button (manual test / pairing)
+  ;;   Pin 7  (GPIO4)   → DS18B20 1-Wire
+  ;;   Pin 8  (GPIO10)  → SPI CLK  → ADXL355 + LIS3DHH + CC1101 (shared)
+  ;;   Pin 9  (GPIO11)  → SPI MISO → ADXL355 + LIS3DHH + CC1101
+  ;;   Pin 10 (GPIO12)  → SPI MOSI → ADXL355 + LIS3DHH + CC1101
+  ;;   Pin 11 (GPIO13)  → ADXL355 CS (SPI CS0)
+  ;;   Pin 12 (GPIO14)  → LIS3DHH CS (SPI CS1)
+  ;;   Pin 13 (GPIO15)  → CC1101 CSn (SPI CS2)
+  ;;   Pin 14 (GPIO16)  → CC1101 GD0 (packet RX interrupt)
+  ;;   Pin 15 (GPIO17)  → ADXL355 INT1 (data ready / threshold)
+  ;;   Pin 16 (GPIO18)  → LIS3DHH INT1
+  ;;   Pin 17 (GPIO48)  → SK6812 status LED
+  ;;
+  ;; ADXL355BCCZ 3-Axis Accelerometer (U2)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   CS  ← GPIO13   SCLK ← GPIO10   MOSI ← GPIO12   MISO → GPIO11
+  ;;   INT1 → GPIO17 (acceleration threshold interrupt)
+  ;;   INT2 → (unused)
+  ;;   STANDBY → (internal, activity mode via SPI config)
+  ;;   Range: ±2g, 20-bit, 1000 Hz ODR
+  ;;
+  ;; LIS3DHH High-Precision Accelerometer (U3)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   CS  ← GPIO14   SCLK ← GPIO10   MOSI ← GPIO12   MISO → GPIO11
+  ;;   INT1 → GPIO18
+  ;;   Range: ±2.5g, 16-bit, 1100 Hz ODR
+  ;;
+  ;; DS18B20 Temperature Sensor (U4)
+  ;;   VCC → 3.3V   GND → GND   DQ → GPIO4 (1-Wire, 4.7k pull-up)
+  ;;
+  ;; CC1101 868 MHz Sub-GHz Radio (U5)
+  ;;   VCC → 3.3V   GND → GND
+  ;;   SI ← MOSI    SO → MISO    SCLK ← CLK    CSn ← GPIO15
+  ;;   GD0 → GPIO16 (RX interrupt)
+  ;;   ANT → 868 MHz PCB antenna
+  ;;
+  ;; SK6812 Status LED (LED1)
+  ;;   DIN ← GPIO48   VCC → 3.3V (or 5V)
+  ;;
+  ;; TPS63020 Buck-Boost (U6)
+  ;;   VIN ← USB-C 5V (or MCP16301 backup)   VOUT → 3.3V
+  ;;
+  ;; TP4056 Charger (U7)
+  ;;   VIN ← USB-C 5V   BAT → 18650 (protected, single cell)
+  ;;
+  ;; MCP16301 Boost (U8)
+  ;;   VIN ← 18650 (3.7V)   VOUT → 5V (backup rail)
+  ;;
+  ;; USB-C Connector (J1)
+  ;;   VBUS → 5V   CC1/CC2 → 5.1k pull-down
+  ;;
+)

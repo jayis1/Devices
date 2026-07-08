@@ -1,0 +1,27 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+ESP32-C3-WROOM-02,1,ESP32-C3-WROOM-02,Espressif,$3.50,$3.50,4MB flash RISC-V MCU
+NEMA 17 stepper motor,1,17HS4401S,StepperOnline,$12.00,$12.00,12V 0.4A stepper for gas valve
+DM542T stepper driver,1,DM542T,Leadshine,$12.00,$12.00,Microstepping driver
+3/4 inch motorized ball valve,1,BV-3-4-MOT,Generic,$32.00,$32.00,3/4" gas ball valve with stepper
+1 inch motorized ball valve,1,BV-1-MOT,Generic,$38.00,$38.00,1" water ball valve with DC motor
+DRV8871 motor driver,1,DRV8871,TI,$3.80,$3.80,H-bridge for water valve DC motor
+MQ-8 H2 gas sensor,1,MQ-8,Hanwei,$4.50,$4.50,Hydrogen gas detection 100-1000ppm
+MQ-4 CH4 gas sensor,1,MQ-4,Hanwei,$3.50,$3.50,Methane/natural gas detection 200-10000ppm
+DS18B20 temperature,1,DS18B20,Maxim Integrated,$1.20,$1.20,1-Wire digital temperature
+SRD-05VDC relay,4,SRD-05VDC-SL-C,SONGLI,$1.20,$4.80,5V relay 10A for equipment control
+Reed switch,2,REED-NO-14,Generic,$1.00,$2.00,Magnetic position sensor for valves
+CC1101 868MHz radio,1,CC1101RGP,TI,$3.50,$3.50,Sub-GHz transceiver
+PCF8574 I2C GPIO expander,1,PCF8574,NXP,$0.80,$0.80,I2C 8-bit expander for relays 2-4
+LM2596 buck converter,1,LM2596-5.0,TI,$1.00,$1.00,12V to 5V step-down
+AP2112 LDO,1,AP2112-3.3,Diodes Inc,$0.50,$0.50,5V to 3.3V LDO
+TP4056 charger,1,TP4056,Nanjing Top Power,$0.50,$0.50,Li-Ion charge controller
+18650 battery holder,2,BAT-18650-HD,Generic,$0.50,$1.00,Single 18650 holders
+18650 Li-Ion 3400mAh,2,INR18650-34G,Samsung,$4.00,$8.00,Protected 18650 cells
+12V DC boost converter,1,MT3606,Generic,$1.50,$1.50,Boost 18650 to 12V for motors
+12V DC adapter,1,12V-2A-ADAPTER,Generic,$6.00,$6.00,12V 2A wall adapter primary power
+SMA antenna connector,1,SMA-PCB,Amphenol,$0.80,$0.80,External Sub-GHz antenna
+Sub-GHz antenna,1,868MHZ-WHIP,Generic,$3.00,$3.00,868 MHz whip antenna
+PCB,1,4-layer 200x150mm,JLCPCB,$8.00,$8.00,4-layer FR4 PCB
+IP54 metal enclosure,1,IP54-200x150x80,Generic,$7.00,$7.00,Metal NEMA-style enclosure
+Misc components,,Caps/Resistors/Inductors,Various,$4.00,$4.00,Passives and connectors
+TOTAL,,,,$139.80,Shutoff controller total
