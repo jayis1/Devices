@@ -1,0 +1,12 @@
+Node,Manufacturer,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Notes
+Wearable Tag,Raytac,MDBT50Q-1M,nRF52840 module,1,5.50,5.50,Primary MCU + BLE
+Wearable Tag,Semtech,LR1121,Sub-GHz transceiver,1,6.20,6.20,868 MHz mesh
+Wearable Tag,Plantower,PMSA003I,Mini PM sensor I2C/UART,1,2.00,2.00,Personal exposure
+Wearable Tag,Bosch,BMI270,6-axis IMU,1,2.80,2.80,Activity classification
+Wearable Tag,WorldSemi,SK6812-2020,RGB LED,1,0.15,0.15,Status indicator
+Wearable Tag,Various,CR2032 holder,Coin cell holder,1,0.30,0.30,Battery holder
+Wearable Tag,Various,Passives,Resistors capacitors inductors,1,1.20,1.20,R/C/L
+Wearable Tag,Various,PCB,4-layer FR4 30x30mm,1,0.45,0.45,PCB
+Wearable Tag,Various,Antenna,868 MHz chip antenna,1,0.50,0.50,Sub-GHz antenna
+Wearable Tag,Various,Enclosure,3D-printed clip enclosure,1,1.40,1.40,Clip-on enclosure
+,,,,Total Wearable Tag,,15.00,

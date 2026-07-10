@@ -1,0 +1,14 @@
+Node,Manufacturer,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Notes
+Room Sentinel,Espressif,ESP32-S3-WROOM-1-N16R8,Wi-Fi/BLE SoC 16MB flash 8MB PSRAM,1,4.50,4.50,Primary MCU
+Room Sentinel,Sensirion,SPS30,Laser PM sensor 0.3-10um,1,28.00,28.00,Pollen detection
+Room Sentinel,Sensirion,SCD41,Photoacoustic CO2 sensor,1,12.00,12.00,CO2 monitoring
+Room Sentinel,Bosch,BME688,VOC + temp + humidity + pressure,1,4.50,4.50,Air quality
+Room Sentinel,Texas Instruments,TMP117,High-accuracy temp sensor ±0.1°C,1,2.20,2.20,Precision temp
+Room Sentinel,Sunon,HA-03030-P01,50mm 5V fan,1,3.50,3.50,Sampling fan
+Room Sentinel,WorldSemi,SK6812-2020,RGB LED,1,0.15,0.15,Status indicator
+Room Sentinel,Silicon Labs,CP2102N-A02,USB-UART bridge,1,1.80,1.80,Debug UART
+Room Sentinel,Texas Instruments,TPS63020,Buck-boost 3.3V,1,1.90,1.90,Power regulation
+Room Sentinel,Various,Passives,Resistors capacitors inductors,1,1.50,1.50,R/C/L
+Room Sentinel,Various,PCB,4-layer FR4 60x60mm,1,1.00,1.00,PCB
+Room Sentinel,Various,Connectors,USB-C + JST,1,0.65,0.65,Connectors
+,,,,Total Room Sentinel,,42.00,

@@ -1,0 +1,73 @@
+(kicad_sch
+  (version 20240108)
+  (generator "kicad")
+  (generator_version "8.0")
+
+  ; AllergySync Window Node — Schematic
+  ; Target: nRF52840 + LR1121 + TMC2209 + VEML7700 + INA260
+  ;
+  ; Power: 4× AA NiMH (4.8V) → 3.3V LDO or USB-C 5V
+  ; MCU:   nRF52840 (Raytac MDBT50Q-1M)
+  ; Radio: LR1121 (Sub-GHz 868 MHz, SPI on P0.04-0.11)
+  ; Motor: NEMA17 stepper + TMC2209 driver
+  ;   STEP → P0.13
+  ;   DIR  → P0.14
+  ;   EN   → P0.15
+  ;   UART → P0.16/P0.17 (TMC2209 config)
+  ; Reed:  P0.19 (window state, pull-up)
+  ; Relay: P0.20 (air purifier, via MOSFET)
+  ; Light: VEML7700 (I2C, P0.21/P0.22)
+  ; Power: INA260 (I2C, P0.24/P0.25, addr 0x40)
+  ; LED:   SK6812 (P0.26)
+  ; Btn:   P0.27 (calibrate button)
+
+  (lib_symbols
+    (symbol "MCU_Module:nRF52840_MDBT50Q")
+    (symbol "RF:LR1121")
+    (symbol "Driver_Motor:TMC2209")
+    (symbol "Sensor:VEML7700")
+    (symbol "Sensor_Current:INA260")
+    (symbol "LED:SK6812")
+    (symbol "Switch:Reed_Switch")
+    (symbol "Relay:Relay_SPDT")
+    (symbol "Motor:Stepper_NEMA17")
+  )
+
+  (sheet
+    (at 25 25)
+    (size 200 150)
+    (fields_autoplaced)
+    (stroke (width 0.1524))
+    (fill (color 255 255 255 0.0))
+    (uuid "00000000-0000-0000-0000-000000000003")
+    (property "Sheetname" "AllergySync Window Node")
+    (property "Sheetfile" "window-node.kicad_sch")
+  )
+
+  ; ---- Stepper Motor Circuit ----
+  ; TMC2209:
+  ;   VCC  → 3.3V (logic)
+  ;   VS   → VMOT (battery, 4.8-12V)
+  ;   STEP ← P0.13
+  ;   DIR  ← P0.14
+  ;   EN   ← P0.15 (active low)
+  ;   UART_RX/TX ← P0.16/P0.17 (config)
+  ;   A+, A- → coil A (red/blue)
+  ;   B+, B- → coil B (green/black)
+  ;   GND  → GND (with thermal pad)
+
+  ; ---- Relay Circuit ----
+  ; P0.20 → 2N7002 MOSFET gate
+  ; MOSFET drain → relay coil (5V relay)
+  ; Flyback diode (1N4148) across relay coil
+  ; Relay contacts: NO → AC line for air purifier
+
+  ; ---- Power ----
+  ; 4× AA NiMH → 4.8V → TPS63020 → 3.3V (MCU, sensors)
+  ; Battery → VMOT (stepper, direct)
+  ; INA260 monitors battery voltage/current
+  ;   VBUS ← battery+
+  ;   I+   ← battery+ (load side)
+  ;   I-   ← load
+  ;   SDA/SCL → P0.24/P0.25
+)

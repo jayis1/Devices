@@ -1,0 +1,56 @@
+(kicad_sch
+  (version 20240108)
+  (generator "kicad")
+  (generator_version "8.0")
+
+  ; AllergySync Room Sentinel — Schematic
+  ; Target: ESP32-S3-WROOM-1 + SPS30 + SCD41 + BME688 + TMP117
+  ;
+  ; Power: USB-C 5V → 3.3V LDO + 5V fan
+  ; MCU:   ESP32-S3-WROOM-1 (16MB flash, 8MB PSRAM)
+  ; PM:    Sensirion SPS30 (UART1, GPIO8/9)
+  ; CO2:   Sensirion SCD41 (I2C bus 1, GPIO10/11, addr 0x62)
+  ; VOC:   Bosch BME688 (I2C, addr 0x77)
+  ; Temp:  TI TMP117 (I2C bus 1, GPIO10/11, addr 0x48)
+  ; Fan:   50mm 5V (PWM on GPIO4, enable on GPIO5)
+  ; LED:   SK6812 (GPIO6)
+  ; Radio: LR1121 (SPI on GPIO34-41)
+
+  (lib_symbols
+    (symbol "MCU_Module:ESP32-S3-WROOM-1")
+    (symbol "Sensor_Particle:SPS30")
+    (symbol "Sensor_Gas:SCD41")
+    (symbol "Sensor:BME688")
+    (symbol "Sensor_Temperature:TMP117")
+    (symbol "LED:SK6812")
+    (symbol "Motor:Fan_5V")
+    (symbol "RF:LR1121")
+  )
+
+  (sheet
+    (at 25 25)
+    (size 200 150)
+    (fields_autoplaced)
+    (stroke (width 0.1524))
+    (fill (color 255 255 255 0.0))
+    (uuid "00000000-0000-0000-0000-000000000002")
+    (property "Sheetname" "AllergySync Room Sentinel")
+    (property "Sheetfile" "room-sentinel.kicad_sch")
+  )
+
+  ; ---- I2C Bus 1 (shared: SCD41 + TMP117) ----
+  ; SDA → GPIO10
+  ; SCL → GPIO11
+  ; SCD41 at 0x62, TMP117 at 0x48
+
+  ; ---- SPS30 UART ----
+  ; TX → GPIO8 (ESP TX → SPS30 RX)
+  ; RX → GPIO9 (SPS30 TX → ESP RX)
+
+  ; ---- Fan ----
+  ; PWM  → GPIO4 (LEDC, 25 kHz)
+  ; EN   → GPIO5 (MOSFET gate)
+
+  ; ---- LR1121 ----
+  ; Same pin assignment pattern as Hub but on GPIO34-41
+)

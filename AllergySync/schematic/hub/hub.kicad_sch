@@ -1,0 +1,75 @@
+(kicad_sch
+  (version 20240108)
+  (generator "kicad")
+  (generator_version "8.0")
+
+  ; AllergySync Hub — Schematic
+  ; Target: ESP32-S3-WROOM-1-N16R8 + LR1121 + BMI270
+  ;
+  ; Power: USB-C 5V → TPS63020 buck-boost → 3.3V
+  ; MCU:   ESP32-S3-WROOM-1 (16MB flash, 8MB PSRAM)
+  ; Radio: LR1121 (Sub-GHz 868 MHz, SPI on GPIO4-11)
+  ; IMU:   BMI270 (I2C on GPIO13/14)
+  ; LED:   SK6812 (GPIO12)
+  ; Debug: CP2102N USB-UART (UART0 on GPIO43/44)
+
+  (lib_symbols
+    (symbol "MCU_Module:ESP32-S3-WROOM-1"
+      (pin_names (offset 1.016))
+    )
+    (symbol "RF:LR1121"
+      (pin_names (offset 1.016))
+    )
+    (symbol "Sensor:BMI270"
+      (pin_names (offset 1.016))
+    )
+    (symbol "LED:SK6812")
+    (symbol "Interface_USB:CP2102N")
+    (symbol "Regulator_Switching:TPS63020")
+  )
+
+  (sheet
+    (at 25 25)
+    (size 200 150)
+    (fields_autoplaced)
+    (stroke (width 0.1524))
+    (fill (color 255 255 255 0.0))
+    (uuid "00000000-0000-0000-0000-000000000001")
+    (property "Sheetname" "AllergySync Hub")
+    (property "Sheetfile" "hub.kicad_sch")
+  )
+
+  ; ---- ESP32-S3 Module ----
+  ; VDD3.3  → 3V3
+  ; GND     → GND
+  ; GPIO4   → LR1121 SPI CS
+  ; GPIO5   → LR1121 SPI CLK
+  ; GPIO6   → LR1121 SPI MISO
+  ; GPIO7   → LR1121 SPI MOSI
+  ; GPIO8   → LR1121 DIO0 (IRQ)
+  ; GPIO9   → LR1121 DIO1 (IRQ)
+  ; GPIO10  → LR1121 RESET
+  ; GPIO11  → LR1121 BUSY
+  ; GPIO12  → SK6812 DIN
+  ; GPIO13  → BMI270 SDA (I2C bus 1)
+  ; GPIO14  → BMI270 SCL
+  ; GPIO15  → BMI270 INT1
+  ; GPIO43  → UART0 TX (CP2102N RX)
+  ; GPIO44  → UART0 RX (CP2102N TX)
+
+  ; ---- LR1121 Connections ----
+  ; CS    ← GPIO4
+  ; SCK   ← GPIO5
+  ; MISO  → GPIO6
+  ; MOSI  ← GPIO7
+  ; DIO0  → GPIO8 (IRQ)
+  ; DIO1  → GPIO9 (IRQ)
+  ; RESET ← GPIO10
+  ; BUSY  → GPIO11
+  ; ANT   → 868 MHz chip antenna (via matching network)
+
+  ; ---- Power ----
+  ; USB-C VBUS (5V) → TPS63020 VIN
+  ; TPS63020 VOUT → 3.3V (powers ESP32-S3, LR1121, BMI270, SK6812)
+  ; TPS2378 PoE PD → TPS63020 VIN (alternative power)
+)

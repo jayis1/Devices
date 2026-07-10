@@ -1,0 +1,74 @@
+(kicad_sch
+  (version 20240108)
+  (generator "kicad")
+  (generator_version "8.0")
+
+  ; AllergySync Wearable Tag — Schematic
+  ; Target: nRF52840 + LR1121 + PMSA003I + BMI270
+  ;
+  ; Power: CR2032 coin cell (3.0V) → direct (no regulator, nRF52840 1.7-3.6V)
+  ; MCU:   nRF52840 (Raytac MDBT50Q-1M)
+  ; Radio: LR1121 (Sub-GHz 868 MHz, SPI on P0.04-0.11)
+  ; PM:    Plantower PMSA003I (UART, P0.15/P0.16, EN on P0.17)
+  ; IMU:   BMI270 (I2C, P0.19/P0.20, INT on P0.21)
+  ; LED:   SK6812 (P0.23)
+  ; Btn:   P0.25 (status/pairing button)
+  ; Batt:  CR2032 holder (Keystone 3001)
+
+  (lib_symbols
+    (symbol "MCU_Module:nRF52840_MDBT50Q")
+    (symbol "RF:LR1121")
+    (symbol "Sensor_Particle:PMSA003I")
+    (symbol "Sensor:BMI270")
+    (symbol "LED:SK6812")
+    (symbol "Device:Battery_Cell")
+  )
+
+  (sheet
+    (at 25 25)
+    (size 200 150)
+    (fields_autoplaced)
+    (stroke (width 0.1524))
+    (fill (color 255 255 255 0.0))
+    (uuid "00000000-0000-0000-0000-000000000004")
+    (property "Sheetname" "AllergySync Wearable Tag")
+    (property "Sheetfile" "wearable-tag.kicad_sch")
+  )
+
+  ; ---- PMSA003I ----
+  ; This is a miniaturized laser PM sensor:
+  ;   VCC  → 3.0V (CR2032)
+  ;   GND  → GND
+  ;   TX   → P0.16 (PMS → nRF RX)
+  ;   RX   → P0.15 (nRF TX → PMS)
+  ;   EN   ← P0.17 (power gate via MOSFET for duty cycling)
+  ;   SET  ← P0.17 (same as EN, active high)
+  ;   RESET← not connected (unused)
+  ;
+  ; Power consumption:
+  ;   Active:  ~20 mA (for 8s during sampling)
+  ;   Sleep:   < 1 µA (EN low → MOSFET cuts power)
+
+  ; ---- BMI270 ----
+  ;   VCC  → 3.0V
+  ;   GND  → GND
+  ;   SDA  → P0.19
+  ;   SCL  → P0.20
+  ;   INT1 → P0.21 (motion/data-ready interrupt)
+  ;   VDDIO → 3.0V (or 1.8V — same domain)
+
+  ; ---- CR2032 Power ----
+  ; Direct connection (no LDO needed):
+  ;   CR2032+ → VDD (nRF52840, all sensors)
+  ;   CR2032- → GND
+  ; nRF52840 operates 1.7-3.6V, CR2032 2.0-3.0V → OK
+  ; PMSA003I operates 3.3V nominal but works at 3.0V (slightly reduced accuracy)
+  ;
+  ; Battery life calculation:
+  ;   Average current: ~25 µA (8s/300s × 20mA + sleep 3µA + BLE 1mA avg)
+  ;   CR2032: 220 mAh / 25 µA ≈ 8800 hours ≈ 367 days (conservatively 9 months)
+
+  ; ---- LR1121 ----
+  ; Same pin assignment as Window Node (P0.04-0.11)
+  ; TX power: +10 dBm (lower than hub's +14, to save battery)
+)

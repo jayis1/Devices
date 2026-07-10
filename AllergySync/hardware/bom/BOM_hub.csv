@@ -1,0 +1,13 @@
+Node,Manufacturer,Part Number,Description,Quantity,Unit Price (USD),Total Price (USD),Notes
+Hub,Espressif,ESP32-S3-WROOM-1-N16R8,Wi-Fi/BLE SoC 16MB flash 8MB PSRAM,1,4.50,4.50,Primary MCU
+Hub,Semtech,LR1121,Sub-GHz + 2.4GHz transceiver,1,6.20,6.20,868 MHz mesh radio
+Hub,Bosch,BMI270,6-axis IMU,1,2.80,2.80,Tamper detection
+Hub,WorldSemi,SK6812-2020,RGB LED,1,0.15,0.15,Status indicator
+Hub,Silicon Labs,CP2102N-A02,USB-UART bridge,1,1.80,1.80,Debug UART
+Hub,Texas Instruments,TPS2378,PoE PD controller,1,2.50,2.50,Optional PoE power
+Hub,Texas Instruments,TPS63020,Buck-boost 3.3V,1,1.90,1.90,Power regulation
+Hub,Various,Passives,Resistors capacitors inductors,1,1.50,1.50,R/C/L
+Hub,Various,PCB,4-layer FR4 50x50mm,1,0.80,0.80,PCB
+Hub,Various,Connectors,USB-C + JST connectors,1,0.85,0.85,Connectors
+Hub,Various,Antenna,868 MHz chip antenna,1,0.50,0.50,Sub-GHz antenna
+,,,,Total Hub,,18.50,

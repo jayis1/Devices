@@ -1,0 +1,12 @@
+[project]
+name = "allergysync-ml-pipeline"
+version = "1.0.0"
+description = "AllergySync ML training scripts — PollenNet, PollenForecast, SymptomPredict, AllergenSensitivity, ActivityCNN, AnomalyDetector"
+requires-python = ">=3.11"
+dependencies = [
+    "tensorflow>=2.16.0",
+    "numpy>=1.26.0",
+    "xgboost>=2.0.0",
+    "scikit-learn>=1.4.0",
+    "scipy>=1.12.0",
+]
