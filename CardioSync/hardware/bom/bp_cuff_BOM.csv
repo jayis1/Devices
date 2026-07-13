@@ -1,0 +1,18 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+ESP32-C3-WROOM-02,1,ESP32-C3-WROOM-02,Espressif,$3.20,$3.20,160MHz RISC-V BLE 5.0 MCU
+MP3V5050GP pressure sensor,1,MP3V5050GP,NXP,$4.50,$4.50,0-115 kPa analog pressure sensor ±1.5%
+DC micropump 3700RPM,1,KPM27E-DC,Kamoer,$6.00,$6.00,Motorized pump for cuff inflation
+Solenoid valve 2-way NC,1,2W025-08,Generic,$3.50,$3.50,Normally-closed solenoid valve for deflation control
+LSM6DSO IMU,1,LSM6DSO,STMicroelectronics,$1.80,$1.80,I2C 6-axis IMU for wrist position verification
+LM393 comparator,1,LM393D,TI,$0.40,$0.40,Hardware pressure safety cutoff at 200 mmHg
+500mAh Li-Po battery,1,LP-603050-500,Generic,$3.00,$3.00,3.7V 500mAh Li-Po (~200 measurements)
+TPS63020 buck-boost,1,TPS63020DSJR,TI,$3.20,$3.20,High-efficiency DC-DC 3.7V→3.3V
+MCP73831 charger,1,MCP73831T,Microchip,$0.50,$0.50,Li-Po charge controller
+Wrist cuff,1,Adult 13.5-21.5cm,Omron-style,$5.00,$5.00,Standard adult wrist BP cuff with tubing
+MOSFET pump driver,1,IRLML2502,Infineon,$0.40,$0.40,N-channel MOSFET for pump motor
+MOSFET valve driver,1,IRLML2502,Infineon,$0.40,$0.40,N-channel MOSFET for solenoid valve
+USB-C connector,1,USB4105-GF-A,Amphenol,$0.80,$0.80,USB-C 5V power input
+PCB,1,4-layer 65x45mm,JLCPCB,$3.00,$3.00,4-layer FR4 PCB
+ABS enclosure,1,ABS-65x45x25,Generic,$3.50,$3.50,Wrist-mount ABS enclosure
+Misc components,,Caps/Resistors/Inductors,Various,$2.00,$2.00,Passives and connectors
+TOTAL,,,,$38.20,BP Cuff total

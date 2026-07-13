@@ -1,0 +1,142 @@
+(kicad_sch
+  (version 20240108)
+  (generator "CardioSync Hub Schematic")
+  (uuid "00000000-0000-0000-0000-000000000001")
+  (paper "A2")
+  (title_block
+    (title "CardioSync Hub — ESP32-S3 Central Coordinator")
+    (company "Devices")
+    (rev "1.0")
+    (date "2026-07-13")
+  )
+
+  ; ── Power Section ──
+  ; USB-C 5V → TPS63020 buck-boost → 3.3V main rail
+  ; 18650 ×2 → TP4056 charger → MCP16301 boost → 5V UPS
+
+  ; ── ESP32-S3-WROOM-1-N16R8 ──
+  ; U1: ESP32-S3-WROOM-1-N16R8
+  ;   Pin 1: 3V3 → 3.3V rail
+  ;   Pin 2: EN  → 10K pullup + 100nF
+  ;   Pin 3: GPIO4  → I2S BCK (MAX98357A)
+  ;   Pin 4: GPIO5  → I2S LRCK (MAX98357A)
+  ;   Pin 5: GPIO6  → I2S DIN (MAX98357A)
+  ;   Pin 6: GPIO7  → Button (alert acknowledge)
+  ;   Pin 7: GPIO8  → I2C SDA (DS3231, DRV2605L, SHT40)
+  ;   Pin 8: GPIO9  → I2C SCL
+  ;   Pin 9: GPIO10 → SPI CLK (CC1101 + SD card)
+  ;   Pin 10: GPIO11 → SPI MISO
+  ;   Pin 11: GPIO12 → SPI MOSI
+  ;   Pin 12: GPIO13 → CC1101 CS
+  ;   Pin 13: GPIO14 → CC1101 GD0 (interrupt)
+  ;   Pin 14: GPIO15 → E-ink CS
+  ;   Pin 15: GPIO16 → E-ink DC
+  ;   Pin 16: GPIO17 → UART2 TX (SIM7000 RXD)
+  ;   Pin 17: GPIO18 → UART2 RX (SIM7000 TXD)
+  ;   Pin 18: GPIO21 → SIM7000 PWRKEY
+  ;   Pin 19: GPIO35 → SD card CS
+  ;   Pin 20: GPIO36 → E-ink RST
+  ;   Pin 21: GPIO37 → E-ink BUSY
+  ;   Pin 22: GPIO48 → SK6812 LED ring data
+  ;   Pin 23: GND
+
+  ; ── SIM7000A 4G LTE Modem ──
+  ; U2: SIM7000A
+  ;   VBAT: 3.8V (from MCP16301 boost)
+  ;   RXD: GPIO17 (UART2 TX)
+  ;   TXD: GPIO18 (UART2 RX)
+  ;   PWRKEY: GPIO21
+  ;   STATUS: GPIO39
+  ;   SIM: nano-SIM holder
+  ;   ANT: LTE antenna (U.FL connector)
+
+  ; ── 2.9" E-ink Display (Waveshare epd2in9 V2) ──
+  ; U3: E-ink display connector (24-pin FPC)
+  ;   SPI: CLK(GPIO10), MOSI(GPIO12), MISO(GPIO11)
+  ;   CS: GPIO15
+  ;   DC: GPIO16
+  ;   RST: GPIO36
+  ;   BUSY: GPIO37
+  ;   VCC: 3.3V
+
+  ; ── MAX98357A I²S Amplifier + Speaker ──
+  ; U4: MAX98357A
+  ;   BCK: GPIO4
+  ;   LRCK: GPIO5
+  ;   DIN: GPIO6
+  ;   GAIN: 15dB (tied to GND via 100K)
+  ;   Speaker: 3W 4Ω via SPK+/SPK-
+
+  ; ── DRV2605L Haptic Driver + LRA ──
+  ; U5: DRV2605L
+  ;   SDA: GPIO8 (shared I²C)
+  ;   SCL: GPIO9 (shared I²C)
+  ;   Addr: 0x5A
+  ;   IN_TRIG: GPIO (optional)
+  ;   Motor: LRA haptic motor
+
+  ; ── SK6812 LED Ring (24× RGB) ──
+  ; U6: SK6812 ring
+  ;   DIN: GPIO48 (RMT peripheral)
+  ;   VCC: 5V (from USB-C)
+  ;   GND: GND
+
+  ; ── CC1101 Sub-GHz Radio (868 MHz) ──
+  ; U7: CC1101
+  ;   SPI: CLK(GPIO10), MISO(GPIO11), MOSI(GPIO12)
+  ;   CS: GPIO13
+  ;   GD0: GPIO14 (interrupt)
+  ;   ANT: 868 MHz PCB antenna or wire
+
+  ; ── DS3231 RTC ──
+  ; U8: DS3231SN
+  ;   SDA: GPIO8 (shared I²C, addr 0x68)
+  ;   SCL: GPIO9
+  ;   VBAT: CR2032 backup
+
+  ; ── SHT40 Temp/Humidity ──
+  ; U9: SHT40
+  ;   SDA: GPIO8 (shared I²C, addr 0x44)
+  ;   SCL: GPIO9
+
+  ; ── TPS63020 Buck-Boost ──
+  ; U10: TPS63020
+  ;   IN: 5V (USB-C)
+  ;   OUT: 3.3V
+  ;   Ilim: 1.2A
+
+  ; ── TP4056 Charger ──
+  ; U11: TP4056
+  ;   IN: 5V (USB-C)
+  ;   BAT: 18650 ×2 (parallel, 3.7V)
+  ;   CHRG: GPIO (status)
+
+  ; ── MCP16301 Boost ──
+  ; U12: MCP16301
+  ;   IN: 3.7V (18650)
+  ;   OUT: 5V (UPS backup when USB unplugged)
+
+  ; ── microSD Socket ──
+  ; U13: DM3AT-SF
+  ;   SPI: shared with CC1101
+  ;   CS: GPIO35
+  ;   CD: GPIO38 (card detect)
+
+  ; ── USB-C Connector ──
+  ; U14: USB4105-GF-A
+  ;   VBUS: 5V
+  ;   GND: GND
+  ;   CC1/CC2: 5.1K pulldown (power sink only)
+
+  (symbol_instances
+    (path "/hub_power" (uuid "10000000-0000-0000-0000-000000000001"))
+    (path "/hub_mcu" (uuid "20000000-0000-0000-0000-000000000001"))
+    (path "/hub_modem" (uuid "30000000-0000-0000-0000-000000000001"))
+    (path "/hub_display" (uuid "40000000-0000-0000-0000-000000000001"))
+    (path "/hub_audio" (uuid "50000000-0000-0000-0000-000000000001"))
+    (path "/hub_haptic" (uuid "60000000-0000-0000-0000-000000000001"))
+    (path "/hub_led" (uuid "70000000-0000-0000-0000-000000000001"))
+    (path "/hub_radio" (uuid "80000000-0000-0000-0000-000000000001"))
+    (path "/hub_rtc" (uuid "90000000-0000-0000-0000-000000000001"))
+  )
+)

@@ -1,0 +1,14 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+nRF52833 QFAA,1,nRF52833-QFAA-R,Nordic Semiconductor,$4.20,$4.20,64MHz Cortex-M4F BLE 5.0 SoC (compact)
+MAX30102 PPG sensor,1,MAX30102,Maxim Integrated,$3.50,$3.50,I2C green+red+IR PPG/SpO2 sensor
+TMP117 temp sensor,1,TMP117,TI,$1.20,$1.20,I2C ±0.1°C medical-grade skin temp
+LSM6DSO IMU,1,LSM6DSO,STMicroelectronics,$1.80,$1.80,I2C 6-axis IMU for activity context
+20mAh Li-Po battery,1,LP-401430-20,Generic,$2.00,$2.00,3.7V 20mAh ultra-small Li-Po (7-day runtime)
+TPS62743 buck,1,TPS62743,TI,$1.20,$1.20,3.3V 300mA ultra-low-IQ buck
+nPM1300 PMIC,1,nPM1300,Nordic Semiconductor,$1.80,$1.80,Power management IC with charging
+PVD titanium ring shell,1,Ti-Grade5 shell,Jewelry Mfr,$8.00,$8.00,Hypoallergenic PVD-coated titanium ring shell
+Rigid-flex PCB,1,4-layer 18x15mm rigid-flex,PCBWay,$4.00,$4.00,Rigid-flex PCB for ring form factor
+0402 green LED,1,150040GS75000,Würth,$0.10,$0.10,Status indicator LED
+Magnetic charge contacts,1,Pogo-pin 4-pad,Generic,$0.50,$0.50,Magnetic charging cradle contacts
+Misc components,,Caps/Resistors/Inductors,Various,$1.50,$1.50,Passives and connectors
+TOTAL,,,,$29.80,Smart Ring total

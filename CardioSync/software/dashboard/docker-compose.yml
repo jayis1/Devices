@@ -1,0 +1,48 @@
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://cardiosync:cardiosync@db:5432/cardiosync
+      - MQTT_BROKER=mosquitto
+      - MQTT_PORT=1883
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - db
+      - mosquitto
+      - redis
+    restart: unless-stopped
+
+  db:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      - POSTGRES_USER=cardiosync
+      - POSTGRES_PASSWORD=cardiosync
+      - POSTGRES_DB=cardiosync
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+volumes:
+  pgdata:

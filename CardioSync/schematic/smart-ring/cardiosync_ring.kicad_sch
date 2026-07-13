@@ -1,0 +1,96 @@
+(kicad_sch
+  (version 20240108)
+  (generator "CardioSync Smart Ring Schematic")
+  (uuid "00000000-0000-0000-0000-000000000004")
+  (paper "A3")
+  (title_block
+    (title "CardioSync Smart Ring — nRF52833 + MAX30102 PPG")
+    (company "Devices")
+    (rev "1.0")
+    (date "2026-07-13")
+  )
+
+  ; ── Power Section ──
+  ; 20mAh Li-Po (3.7V) → TPS62743 buck → 3.3V
+  ; nPM1300 PMIC → USB-C magnetic cradle charging
+
+  ; ── nRF52833 QFAA ──
+  ; U1: nRF52833-QFAA-R (73-pin QFN)
+  ;   P0.02 → I²C SDA (MAX30102 addr 0x57, TMP117 addr 0x48, LSM6DSO addr 0x6A)
+  ;   P0.03 → I²C SCL
+  ;   P0.04 → MAX30102 INT (data ready interrupt, falling edge)
+  ;   P0.06 → Battery voltage divider (SAADC)
+  ;   P0.08 → LED green (status)
+  ;   P0.09 → Button (event mark / reset)
+  ;   P0.10 → nPM1300 charge status
+  ;   P0.15 → LSM6DSO INT1 (activity interrupt)
+  ;   ANT  → Chip antenna (2.4 GHz BLE 5.0)
+
+  ; ── MAX30102 PPG Sensor ──
+  ; U2: MAX30102 (OLGA-14)
+  ;   SDA: P0.02 (shared I²C, addr 0x57)
+  ;   SCL: P0.03
+  ;   INT: P0.04 (PPG data ready, falling edge)
+  ;   VCC: 3.3V (1.8V LDO internally regulated)
+  ;   LEDs: Green (525 nm), Red (660 nm), IR (880 nm)
+  ;   Photodiode: integrated, 18-bit ADC
+  ;   Mode: Multi-LED (green + red + IR)
+  ;   Sample rate: 100 Hz
+  ;   Pulse width: 411 μs (18-bit resolution)
+  ;   LED current: 3.0 mA each (0x0F)
+  ;   Window: 10 s rolling buffer for HR, 5 min for HRV, 1 min for SpO₂
+
+  ; ── TMP117 Temperature Sensor ──
+  ; U3: TMP117 (DSBGA-6)
+  ;   SDA: P0.02 (shared I²C, addr 0x48)
+  ;   SCL: P0.03
+  ;   VCC: 3.3V
+  ;   Resolution: 16-bit, 0.0078°C/bit
+  ;   Accuracy: ±0.1°C (medical-grade)
+  ;   Conversion: every 30 s (duty-cycled for power savings)
+
+  ; ── LSM6DSO IMU (Activity Context) ──
+  ; U4: LSM6DSO (LGA-14)
+  ;   SDA: P0.02 (shared I²C, addr 0x6A)
+  ;   SCL: P0.03
+  ;   INT1: P0.15 (activity interrupt)
+  ;   VCC: 3.3V
+  ;   Accel: ±4g, 12.5 Hz (ultra-low-power activity monitoring)
+  ;   Purpose: motion artifact rejection, step counting, activity classification
+
+  ; ── TPS62743 Buck ──
+  ; U5: TPS62743
+  ;   IN: 3.7V (20mAh Li-Po)
+  ;   OUT: 3.3V, 300 mA
+  ;   IQ: 360 nA (ultra-low quiescent for 7-day battery)
+
+  ; ── nPM1300 PMIC ──
+  ; U6: nPM1300
+  ;   IN: 5V (USB-C magnetic cradle)
+  ;   BAT: 3.7V Li-Po
+  ;   CHG_STAT: P0.10
+  ;   Charge current: 10 mA (safe for 20 mAh battery, 2C rate)
+
+  ; ── Battery ──
+  ; BAT1: 20 mAh Li-Po (401430, 3.7V)
+  ;   Ultra-small form factor for ring enclosure
+  ;   7-day continuous PPG runtime
+  ;   Voltage divider to P0.06 (SAADC) for monitoring
+
+  ; ── Rigid-Flex PCB Notes ──
+  ; Material: 4-layer rigid-flex, 18×15 mm rigid section
+  ; Rigid sections: component placement (MCU, sensors, PMIC)
+  ; Flex sections: antenna routing, battery connections
+  ; Copper weight: 18 μm
+  ; Minimum trace: 50 μm
+  ; Encapsulated in PVD titanium ring shell (US sizes 6-13)
+
+  (symbol_instances
+    (path "/ring_power" (uuid "10000000-0000-0000-0000-000000000004"))
+    (path "/ring_mcu" (uuid "20000000-0000-0000-0000-000000000004"))
+    (path "/ring_ppg" (uuid "30000000-0000-0000-0000-000000000004"))
+    (path "/ring_temp" (uuid "40000000-0000-0000-0000-000000000004"))
+    (path "/ring_imu" (uuid "50000000-0000-0000-0000-000000000004"))
+    (path "/ring_pmic" (uuid "60000000-0000-0000-0000-000000000004"))
+  )
+)

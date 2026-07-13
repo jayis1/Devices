@@ -1,0 +1,25 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+ESP32-S3-WROOM-1-N16R8,1,ESP32-S3-WROOM-1-N16R8,Espressif,$8.50,$8.50,16MB flash 8MB PSRAM MCU
+SIM7000A LTE modem,1,SIM7000A,SIMCom,$22.00,$22.00,4G LTE Cat-M1 cellular backup for emergency alerts
+nano-SIM holder,1,Nano-SIM-Holder,Amphenol,$0.80,$0.80,Standard nano-SIM socket
+2.9 inch e-ink display,1,Waveshare epd2in9 V2,Waveshare,$14.00,$14.00,296x128 mono e-ink SPI display
+MAX98357A I2S amp,1,MAX98357A,Maxim Integrated,$2.00,$2.00,3W I2S class-D amplifier for siren
+3W speaker,1,SPK-3W-4R,CUI Devices,$1.50,$1.50,3W 4Ω speaker for emergency siren
+DRV2605L haptic driver,1,DRV2605L,TI,$1.20,$1.20,I2C haptic driver for alerts
+LRA haptic motor,1,PCB-LRA-10,PCB Piezotronics,$1.00,$1.00,Linear resonant actuator
+SK6812 LED ring 24,1,RING-SK6812-24,WorldSemi,$3.00,$3.00,24× RGB addressable LEDs (green/yellow/red status)
+CC1101 868MHz radio,1,CC1101RGP,TI,$3.50,$3.50,Sub-GHz transceiver (extensible for room nodes)
+DS3231 RTC,1,DS3231SN,Maxim Integrated,$2.50,$2.50,I2C RTC with crystal for accurate event timestamps
+SHT40 temp/humidity,1,SHT40-AD1B,Sensirion,$1.80,$1.80,I2C temp/humidity environmental sensor
+TPS63020 buck-boost,1,TPS63020DSJR,TI,$3.20,$3.20,High-efficiency DC-DC 5V→3.3V
+TP4056 charger,1,TP4056,Nanjing Top Power,$0.50,$0.50,Li-Ion charge controller
+18650 battery holder,2,BAT-18650-HD,Generic,$0.50,$1.00,Single 18650 holder
+18650 Li-Ion 3400mAh,2,INR18650-34G,Samsung,$4.00,$8.00,Protected 18650 cells for UPS
+MCP16301 boost,1,MCP16301,Microchip,$1.50,$1.50,5V boost from 18650 for UPS mode
+microSD socket,1,DM3AT-SF,Hirose,$0.50,$0.50,microSD card socket for ECG storage
+32GB microSD card,1,SDSDUNC-032G,SanDisk,$5.50,$5.50,ECG waveform storage (pre-cloud upload)
+USB-C connector,1,USB4105-GF-A,Amphenol,$0.80,$0.80,USB-C 5V power input
+PCB,1,4-layer 100x80mm,JLCPCB,$4.00,$4.00,4-layer FR4 PCB
+Enclosure,1,ABS-120x80x35,Generic,$8.00,$8.00,Wall-mount ABS enclosure
+Misc components,,Caps/Resistors/Inductors,Various,$4.00,$4.00,Passives and connectors
+TOTAL,,,,$95.30,Hub total

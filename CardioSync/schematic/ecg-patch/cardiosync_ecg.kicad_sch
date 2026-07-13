@@ -1,0 +1,101 @@
+(kicad_sch
+  (version 20240108)
+  (generator "CardioSync ECG Chest Patch Schematic")
+  (uuid "00000000-0000-0000-0000-000000000002")
+  (paper "A2")
+  (title_block
+    (title "CardioSync ECG Chest Patch — nRF52840 + ADS1292R")
+    (company "Devices")
+    (rev "1.0")
+    (date "2026-07-13")
+  )
+
+  ; ── Power Section ──
+  ; 245mAh Li-Po (3.7V) → TPS62743 buck → 3.3V
+  ; MCP73831 charger → USB-C cradle (magnetic pogo contacts)
+
+  ; ── nRF52840 QFAA ──
+  ; U1: nRF52840-QFAA-R (73-pin QFN)
+  ;   P0.03 → ADS1292R CS (SPI CS)
+  ;   P0.04 → ADS1292R CLK (SPI CLK, 2 MHz)
+  ;   P0.05 → ADS1292R DIN (SPI MOSI)
+  ;   P0.06 → ADS1292R DOUT (SPI MISO)
+  ;   P0.07 → ADS1292R DRDY (interrupt, falling edge)
+  ;   P0.08 → ADS1292R START
+  ;   P0.09 → ADS1292R PWDN/RESET
+  ;   P0.27 → I2C SDA (LSM6DSO addr 0x6A, TMP117 addr 0x48)
+  ;   P0.29 → I2C SCL
+  ;   P0.31 → Battery voltage divider (SAADC)
+  ;   P0.12 → LED green (status)
+  ;   P0.13 → Button (event mark)
+  ;   P0.15 → MCP73831 charge status input
+  ;   ANT  → PCB trace antenna (2.4 GHz BLE 5.0)
+
+  ; ── ADS1292R ECG AFE ──
+  ; U2: ADS1292RIPBSR (TSSOP-24)
+  ;   SPI: CS(P0.03), CLK(P0.04), DIN(P0.05), DOUT(P0.06)
+  ;   DRDY: P0.07 (falling edge interrupt, 250 Hz)
+  ;   START: P0.08
+  ;   PWDN/RESET: P0.09
+  ;   CLK_SEL: tied to GND (internal clock)
+  ;   CONFIG1: HR mode, 250 SPS (0x00)
+  ;   CONFIG3: RLD on, 2.4V internal ref, bias on (0xE0)
+  ;   CH1SET: Gain 12, normal input (0x60)
+  ;   CH2SET: Gain 12, shorted (0x61)
+
+  ; ── ECG Electrode Connections ──
+  ; J1: 3× Ag/AgCl snap electrodes
+  ;   IN1P (RA): Right arm electrode → CH1 positive
+  ;   IN1N (LA): Left arm electrode → CH1 negative
+  ;   RLD_OUT: RLD electrode (right leg drive) → common-mode cancellation
+  ;   Lead-off: internal 6 nA current, 4 Hz
+
+  ; ── LSM6DSO IMU ──
+  ; U3: LSM6DSO (LGA-14)
+  ;   SDA: P0.27 (shared I²C, addr 0x6A)
+  ;   SCL: P0.29
+  ;   INT1: (optional, activity interrupt)
+  ;   VCC: 3.3V
+  ;   Accel: ±4g, 12.5 Hz for motion artifact detection
+
+  ; ── TMP117 Temperature Sensor ──
+  ; U4: TMP117 (DSBGA-6)
+  ;   SDA: P0.27 (shared I²C, addr 0x48)
+  ;   SCL: P0.29
+  ;   Alert: (optional, temperature threshold)
+  ;   VCC: 3.3V
+  ;   Resolution: ±0.1°C (16-bit, 0.0078°C/bit)
+
+  ; ── TPS62743 Buck ──
+  ; U5: TPS62743
+  ;   IN: 3.7V (Li-Po)
+  ;   OUT: 3.3V, 300mA
+  ;   IQ: 360 nA (ultra-low quiescent current for 14-day battery)
+
+  ; ── MCP73831 Charger ──
+  ; U6: MCP73831T
+  ;   IN: 5V (USB-C cradle, magnetic pogo contacts)
+  ;   BAT: 3.7V Li-Po
+  ;   CHRG: P0.15 (charge status)
+  ;   Ireg: 100 mA (small battery, safe charge rate)
+
+  ; ── Battery ──
+  ; BAT1: 245 mAh Li-Po (502035, 3.7V)
+  ;   Connected to TPS62743 input + MCP73831 BAT output
+  ;   Voltage divider to P0.31 (SAADC) for battery monitoring
+
+  ; ── Flexible PCB Notes ──
+  ; Material: Polyimide flex, 2-layer, 70×40 mm
+  ; Copper weight: 12 μm (thin flex)
+  ; Minimum trace: 75 μm
+  ; Bend radius: 3 mm minimum (chest-conforming)
+
+  (symbol_instances
+    (path "/ecg_power" (uuid "10000000-0000-0000-0000-000000000002"))
+    (path "/ecg_mcu" (uuid "20000000-0000-0000-0000-000000000002"))
+    (path "/ecg_afe" (uuid "30000000-0000-0000-0000-000000000002"))
+    (path "/ecg_imu" (uuid "40000000-0000-0000-0000-000000000002"))
+    (path "/ecg_temp" (uuid "50000000-0000-0000-0000-000000000002"))
+    (path "/ecg_electrodes" (uuid "60000000-0000-0000-0000-000000000002"))
+  )
+)

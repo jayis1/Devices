@@ -1,0 +1,16 @@
+Component,Qty,Part,Manufacturer,Unit Price,Total,Notes
+nRF52840 QFAA,1,nRF52840-QFAA-R,Nordic Semiconductor,$6.50,$6.50,64MHz Cortex-M4F BLE 5.0 SoC
+ADS1292RIPBSR,1,ADS1292RIPBSR,TI,$9.80,$9.80,24-bit delta-sigma ECG AFE with PGA and RLD
+Ag/AgCl hydrogel electrodes,3,Ambu Blue Sensor VLC,Ambu,$0.50,$1.50,Disposable ECG electrodes (replace every 7 days)
+LSM6DSO IMU,1,LSM6DSO,STMicroelectronics,$1.80,$1.80,I2C 6-axis IMU for motion artifact detection
+TMP117 temp sensor,1,TMP117,TI,$1.20,$1.20,I2C ±0.1°C medical-grade skin temp
+245mAh Li-Po battery,1,LP-502035-245,Generic,$2.50,$2.50,3.7V 245mAh flexible Li-Po (14-day runtime)
+TPS62743 buck,1,TPS62743,TI,$1.20,$1.20,3.3V 300mA ultra-low-IQ buck converter
+MCP73831 charger,1,MCP73831T,Microchip,$0.50,$0.50,Li-Po charge controller for USB-C cradle
+Flexible polyimide PCB,1,2-layer 70x40mm flex,PCBWay,$8.00,$8.00,Polyimide flexible PCB (chest-conforming)
+Silicone enclosure,1,Medical-grade silicone,Generic,$3.00,$3.00,ISO 10993 biocompatible skin-safe enclosure
+3M Tegaderm adhesive,1,Tegaderm roll,3M,$0.50,$0.50,Medical adhesive film for chest attachment
+USB-C cradle connector,1,Magnetic Pogo,Generic,$0.80,$0.80,Magnetic charging cradle contacts
+0402 green LED,1,150040GS75000,Würth,$0.10,$0.10,Status indicator LED
+Misc components,,Caps/Resistors/Inductors,Various,$2.00,$2.00,Passives and connectors
+TOTAL,,,,$39.60,ECG Patch total

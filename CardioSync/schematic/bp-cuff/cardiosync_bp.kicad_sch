@@ -1,0 +1,89 @@
+(kicad_sch
+  (version 20240108)
+  (generator "CardioSync BP Wrist Cuff Schematic")
+  (uuid "00000000-0000-0000-0000-000000000003")
+  (paper "A2")
+  (title_block
+    (title "CardioSync BP Wrist Cuff — ESP32-C3 + Motorized Oscillometric")
+    (company "Devices")
+    (rev "1.0")
+    (date "2026-07-13")
+  )
+
+  ; ── Power Section ──
+  ; 500mAh Li-Po (3.7V) → TPS63020 buck-boost → 3.3V
+  ; MCP73831 charger → USB-C
+
+  ; ── ESP32-C3-WROOM-02 ──
+  ; U1: ESP32-C3-WROOM-02
+  ;   GPIO 0 → MP3V5050GP analog (pressure sensor, ADC1_CH0)
+  ;   GPIO 1 → Battery voltage divider (ADC1_CH1)
+  ;   GPIO 2 → Pump MOSFET gate (IRLML2502)
+  ;   GPIO 3 → Valve MOSFET gate (IRLML2502)
+  ;   GPIO 4 → Button (on-demand BP)
+  ;   GPIO 5 → LED (status)
+  ;   GPIO 6 → LM393 comparator output (hardware safety cutoff)
+  ;   GPIO 7 → MCP73831 charge status
+  ;   GPIO 8 → I²C SDA (LSM6DSO, TMP117)
+  ;   GPIO 9 → I²C SCL
+  ;   GPIO 10 → TMP117 (I²C addr 0x48, optional)
+  ;   BLE 5.0 → Hub
+
+  ; ── MP3V5050GP Pressure Sensor ──
+  ; U2: MP3V5050GP
+  ;   VOUT: GPIO 0 (ADC1_CH0, 12-bit)
+  ;   VCC: 5V (from TPS63020 or dedicated 5V rail)
+  ;   GND: GND
+  ;   Range: 0-115 kPa (0-862 mmHg)
+  ;   Output: 0.5V at 0 kPa, 4.5V at 115 kPa
+  ;   Accuracy: ±1.5%
+  ;   Voltage divider: 5V → 3.3V range for ESP32-C3 ADC
+
+  ; ── DC Micropump (Motorized Inflation) ──
+  ; M1: KPM27E-DC micropump
+  ;   VCC: 5V (from battery via TPS63020)
+  ;   GND: MOSFET drain (IRLML2502)
+  ;   Gate: GPIO 2 via 100Ω + 10K pulldown
+  ;   Flyback diode: 1N4007 across motor
+
+  ; ── Solenoid Valve (Deflation Control) ──
+  ; V1: 2W025-08 solenoid valve (normally-closed)
+  ;   VCC: 5V
+  ;   GND: MOSFET drain (IRLML2502)
+  ;   Gate: GPIO 3 via 100Ω + 10K pulldown
+  ;   Flyback diode: 1N4007 across valve coil
+  ;   When open: cuff deflates
+  ;   When closed: cuff sealed (for inflation and measurement)
+
+  ; ── LM393 Comparator (Hardware Safety Cutoff) ──
+  ; U3: LM393D
+  ;   IN+: Pressure sensor output (via voltage divider)
+  ;   IN-: Reference voltage (200 mmHg = ~26.7 kPa = ~2.5V)
+  ;   OUT: GPIO 6 (interrupt to ESP32-C3)
+  ;   When pressure > 200 mmHg: comparator output → HIGH → instant valve open
+  ;   This is INDEPENDENT of software — pure hardware safety
+
+  ; ── LSM6DSO IMU (Wrist Position Verification) ──
+  ; U4: LSM6DSO
+  ;   SDA: GPIO 8 (I²C addr 0x6A)
+  ;   SCL: GPIO 9
+  ;   Purpose: verify wrist is at heart level during measurement
+  ;   If wrist too high/low: flag measurement as unreliable
+
+  ; ── Cuff Tubing Connection ──
+  ; J1: Pneumatic tubing connections
+  ;   Port 1: Cuff
+  ;   Port 2: Pump output
+  ;   Port 3: Valve
+  ;   Port 4: Pressure sensor tap
+
+  (symbol_instances
+    (path "/bp_power" (uuid "10000000-0000-0000-0000-000000000003"))
+    (path "/bp_mcu" (uuid "20000000-0000-0000-0000-000000000003"))
+    (path "/bp_pressure" (uuid "30000000-0000-0000-0000-000000000003"))
+    (path "/bp_pump" (uuid "40000000-0000-0000-0000-000000000003"))
+    (path "/bp_valve" (uuid "50000000-0000-0000-0000-000000000003"))
+    (path "/bp_safety" (uuid "60000000-0000-0000-0000-000000000003"))
+    (path "/bp_imu" (uuid "70000000-0000-0000-0000-000000000003"))
+  )
+)
