@@ -144,13 +144,12 @@ def main():
 
     args = parser.parse_args()
 
-    global API_BASE
-    API_BASE = args.api_base
+    api_base = args.api_base
 
     print(f"LawnSync Soil Sensor Calibration")
     print(f"  Node ID: {args.node_id}")
     print(f"  Sensor:  {args.sensor}")
-    print(f"  API:    {API_BASE}")
+    print(f"  API:    {api_base}")
 
     if args.sensor == "moisture" or args.sensor == "all":
         calibrate_moisture(args.node_id)
