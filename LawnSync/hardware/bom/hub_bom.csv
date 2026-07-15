@@ -1,0 +1,20 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-S3-WROOM-1-N16R8,Module,Witson/Wroom,ESP32-S3-WROOM-1-N16R8,9.50,9.50,16MB flash 8MB PSRAM
+2,U2,1,SX1276IMLTRT,RF_Module,Semtech,SX1276IMLTRT,8.20,8.20,Sub-GHz LoRa 868MHz
+3,U3,1,BME280,Sensor,Bosch,BME280,3.50,3.50,Temp/humidity/pressure
+4,U4,1,DS3231SN,SOIC-16,Maxim,DS3231SN,4.80,4.80,RTC battery-backed
+5,U5,1,AP2112K-3.3,SOT-23-5,Diodes,AP2112K-3.3,0.45,0.45,3.3V LDO
+6,U6,1,TPS25940,SON-8,TI,TPS25940DDCR,1.80,1.80,eFuse overcurrent protection
+7,BT1,1,CR2032,CR2032,Various,CR2032,0.30,0.30,RTC backup battery
+8,J1,1,microSD slot,SMD,Various,microSD-SMD,1.20,1.20,SD card slot
+9,J2,1,USB-C 16P,SMD,Various,USB-C-16P,0.80,0.80,Power + debug
+10,J3,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+11,LED1-3,3,SK6812,5050,Worldsemi,SK6812MINI,0.25,0.75,RGB status LEDs
+12,BZ1,1,CMT-8543S-SMT,SMT,CUI,CMT-8543S-SMT,0.90,0.90,Buzzer
+13,Y1,1,8MHz crystal,HC-49,Various,8MHz-HC49,0.40,0.40,SX1276 crystal
+14,C1-C8,8,0.1µF,0603,Various,0.1uF-0603,0.05,0.40,Decoupling caps
+15,C9,1,22µF,0805,Various,22uF-0805,0.25,0.25,Bulk cap
+16,R1-R4,4,10kΩ,0603,Various,10k-0603,0.03,0.12,Pullups
+17,PCB,1,4-layer PCB,Custom,Various,PCB-Hub,8.00,8.00,100×80mm
+18,ENCL,1,IP54 enclosure,Custom,Various,ENCL-Hub,4.50,4.50,DIN rail mount
+Total,,,,,,,42.22,42.22

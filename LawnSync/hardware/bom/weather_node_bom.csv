@@ -1,0 +1,20 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-S3-WROOM-1-N8R2,Module,Espressif,ESP32-S3-WROOM-1-N8R2,6.50,6.50,8MB flash 2MB PSRAM
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,6.50,6.50,Sub-GHz radio
+3,U3,1,BME280,Sensor,Bosch,BME280,3.50,3.50,Temp/humidity/pressure
+4,U4,1,VEML6075,LED-6,Vishay,VEML6075,2.80,2.80,UV index sensor
+5,U5,1,MCP73871,QFN-20,Microchip,MCP73871,2.80,2.80,Solar charger
+6,U6,1,AP2112K-3.3,SOT-23-5,Diodes,AP2112K-3.3,0.45,0.45,3.3V LDO
+7,SEN1,1,Davis 6410 anemometer+vane,Module,Davis,6410,25.00,25.00,Wind speed+direction
+8,SEN2,1,TB-204 tipping bucket,Module,Optolis,TB-204,12.00,12.00,Rain gauge 0.2mm
+9,SEN3,1,Si photodiode,Through-hole,Hamamatsu,S11371,4.50,4.50,Solar irradiance
+10,U7,1,OPA333,SOT-23-5,TI,OPA333,1.20,1.20,Transimpedance amp
+11,BAT1,1,LiFePO4 3.2V 3000mAh,Cylindrical,Various,LiFePO4-3000,5.50,5.50,Battery
+12,SOL1,1,5W 6V solar panel,Custom,Various,SOL-5W-6V,3.00,3.00,Solar panel
+13,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+14,LED1,1,Green LED,0603,Various,LED-GRN-0603,0.10,0.10,Status
+15,C1-C5,5,0.1µF,0603,Various,0.1uF-0603,0.05,0.25,Decoupling
+16,R1-R3,3,10kΩ,0603,Various,10k-0603,0.03,0.09,Pullups/dividers
+17,PCB,1,4-layer PCB,Custom,Various,PCB-Weather,7.00,7.00,100×100mm
+18,ENCL,1,IP65 Stevenson screen,Custom,Various,ENCL-Weather,4.50,4.50,Radiation shield
+Total,,,,,,,48.04,48.04

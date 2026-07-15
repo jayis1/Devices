@@ -1,0 +1,26 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-S3-WROOM-1-N16R8,Module,Espressif,ESP32-S3-WROOM-1-N16R8,9.50,9.50,16MB flash 8MB PSRAM
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,6.50,6.50,Sub-GHz radio
+3,U3,1,OV5640 camera module,DVP,OmniVision,OV5640-AF,8.00,8.00,5MP autofocus camera
+4,U4,1,VEML6075,LED-6,Vishay,VEML6075,2.80,2.80,UV index (not used for lawn)
+5,U5,1,TSL2591,LED-6,ams,TSL2591,3.20,3.20,Ambient light sensor
+6,U6,1,LSM6DSO,LGA-14,ST,LSM6DSO,3.50,3.50,6-axis IMU
+7,U7,1,NEO-M9N,Module,u-blox,NEO-M9N,12.00,12.00,GNSS receiver sub-meter
+8,U8,1,MCP73871,QFN-20,Microchip,MCP73871,2.80,2.80,Solar charger
+9,LED1,8,850nm IR LED,Through-hole,Vishay,VSLY5850,0.40,3.20,NIR illumination
+10,LED2,16,6500K white LED,5050,Cree,XLamp-5050,0.25,4.00,White illumination ring
+11,Q1,1,AO3400A,SOT-23,Alpha,AO3400A,0.15,0.15,NIR LED MOSFET
+12,Q2,1,AO3400A,SOT-23,Alpha,AO3400A,0.15,0.15,White LED MOSFET
+13,BAT1,1,LiFePO4 3.2V 2500mAh,Cylindrical,Various,LiFePO4-2500,4.50,4.50,Battery
+14,SOL1,1,3W 5V solar panel,Custom,Various,SOL-3W-5V,2.00,2.00,Solar panel
+15,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+16,J2,1,USB-C 16P,SMD,Various,USB-C-16P,0.80,0.80,Power + debug
+17,LED3,1,Blue LED,0603,Various,LED-BLU-0603,0.10,0.10,Status
+18,SW1,1,Tactile switch,SMD,Various,TACT-SMD,0.20,0.20,Manual shutter
+19,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling
+20,C7,1,22µF,0805,Various,22uF-0805,0.25,0.25,Bulk cap
+21,R1-R4,4,10kΩ,0603,Various,10k-0603,0.03,0.12,Pullups
+22,PCB,1,4-layer PCB,Custom,Various,PCB-Scanner,8.50,8.50,120×80mm
+23,ENCL,1,IP65 pole mount,Custom,Various,ENCL-Scanner,4.50,4.50,Pole enclosure
+24,OPT1,1,AR-coated glass window,Custom,Various,AR-Window,1.50,1.50,Camera window
+Total,,,,,,,62.37,62.37

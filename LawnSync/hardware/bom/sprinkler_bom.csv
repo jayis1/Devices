@@ -1,0 +1,26 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-WROOM-32E,Module,Espressif,ESP32-WROOM-32E,4.50,4.50,Dual-core MCU
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,6.50,6.50,Sub-GHz radio
+3,U3,1,ULN2803A,SOIC-18,TI,ULN2803A,0.80,0.80,8ch Darlington array
+4,RLY1-9,9,G5LE-14 DC5,DIP-5,Omron,G5LE-14DC5,1.20,10.80,9x relays 10A 5V
+5,U4,1,LM2596,TO-263,TI,LM2596S-5.0,2.50,2.50,5V buck converter
+6,U5,1,AMS1117-3.3,SOT-223,Various,AMS1117-3.3,0.20,0.20,3.3V LDO
+7,U6,1,TPL5010,SOT-23-6,TI,TPL5010,1.20,1.20,External watchdog
+8,BR1,1,KBP206,KBP-D,Various,KBP206,0.40,0.40,Bridge rectifier
+9,SEN1,1,YF-S201,Inline,Various,YF-S201,3.50,3.50,Flow meter hall-effect
+10,SEN2,1,TB-204 tipping bucket,Module,Optolis,TB-204,12.00,12.00,Rain gauge
+11,SEN3,1,MPX5700AP,Sensor,NXP,MPX5700AP,8.50,8.50,Pressure sensor
+12,TVS1-9,9,SMBJ58A,SMB,Various,SMBJ58A,0.30,2.70,9x TVS diodes
+13,MOV1-9,9,V275LA4,Disc,Various,V275LA4,0.25,2.25,9x MOVs
+14,LED1-8,8,Red LED,0603,Various,LED-RED-0603,0.08,0.64,Zone indicators
+15,LED9,1,Blue LED,0603,Various,LED-BLU-0603,0.10,0.10,Status
+16,BZ1,1,CMT-8543S-SMT,SMT,CUI,CMT-8543S-SMT,0.90,0.90,Buzzer
+17,F1,1,2A slow-blow fuse,Fuse,Various,FUSE-2A-SB,0.50,0.50,24VAC input
+18,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+19,J2,1,24VAC terminal block,TB-9,Various,TB-9PIN,1.50,1.50,Valve outputs
+20,C1-C4,4,0.1µF,0603,Various,0.1uF-0603,0.05,0.20,Decoupling
+21,C5,1,470µF 50V,D electrolytic,Various,470uF-50V,0.80,0.80,Filter cap
+22,R1-R4,4,10kΩ,0603,Various,10k-0603,0.03,0.12,Pullups
+23,PCB,1,4-layer PCB,Custom,Various,PCB-Sprinkler,9.00,9.00,150×100mm
+24,ENCL,1,IP54 enclosure,Custom,Various,ENCL-Sprinkler,5.50,5.50,NEMA4X
+Total,,,,,,,55.25,55.25
