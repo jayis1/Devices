@@ -19,4 +19,4 @@ Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Note
 18,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling caps
 19,PCB,1,4-layer PCB,Custom,Various,PCB-Act,9.00,9.00,120×80mm
 20,ENCL,1,IP67 NEMA 4X,Custom,Various,ENCL-IP67,5.50,5.50,Wall mount near sump
-Total,,,,,,,78.07,78.07
+Total,,,,,,,85.77,85.77

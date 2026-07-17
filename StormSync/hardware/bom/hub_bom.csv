@@ -20,4 +20,4 @@ Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Note
 19,SIM1,1,Nano SIM holder,SMD,Various,NanoSIM-SMD,1.20,1.20,SIM card slot
 20,PCB,1,4-layer PCB,Custom,Various,PCB-Hub,10.00,10.00,100×80mm
 21,ENCL,1,IP54 enclosure,Custom,Various,ENCL-Hub,4.50,4.50,DIN rail mount
-Total,,,,,,,65.27,65.27
+Total,,,,,,,70.17,70.17

@@ -702,12 +702,12 @@ See `hardware/bom/` for per-node BOM CSV files.
 
 | Node | Qty | Unit Cost | Total |
 |------|-----|-----------|-------|
-| Hub | 1 | $65 | $65 |
-| Sump Pit Sentinel | 1 | $52 | $52 |
-| Soil Saturation Probe | 4 | $42 | $168 |
-| Weather Sentinel | 1 | $48 | $48 |
-| Flood Actuator | 1 | $78 | $78 |
-| **Total** | | | **$411** |
+| Hub | 1 | $70 | $70 |
+| Sump Pit Sentinel | 1 | $64 | $64 |
+| Soil Saturation Probe | 4 | $53 | $212 |
+| Weather Sentinel | 1 | $60 | $60 |
+| Flood Actuator | 1 | $86 | $86 |
+| **Total** | | | **$492** |
 
 ---
 

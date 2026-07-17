@@ -19,4 +19,4 @@ Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Note
 18,ENCL,1,IP67 NEMA 4X,Custom,Various,ENCL-IP67,5.50,5.50,Above sump pit mount
 19,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling caps
 20,C7,1,470µF,8mm,Various,470uF-8mm,0.50,0.50,Bulk cap for buck
-Total,,,,,,,52.04,52.04
+Total,,,,,,,63.84,63.84
