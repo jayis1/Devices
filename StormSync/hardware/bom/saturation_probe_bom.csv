@@ -1,0 +1,17 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,nRF52840 QFAA,QFN-73,Nordic,nRF52840,5.50,5.50,Cortex-M4F 64MHz BLE 5.0
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,7.80,7.80,Sub-GHz LoRa 868MHz
+3,U3,1,FDC2214Q1,TSSOP-16,TI,FDC2214Q1,4.20,4.20,4-ch resonant capacitance
+4,U4,1,MCP73871,QFN-20,Microchip,MCP73871,2.80,2.80,Solar/battery management
+5,U5-U7,3,DS18B20U+,TO-92,Maxim,DS18B20U+,2.50,7.50,Waterproof temp sensors
+6,U8,1,MPS20NR,SOP-6,Various,MPS20NR,1.80,1.80,MEMS pore pressure sensor
+7,BT1,1,LiFePO4 3.2V 1500mAh,Battery,Various,LiFePO4-1500,3.50,3.50,High cycle life
+8,SOL1,1,5W 6V solar panel,Panel,Various,SOL-5W6V,2.50,2.50,Monocrystalline weatherproof
+9,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+10,LED1,1,Green LED,0603,Various,LED-G-0603,0.10,0.10,Status indicator
+11,R1-R3,3,10kΩ,0603,Various,10k-0603,0.03,0.09,Pullups
+12,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling caps
+13,PROBE1-3,3,Capacitive probe,Custom,Various,SOIL-PROBE,1.50,4.50,3-depth moisture probes
+14,PCB,1,4-layer PCB,Custom,Various,PCB-Soil,7.00,7.00,60×40mm + probe rod
+15,ENCL,1,IP67 stake enclosure,Custom,Various,ENCL-IP67,4.00,4.00,Soil insertion
+Total,,,,,,,42.09,42.09

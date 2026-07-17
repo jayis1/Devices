@@ -1,0 +1,22 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-WROOM-32E,Module,Espressif,ESP32-WROOM-32E,3.80,3.80,Dual-core 240MHz 4MB flash
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,7.80,7.80,Sub-GHz LoRa 868MHz
+3,U3,1,JSN-SR04T,Sensor,Various,JSN-SR04T,3.50,3.50,Waterproof ultrasonic 25-450cm
+4,U4,1,SCT-013-030,Sensor,Various,SCT-013-030,5.50,5.50,30A non-invasive CT clamp
+5,U5,1,ADXL355,QFN-14,Analog Devices,ADXL355BCCZ,7.20,7.20,3-axis ultra-low noise accel
+6,U6,1,LM2596S-5.0,TO-263-5,TI,LM2596S-5.0,1.80,1.80,5V buck (24V to 5V)
+7,U7,1,AP2112K-3.3,SOT-23-5,Diodes,AP2112K-3.3,0.45,0.45,3.3V LDO
+8,U8,1,MCP73871,QFN-20,Microchip,MCP73871,2.80,2.80,SLA battery charger
+9,U9,1,YF-S201,Sensor,Various,YF-S201,3.20,3.20,Hall-effect flow meter 1-30L/min
+10,U10,1,DS18B20U+,TO-92,Maxim,DS18B20U+,2.50,2.50,Waterproof temp sensor
+11,R1,1,10kΩ burden,0603,Various,10k-0603,0.03,0.03,CT clamp burden resistor
+12,R2-R3,2,30k/10k divider,0603,Various,div-0603,0.03,0.06,Battery voltage divider
+13,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+14,J2,1,4-pin screw terminal,THT,Various,TERM-4P,0.80,0.80,24VAC + pump connections
+15,LED1,1,Green LED,0603,Various,LED-G-0603,0.10,0.10,Pump running indicator
+16,SW1,1,12V 5Ah SLA,Battery,Various,SLA-12V5Ah,8.50,8.50,Battery backup
+17,PCB,1,4-layer PCB,Custom,Various,PCB-Sump,8.00,8.00,120×80mm
+18,ENCL,1,IP67 NEMA 4X,Custom,Various,ENCL-IP67,5.50,5.50,Above sump pit mount
+19,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling caps
+20,C7,1,470µF,8mm,Various,470uF-8mm,0.50,0.50,Bulk cap for buck
+Total,,,,,,,52.04,52.04

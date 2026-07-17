@@ -1,0 +1,14 @@
+[project]
+name = "stormsync-ml-pipeline"
+version = "1.0.0"
+description = "StormSync ML training pipeline — flood forecast, pump health, soil saturation"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "numpy>=1.26",
+    "xgboost>=2.0",
+    "scikit-learn>=1.4",
+    "onnx>=1.16",
+    "onnxruntime>=1.17",
+]

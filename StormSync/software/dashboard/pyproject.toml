@@ -1,0 +1,18 @@
+[project]
+name = "stormsync-dashboard"
+version = "1.0.0"
+description = "StormSync Cloud Dashboard — AI-powered home flood prediction"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "numpy>=1.26",
+    "paho-mqtt>=2.0",
+    "python-jose[cryptography]>=3.3",
+    "influxdb-client>=1.42",
+    "psycopg2-binary>=2.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx", "ruff"]

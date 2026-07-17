@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.pem
+node_modules/
+.expo/
+dist/
+build/
+.DS_Store
+models/*.pth
+models/*.onnx
+models/*.pkl
+data/

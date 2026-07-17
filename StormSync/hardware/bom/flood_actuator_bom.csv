@@ -1,0 +1,22 @@
+Ref,Designator,Qty,Value,Footprint,Manufacturer,MPN,UnitPrice,ExtendedPrice,Notes
+1,U1,1,ESP32-WROOM-32E,Module,Espressif,ESP32-WROOM-32E,3.80,3.80,Dual-core 240MHz 4MB flash
+2,U2,1,SX1262IMLTRT,RF_Module,Semtech,SX1262IMLTRT,7.80,7.80,Sub-GHz LoRa 868MHz
+3,U3,1,LM2596S-5.0,TO-263-5,TI,LM2596S-5.0,1.80,1.80,5V buck (24V to 5V)
+4,U4,1,AP2112K-3.3,SOT-23-5,Diodes,AP2112K-3.3,0.45,0.45,3.3V LDO
+5,U5,1,MCP73871,QFN-20,Microchip,MCP73871,2.80,2.80,SLA float charger
+6,K1,1,G2RL-1A-DC12,Relay,Omron,G2RL-1A-DC12,3.50,3.50,30A SPST backup pump relay
+7,K2-K3,2,G5LE-14 DC5,Relay,Omron,G5LE-14DC5,1.20,2.40,5V relay for valve motor
+8,Q1-Q2,2,IRLZ44N,TO-220,Various,IRLZ44N,0.60,1.20,MOSFET for relay drivers
+9,FLOAT1,1,Float switch NO,Sensor,Various,FLOAT-NO,4.50,4.50,High-level reed float switch
+10,SIREN1,1,PSA-24T08A,Siren,CUI,PSA-24T08A,6.50,6.50,100dB piezo siren
+11,VALVE1,1,Motorized ball valve 1.5",Valve,Various,BV-15-12V,22.00,22.00,1.5" NPT 12V spring-return
+12,BAT1,1,12V 7Ah SLA,Battery,Various,SLA-12V7Ah,11.00,11.00,Backup power for valve+pump
+13,J1,1,SMA connector,SMD,Various,SMA-R-SMD,1.50,1.50,868MHz antenna
+14,J2,1,6-pin screw terminal,THT,Various,TERM-6P,1.20,1.20,24VAC+pump+valve wires
+15,LED1,1,Red LED,0603,Various,LED-R-0603,0.10,0.10,Alarm indicator
+16,SW1,1,Manual override button,THT,Various,BTN-TACT,0.30,0.30,Local emergency button
+17,R1-R4,4,10kΩ,0603,Various,10k-0603,0.03,0.12,Pullups
+18,C1-C6,6,0.1µF,0603,Various,0.1uF-0603,0.05,0.30,Decoupling caps
+19,PCB,1,4-layer PCB,Custom,Various,PCB-Act,9.00,9.00,120×80mm
+20,ENCL,1,IP67 NEMA 4X,Custom,Various,ENCL-IP67,5.50,5.50,Wall mount near sump
+Total,,,,,,,78.07,78.07
