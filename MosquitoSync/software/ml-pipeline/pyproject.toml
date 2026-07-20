@@ -1,0 +1,25 @@
+[project]
+name = "mosquitosync-ml-pipeline"
+version = "0.1.0"
+description = "MosquitoSync — ML training and inference pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "torchaudio>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "xgboost>=2.0",
+    "librosa>=0.10",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "onnx>=1.16",
+    "onnxruntime>=1.17",
+    "tflite-runtime>=2.14",
+    "ai-edge-litert>=1.0",
+    "huggingface-hub>=0.22",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.3", "tensorboard>=2.16"]

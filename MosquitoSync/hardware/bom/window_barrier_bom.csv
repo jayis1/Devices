@@ -1,0 +1,20 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,ESP32-WROOM-32E,Dual-core 240MHz 4MB flash,4.20,4.20
+1,SX1262IMLTRT,868 MHz LoRa transceiver,5.80,5.80
+1,DRV8833,Dual H-bridge motor driver 1.5A,1.80,1.80
+1,N20 12V DC gear motor,6mm stroke 30RPM window actuator,5.50,5.50
+1,Magnetic mesh screen 0.6mm,Retractable mosquito screen,3.50,3.50
+2,Reed switch NO,Open+closed position feedback,0.50,1.00
+1,MCP73871,LiPo solar charger,1.80,1.80
+1,LM2596,12V boost converter for motor,1.80,1.80
+1,LiPo 3.7V 2000mAh,Battery ~300 cycles per charge,4.50,4.50
+1,2W 5V solar panel (optional),Trickle charge,3.00,3.00
+1,AMS1117-3.3,3.3V LDO regulator,0.30,0.30
+1,TPL5010,External watchdog supervisor,0.80,0.80
+1,Status LED,Green indicator,0.30,0.30
+1,Manual override button,Local emergency control,0.50,0.50
+1,PCB 4-layer 40x40mm,Custom barrier PCB,4.00,4.00
+1,IP54 enclosure,Window frame mount PETG,3.50,3.50
+1,868MHz whip SMA,Sub-GHz antenna,3.50,3.50
+1,Passives+connectors,Resistors caps misc,2.00,2.00
+,,Subtotal,,$47.80

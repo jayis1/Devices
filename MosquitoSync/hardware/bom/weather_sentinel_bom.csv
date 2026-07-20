@@ -1,0 +1,16 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,nRF52840 QFAA,Cortex-M4F 64MHz 1MB flash BLE 5.0,5.50,5.50
+1,SX1262IMLTRT,868 MHz LoRa transceiver,5.80,5.80
+1,BME280,Temp/humidity/pressure sensor,2.80,2.80
+1,Davis 6410 anemometer,Wind speed+direction sensor,9.00,9.00
+1,Tipping bucket rain gauge 0.2mm,Breeding site prediction,5.50,5.50
+1,MCP73871,Solar LiFePO4 charger,1.80,1.80
+1,LiFePO4 3.2V 3000mAh,Extended autonomy battery,5.00,5.00
+1,5W 6V solar panel,Weatherproof outdoor panel,4.50,4.50
+1,AMS1117-3.3,3.3V LDO regulator,0.30,0.30
+1,Status LED green,Indicator,0.30,0.30
+1,PCB 4-layer 50x50mm,Custom weather PCB,5.00,5.00
+1,IP65 Stevenson screen,UV-resistant ASA enclosure,6.50,6.50
+1,868MHz whip SMA,Sub-GHz antenna,3.50,3.50
+1,Passives+connectors,Resistors caps misc,1.80,1.80
+,,Subtotal,,$57.30

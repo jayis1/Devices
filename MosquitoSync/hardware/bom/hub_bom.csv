@@ -1,0 +1,19 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,ESP32-S3-WROOM-1-N16R8,16MB flash 8MB PSRAM SoC,7.20,7.20
+1,SX1262IMLTRT,868 MHz LoRa Sub-GHz transceiver,5.80,5.80
+1,SIM7000A,4G LTE Cat-M1 cellular module,18.50,18.50
+1,BME280,Temp/humidity/pressure sensor,2.80,2.80
+1,DS3231SN,Battery-backed RTC ±2ppm,3.40,3.40
+1,TPS25940,USB-C eFuse power management,2.20,2.20
+1,AMS1117-3.3,3.3V LDO regulator,0.30,0.30
+1,SK6812 RGB LED x3,Status indicator LEDs,1.80,1.80
+1,CMT-8543S-SMT,Audible buzzer,1.20,1.20
+1,868MHz whip SMA,Sub-GHz antenna,3.50,3.50
+1,SMA paddle antenna,4G LTE cellular antenna,2.50,2.50
+1,USB-C connector,Power input,0.80,0.80
+1,microSD slot,Local data buffering storage,1.50,1.50
+1,16GB microSD,Local data buffer (14-day capacity),4.50,4.50
+1,PCB 4-layer 50x50mm,Custom hub PCB,5.00,5.00
+1,IP54 enclosure,Hub wall-mount enclosure,4.50,4.50
+1,Passives+connectors,Resistors caps headers misc,2.80,2.80
+,,Subtotal,,$68.30
