@@ -1,0 +1,13 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,nRF52840 QFAA,Cortex-M4F 64MHz BLE 5.0 SoC,6.50,6.50
+1,1kg bar load cell,Water mass measurement ±0.1g,4.50,4.50
+1,HX711,24-bit load cell ADC,1.80,1.80
+1,LIS2DW12,3-axis accelerometer low power,1.80,1.80
+1,CR2032 holder,Coin cell battery holder,0.40,0.40
+1,CR2032 battery,3V lithium coin cell,0.50,0.50
+1,SK6812 RGB LED,Status indicator,0.60,0.60
+1,PCB antenna,BLE 5.0 chip antenna,0.90,0.90
+1,PCB 2-layer 30x30mm,Hydration tag PCB,3.00,3.00
+1,Bottle base ring,Enclosure for bottle base,2.20,2.20
+1,Passives+connectors,Resistors caps misc,0.80,0.80
+,,Subtotal,,$22.50

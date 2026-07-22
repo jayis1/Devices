@@ -1,0 +1,17 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,nRF52840 QFAA,Cortex-M4F 64MHz BLE 5.0 SoC,6.50,6.50
+1,Knowles BU-27135-000,Throat/contact microphone,8.20,8.20
+1,NAU88C22,I²S 24-bit audio codec,3.80,3.80
+1,LSM6DS3TR-C,6-axis IMU accel+gyro,3.20,3.20
+1,TMP117,±0.1°C skin temperature sensor,2.80,2.80
+1,MAX30102,PPG heart rate/SpO2 sensor,4.50,4.50
+1,MCP73831,USB-C LiPo charger 100mA,0.80,0.80
+1,LiPo 3.7V 250mAh,Wearable battery,2.50,2.50
+1,SK6812 RGB LED,Status indicator,0.60,0.60
+1,PCB antenna,BLE 5.0 chip antenna,0.90,0.90
+1,PCB 4-layer 30x40mm,Vocal band PCB,4.00,4.00
+1,Silicone throat band,Hypoallergenic adjustable band,2.50,2.50
+1,USB-C connector,Charging input,0.80,0.80
+1,TPS25940,eFuse power management,2.20,2.20
+1,Passives+connectors,Resistors caps misc,1.40,1.40
+,,Subtotal,,$42.80

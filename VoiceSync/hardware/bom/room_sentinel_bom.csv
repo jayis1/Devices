@@ -1,0 +1,13 @@
+Qty,Part,Description,Unit Cost,Total Cost
+1,ESP32-S3-WROOM-1-N8R2,8MB flash 2MB PSRAM SoC,5.20,5.20
+1,SX1262IMLTRT,868 MHz LoRa Sub-GHz transceiver,5.80,5.80
+4,ICS-43434,I²S MEMS microphone 26dB SNR,3.20,12.80
+1,SHT40,Temp/humidity sensor ±0.2°C,1.50,1.50
+1,SGP40,VOC sensor MOS,3.80,3.80
+1,SK6812 RGB LED,Status indicator,0.60,0.60
+1,868MHz whip SMA,Sub-GHz antenna,3.50,3.50
+1,USB-C connector,Power input,0.80,0.80
+1,PCB 4-layer 40x40mm,Room sentinel PCB,4.00,4.00
+1,Acoustically transparent mesh,Desk/shelf mount enclosure,2.50,2.50
+1,Passives+connectors,Resistors caps misc,1.80,1.80
+,,Subtotal,,$38.20
