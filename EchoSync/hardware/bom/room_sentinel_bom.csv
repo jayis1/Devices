@@ -1,0 +1,16 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Supplier,Notes
+ESP32-S3-WROOM-1-N8R2,Espressif,1,4.20,4.20,Mouser,8MB flash 2MB PSRAM
+SX1262IMLTRT,Semtech,1,6.20,6.20,Mouser,868MHz LoRa radio
+868MHz SMA Antenna,Wurth 730010010,1,2.80,2.80,Mouser,Whip antenna
+ICS-43434,TDK InvenSense,4,2.80,11.20,DigiKey,I2S MEMS microphone 26dB SNR
+SHT40,Sensirion,1,1.90,1.90,DigiKey,Temp/humidity I2C 0x44
+TPS25940,TI,1,1.80,1.80,Mouser,eFuse overcurrent protection
+AMS1117-3.3,AMS,1,0.30,0.30,DigiKey,3.3V LDO
+DMG1012UVW,Diodes Inc,1,0.40,0.40,DigiKey,Mic power MOSFET gate
+SK6812 RGB LED,Worldsemi,1,0.40,0.40,Mouser,Status LED
+USB-C Connector,Amphenol 12401548E4,1,1.50,1.50,DigiKey,USB-C 5V power
+PCB,4-layer FR4,1,3.00,3.00,JLCPCB,Custom PCB with mic array
+Acoustic mesh,Black polyester,1,0.80,0.80,McMaster,Acoustically transparent
+Enclosure,3D-printed ASA,1,2.50,2.50,Shapeways,Ceiling/wall mount
+Misc passives,Resistors/caps,1,1.50,1.50,DigiKey,0402/0603 SMT
+,,,Total:,38.20,,

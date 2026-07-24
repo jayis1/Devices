@@ -1,0 +1,15 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Supplier,Notes
+nRF52840 QFAA,Nordic,1,5.60,5.60,Mouser,Cortex-M4F BLE 5.0
+SPH0641LU4H-1,Knowles,1,2.40,2.40,DigiKey,I2S MEMS microphone
+Piezo Disc 35mm,Murata 7BB-35-3,1,1.20,1.20,DigiKey,Contact vibration sensor
+DMG1012UVW,Diodes Inc,1,0.40,0.40,DigiKey,Mic power MOSFET gate
+SK6812 RGB LED,Worldsemi,1,0.40,0.40,Mouser,Status LED
+CR2032 Holder,Keystone 3000,1,0.50,0.50,DigiKey,Coin cell holder
+CR2032 Battery,Energizer,1,0.60,0.60,DigiKey,3V 220mAh lithium
+Tactile Switch,C&K PTS636,1,0.50,0.50,DigiKey,Enrollment button
+BLE Chip Antenna,Johanson 2450AT18B100,1,0.80,0.80,Mouser,BLE 2.4GHz
+PCB,4-layer FR4,1,3.00,3.00,JLCPCB,Custom PCB
+Enclosure,3D-printed PETG,1,2.50,2.50,Shapeways,Adhesive mount
+3M VHB Adhesive,3M 5952,1,0.30,0.30,McMaster,Double-sided mounting
+Misc passives,Resistors/caps,1,0.80,0.80,DigiKey,0402 SMT
+,,,Total:,19.80,,

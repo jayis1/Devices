@@ -1,0 +1,26 @@
+# EchoSync ML Pipeline — Python dependencies
+[project]
+name = "echosync-ml"
+version = "1.0.0"
+description = "EchoSync 6-model ML pipeline for sound awareness"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.12",
+    "scikit-learn>=1.4",
+    "xgboost>=2.0",
+    "torch>=2.2",
+    "torchaudio>=2.2",
+    "librosa>=0.10",
+    "soundfile>=0.12",
+    "tflite>=1.14",
+    "onnx>=1.16",
+    "onnx-tf>=1.16",
+    "tensorflow>=2.16",
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.3"]

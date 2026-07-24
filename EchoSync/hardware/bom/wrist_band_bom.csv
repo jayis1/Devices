@@ -1,0 +1,18 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Supplier,Notes
+nRF52840 QFAA,Nordic,1,5.60,5.60,Mouser,Cortex-M4F BLE 5.0
+DRV2605L,TI,1,1.80,1.80,Mouser,I2C haptic driver 123 waveforms
+VM-1207 LRA,DFRobot,1,2.20,2.20,Mouser,Linear resonant actuator
+SSD1306 OLED 0.96",Solomon,1,2.80,2.80,DigiKey,128x64 I2C display
+LSM6DS3TR-C,ST,1,2.90,2.90,DigiKey,6-axis IMU I2C 0x6A
+MCP73831T,Microchip,1,0.70,0.70,DigiKey,LiPo charger 100mA USB-C
+LiPo 300mAh,Various,1,3.50,3.50,DigiKey,3.7V 300mAh
+SK6812 RGB LED,Worldsemi,1,0.40,0.40,Mouser,Status LED
+USB-C Connector,Amphenol 12401548E4,1,1.50,1.50,DigiKey,USB-C charge
+Tactile Switches,C&K PTS636,2,0.50,1.00,DigiKey,Buttons A and B
+BLE Chip Antenna,Johanson 2450AT18B100,1,0.80,0.80,Mouser,BLE 2.4GHz
+PCB,Rigid-flex 4-layer,1,5.00,5.00,JLCPCB,Rigid-flex for curved band
+Silicone Band,Custom,1,4.00,4.00,Shapeways,Hypoallergenic IP67
+TPU Display Window,Custom,1,1.00,1.00,Shapeways,Clear TPU for OLED
+Misc passives,Resistors/caps,1,2.50,2.50,DigiKey,0402 SMT
+Battery connector,JST PHR-2,1,0.50,0.50,DigiKey,LiPo connector
+,,,Total:,44.50,,
