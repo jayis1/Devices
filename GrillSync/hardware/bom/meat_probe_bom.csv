@@ -1,0 +1,15 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+MCU,nRF52840 QFAA,1,4.50,4.50,Cortex-M4F BLE 5.0
+TC Interface,MAX31855KASA+,4,4.20,16.80,SPI Type-K thermocouple
+Thermocouples,Type-K 0.5mm SS sheath,4,2.00,8.00,4 depth points
+Battery Charger,MCP73831T-2ACI/OT,1,0.80,0.80,USB-C charge
+Battery,LiPo 3.7V 500mAh,1,3.50,3.50,8-hour cook life
+Status LED,SK6812 RGB,1,0.15,0.15,Status indicator
+USB-C Connector,16-pin SMT,1,0.50,0.50,Charge port
+Buttons,Tactile SMD,2,0.10,0.20,Probe select + calibrate
+PCB,4-layer FR4 40x25mm,1,2.00,2.00,Custom PCB
+Capacitors/Resistors,Various SMD,1,1.00,1.00,Passive components
+Enclosure,IP67 3D-printed PETG,1,3.00,3.00,Waterproof enclosure
+Probe Cable,PTFE jacketed 300C rated,1,2.50,2.50,Heat-resistant cable
+Antenna,PCB trace BLE,1,0.00,0.00,On-board PCB antenna
+Total,,,,42.95,

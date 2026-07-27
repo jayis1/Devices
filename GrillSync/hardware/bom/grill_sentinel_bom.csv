@@ -1,0 +1,17 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC Module,ESP32-S3-WROOM-1-N8R2,1,3.50,3.50,8MB flash 2MB PSRAM
+Sub-GHz Radio,SX1262IMLTRT,1,5.80,5.80,868MHz LoRa
+Thermal Array,MLX90640 32x24,1,32.00,32.00,768-pixel IR thermal
+Gas Sensor,MQ-2,1,1.80,1.80,Propane/natural gas detection
+Flame Detector,IR flame sensor GY-302,1,2.00,2.00,UV/IR flame detection
+Ambient Sensor,BME280 Breakout,1,2.50,2.50,Temp/humidity/pressure
+Piezo Disc,35mm piezo element,1,0.50,0.50,Fat-drip acoustic detection
+Status LED,SK6812 RGB,1,0.15,0.15,Status indicator
+SMA Antenna,868MHz whip,1,2.50,2.50,Sub-GHz antenna
+USB-C Connector,16-pin SMT,1,0.50,0.50,Power input
+LDO,AMS1117-3.3,1,0.20,0.20,3.3V regulation
+PCB,4-layer FR4 60x40mm,1,2.50,2.50,Custom PCB
+Capacitors/Resistors,Various SMD,1,1.20,1.20,Passive components
+Enclosure,Glass-filled ASA 3D-printed,1,5.00,5.00,Grill-side rated to 120C
+Thermal Lens,Fresnel AR-coated,1,2.00,2.00,MLX90640 field lens
+Total,,,,62.15,

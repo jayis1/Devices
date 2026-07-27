@@ -1,0 +1,16 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC Module,ESP32-S3-WROOM-1-N8R2,1,3.50,3.50,8MB flash 2MB PSRAM
+Sub-GHz Radio,SX1262IMLTRT,1,5.80,5.80,868MHz LoRa
+PM Sensor,PMS5003 Plantower,1,8.00,8.00,Laser PM1.0/2.5/10
+VOC Sensor,BME680 Breakout,1,5.50,5.50,VOC + gas resistance
+Gas Sensor,MQ-135,1,1.50,1.50,CO2/NOx/ammonia
+Flame Detector,UV-TRON flame sensor,1,8.00,8.00,UV-only flame detection
+Ambient Sensor,BME280 Breakout,1,2.50,2.50,Temp/humidity
+Status LED,SK6812 RGB,1,0.15,0.15,Smoke quality indicator
+SMA Antenna,868MHz whip,1,2.50,2.50,Sub-GHz antenna
+USB-C Connector,16-pin SMT,1,0.50,0.50,Power input
+LDO,AMS1117-3.3,1,0.20,0.20,3.3V regulation
+PCB,4-layer FR4 50x40mm,1,2.50,2.50,Custom PCB
+Capacitors/Resistors,Various SMD,1,1.20,1.20,Passive components
+Enclosure,Aluminum + PTFE filter,1,5.00,5.00,Smoker-rated to 150C
+Total,,,,45.35,
