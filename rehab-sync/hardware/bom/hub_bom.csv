@@ -1,0 +1,25 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC Module,ESP32-S3-WROOM-1-N16R8,1,4.20,4.20,16MB flash 8MB PSRAM
+Sub-GHz Radio,SX1262IMLTRT,1,5.80,5.80,868MHz LoRa +22dBm
+Display,3.5 ILI9488 480x320 TFT,1,6.50,6.50,Exercise demos + rep counter
+Camera,OV5640 5MP,1,3.20,3.20,Pose estimation backup
+Audio Amp,MAX98357A I2S,1,1.50,1.50,Speaker driver
+Speaker,40mm 8ohm mylar,1,1.20,1.20,Audio coaching feedback
+Haptic Driver,DRV2605L,1,1.80,1.80,LRA haptic driver
+Haptic Motor,LRA 4mm,1,0.80,0.80,Form deviation feedback
+Hub IMU,LSM6DSO,1,3.20,3.20,Hub orientation reference
+Temp/Hum/Press,BME280,1,2.50,2.50,Ambient monitoring
+RTC,DS3231SN,1,2.00,2.00,Session timing
+Battery Fuel Gauge,MAX17048,1,1.50,1.50,LiPo monitoring
+microSD Socket,Molex 503393-1892,1,0.80,0.80,Session data buffering
+LiPo Battery,2000mAh 3.7V,1,5.00,5.00,8h portable battery
+Charger IC,MCP73871,1,1.20,1.20,USB-C LiPo charger
+Boost Converter,TPS61023,1,1.50,1.50,3.7V to 5V 2A
+LDO,AMS1117-3.3,1,0.20,0.20,5V to 3.3V
+USB-C Connector,16-pin SMT,1,0.50,0.50,Power + debug
+SMA Antenna,868MHz whip,1,2.50,2.50,Sub-GHz antenna
+Status LEDs,SK6812 RGB,4,0.15,0.60,BLE/WiFi/Cloud/Session
+PCB,4-layer FR4 80x60mm,1,3.00,3.00,Custom PCB
+Capacitors/Resistors,Various SMD,1,2.00,2.00,Passive components
+Enclosure,ABS 3D-printed,1,4.00,4.00,Portable hub enclosure
+Total,,,,54.85,

@@ -1,0 +1,13 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC,nRF52840 QFAA,1,4.50,4.50,BLE 5.0 1MB flash 256KB RAM
+IMU (Accel/Gyro),LSM6DSO,1,3.20,3.20,±8g ±2000dps 100Hz SPI
+Magnetometer,LIS3MDL,1,1.80,1.80,±8 gauss 100Hz SPI
+Battery,CR2032 220mAh,1,0.30,0.30,3V coin cell 30-day life
+LED,SK6812 RGB,1,0.15,0.15,Status indicator
+PCB Antenna,2.4GHz PCB trace,1,0.00,0.00,Integrated PCB antenna
+Button,Tactile SMD,1,0.10,0.10,Power/pairing
+Strap,Silicone hook-and-loop,1,0.50,0.50,Body mounting strap
+PCB,4-layer FR4 35x25mm,1,1.00,1.00,Compact wearable PCB
+Capacitors/Resistors,Various SMD,1,0.50,0.50,Passive components
+Enclosure,Silicone 35x25x8mm,1,0.30,0.30,Overmolded silicone
+Total,,,,11.35,

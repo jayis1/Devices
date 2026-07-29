@@ -1,0 +1,15 @@
+[project]
+name = "rehabsync-dashboard"
+version = "1.0.0"
+description = "RehabSync — Cloud Dashboard Backend (FastAPI)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.5.0",
+    "paho-mqtt>=1.6.1",
+    "asyncio-mqtt>=0.16.0",
+    "influxdb-client>=1.38.0",
+    "asyncpg>=0.29.0",
+    "python-multipart>=0.0.6",
+]

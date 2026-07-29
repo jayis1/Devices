@@ -1,0 +1,18 @@
+[project]
+name = "rehabsync-ml-pipeline"
+version = "1.0.0"
+description = "RehabSync — 6-model ML pipeline for PT rehabilitation"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "scikit-learn>=1.3.0",
+    "numpy>=1.24.0",
+    "pandas>=2.1.0",
+    "scipy>=1.11.0",
+    "tflite-micro>=1.0.0",
+    "tensorflow>=2.15.0",
+    "onnx>=1.15.0",
+    "matplotlib>=3.8.0",
+    "tensorboard>=2.15.0",
+]
