@@ -1,0 +1,18 @@
+[project]
+name = "bloomsync-dashboard"
+version = "1.0.0"
+description = "BloomSync — AI-powered postpartum maternal health monitoring — cloud backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104",
+    "uvicorn[standard]>=0.24",
+    "pydantic>=2.5",
+    "paho-mqtt>=1.6",
+    "asyncio-mqtt>=0.16",
+    "influxdb-client>=1.40",
+    "psycopg[binary]>=3.1",
+    "redis>=5.0",
+    "python-jose[cryptography]>=3.3",
+    "passlib[bcrypt]>=1.7",
+    "reportlab>=4.0",
+]

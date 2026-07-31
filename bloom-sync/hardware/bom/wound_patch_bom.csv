@@ -1,0 +1,14 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC,nRF52840 QFAA,1,5.20,5.20,ARM Cortex-M4F 64MHz BLE 5.0
+Temp Sensor,TI TMP117,1,2.80,2.80,Wound temp ±0.1°C inflammation detect
+Capacitive Moisture,TI FDC2214,1,4.50,4.50,28-bit capacitance-to-digital moisture
+pH Front-End,TI LMP91200,1,3.80,3.80,Analog pH sensor front-end
+pH Electrode,Glass combination pH,1,2.50,2.50,Miniature wound pH electrode
+Battery,CR2032 220mAh,1,0.50,0.50,21-day life covers healing window
+Battery Holder,Keystone 3001,1,0.30,0.30,CR2032 SMD holder
+LED,Single SMD 0603,1,0.10,0.10,Status blink
+PCB,4-layer FR4 30x20mm,1,2.00,2.00,Custom circular PCB medical-grade
+Antenna,PCB trace 2.4GHz,1,0.30,0.30,BLE 5.0 antenna
+Capacitors/Resistors,Various SMD,1,1.20,1.20,Passive components
+Adhesive Patch,Sterile medical-grade,1,0.65,0.65,Waterproof sterile breathable
+Total,,,,22.15,

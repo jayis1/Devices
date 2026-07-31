@@ -1,0 +1,13 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC,nRF52840 QFAA,1,5.20,5.20,ARM Cortex-M4F 64MHz BLE 5.0
+Temp Sensor L,TI TMP117,1,2.80,2.80,Left breast ±0.1°C I2C 0x48
+Temp Sensor R,TI TMP117,1,2.80,2.80,Right breast ±0.1°C I2C 0x49
+IMU,ST LIS2DW12,1,1.50,1.50,3-axis ultra-low-power accel 12.5Hz
+Battery,CR2032 220mAh,1,0.50,0.50,14-day life replaceable
+Battery Holder,Keystone 3001,1,0.30,0.30,CR2032 SMD holder
+LED,Single SMD 0603,1,0.10,0.10,Status blink
+PCB,4-layer FR4 30x20mm,1,2.00,2.00,Custom circular PCB
+Antenna,PCB trace 2.4GHz,1,0.30,0.30,BLE 5.0 antenna
+Capacitors/Resistors,Various SMD,1,0.80,0.80,Passive components
+Adhesive Patch,Medical-grade 3M,1,1.00,1.00,Breathable skin-safe replaceable
+Total,,,,16.80,
