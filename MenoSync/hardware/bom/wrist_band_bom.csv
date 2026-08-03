@@ -1,0 +1,18 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC,nRF52840 QFAA,1,5.20,5.20,ARM Cortex-M4F 64MHz BLE 5.0 1MB flash
+PPG Sensor,Maxim MAX30101,1,3.80,3.80,HR+HRV+SpO2 red/IR/green LEDs
+Skin Temp Sensor,TI TMP117,1,2.80,2.80,±0.1°C medical-grade I2C hot flash detection
+EDA Sensor,TI ADS1292,1,4.50,4.50,24-bit biopotential AFE for skin conductance
+IMU,ST LSM6DSO,1,3.20,3.20,6-axis accel+gyro activity+sleep
+Battery Fuel Gauge,MAX17048,1,1.50,1.50,LiPo monitoring
+LiPo Battery,200mAh 3.7V,1,2.50,2.50,7-day life 1Hz vitals+4Hz EDA
+Charger IC,MCP73871,1,1.20,1.20,USB-C LiPo charger
+LDO,AP2112K-3.3,1,0.30,0.30,3.7V to 3.3V
+USB-C Connector,16-pin SMT,1,0.50,0.50,Charging
+LED,SK6812 mini RGB,1,0.15,0.15,Status indicator
+EDA Electrodes,Stainless steel 6mm,2,0.30,0.60,Skin contact for conductance measurement
+PCB,4-layer FR4 35x25mm,1,2.50,2.50,Custom flexible-rigid PCB
+Antenna,PCB trace 2.4GHz,1,0.30,0.30,BLE 5.0 antenna
+Capacitors/Resistors,Various SMD,1,1.80,1.80,Passive components
+Enclosure,Silicone wristband,1,2.50,2.50,Hypoallergenic washable with electrode windows
+Total,,,,32.40,

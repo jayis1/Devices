@@ -1,0 +1,25 @@
+Component,Part,Qty,UnitPrice,TotalPrice,Notes
+SoC Module,ESP32-S3-WROOM-1-N16R8,1,4.20,4.20,16MB flash 8MB PSRAM
+Display,3.5 ILI9488 480x320 TFT,1,6.50,6.50,Symptoms+hot flash risk+sleep score+cooling status
+Audio Amp,MAX98357A I2S,1,1.50,1.50,Speaker driver for audio guidance
+I2S MEMS Mic,ICS-43434,1,2.20,2.20,Voice capture for mood prosody extraction
+Speaker,40mm 8ohm mylar,1,1.20,1.20,Audio guidance and cooling notifications
+Haptic Driver,DRV2605L,1,1.80,1.80,LRA haptic driver for hot flash warnings
+Haptic Motor,LRA 4mm,1,0.80,0.80,Alert tactile feedback
+Temp/Hum/Press,BME280,1,2.50,2.50,Ambient monitoring
+RTC,DS3231SN,1,2.00,2.00,Timing
+Sub-GHz Radio,RFM69HCW 868MHz,1,3.50,3.50,Long-range mesh coordinator for Climate Nodes
+Battery Fuel Gauge,MAX17048,1,1.50,1.50,LiPo monitoring
+microSD Socket,Molex 503393-1892,1,0.80,0.80,Data buffering during WiFi outage
+LiPo Battery,2000mAh 3.7V,1,5.00,5.00,8h portable battery
+Charger IC,MCP73871,1,1.20,1.20,USB-C LiPo charger
+Boost Converter,TPS61023,1,1.50,1.50,3.7V to 5V 2A
+LDO,AMS1117-3.3,1,0.20,0.20,5V to 3.3V
+USB-C Connector,16-pin SMT,1,0.50,0.50,Power + debug
+Status LEDs,SK6812 RGB,4,0.15,0.60,BLE/WiFi/Cloud/Alert status
+PCB,4-layer FR4 80x60mm,1,3.00,3.00,Custom PCB
+Capacitors/Resistors,Various SMD,1,2.00,2.00,Passive components
+Enclosure,ABS 3D-printed,1,4.00,4.00,Bedside enclosure
+Antenna,PCB trace 2.4GHz + 868MHz wire,1,1.00,1.00,BLE/WiFi + Sub-GHz antenna
+Connector FPC,0.5mm pitch 24-pin,1,0.80,0.80,TFT display connection
+Total,,,,58.20,
