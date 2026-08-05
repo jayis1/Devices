@@ -1,0 +1,26 @@
+(kicad_sch
+  (version 20231023)
+  (generator "SeizureSync")
+  (paper "A3")
+  (title_block
+    (title "SeizureSync — Caregiver Beacon Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (lib_symbols)
+  /* Schematic blocks:
+     1. ESP32-C3-MINI-1-N4 (U1) — RISC-V SoC
+     2. SX1262 868 MHz (U2) — SPI
+     3. UC8151d e-ink (U3) — SPI
+     4. DRV2605L haptic (U4) — I2C
+     5. MAX98357A I2S amp (U5) — I2S
+     6. BQ25895 PMIC (U6) — I2C + USB-C charging
+     7. WS2812B 8x8 RGB matrix (LED1) — GPIO18
+     8. E-ink 2.9" panel (EINK1)
+     9. Speaker (SPK1) — I2S amp
+     10. Buttons: Ack (SW1), 911 (SW2), Test (SW3)
+     11. 2000 mAh LiPo (BAT1)
+     Pin assignments: see README.md
+  */
+)

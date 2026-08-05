@@ -1,0 +1,15 @@
+# SeizureSync API dependencies
+fastapi>=0.104
+uvicorn[standard]>=0.24
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+pydantic>=2.0
+aiomqtt>=2.0
+onnxruntime>=1.16
+numpy>=1.24
+reportlab>=4.0
+twilio>=8.10
+redis>=5.0
+celery>=5.3
+minio>=7.2
+python-multipart>=0.0.6

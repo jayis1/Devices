@@ -1,0 +1,27 @@
+CaregiverBeacon_BOM — Caregiver Beacon (portable alert device, 7-day)
+Generated for SeizureSync system
+Currency: USD, quantities for 1k build
+
+Designator,Qnty,Part,Manufacturer,MPN,Description,Unit Cost,Extended
+U1,1,ESP32-C3-MINI-1-N4,Espressif,ESP32-C3-MINI-1-N4,RISC-V SoC 160MHz 4MB flash,1.50,1.50
+U2,1,SX1262IMLTIC,Semtech,SX1262IMLTIC,Sub-GHz 868 MHz radio transceiver,3.85,3.85
+U3,1,UC8151d,Waveshare,UC8151d,2.9" e-ink driver 296x128,2.10,2.10
+U4,1,DRV2605LDGTR,TI,DRV2605LDGTR,Haptic driver I2C,0.35,0.35
+U5,1,MAX98357A,Maxim/Analog,MAX98357A,I2S 3.2W audio amplifier,0.55,0.55
+MOT1,1,ERM haptic motor,Any,ERM-12mm,Eccentric rotating mass motor 12mm,0.30,0.30
+SPK1,1,28mm mylar speaker,Any,SPK-28MM,28mm 8ohm mylar speaker,0.35,0.35
+EINK1,1,2.9" e-ink panel,Any,EINK-29-296128,2.9" 296x128 e-ink display,2.50,2.50
+LED1,64,WS2812B,WorldSemi,WS2812B,RGB LED 8x8 matrix,0.04,2.56
+BAT1,1,602030 LiPo 2000mAh,Any,602030-2000,3.7V 2000mAh LiPo battery,1.50,1.50
+U6,1,BQ25895RTWR,TI,BQ25895RTWR,I2C PMIC LiPo charger,0.85,0.85
+ANT1,1,868 MHz chip antenna,Any,ANT-868-CHIP,868 MHz chip antenna,0.25,0.25
+J1,1,USB-C 2.0,Any,USB-C-2.0,USB-C 2.0 female for charging,0.20,0.20
+Y1,1,40 MHz crystal,Abracon,ABM8G-40.000MHz,40 MHz crystal ESP32-C3,0.18,0.18
+Y2,1,32 MHz crystal,Abracon,ABM8G-32.000MHz,32 MHz crystal SX1262,0.18,0.18
+CAP1,4,10uF 0805,Any,CL21A106KAYNNNE,10uF 25V X5R 0805,0.03,0.12
+CAP2,4,100nF 0603,Any,CL21B104KBCNNNC,100nF 50V X7R 0603,0.01,0.04
+RES1,4,10k 0603,Any,RC0603FR-0710KL,10k 0.1W 0603,0.005,0.02
+SW1,3,Tactile switch,Any,TACT-6x6,6x6mm tactile switch SMD,0.05,0.15
+PCB,1,4-layer FR4 PCB,Any,CUSTOM,Custom 4-layer FR4 90x60mm,1.50,1.50
+ENC,1,ABS enclosure,Any,CUSTOM,Custom 3D-printed ABS enclosure 100x70x35mm,0.80,0.80
+,,Total,,,,18.75

@@ -1,0 +1,75 @@
+(kicad_pcb
+  (version 20231023)
+  (generator "SeizureSync")
+  (general (thickness 1.6))
+  (paper "A4")
+  (title_block
+    (title "SeizureSync — Seizure Hub")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user)
+    (33 "F.Adhes" user)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+  )
+  (setup
+    (pad_to_mask_clearance 0.05)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "VCC_3V3")
+  (net 3 "VCC_5V")
+  (net 4 "SX1262_NSS")
+  (net 5 "SX1262_SCK")
+  (net 6 "SX1262_MISO")
+  (net 7 "SX1262_MOSI")
+  (net 8 "SX1262_DIO0")
+  (net 9 "SX1262_RST")
+  (net 10 "SX1262_BUSY")
+  (net 11 "I2C1_SCL")
+  (net 12 "I2C1_SDA")
+  (net 13 "I2C2_SCL")
+  (net 14 "I2C2_SDA")
+  (net 15 "BCG_ADC1")
+  (net 16 "BCG_ADC2")
+  (net 17 "BCG_ADC3")
+  (net 18 "RELAY_SHAKER")
+  (net 19 "RELAY_AUDIO")
+  (net 20 "WS2812_DATA")
+  (net 21 "EINK_CS")
+  (net 22 "EINK_DC")
+  (net 23 "EINK_RST")
+  (net 24 "EINK_BUSY")
+  (net 25 "EINK_SCK")
+  (net 26 "EINK_SDA")
+  (net 27 "LTE_TX")
+  (net 28 "LTE_RX")
+  (net 29 "LTE_PWRKEY")
+
+  /* Footprints referenced:
+     U1: ESP32-S3-WROOM-1-N16R8
+     U2: SX1262IMLTIC
+     U3: MLX90640ESF-BCA
+     U4: MAX30102GND+
+     U5: SCD41-D-R2
+     U6: SIM7600G-C-SE
+     U7: UC8151d
+     U8: BME280
+     U10: LTC4040IM
+     REL1: G5LE-1
+     REL2: G5LE-1
+     LED1: WS2812B (x64)
+
+     See hardware/bom/SeizureHub_BOM.csv for complete component list.
+     See README.md pin assignment table for net-to-GPIO mapping.
+  */
+)

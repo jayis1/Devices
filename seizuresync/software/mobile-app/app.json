@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "SeizureSync",
+    "slug": "seizuresync",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain",
+                "backgroundColor": "#0A1144" },
+    "ios": { "supportsTablet": true, "infoPlist": {
+      "NSBluetoothAlwaysUsageDescription": "SeizureSync uses Bluetooth to connect to the seizure detection band.",
+      "NSLocationWhenInUseUsageDescription": "SeizureSync uses location for emergency dispatch."
+    }},
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png",
+                                     "backgroundColor": "#0A1144" },
+                 "permissions": ["BLUETOOTH_CONNECT", "BLUETOOTH_SCAN",
+                                 "ACCESS_FINE_LOCATION", "VIBRATE",
+                                 "USE_FULL_SCREEN_INTENT"]},
+    "plugins": ["expo-notifications"],
+    "extra": { "eas": { "projectId": "seizuresync" }},
+    "runtimeVersion": "1.0.0",
+    "updates": { "url": "https://u.expo.dev/seizuresync" }
+  }
+}

@@ -1,0 +1,10 @@
+# SeizureSync ML pipeline dependencies
+tensorflow>=2.15
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+shap>=0.43
+pandas>=2.1
+onnx>=1.15
+tf2onnx>=1.15
+reportlab>=4.0

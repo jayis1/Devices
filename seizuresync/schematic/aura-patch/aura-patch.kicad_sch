@@ -1,0 +1,24 @@
+(kicad_sch
+  (version 20231023)
+  (generator "SeizureSync")
+  (paper "A3")
+  (title_block
+    (title "SeizureSync — Aura Patch Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (lib_symbols)
+  /* Schematic blocks:
+     1. nRF52840-QFAA-R (U1) — BLE 5.0 SoC, ultra-low power
+     2. TMP117 (U2) — medical-grade temp sensor, I2C bus 0
+     3. AD8232 (U3) — biopotential AFE for EDA, SAADC input
+     4. MAX30101 (U4) — low-power PPG, I2C bus 1
+     5. CR2477 coin cell holder (BAT1)
+     6. Status LED (LED1) — GPIO P0.09
+     7. Event-mark button (SW1) — GPIO P0.10
+     8. Load switch (VDD_EN) — GPIO P0.20
+     9. PCB trace antenna (2.4 GHz BLE)
+     Pin assignments: see README.md
+  */
+)

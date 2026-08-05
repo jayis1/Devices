@@ -1,0 +1,32 @@
+(kicad_sch
+  (version 20231023)
+  (generator "SeizureSync")
+  (paper "A2")
+  (title_block
+    (title "SeizureSync — Seizure Hub Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (lib_symbols)
+  /* Schematic blocks:
+     1. ESP32-S3-WROOM-1-N16R8 (U1) — main SoC
+     2. SX1262 868 MHz radio (U2) — SPI bus
+     3. MLX90640 thermal array (U3) — I2C bus 1
+     4. MAX30102 PPG/SpO2 (U4) — I2C bus 1
+     5. SCD41 CO2 (U5) — I2C bus 2
+     6. SIM7600G 4G LTE (U6) — UART2
+     7. UC8151d e-ink (U7) — SPI2
+     8. BME280 (U8) — I2C bus 2
+     9. LTC4040 UPS (U10) — power path
+     10. BCG charge amplifier (3x LDT0-028K piezo → ADC1_CH3-5)
+     11. Bed-shaker relay (REL1) — GPIO38
+     12. Audio alarm relay (REL2) — GPIO39
+     13. WS2812B 8x8 RGB matrix (LED1) — GPIO40
+     14. MicroSD slot (J1) — SPI3
+     15. Power input: USB-C 5V/3A + 12V SLA
+
+     Pin assignments: see README.md pin assignment table.
+     BOM: see hardware/bom/SeizureHub_BOM.csv
+  */
+)

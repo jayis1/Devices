@@ -1,0 +1,66 @@
+(kicad_pcb
+  (version 20231023)
+  (generator "SeizureSync")
+  (general (thickness 1.0))
+  (paper "A4")
+  (title_block
+    (title "SeizureSync — Seizure Band")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user)
+    (33 "F.Adhes" user)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "VCC_3V3")
+  (net 3 "VBAT")
+  (net 4 "ICM_CS")
+  (net 5 "ICM_SCK")
+  (net 6 "ICM_MISO")
+  (net 7 "ICM_MOSI")
+  (net 8 "ICM_INT1")
+  (net 9 "I2C_SCL")
+  (net 10 "I2C_SDA")
+  (net 11 "AD5940_SCL")
+  (net 12 "AD5940_SDA")
+  (net 13 "DRV_SCL")
+  (net 14 "DRV_SDA")
+  (net 15 "LCD_DC")
+  (net 16 "LCD_CS")
+  (net 17 "LCD_SCK")
+  (net 18 "LCD_MOSI")
+  (net 19 "LCD_RST")
+  (net 20 "SX1262_NSS")
+  (net 21 "SX1262_DIO0")
+  (net 22 "SX1262_RST")
+  (net 23 "SX1262_BUSY")
+  (net 24 "SX1262_SCK")
+  (net 25 "SX1262_MISO")
+  (net 26 "SX1262_MOSI")
+
+  /* Footprints:
+     U1: ESP32-S3-MINI-1-N8R2
+     U2: SX1262IMLTIC
+     U3: ICM-42688-P
+     U4: MAX30102GND+
+     U5: AD5940ACPZ-R7
+     U6: DRV2605LDGTR
+     U7: ST7789V (LCD driver)
+     U8: BQ25895RTWR
+     LCD1: 1.3" 240x240 IPS
+     MOT1: ERM 10mm
+     BAT1: 502030 500mAh LiPo
+     See hardware/bom/SeizureBand_BOM.csv for complete BOM.
+  */
+)

@@ -1,0 +1,28 @@
+SeizureBand_BOM — Seizure Band (wrist-worn seizure detector)
+Generated for SeizureSync system
+Currency: USD, quantities for 1k build
+
+Designator,Qnty,Part,Manufacturer,MPN,Description,Unit Cost,Extended
+U1,1,ESP32-S3-MINI-1-N8R2,Espressif,ESP32-S3-MINI-1-N8R2,SoC dual-core 240MHz 8MB flash 2MB PSRAM,3.60,3.60
+U2,1,SX1262IMLTIC,Semtech,SX1262IMLTIC,Sub-GHz 868 MHz radio transceiver,3.85,3.85
+U3,1,ICM-42688-P,TDK InvenSense,ICM-42688-P,6-axis accel/gyro SPI 32kHz ODR,2.20,2.20
+U4,1,MAX30102GND+,Maxim/Analog,MAX30102GND+,PPG/SpO2 sensor I2C,2.40,2.40
+U5,1,AD5940ACPZ-R7,Analog Devices,AD5940ACPZ-R7,Potentiostat/impedance analyzer for EDA,3.20,3.20
+U6,1,DRV2605LDGTR,TI,DRV2605LDGTR,Haptic driver I2C,0.35,0.35
+U7,1,ST7789V,Sitronix,ST7789V,1.3" 240x240 IPS LCD driver,1.50,1.50
+U8,1,BQ25895RTWR,TI,BQ25895RTWR,I2C PMIC LiPo charger,0.85,0.85
+MOT1,1,ERM haptic motor,Any,ERM-10mm,Eccentric rotating mass motor 10mm,0.25,0.25
+LCD1,1,1.3" IPS LCD,Any,LCD-13-240240,1.3" 240x240 IPS LCD panel,1.40,1.40
+BAT1,1,502030 LiPo 500mAh,Any,502030-500,3.7V 500mAh LiPo battery,1.10,1.10
+ANT1,1,868 MHz chip antenna,Any,ANT-868-CHIP,868 MHz chip antenna,0.25,0.25
+J1,1,USB-C 2.0,Any,USB-C-2.0,USB-C 2.0 female for charging,0.20,0.20
+Y1,1,40 MHz crystal,Abracon,ABM8G-40.000MHz,40 MHz crystal ESP32-S3,0.18,0.18
+Y2,1,32 MHz crystal,Abracon,ABM8G-32.000MHz,32 MHz crystal SX1262,0.18,0.18
+CAP1,4,10uF 0805,Any,CL21A106KAYNNNE,10uF 25V X5R 0805,0.03,0.12
+CAP2,6,100nF 0603,Any,CL21B104KBCNNNC,100nF 50V X7R 0603,0.01,0.06
+RES1,6,10k 0603,Any,RC0603FR-0710KL,10k 0.1W 0603,0.005,0.03
+SW1,2,Tactile switch,Any,TACT-6x6,6x6mm tactile switch SMD,0.05,0.10
+PCB,1,4-layer FR4 PCB,Any,CUSTOM,Custom 4-layer FR4 flex-rigid 45x35mm,1.80,1.80
+STRAP1,1,Silicone watch strap,Any,STRAP-20MM,20mm silicone watch strap,0.30,0.30
+ENC,1,PC+ABS watch case,Any,CUSTOM,Custom watch case 44x38x14mm,1.20,1.20
+,,Total,,,,32.00

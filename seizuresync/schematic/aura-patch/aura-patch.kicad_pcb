@@ -1,0 +1,46 @@
+(kicad_pcb
+  (version 20231023)
+  (generator "SeizureSync")
+  (general (thickness 0.6))
+  (paper "A4")
+  (title_block
+    (title "SeizureSync — Aura Patch")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user)
+    (33 "F.Adhes" user)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "VCC_3V")
+  (net 3 "TMP117_SCL")
+  (net 4 "TMP117_SDA")
+  (net 5 "EDA_ADC")
+  (net 6 "MAX30101_SCL")
+  (net 7 "MAX30101_SDA")
+  (net 8 "MAX30101_INT")
+  (net 9 "LED_STATUS")
+  (net 10 "BTN_EVENT")
+
+  /* Footprints:
+     U1: nRF52840-QFAA-R
+     U2: TMP117AIDRVR
+     U3: AD8232ACPZ-WP
+     U4: MAX30101GND+
+     BAT1: CR2477 coin cell holder
+     LED1: 0603 green
+     SW1: 4x4mm tactile
+     See hardware/bom/AuraPatch_BOM.csv
+  */
+)

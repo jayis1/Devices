@@ -1,0 +1,63 @@
+(kicad_pcb
+  (version 20231023)
+  (generator "SeizureSync")
+  (general (thickness 1.6))
+  (paper "A4")
+  (title_block
+    (title "SeizureSync — Caregiver Beacon")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user)
+    (33 "F.Adhes" user)
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user)
+    (37 "F.SilkS" user)
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+  )
+  (net 0 "")
+  (net 1 "GND")
+  (net 2 "VCC_3V3")
+  (net 3 "VBAT")
+  (net 4 "SX1262_NSS")
+  (net 5 "SX1262_SCK")
+  (net 6 "SX1262_MISO")
+  (net 7 "SX1262_MOSI")
+  (net 8 "SX1262_DIO0")
+  (net 9 "SX1262_RST")
+  (net 10 "SX1262_BUSY")
+  (net 11 "EINK_CS")
+  (net 12 "EINK_DC")
+  (net 13 "EINK_RST")
+  (net 14 "EINK_BUSY")
+  (net 15 "I2S_DIN")
+  (net 16 "I2S_BCLK")
+  (net 17 "I2S_LRCK")
+  (net 18 "WS2812_DATA")
+  (net 19 "DRV_SCL")
+  (net 20 "DRV_SDA")
+  (net 21 "BTN_ACK")
+  (net 22 "BTN_911")
+  (net 23 "BTN_TEST")
+
+  /* Footprints:
+     U1: ESP32-C3-MINI-1-N4
+     U2: SX1262IMLTIC
+     U3: UC8151d e-ink driver
+     U4: DRV2605LDGTR haptic
+     U5: MAX98357A I2S amp
+     EINK1: 2.9" e-ink panel
+     LED1: WS2812B x64 (8x8 matrix)
+     BAT1: 602030 2000mAh LiPo
+     SPK1: 28mm mylar speaker
+     U6: BQ25895 PMIC
+     SW1-3: tactile buttons
+     See hardware/bom/CaregiverBeacon_BOM.csv
+  */
+)

@@ -1,0 +1,21 @@
+AuraPatch_BOM — Aura Patch (chest-worn disposable, 14-day)
+Generated for SeizureSync system
+Currency: USD, quantities for 1k build
+
+Designator,Qnty,Part,Manufacturer,MPN,Description,Unit Cost,Extended
+U1,1,nRF52840-QFAA-R,Nordic,nRF52840-QFAA-R,SoC Cortex-M4F 64MHz BLE 5.0,2.50,2.50
+U2,1,TMP117AIDRVR,TI,TMP117AIDRVR,Medical-grade digital temp sensor I2C ±0.1°C,0.60,0.60
+U3,1,AD8232ACPZ-WP,Analog Devices,AD8232ACPZ-WP,Biopotential AFE for EDA,1.00,1.00
+U4,1,MAX30101GND+,Maxim/Analog,MAX30101GND+,PPG sensor low-power mode,1.80,1.80
+BAT1,1,CR2477,Any,CR2477,1 Ah coin cell battery,0.35,0.35
+LED1,1,0603 green LED,Any,LED-GRN-0603,Status LED 0603 green,0.03,0.03
+SW1,1,Tactile switch,Any,TACT-4x4,4x4mm tactile switch SMD,0.04,0.04
+ANT1,1,PCB antenna,N/A,N/A,2.4 GHz PCB trace antenna,0,0
+CAP1,3,10uF 0603,Any,CL21A106KAYNNNE,10uF 6.3V X5R 0603,0.025,0.075
+CAP2,4,100nF 0402,Any,CL21B104KBCNNNC,100nF X7R 0402,0.008,0.032
+RES1,4,10k 0402,Any,RC0402FR-0710KL,10k 0402 resistor,0.004,0.016
+Y1,1,32 MHz crystal,Abracon,ABM8G-32.000MHz,32 MHz crystal nRF52840,0.10,0.10
+PCB,1,2-layer FR4 PCB,Any,CUSTOM,Custom 2-layer FR4 35x25mm flex,0.80,0.80
+ADH1,1,3M Tegaderm,3M,1624W,Medical adhesive film Tegaderm,0.15,0.15
+ENC,1,Medical-grade silicone,Any,CUSTOM,Silicone overmold 35x25x8mm,0.55,0.55
+,,Total,,,,11.20

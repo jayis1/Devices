@@ -1,0 +1,27 @@
+(kicad_sch
+  (version 20231023)
+  (generator "SeizureSync")
+  (paper "A3")
+  (title_block
+    (title "SeizureSync — Seizure Band Schematic")
+    (date "2024-01-15")
+    (rev "1.0")
+    (company "SeizureSync")
+  )
+  (lib_symbols)
+  /* Schematic blocks:
+     1. ESP32-S3-MINI-1-N8R2 (U1) — main SoC
+     2. SX1262 868 MHz (U2) — SPI
+     3. ICM-42688-P 6-axis IMU (U3) — SPI (2000 Hz seizure sampling)
+     4. MAX30102 PPG/SpO2 (U4) — I2C
+     5. AD5940 EDA impedance (U5) — I2C (separate bus)
+     6. DRV2605L haptic driver (U6) — I2C
+     7. ST7789V LCD (U7) — SPI
+     8. BQ25895 PMIC (U8) — I2C + USB-C charging
+     9. ERM haptic motor (MOT1)
+     10. 500 mAh LiPo (BAT1)
+     11. USB-C 2.0 charging port (J1)
+     12. Buttons: Home (SW1), SOS (SW2)
+     Pin assignments: see README.md
+  */
+)
