@@ -1,0 +1,20 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU,nRF52840 QFAA,1,5.50,5.50,Cortex-M4F 64MHz BLE 5.0
+Ultrasonic,HC-SR04,1,2.00,2.00,2cm-4m obstacle detection
+ToF (downward),VL53L0X,1,3.50,3.50,Drop-off/stair/curb detection
+IMU,ICM-42688,1,3.50,3.50,Swing tracking + tap detection
+Haptic Driver,DRV2605L,1,1.80,1.80,I2C haptic motor driver
+Haptic Motor,ERM 10mm,1,1.50,1.50,Handle vibration
+PCB,4-layer FR4 cane handle,1,4.00,4.00,Handle PCB
+Battery Charger,MCP73871,1,2.20,2.20,USB-C LiPo charging
+LiPo Battery,3.7V 500 mAh,1,3.00,3.00,20h operation
+3.3V Regulator,AP2112K-3.3,1,0.50,0.50,LDO
+LED,Single SMD LED,1,0.20,0.20,Status indicator
+USB-C Connector,Amphenol 12401598E4#2A,1,1.50,1.50,Charging port
+Passives,Resistors/Caps/Misc,1,2.00,2.00,Decoupling pull-ups etc
+Cane Shaft,Carbon fiber folding cane,1,15.00,15.00,5-section folding
+Sensor Pod,3D-printed PETG,1,3.00,3.00,Near-tip sensor housing IP54
+Handle Enclosure,3D-printed PETG,1,3.00,3.00,Handle electronics housing
+Wiring,Silicone wire + connectors,1,2.50,2.50,Handle-to-sensor pod
+Passives Misc,Ferrite beads,1,1.00,1.00,EMI suppression
+Total,,,,64.20,

@@ -1,0 +1,19 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+SoC,ESP32-S3-WROOM-1-N16R8,1,5.50,5.50,16 MB flash 8 MB PSRAM dual-core 240 MHz
+PCB,4-layer FR4 60x40mm,1,3.00,3.00,Custom hub PCB
+Cellular Module,SIM7000A,1,18.00,18.00,4G LTE Cat-M1 embedded SIM
+Cellular Antenna,SMA paddle 4G LTE,1,2.50,2.50,External antenna
+Temp/Humidity/Pressure,BME280,1,2.80,2.80,Ambient monitoring
+RTC,DS3231SN,1,4.50,4.50,Battery-backed ±2 ppm
+microSD Socket,Amphenol 101-00660-73,1,1.20,1.20,Local data buffering
+USB-C Connector,Amphenol 12401598E4#2A,1,1.50,1.50,Power + programming
+Battery Charger,MCP73871,1,2.20,2.20,USB-C + LiPo management
+eFuse,TPS25940,1,1.80,1.80,Overcurrent protection
+3.3V Regulator,AP2112K-3.3,1,0.50,0.50,LDO
+LiPo Battery,3.7V 2000 mAh,1,5.00,5.00,Portable operation 12h
+LEDs,SK6812 RGB,3,0.30,0.90,Status indicators
+Buzzer,CMT-8543S-SMT,1,1.20,1.20,Audible alerts
+Passives,Resistors/Caps/Misc,1,3.00,3.00,Decoupling pull-ups etc
+PCB Antenna,2.4 GHz PCB trace,1,0.00,0.00,BLE+Wi-Fi internal antenna
+Enclosure,3D-printed PETG,1,2.00,2.00,Pocket-mounted enclosure
+Total,,,,72.40,

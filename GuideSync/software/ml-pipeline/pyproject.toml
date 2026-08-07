@@ -1,0 +1,23 @@
+[project]
+name = "guidesync-ml-pipeline"
+version = "1.0.0"
+description = "GuideSync ML training pipeline — 6 models for visual assistance"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2",
+    "torchvision>=0.17",
+    "ultralytics>=8.1",
+    "tensorflow>=2.16",
+    "tflite-micro>=1.0",
+    "onnxruntime>=1.17",
+    "scikit-learn>=1.4",
+    "xgboost>=2.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "opencv-python>=4.9",
+    "Pillow>=10.2",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "tensorboard", "wandb"]

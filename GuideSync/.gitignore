@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+.expo/
+
+# ML models
+models/
+*.pt
+*.onnx
+*.tflite
+*.pkl
+
+# Data
+data/
+
+# IDE
+.vscode/
+.idea/
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
+*-bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Calibration
+hardware/calibration/*.json

@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU,nRF52840 QFAA,1,5.50,5.50,Cortex-M4F 64MHz BLE 5.0
+IMU,ICM-42688,1,3.50,3.50,200Hz accel for fall detection
+Haptic Driver,DRV2605L,1,1.80,1.80,I2C haptic motor driver
+Haptic Motor,ERM 10mm,1,1.50,1.50,Wrist vibration
+SOS Button,Tactile 6mm sealed,1,0.80,0.80,Large textured button
+PCB,4-layer FR4 35x25mm,1,2.50,2.50,Wristband PCB
+Battery Charger,MCP73871,1,2.20,2.20,USB-C LiPo charging
+LiPo Battery,3.7V 300 mAh,1,2.50,2.50,48h operation
+3.3V Regulator,AP2112K-3.3,1,0.50,0.50,LDO
+LED,Single SMD LED,1,0.20,0.20,Status + SOS indicator
+USB-C Connector,Amphenol 12401598E4#2A,1,1.50,1.50,Charging port
+Passives,Resistors/Caps/Misc,1,1.50,1.50,Decoupling pull-ups etc
+Wristband,Silicone hypoallergenic,1,5.00,5.00,IP67 <25g
+Enclosure,3D-printed PETG,1,2.00,2.00,Wristband electronics housing
+Passives Misc,Ferrite beads,1,0.80,0.80,EMI suppression
+Total,,,,38.70,

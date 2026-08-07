@@ -1,0 +1,12 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU,nRF52840 QFAA,1,5.50,5.50,Cortex-M4F 64MHz BLE 5.0 ultra-low power
+PCB,4-layer FR4 35x35mm,1,1.50,1.50,Coin-cell PCB
+Battery,CR2032,1,0.30,0.30,3V 220mAh 12-18 month life
+LED,Single SMD LED,1,0.20,0.20,Battery + active indicator
+Reed Switch,Glass reed switch NO,1,0.50,0.50,Magnetic config mode trigger
+Passives,Resistors/Caps/Misc,1,0.80,0.80,Decoupling pull-ups
+PCB Antenna,2.4 GHz PCB trace,1,0.00,0.00,BLE internal antenna
+Enclosure,3D-printed ASA 35mm disc,1,2.00,2.00,Wall-mount adhesive backing
+Adhesive,3M VHB double-sided,1,0.50,0.50,Wall mounting
+Passives Misc,Ferrite bead,1,0.20,0.20,EMI suppression
+Total,,,,11.80,
