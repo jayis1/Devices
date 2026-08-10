@@ -1,0 +1,23 @@
+# FireSync
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+models/
+data/
+*.tflite
+*.onnx
+*.pth
+*.pkl
+*.bin
+node_modules/
+.expo/
+*.log
+.DS_Store
+Thumbs.db
+build/
+dist/
+*.zip
+hardware/calibration/
