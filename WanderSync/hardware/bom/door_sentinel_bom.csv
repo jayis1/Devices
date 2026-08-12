@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU,ESP32-C3-WROOM-02-N4,1,2.80,2.80,RISC-V 160 MHz 4 MB flash ultra-low-power
+Sub-GHz Radio,SX1262,1,7.20,7.20,868 MHz +22 dBm TDMA mesh node
+Sub-GHz Antenna,PCB trace 868 MHz,1,0.50,0.50,Internal compact antenna
+Reed Switch,Coto 9001 glass reed,1,0.80,0.80,Magnetic door/window contact sensor
+Lock Actuator,Yale Assure 2 motorized deadbolt body,1,12.00,12.00,Motorized electronic deadbolt 4xAA
+H-Bridge Driver,L298N,1,2.50,2.50,Drives motorized deadbolt bidirectional
+Lock Position Sensor,Coto 9001 reed switch,1,0.80,0.80,Deadbolt locked/unlocked feedback
+Tamper Switch,D2F-01 microswitch,1,0.60,0.60,Tamper detection
+LED,SK6812 RGB,1,0.30,0.30,Status locked unlocked alert battery
+Buzzer,CMT-8540S-SMT 85 dB,1,1.50,1.50,Local alert on forced entry tamper
+Battery,CR123A lithium 3V,2,1.50,3.00,12-month battery life ultra-low-power
+LDO Regulator,HT7333,1,0.50,0.50,3.3V from 6V 2xCR123A
+PCB,4-layer FR4 40x30mm,1,2.50,2.50,Custom door sentinel PCB
+Passives,Resistors/Caps/Misc,1,2.10,2.10,Decoupling pull-ups etc
+Enclosure,3D-printed ASA,1,1.50,1.50,Door frame mount IP54 tamper-resistant
+Total,,,,28.30,

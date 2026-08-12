@@ -1,0 +1,37 @@
+# Build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ML model outputs
+*.pt
+*.tflite
+*.onnx
+*.joblib
+*.json.gz
+
+# Node.js
+node_modules/
+.expo/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Docker
+data/

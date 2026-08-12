@@ -1,0 +1,23 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU/SoC,nRF52840 QFAA,1,5.20,5.20,Cortex-M4F 64 MHz 1 MB flash 256 KB RAM BLE 5.0
+Sub-GHz Radio,SX1262,1,7.20,7.20,868 MHz +22 dBm 2+ km range for wandering tracking
+Sub-GHz Antenna,PCB trace 868 MHz,1,0.50,0.50,Internal compact antenna
+GPS Module,Quectel L80-R,1,8.50,8.50,33-channel GPS -162 dBm 1 Hz fix patch antenna
+IMU,LSM6DSL,1,3.80,3.80,6-DoF accel+gyro I²C 50 Hz activity+fall detection
+PPG Sensor,MAX30101,1,4.20,4.20,Wearable heart rate+SpO2 I²C
+Haptic Driver,DRV2605L,1,1.80,1.80,Haptic driver+LRA vibration reminders
+LRA Motor,PCB haptic LRA,1,1.20,1.20,Vibration motor for reminders
+SOS Button,Tactile switch 6mm,1,0.30,0.30,Large easy-press button SOS alert
+I²C Mux,TCA9548A,1,1.50,1.50,I²C multiplexer for IMU+PPG shared bus
+LED,SK6812 RGB,1,0.30,0.30,Status GPS fix battery alert
+Tamper Switch,Coto 9001 reed switch,1,0.40,0.40,Band removal detection
+LiPo Battery,3.7V 300 mAh,1,2.00,2.00,7-day battery life duty-cycled
+Charger,MCP73831T,1,0.80,0.80,USB-C LiPo charging
+USB-C Connector,Amphenol 12401598E4#2A,1,1.50,1.50,Magnetic charging dock
+GPS Fix LED,Green 0603 SMD,1,0.10,0.10,GPS fix indicator
+PCB,4-layer FR4 25x20mm,1,3.00,3.00,Custom band PCB compact
+Passives,Resistors/Caps/Misc,1,2.50,2.50,Decoupling pull-ups etc
+Band,Silicone wristband,1,1.50,1.50,Hypoallergenic tamper-resistant IP67
+Enclosure,3D-printed PA12,1,1.50,1.50,42x32x14mm IP67 wrist-mounted
+GPS Patch Antenna,Mini patch 25x25mm,1,1.50,1.50,Internal GPS antenna
+Total,,,,48.60,

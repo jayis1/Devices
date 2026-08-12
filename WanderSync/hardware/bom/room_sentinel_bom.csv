@@ -1,0 +1,17 @@
+Component,Part,Qty,Unit_USD,Total_USD,Notes
+MCU,ESP32-S3-WROOM-1-N8R2,1,4.20,4.20,8 MB flash 2 MB PSRAM vector instructions ADLNet CNN
+Sub-GHz Radio,SX1262,1,7.20,7.20,868 MHz +22 dBm TDMA mesh node
+Sub-GHz Antenna,PCB trace 868 MHz,1,0.50,0.50,Internal compact antenna
+mmWave Radar,HLK-LD2410,1,8.50,8.50,24 GHz mmWave presence+motion+range 0-6m privacy-first
+PIR Sensor,AM612,1,1.20,1.20,Passive IR occupancy complements mmWave
+Edge AI,TFLite-Micro,0,0.00,0.00,ADLNet int8 90KB on-device activity classification
+USB-C Connector,Amphenol 12401598E4#2A,1,1.50,1.50,Power + programming
+Battery Charger,MCP73871,1,2.20,2.20,USB-C + LiPo management
+eFuse,TPS25940,1,1.80,1.80,Overcurrent protection
+3.3V Regulator,AP2112K-3.3,1,0.50,0.50,LDO
+LiPo Battery,3.7V 1200 mAh,1,3.50,3.50,Backup 16 hours during power outage
+LED,SK6812 RGB,1,0.30,0.30,Status mesh activity battery
+PCB,4-layer FR4 45x35mm,1,3.00,3.00,Custom room sentinel PCB
+Passives,Resistors/Caps/Misc,1,2.10,2.10,Decoupling pull-ups etc
+Enclosure,3D-printed ASA,1,1.50,1.50,Wall-mounted 60x45x22mm IP54
+Total,,,,34.50,
