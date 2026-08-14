@@ -1,0 +1,14 @@
+Component,Part Number,Quantity,Unit Price,Total Price,Supplier,Notes
+SoC,RP2040,1,1.00,1.00,Mouser,Dual-core M0+
+Wireless,ESP32-C3,1,2.50,2.50,Mouser,Wi-Fi companion
+ToF Sensor Screen,VL53L1X,1,4.50,4.50,Mouser,400cm range
+ToF Sensor Desk,VL53L0X,1,2.80,2.80,Mouser,200cm range
+Light Sensor,VEML7700,1,2.20,2.20,Mouser,Vishay lux sensor
+RGB LED,WS2812B,1,0.30,0.30,LCSC,Status indicator
+Piezo Buzzer,PS1240P02BT,1,0.50,0.50,Mouser,Audible alert
+USB-C Connector,USB4102,1,0.80,0.80,LCSC,Power + data
+PCB,2-layer FR4 30x20mm,1,2.50,2.50,PCBWay,Compact PCB
+Enclosure,ABS clip-on,1,2.50,2.50,Custom,Monitor clip
+Button,TS-1188A,1,0.20,0.20,LCSC,Pairing button
+Passives,R/C/L misc,1,1.00,1.00,Digikey,Resistors/caps/inductors
+,,Total,,20.60,,

@@ -1,0 +1,16 @@
+Component,Part Number,Quantity,Unit Price,Total Price,Supplier,Notes
+SoC,nRF52840 QFAA,1,5.80,5.80,Mouser,Nordic BLE 5.0
+EMG Frontend,ADS1298,1,12.50,12.50,Mouser,TI 8-ch 24-bit
+IMU,ICM-42688-P,3,3.50,10.50,Mouser,Cervical/thoracic/lumbar
+Fuel Gauge,MAX17048,1,1.50,1.50,Mouser,LiPo fuel gauge
+Charger IC,MCP73831,1,0.60,0.60,Mouser,Single-cell LiPo
+Battery,502035 LiPo 500mAh,1,3.50,3.50,BatterySpace,3.7V wearable
+PCB,4-layer flex 80x40mm,1,6.00,6.00,PCBWay,Flex PCB
+Garment,Compression shirt,1,12.00,12.00,Custom,Polyester/spandex
+Textile Electrodes,MedTex 180 Ag/AgCl,8,0.25,2.00,Lord,Conductive fabric
+Snap Connectors,Conductive snaps,8,0.20,1.60,Digikey,Removable electrodes
+Status LED,0603 RGB,3,0.10,0.30,LCSC,Red/Green/Blue
+Button,TS-1188A,1,0.20,0.20,LCSC,Tactile switch
+Connectors,JST-SH 1.0,4,0.15,0.60,LCSC,Battery + programming
+Passives,R/C/L misc,1,2.00,2.00,Digikey,Resistors/caps/inductors
+,,Total,,57.00,,

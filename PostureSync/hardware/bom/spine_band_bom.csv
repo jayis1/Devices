@@ -1,0 +1,17 @@
+Component,Part Number,Quantity,Unit Price,Total Price,Supplier,Notes
+SoC,nRF52840 QFAA,1,5.80,5.80,Mouser,Nordic BLE 5.0
+IMU,ICM-42688-P,1,3.50,3.50,Mouser,6-axis accel+gyro 200Hz
+PPG Sensor,MAX30102,1,2.90,2.90,Mouser,Heart rate/SpO2
+Barometer,BMP390,1,2.80,2.80,Mouser,Bosch pressure
+Haptic Driver,DRV2605L,1,1.50,1.50,Mouser,TI haptic
+Haptic Actuator,LRA 0832,1,1.00,1.00,Mouser,Linear resonant
+Fuel Gauge,MAX17048,1,1.50,1.50,Mouser,LiPo fuel gauge
+Charger IC,MCP73831,1,0.60,0.60,Mouser,Single-cell LiPo
+Battery,402030 LiPo 400mAh,1,3.20,3.20,BatterySpace,3.7V wearable
+PCB,4-layer flex 50x30mm,1,5.00,5.00,PCBWay,Flex PCB
+Enclosure,Silicone + PC,1,3.50,3.50,Custom,Skin-safe silicone
+Status LED,0603 RGB,3,0.10,0.30,LCSC,Red/Green/Blue
+Button,TS-1188A,1,0.20,0.20,LCSC,Tactile switch
+Connectors,JST-SH 1.0,3,0.15,0.45,LCSC,Battery + programming
+Passives,R/C/L misc,1,1.50,1.50,Digikey,Resistors/caps/inductors
+,,Total,,31.30,,

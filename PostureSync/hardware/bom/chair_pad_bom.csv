@@ -1,0 +1,14 @@
+Component,Part Number,Quantity,Unit Price,Total Price,Supplier,Notes
+SoC,ESP32-S3-MINI-1,1,3.50,3.50,Mouser,Mini form factor
+Sub-GHz Radio,SX1262,1,4.50,4.50,Mouser,Semtech 868 MHz
+GPIO Expander,MCP23017,2,1.20,2.40,Mouser,16-bit I2C
+Analog Mux,74HC4051,2,0.50,1.00,Mouser,8-channel mux
+Load Cell Amp,HX711,1,1.00,1.00,LCSC,24-bit ADC
+FSR Matrix,16x16 custom FSR,1,12.00,12.00,Custom,Pressure sensing array
+Buck-Boost,TPS63020,1,3.20,3.20,Mouser,TI 5V buck-boost
+Battery Holder,AAA x2 holder,1,0.50,0.50,Digikey,2x AAA
+PCB,2-layer FR4 40x40cm,1,3.00,3.00,PCBWay,Chair pad PCB
+Enclosure,Fabric pad,1,4.00,4.00,Custom,Cushion fabric
+Connectors,JST-PH 2.0,3,0.20,0.60,LCSC,Sensor connections
+Passives,R/C/L misc,1,2.00,2.00,Digikey,Resistors/caps/inductors
+,,Total,,35.10,,
