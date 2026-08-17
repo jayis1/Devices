@@ -1,0 +1,21 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-S3-MINI-1,1,3.50,3.50,Mouser,ESP32-S3-MINI-1
+Sub-GHz Radio,SX1262,1,4.50,4.50,Mouser,SX1262IMLTRT
+Stepper Motor,28BYJ-48 5V,1,2.50,2.50,Amazon,28BYJ-48
+Motor Driver,ULN2003,1,0.80,0.80,LCSC,ULN2003
+Magnetic Encoder,AS5600,1,2.20,2.20,DigiKey,AS5600
+Load Cell Amp,HX711,1,1.00,1.00,DigiKey,HX711
+Precision Load Cell,1mg resolution,1,4.50,4.50,DigiKey,1mg-LC
+IR Sensor,TCRT5000,1,0.50,0.50,LCSC,TCRT5000
+OLED Display,0.96" SSD1306 128x64,1,2.20,2.20,DigiKey,SSD1306
+LED Ring,WS2812B x8,1,1.50,1.50,DigiKey,WS2812B-8
+Env Sensor,BME280,1,2.50,2.50,DigiKey,BME280
+Buzzer,Piezo 5V,1,0.50,0.50,LCSC,Piezo-5V
+Buck-Boost,TPS63020,1,3.20,3.20,DigiKey,TPS63020DSJR
+Battery,18650 LiFePO4 1500mAh,1,4.50,4.50,BatterySpace,IFR26650-1500
+USB-C Connector,USB-C 16-pin,1,0.80,0.80,LCSC,TYPE-C-31-M-12
+Buttons,Large dome switch,2,1.20,2.40,DigiKey,Dome-12mm
+Antenna,868 MHz chip antenna,1,0.80,0.80,LCSC,ANT-868
+PCB,4-layer FR4 100x80mm,1,5.00,5.00,JLCPCB,4-layer
+Enclosure,ABS + carousel,1,8.00,8.00,Custom,MedStation-Enclosure
+Total,,,,48.60,,

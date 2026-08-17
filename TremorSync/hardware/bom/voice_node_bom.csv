@@ -1,0 +1,16 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-S3-MINI-1,1,3.50,3.50,Mouser,ESP32-S3-MINI-1
+Throat Microphone,Knowles SPQ2820WP3-1,1,4.80,4.80,Knowles,SPQ2820WP3-1
+Mic Preamp,MAX9814,1,1.50,1.50,DigiKey,MAX9814
+I2S ADC,NAU88C22,1,2.20,2.20,Mouser,NAU88C22
+Room Microphone,ICS-43434,1,2.50,2.50,DigiKey,ICS-43434
+EMG Frontend,ADS1292R,1,6.50,6.50,DigiKey,ADS1292R
+Fuel Gauge,MAX17048,1,1.50,1.50,DigiKey,MAX17048G+T10
+Charger IC,MCP73831,1,0.60,0.60,DigiKey,MCP73831T-2ACI/OT
+Battery,302035 LiPo 300mAh,1,2.80,2.80,BatterySpace,302035-300
+Electrodes,Ag/AgCl textile,2,0.80,1.60,MindTex,MedTex-180
+PCB,4-layer flex 45x20mm,1,4.50,4.50,JLCPCB,Flex-4L
+Enclosure,Silicone neck band,1,3.50,3.50,Custom,Voice-Enclosure
+Status LEDs,LED 0603,2,0.10,0.20,LCSC,LED-0603
+Button,Tactile switch,1,0.20,0.20,LCSC,TS-1187
+Total,,,,35.50,,
