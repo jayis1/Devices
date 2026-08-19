@@ -1,0 +1,10 @@
+torch==2.3.0
+torchvision==0.18.0
+numpy==1.26.0
+xgboost==2.0.3
+scikit-learn==1.4.0
+joblib==1.4.0
+onnx==1.16.0
+pandas==2.2.0
+matplotlib==3.8.0
+# torch-geometric==2.5.0  # for RouteSafety GCN (uncomment for full training)

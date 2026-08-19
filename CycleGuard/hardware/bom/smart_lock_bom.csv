@@ -1,0 +1,21 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-C6-MINI-1,1,3.80,3.80,Mouser,ESP32-C6-MINI-1
+Sub-GHz Radio,SX1262,1,4.50,4.50,Mouser,SX1262IMLTRT
+4G LTE Module,SIM7600G,1,12.00,12.00,Mouser,SIM7600G-H
+GPS Module,U-blox CAM-M8Q,1,10.00,10.00,DigiKey,CAM-M8Q
+IMU,ICM-42688-P,1,3.50,3.50,DigiKey,ICM-42688-P
+Magnetic Encoder,AS5600,1,2.50,2.50,DigiKey,AS5600
+Load Cell ADC,HX711,1,1.20,1.20,LCSC,HX711
+Load Cell,50kg load cell,1,3.50,3.50,Amazon,LoadCell-50kg
+Motor Driver,DRV8871,1,2.80,2.80,DigiKey,DRV8871
+Gear Motor,12V DC gear motor,1,5.00,5.00,Amazon,GearMotor-12V
+Siren,120dB piezo PKM13EPYH4000,1,2.50,2.50,DigiKey,PKM13EPYH4000
+Shackle,18mm hardened steel U-lock,1,6.00,6.00,Custom,U-Lock-Shackle
+Charger IC,TP4056,1,0.40,0.40,LCSC,TP4056
+Battery,18650 Li-ion 2600mAh,1,4.50,4.50,BatterySpace,ICR18650-2600
+SIM Card Holder,Nano SIM,1,0.80,0.80,LCSC,SIM-Nano
+USB-C Connector,USB-C 16-pin,1,0.80,0.80,LCSC,TYPE-C-31-M-12
+Status LED,WS2812B,1,0.40,0.40,LCSC,WS2812B
+PCB,4-layer FR4 80x50mm,1,4.00,4.00,JLCPCB,4-layer
+Enclosure,Hardened steel lock body,1,3.00,3.00,Custom,Lock-Body
+Total,,,,58.70,,

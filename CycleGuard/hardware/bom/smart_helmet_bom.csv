@@ -1,0 +1,17 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,nRF52840 QFAA,1,5.50,5.50,Mouser,nRF52840
+IMU,ICM-42688-P,1,3.50,3.50,DigiKey,ICM-42688-P
+Throat Mic,Knowles SPQ2820WP3-1,1,4.50,4.50,DigiKey,SPQ2820WP3-1
+Audio ADC,NAU88C22,1,2.80,2.80,DigiKey,NAU88C22
+Audio Amp,MAX98357A,1,1.50,1.50,DigiKey,MAX98357A
+Bone Conductor,BOCO P-D4010,1,6.00,6.00,BOCO,P-D4010
+Haptic Driver,DRV2605L,1,1.80,1.80,DigiKey,DRV2605L
+Fuel Gauge,MAX17048,1,1.50,1.50,DigiKey,MAX17048G+T10
+Charger IC,MCP73831,1,0.60,0.60,DigiKey,MCP73831
+Battery,402030 LiPo 500mAh,1,3.50,3.50,BatterySpace,LP402030
+USB-C Connector,USB-C 16-pin,1,0.80,0.80,LCSC,TYPE-C-31-M-12
+LEDs,0603 SMD RGB,3,0.15,0.45,LCSC,LED-0603-RGB
+Status LED,WS2812B,1,0.40,0.40,LCSC,WS2812B
+PCB,4-layer flex PCB 45x30mm,1,6.00,6.00,JLCPCB,4-layer-flex
+Enclosure,EPS helmet integrated,1,5.00,5.00,Custom,Helmet-Shell
+Total,,,,42.80,,

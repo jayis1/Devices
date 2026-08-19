@@ -1,0 +1,15 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,RP2040,1,1.00,1.00,DigiKey,RP2040
+Radio Module,nRF52840 BLE module,1,5.50,5.50,Mouser,nRF52840-module
+Flash,W25Q16JV 2MB,1,0.40,0.40,LCSC,W25Q16JV
+Wheel Hall,A1304,1,1.20,1.20,DigiKey,A1304
+Crank Hall,A1304,1,1.20,1.20,DigiKey,A1304
+Wheel Magnet,Neodymium spoke magnet,1,0.50,0.50,Amazon,Spoke-Magnet
+Crank Magnet,Neodymium crank magnet,1,0.50,0.50,Amazon,Crank-Magnet
+TPMS Sensor,Infineon SP37T,1,4.50,4.50,DigiKey,SP37T
+TPMS Valve,Valve stem integrated,1,1.50,1.50,Amazon,TPMS-Valve
+Battery,CR2477 1000mAh,1,2.50,2.50,DigiKey,CR2477
+Status LED,0603 SMD green,1,0.10,0.10,LCSC,LED-0603
+PCB,4-layer FR4 35x25mm,1,3.00,3.00,JLCPCB,4-layer
+Enclosure,IP67 sensor pod,1,2.00,2.00,Custom,Sensor-Pod
+Total,,,,18.20,,

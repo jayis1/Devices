@@ -1,0 +1,25 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-S3-WROOM-1-N8R8,1,5.20,5.20,Mouser,ESP32-S3-WROOM-1-N8R8
+Sub-GHz Radio,SX1262,1,4.50,4.50,Mouser,SX1262IMLTRT
+TFT Display,2.4" ILI9341 320x240,1,7.50,7.50,DigiKey,ILI9341-2.4
+Camera,OV5640 5MP DVP,1,6.80,6.80,DigiKey,OV5640
+GPS Module,U-blox NEO-M9N,1,12.00,12.00,DigiKey,NEO-M9N
+4G LTE Module,SIM7600G,1,12.00,12.00,Mouser,SIM7600G-H
+Audio Amp,MAX98357A,1,1.50,1.50,DigiKey,MAX98357A
+Haptic Driver,DRV2605L,1,1.80,1.80,DigiKey,DRV2605L
+PPG Sensor,MAX30102,1,2.90,2.90,DigiKey,MAX30102
+Env Sensor,BME280,1,2.50,2.50,DigiKey,BME280
+IMU,ICM-42688-P,1,3.50,3.50,DigiKey,ICM-42688-P
+Charger IC,TP4056,1,0.40,0.40,LCSC,TP4056
+Buck-Boost,TPS63020,1,3.20,3.20,DigiKey,TPS63020DSJR
+Battery,18650 LiFePO4 3200mAh,1,5.50,5.50,BatterySpace,IFR18650-3200
+SIM Card Holder,Nano SIM,1,0.80,0.80,LCSC,SIM-Nano
+USB-C Connector,USB-C 16-pin,1,0.80,0.80,LCSC,TYPE-C-31-M-12
+Speaker,28mm 8ohm,1,1.20,1.20,DigiKey,SPK-28mm
+Touch Controller,FT6206,1,1.50,1.50,DigiKey,FT6206
+Status LED,WS2812B,1,0.40,0.40,LCSC,WS2812B
+Headers,2.54mm pin headers,1,1.00,1.00,LCSC,Header-2.54
+PCB,4-layer FR4 90x70mm,1,5.00,5.00,JLCPCB,4-layer
+Enclosure,IP65 CNC aluminum mount,1,8.00,8.00,Custom,Hub-Enclosure
+Handlebar Mount,GoPro-style mount,1,3.00,3.00,Amazon,Handlebar-Mount
+Total,,,,89.30,,
