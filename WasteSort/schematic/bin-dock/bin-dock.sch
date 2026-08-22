@@ -1,0 +1,59 @@
+EESchema Schematic File Version 7
+EELAYER 0 0
+EELAYER END
+$Descr A4 11700 8268
+encoding utf-8
+Sheet 1 1
+Title "WasteSort Bin Dock"
+Date "2026-08-22"
+Rev "1.0"
+Comp "Devices"
+Comment1 "STM32WL55JC + VL53L1X + HX711 + SGP41 + SHT31"
+Comment2 "E-paper fill label + blower/UVC deodorizer"
+Comment3 "Power rails: 12V, BAT, 3V3, 5V"
+Comment4 "Buses: I2C, GPIO, SPI, ADC"
+$EndDescr
+
+$Comp
+L power:+3V3 #PWR01
+U 1 1 65000001
+P 1800 1000
+F 0 "#PWR01" H 1800 850 50 0001 C CNN
+F 1 "+3V3" H 1815 1173 50 0000 C CNN
+F 2 "" H 1800 1000 50 0001 C CNN
+F 3 "" H 1800 1000 50 0001 C CNN
+1 1800 1000
+1 0 0 -1
+$EndComp
+
+$Comp
+L Device:U U_STM32WL55
+U 1 1 65000002
+P 4200 2600
+F 0 "U1" H 4200 3400 50 0000 C CNN
+F 1 "STM32WL55JC" H 4200 3300 50 0000 C CNN
+F 2 "Module:STM32WL55JC" H 4200 2600 50 0001 C CNN
+F 3 "" H 4200 2600 50 0001 C CNN
+1 4200 2600
+1 0 0 -1
+$EndComp
+
+$Comp
+L Device:U U_HX711
+U 1 1 65000003
+P 7600 2600
+F 0 "U2" H 7600 3400 50 0000 C CNN
+F 1 "HX711" H 7600 3300 50 0000 C CNN
+F 2 "Module:HX711" H 7600 2600 50 0001 C CNN
+F 3 "" H 7600 2600 50 0001 C CNN
+1 7600 2600
+1 0 0 -1
+$EndComp
+
+Text Notes 1200 7000 0 50 ~ 0
+Interfaces:
+I2C -> VL53L1X + SGP41 + SHT31
+GPIO -> reed switch
+SPI -> e-paper
+PWM/FET -> blower + UVC LED
+$EndSCHEMATC

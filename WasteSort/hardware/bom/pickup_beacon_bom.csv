@@ -1,0 +1,12 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,nRF52840-QIAA,1,4.80,4.80,DigiKey,NRF52840-QIAA
+Sub-GHz Radio,SX1262,1,4.60,4.60,Mouser,SX1262IMLTRT
+Accelerometer,LIS2DW12,1,1.20,1.20,DigiKey,LIS2DW12
+Tilt Sensor,BMA400,1,1.40,1.40,DigiKey,BMA400
+E-Paper,2.9in e-paper,1,14.50,14.50,WaveShare,EPD-2.9
+Solar Panel,3W 6V panel,1,8.00,8.00,Voltaic,6V-3W
+Battery,32700 LiFePO4 6000mAh,1,8.50,8.50,BatterySpace,32700-LFP
+Solar Charger,CN3791,1,1.35,1.35,LCSC,CN3791
+Enclosure,UV-stable IP66 housing,1,4.50,4.50,Polycase,ML-46F
+PCB,4-layer 80x60mm,1,4.60,4.60,JLCPCB,4L-80x60
+Total,,,,49.85,,

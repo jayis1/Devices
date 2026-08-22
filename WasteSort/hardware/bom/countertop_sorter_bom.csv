@@ -1,0 +1,14 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-S3-WROOM-1-N16R8,1,5.60,5.60,Mouser,ESP32-S3-WROOM-1-N16R8
+Camera,OV2640,1,4.20,4.20,DigiKey,OV2640
+Spectral Sensor,AS7341,1,5.10,5.10,DigiKey,AS7341
+Barcode Scanner,GM65 2D serial engine,1,18.00,18.00,AliExpress,GM65
+ToF Sensor,VL53L1X,1,5.20,5.20,DigiKey,VL53L1X
+Servo,MG996R metal gear,1,11.50,11.50,Amazon,MG996R
+Display,1.69in ST7789 TFT,1,6.40,6.40,DigiKey,ST7789-1.69
+LED Ring,WS2812B 12-LED ring,1,2.10,2.10,Adafruit,1643
+12V Power Brick,12V 3A,1,9.00,9.00,MeanWell,GST36A12
+Buck Regulator,TPS54331,1,1.30,1.30,DigiKey,TPS54331
+PCB,4-layer 95x80mm,1,5.80,5.80,JLCPCB,4L-95x80
+Enclosure,Injection-molded countertop shell,1,8.00,8.00,Custom,WS-SORTER-SHELL
+Total,,,,82.20,,

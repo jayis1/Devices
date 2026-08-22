@@ -1,0 +1,14 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+MCU+Radio,STM32WL55JC,1,8.50,8.50,Mouser,STM32WL55JCI6
+ToF Sensor,VL53L1X,1,5.20,5.20,DigiKey,VL53L1X
+VOC Sensor,SGP41,1,4.60,4.60,DigiKey,SGP41-D-R4
+Temp/Humidity,SHT31,1,2.80,2.80,DigiKey,SHT31-DIS
+Load Cell,50kg single-point,1,8.90,8.90,SparkFun,TAL220
+ADC,HX711,1,0.70,0.70,LCSC,HX711
+E-Paper,2.13in tri-color,1,12.50,12.50,WaveShare,EPD-2.13-B
+Blower,5V centrifugal blower,1,4.80,4.80,Sunon,MF25101V2
+UVC LED,275nm UVC-C LED,1,6.20,6.20,DigiKey,275NM-UVC
+Battery,18650 protected cells,2,4.20,8.40,BatteryJunction,18650-2600
+Charger,MP2615,1,1.75,1.75,DigiKey,MP2615
+PCB,4-layer 90x90mm,1,5.70,5.70,JLCPCB,4L-90x90
+Total,,,,58.05,,
