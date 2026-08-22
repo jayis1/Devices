@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,nRF52840,Main BLE MCU,4.70
+2,1,U2,SX1262,Sub-GHz radio,4.20
+3,1,U3,HX711,Load-cell ADC,0.70
+4,1,U4,LIS2DW12,Low-power accelerometer,1.10
+5,1,BAT1,1200mAh LiPo,Battery,5.50
+6,1,U5,MCP73831,Li-ion charger,0.45
+7,1,M1,Coin vibration motor,Haptic reminder,1.30
+8,1,CON1,USB-C receptacle,Charging connector,0.60

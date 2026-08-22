@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,STM32L4R5,Ultra-low-power MCU,6.20
+2,1,U2,ADS1232,24-bit load-cell ADC,4.80
+3,4,LC1-LC4,50kg load cell,Corner force sensors,3.20
+4,2,T1-T2,TMP117,Precision temperature sensor,2.40
+5,1,U3,VL53L5CX,8x8 ToF sensor,9.50
+6,1,U4,BMA400,Low-power accelerometer,1.20
+7,1,LED1,Amber side-light strip,Path lighting,2.00
+8,1,PSU1,5V 2A adapter,Power supply,6.50

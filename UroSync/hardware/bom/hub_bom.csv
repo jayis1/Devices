@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,Raspberry Pi Compute Module 4 4GB/32GB,Edge compute module,85.00
+2,1,U2,RP2040,QFN MCU supervisor,1.10
+3,1,U3,SX1262,868 MHz LoRa/Sub-GHz transceiver,4.20
+4,1,U4,MAX98357A,I2S class-D amplifier,1.30
+5,1,U5,DS3231SN,RTC with battery backup,1.80
+6,1,U6,INA219,Power monitor,1.10
+7,1,DISP1,8in HDMI/DSI mirror LCD,Touch mirror display,54.00
+8,2,BAT1-2,18650 Li-ion cell,UPS cells,5.00
+9,1,PSU1,12V 4A adapter,Main supply,9.50
+10,1,ANT1,868 MHz antenna,Hub antenna,2.00

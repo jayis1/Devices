@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,STM32WL55JC,MCU with integrated Sub-GHz radio,7.20
+2,1,U2,SHT31,Temperature/humidity sensor,2.90
+3,1,U3,SGP41,VOC sensor,5.60
+4,1,U4,VEML7700,Ambient light sensor,1.10
+5,1,K1,12V relay,Fan relay,1.80
+6,1,Q1,AO3400A,MOSFET for night-light strip,0.12
+7,1,S1,Leak trace strip,Water leak sensor,0.90
+8,1,PSU1,12V 1A adapter,Power supply,5.00

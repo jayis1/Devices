@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,ESP32-S3-WROOM-1-N16R8,Main MCU/Wi-Fi/BLE,5.80
+2,1,U2,AS7341,8-channel spectral sensor,6.90
+3,1,U3,AD5933,Impedance converter,11.50
+4,1,U4,ADS1115,16-bit ADC,1.60
+5,1,U5,HX711,Load-cell ADC,0.70
+6,1,MIC1,ICS-43434,I2S MEMS microphone,2.10
+7,1,U6,VL53L0X,ToF alignment sensor,4.20
+8,1,M1,28BYJ-48 + ULN2003,Strip cassette advance motor,3.10
+9,1,DISP1,1.9in ST7789 TFT,Local UI,5.40
+10,1,PSU1,12V 2A adapter,Power supply,7.00
