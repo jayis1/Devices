@@ -1,0 +1,9 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+MCU/Radio,STM32WL55JC,1,8.40,8.40,DigiKey,STM32WL55JCI6
+UWB,Qorvo DW3110,1,6.80,6.80,Mouser,DW3110
+NFC Frontend,PN532,1,3.90,3.90,DigiKey,PN5321A3HN
+Motion Sensor,RCWL-0516,1,0.75,0.75,LCSC,RCWL-0516
+E-Paper,2.13in tri-color,1,15.50,15.50,WaveShare,2.13B
+Speaker Amp,PAM8302,1,1.10,1.10,DigiKey,PAM8302AASCR
+LED Strip,WS2812B x8,1,2.00,2.00,Adafruit,1426
+Total,,,,38.45,,

@@ -1,0 +1,9 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+Cellular/GNSS SoC,nRF9160 SiP,1,15.50,15.50,DigiKey,NRF9160-SICA-B1A
+Sub-GHz Radio,SX1262,1,4.60,4.60,Mouser,SX1262IMLTRT
+Accelerometer,LIS2DW12,1,1.30,1.30,DigiKey,LIS2DW12TR
+LCD,1.9in mono LCD,1,9.80,9.80,BuyDisplay,ER-TFTM019
+LiPo,2000mAh,1,9.00,9.00,Adafruit,2011
+Buck Converter,MP1584EN,1,1.20,1.20,LCSC,MP1584EN
+Charger,MCP73831,1,0.55,0.55,DigiKey,MCP73831T
+Total,,,,41.95,,

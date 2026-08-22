@@ -1,0 +1,11 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+Compute Module,Raspberry Pi CM4 4GB 32GB,1,65.00,65.00,RaspberryPi,CM4004032
+Supervisory MCU,RP2040,1,1.10,1.10,DigiKey,RP2040
+Radio,SX1262,1,4.60,4.60,Mouser,SX1262IMLTRT
+Display,7in DSI LCD,1,52.00,52.00,WaveShare,WS-7DSI
+Audio Amp,MAX98357A,1,2.10,2.10,DigiKey,MAX98357AETE
+RTC,DS3231SN,1,1.50,1.50,DigiKey,DS3231SN
+Buck 5V,TPS5430,1,2.40,2.40,DigiKey,TPS5430DDAR
+UPS Board,Dual-18650 UPS HAT,1,18.00,18.00,WaveShare,UPS-HAT-CM4
+Enclosure,ABS wall enclosure,1,18.00,18.00,Polycase,WC-54
+Total,,,,164.70,,

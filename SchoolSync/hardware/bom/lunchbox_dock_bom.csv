@@ -1,0 +1,10 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+SoC,ESP32-S3-WROOM-1-N8R2,1,4.90,4.90,DigiKey,ESP32-S3-WROOM-1
+Load Cell,5kg single-point,1,5.40,5.40,SparkFun,TAL220
+ADC,HX711,1,0.65,0.65,DigiKey,HX711
+Temp Sensor,TMP117,2,1.90,3.80,DigiKey,TMP117
+Humidity Sensor,SHT41,1,1.55,1.55,DigiKey,SHT41
+ToF,VL53L0X,1,3.80,3.80,DigiKey,VL53L0X
+E-Paper,1.54in display,1,12.00,12.00,WaveShare,EPD-1.54
+Buck 3V3,TPS62162,1,1.90,1.90,DigiKey,TPS62162
+Total,,,,33.00,,

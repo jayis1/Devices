@@ -1,0 +1,11 @@
+Component,Part,Qty,UnitPrice,Total,Supplier,PartNumber
+nRF MCU,nRF5340,1,8.90,8.90,DigiKey,NRF5340-QKAA
+UWB,Qorvo DW3110,1,6.80,6.80,Mouser,DW3110
+Sub-GHz Radio,SX1262,1,4.60,4.60,Mouser,SX1262IMLTRT
+Accelerometer,BMA400,1,1.65,1.65,DigiKey,BMA400
+Humidity Sensor,SHTC3,1,0.95,0.95,DigiKey,SHTC3
+NFC Tag,ST25DV04K,1,1.20,1.20,DigiKey,ST25DV04K
+LiPo,900mAh cell,1,6.50,6.50,Adafruit,4236
+Charger,BQ24075,1,2.80,2.80,DigiKey,BQ24075RGTR
+Hall Sensor,A3144,2,0.18,0.36,DigiKey,A3144E
+Total,,,,33.76,,
