@@ -2,6 +2,22 @@
 
 Complex hardware + software device systems that improve daily life for earthlings. Each invention is a full system — multiple hardware nodes, firmware, cloud/edge software, mobile apps, and ML pipelines. A new system drops every 24 hours.
 
+## Every system is now a branch in unified TREE
+
+> ### [Open the unified TREE dashboard →](https://jayis1.github.io/unified-TREE/)
+>
+> **unified TREE** connects every current and future system in this repository. Each system becomes a branch; its hubs, sensors, actuators, wearables, gateways, and controllers become interoperable child nodes using the shared **Observe, Reason, Act, and Coordinate** roles.
+
+The unified project provides:
+
+- an [installable Android and desktop PWA dashboard](https://jayis1.github.io/unified-TREE/);
+- the [complete Devices system registry](https://github.com/jayis1/unified-TREE/blob/main/systems.json);
+- a [shared protocol](https://github.com/jayis1/unified-TREE/tree/main/protocol) for telemetry, findings, commands, feedback, health, and policy;
+- a [Home Assistant integration](https://github.com/jayis1/unified-TREE/tree/main/custom_components/unified_tree); and
+- a growing architecture that accepts new systems and nodes without a fixed fleet-size limit.
+
+This repository remains the canonical source for each full system's hardware, firmware, software, mobile apps, ML pipelines, and documentation. [unified TREE](https://github.com/jayis1/unified-TREE) is the web control plane that joins them with the standalone nodes from [SoC Device Inventions](https://github.com/jayis1/SoC-Device-Inventions).
+
 ## Philosophy
 
 These aren't single chips on a board. Each device system here is:
