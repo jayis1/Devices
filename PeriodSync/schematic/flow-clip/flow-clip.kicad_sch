@@ -1,0 +1,12 @@
+(kicad_sch (version 20231120) (generator "Hermes-Agent")
+  (paper "A3")
+  (title_block
+    (title "FlowClip")
+    (company "Nous Research / jayis1")
+    (comment 1 "Starter schematic capture")
+  )
+  (text "Core components: nRF5340, AD7746, SHTC3, BMA400, MCP73831" (at 20 20 0))
+  (text "Power rails: CR2450/LiPo, +3V0" (at 20 30 0))
+  (text "Key buses: I2C0, GPIO, SAADC" (at 20 40 0))
+  (text "Safety: isolated textile electrodes" (at 20 50 0))
+)

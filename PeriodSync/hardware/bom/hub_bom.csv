@@ -1,0 +1,9 @@
+Reference,Part,Manufacturer,MPN,Qty,Notes
+U1,Raspberry Pi Compute Module 4,Raspberry Pi,CM4004032,1,4GB RAM 32GB eMMC
+U2,RP2040 microcontroller,Raspberry Pi,SC0914,1,Supervisor MCU
+U3,Sub-GHz transceiver,Semtech,SX1262IMLTRT,1,868 MHz mesh
+U4,RTC,Analog Devices,DS3231SN#,1,Timekeeping
+U5,Current monitor,Texas Instruments,INA219AIDCNR,1,Power telemetry
+U6,I2S amplifier,Analog Devices,MAX98357AETE+,1,Local speaker
+PS1,12V power jack,CUI Devices,PJ-102AH,1,Barrel jack
+B1,18650 holder,Keystone,1042,2,UPS cells

@@ -1,0 +1,8 @@
+Reference,Part,Manufacturer,MPN,Qty,Notes
+U1,BLE MCU,Nordic,nRF52840-QIAA,1,TempPatch MCU
+U2,PPG sensor,Analog Devices,MAX86141ENP+,1,HR/HRV
+U3,Temperature sensor,Texas Instruments,TMP117AIDRVR,1,Skin temperature
+U4,Accelerometer,ST,LIS2DW12TR,1,Motion/sleep
+U5,Haptic driver,Texas Instruments,DRV2605LYZFT,1,Gentle reminders
+U6,LiPo charger,Texas Instruments,BQ24074RGTR,1,USB charging
+B1,Curved LiPo,Adafruit,1578,1,180mAh equivalent

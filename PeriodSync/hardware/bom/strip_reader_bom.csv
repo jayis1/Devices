@@ -1,0 +1,7 @@
+Reference,Part,Manufacturer,MPN,Qty,Notes
+U1,Wi-Fi/BLE SoC,Espressif,ESP32-S3-WROOM-1-N8R8,1,Strip Reader Dock
+U2,Spectral sensor,ams OSRAM,AS7341-DLGT,1,Colorimetry
+U3,Camera module,OmniVision,OV2640,1,Strip localization
+U4,Buck converter,Diodes Inc,AP63203WU-7,1,3V3 rail
+D1-D4,LED channels,Kingbright,APTD2012 series,4,White/525/590/630nm
+DIS1,E-paper display,Waveshare,2.13in-epaper,1,User UI

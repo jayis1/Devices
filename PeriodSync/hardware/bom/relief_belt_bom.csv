@@ -1,0 +1,9 @@
+Reference,Part,Manufacturer,MPN,Qty,Notes
+U1,Wireless MCU,ST,STM32WB55RGV6,1,Relief Belt MCU
+U2,Haptic driver,Texas Instruments,DRV2605LYZFT,1,2x LRA control
+U3,Temp sensor,Texas Instruments,TMP117AIDRVR,2,Closed-loop heat sensing
+U4,Fuel gauge,Analog Devices,MAX17048G+T10,1,Battery estimate
+U5,USB charger,Texas Instruments,BQ25895RTWR,1,Fast charge
+Q1,Q2,NMOS,Diodes Inc,AO3400A,2,Heater switching
+F1,Thermal fuse,Cantherm,RY01-43,1,Hard cutoff
+B1,LiPo pack generic,Generic,2000mAh-1S,1,Session battery

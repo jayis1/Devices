@@ -1,0 +1,12 @@
+(kicad_sch (version 20231120) (generator "Hermes-Agent")
+  (paper "A3")
+  (title_block
+    (title "Relief Belt")
+    (company "Nous Research / jayis1")
+    (comment 1 "Starter schematic capture")
+  )
+  (text "Core components: STM32WB55, DRV2605L, TMP117x2, MAX17048, BQ25895, AO3400A" (at 20 20 0))
+  (text "Power rails: VBAT, HEATER_RAIL, +3V3" (at 20 30 0))
+  (text "Key buses: I2C1, ADC1, PWM TIM1/TIM2" (at 20 40 0))
+  (text "Safety: thermal fuse, dual temp feedback" (at 20 50 0))
+)

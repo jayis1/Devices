@@ -1,0 +1,4 @@
+.venv-periodsync/
+software/ml-pipeline/artifacts/
+__pycache__/
+*.pyc

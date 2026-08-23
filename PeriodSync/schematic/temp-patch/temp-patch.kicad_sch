@@ -1,0 +1,12 @@
+(kicad_sch (version 20231120) (generator "Hermes-Agent")
+  (paper "A3")
+  (title_block
+    (title "TempPatch")
+    (company "Nous Research / jayis1")
+    (comment 1 "Starter schematic capture")
+  )
+  (text "Core components: nRF52840, MAX86141, TMP117, LIS2DW12, DRV2605L, BQ24074" (at 20 20 0))
+  (text "Power rails: VBAT, +3V3" (at 20 30 0))
+  (text "Key buses: SPI0, I2C0, I2C1, ADC" (at 20 40 0))
+  (text "Safety: skin contact check, charger protection" (at 20 50 0))
+)

@@ -1,0 +1,7 @@
+Reference,Part,Manufacturer,MPN,Qty,Notes
+U1,BLE MCU,Nordic,nRF5340-QKAA,1,FlowClip MCU
+U2,Capacitance ADC,Analog Devices,AD7746ARUZ,1,Textile sensing
+U3,Humidity sensor,Sensirion,SHTC3-TR-10KS,1,Leak context
+U4,Accelerometer,Bosch,BMA400,1,Posture
+U5,Charger,Microchip,MCP73831T-2ACI/OT,1,Optional LiPo variant
+B1,Coin cell holder,Keystone,3008,1,CR2450 holder

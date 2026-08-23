@@ -1,0 +1,12 @@
+(kicad_sch (version 20231120) (generator "Hermes-Agent")
+  (paper "A3")
+  (title_block
+    (title "Strip Reader Dock")
+    (company "Nous Research / jayis1")
+    (comment 1 "Starter schematic capture")
+  )
+  (text "Core components: ESP32-S3, AS7341, OV2640, AP63203, LED drivers, e-paper" (at 20 20 0))
+  (text "Power rails: USB_C_5V, +3V3" (at 20 30 0))
+  (text "Key buses: I2C0, DVP_CAMERA, GPIO" (at 20 40 0))
+  (text "Safety: white reference calibration, tray interlock" (at 20 50 0))
+)

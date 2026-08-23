@@ -1,0 +1,12 @@
+(kicad_sch (version 20231120) (generator "Hermes-Agent")
+  (paper "A3")
+  (title_block
+    (title "PeriodSync Home Hub")
+    (company "Nous Research / jayis1")
+    (comment 1 "Starter schematic capture")
+  )
+  (text "Core components: CM4, RP2040, SX1262, DS3231, INA219, MAX98357A" (at 20 20 0))
+  (text "Power rails: 12V_IN, +5V, +3V3, BAT_UPS" (at 20 30 0))
+  (text "Key buses: SPI0, I2C0, UART0, I2S, Ethernet" (at 20 40 0))
+  (text "Safety: watchdog, UPS switchover" (at 20 50 0))
+)
