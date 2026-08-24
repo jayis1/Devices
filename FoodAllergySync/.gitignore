@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+software/ml-pipeline/artifacts/
+scripts/artifacts/

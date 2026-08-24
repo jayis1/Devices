@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,STM32WL55JC,MCU with Sub-GHz radio
+2,U2,1,AS7341,Primary optical sensor
+3,U3,1,TSL2591,Ambient/light normalization sensor
+4,U4,1,TMP117,Temperature sensor
+5,D1,1,High-CRI white LED,Optical illumination
+6,D2,1,470nm LED,Blue assay illumination
+7,D3,1,850nm IR LED,IR illumination
+8,DISP1,1,1.54in e-paper,Status display
+9,J1,1,USB-C receptacle,Power/service
+10,BAT1,1,18650 holder,Portable power option

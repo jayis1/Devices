@@ -1,0 +1,13 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,ESP32-S3-WROOM-1-N16R8,Main SoC
+2,CAM1,1,OV5640 AF module,Ingredient capture camera
+3,U2,1,GM65,Barcode scanner engine
+4,U3,1,AS7341,Spectral sensor
+5,U4,1,VL53L1X,Distance sensor
+6,U5,1,HX711,Load cell ADC
+7,LC1,1,5kg single-point load cell,Portion measurement
+8,DISP1,1,2.4in ST7789 TFT,Local display
+9,LED1,1,WS2812B ring,Status guidance
+10,U6,1,PN532,NFC reader
+11,PSU1,1,MP1584EN,12V to 5V buck
+12,PSU2,1,AP63203,5V to 3V3 buck

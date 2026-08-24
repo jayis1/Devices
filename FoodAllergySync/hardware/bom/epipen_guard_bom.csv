@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,nRF52833,Low-power BLE MCU
+2,U2,1,SX1262,868 MHz radio
+3,U3,1,TMP117,Precision temperature sensor
+4,U4,1,BMA400,Low-power accelerometer
+5,S1,1,Hall sensor,Injector presence sensing
+6,SW1,1,SOS tactile button,Emergency trigger
+7,SW2,1,Acknowledge button,User interaction
+8,LED1,1,RGB LED,Status indication
+9,BZ1,1,Piezo buzzer,Local alert
+10,BAT1,1,CR123A cell or LiPo,Power source

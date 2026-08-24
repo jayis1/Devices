@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,nRF52840,QFN BLE MCU
+2,U2,1,SX1262,868 MHz radio
+3,U3,1,SHT41,Temperature and humidity
+4,U4,1,LIS2DW12,Low-power accelerometer
+5,U5,1,ST25DV,NFC dynamic tag/reader
+6,M1,1,Coin vibration motor,Haptic alert
+7,LED1,1,SK6812 mini RGB LED,Status LED
+8,BAT1,1,1200mAh LiPo,Battery
+9,U6,1,MCP73831,LiPo charger
+10,U7,1,TPS63031,Buck-boost regulator
