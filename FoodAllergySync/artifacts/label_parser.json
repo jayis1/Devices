@@ -1,9 +1,0 @@
-{
-  "model": "rule_bootstrap_label_parser",
-  "samples": 3,
-  "classes": [
-    "caution",
-    "safe",
-    "unsafe"
-  ]
-}
