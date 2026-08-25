@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,ESP32-S3-WROOM-1-N16R8,Main SoC
+2,U2,1,MLX90640,Thermal array
+3,CAM1,1,OV2640,RGB camera module
+4,U3,1,AS7341,Spectral sensor
+5,U4,1,AD5933,Impedance measurement IC
+6,U5,1,VL53L1X,Distance sensor
+7,DISP1,1,2.8in SPI TFT,User interface
+8,BAT1,1,3000mAh Li-ion,Battery
+9,U6,1,IP5306,Power-path charger
+10,M1,1,Coin vibration motor,Haptic feedback

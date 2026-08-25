@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,STM32WL55JC,MCU with Sub-GHz radio
+2,U2,1,SHT45,Temperature and humidity sensor
+3,U3,1,SCD41,CO2 sensor
+4,U4,1,BME688,VOC/gas sensor
+5,U5,1,FDC2214,Capacitance-to-digital converter
+6,U6,1,MLX90614ESF,IR surface thermometer
+7,U7,1,VEML7700,Ambient lux sensor
+8,J1,1,USB-C receptacle,Power and service
+9,BT1-BT2,2,AA lithium cells,Backup supply
+10,LED1,1,WS2812B-MINI,Status LED

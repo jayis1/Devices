@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U3,1,Raspberry Pi Compute Module 4 4GB/32GB,Main compute module
+2,U4,1,RP2040,Supervisor MCU
+3,U5,1,SX1262,868 MHz radio transceiver
+4,U1,1,LM2596S-5.0,5V buck regulator
+5,U2,1,TPS62172,3.3V buck regulator
+6,U6,1,INA219,Power monitor
+7,U7,1,DS3231SN,RTC
+8,DISP1,1,7in touchscreen,Local UI
+9,BAT1-BAT2,2,18650 3400mAh,UPS cells
+10,J1,1,2.1mm DC jack,12V input

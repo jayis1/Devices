@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,ESP32-S3-WROOM-1,Main wireless SoC
+2,U2,1,SX1262,Sub-GHz radio
+3,K1-K4,4,Omron G5Q,Relay outputs
+4,U3,1,ACS37800,Current and power monitor
+5,U4,1,SDP31,Differential pressure sensor
+6,U5,1,SHT41,Local temp/RH sensor
+7,PS1,1,IRM-10-5,Isolated 5V supply
+8,J1,1,24VAC terminal,HVAC/fan input
+9,F1,1,2A fuse,Input protection
+10,DISP1,1,1.54in e-paper,Status display

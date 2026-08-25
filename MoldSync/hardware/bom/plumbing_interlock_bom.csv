@@ -1,0 +1,11 @@
+Item,Designator,Qty,Part,Description
+1,U1,1,nRF52840,Main MCU
+2,U2,1,SX1262,Sub-GHz radio
+3,U3,1,DRV8871,Valve motor driver
+4,U4,1,ADS1115,Leak rope ADC
+5,U5-U6,2,TMP117,Pipe and room temperature sensors
+6,U7,1,INA219,Valve current monitor
+7,V1,1,12V motorized ball valve,Water shutoff actuator
+8,BAT1-BAT4,4,LiFePO4 32700 cells,Backup pack
+9,J1,1,12V terminal block,Input power
+10,BZ1,1,Piezo buzzer,Local alarm
