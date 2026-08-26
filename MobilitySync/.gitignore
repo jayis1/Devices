@@ -1,0 +1,6 @@
+artifacts/
+__pycache__/
+*.pyc
+.venv/
+build/
+software/ml-pipeline/artifacts/

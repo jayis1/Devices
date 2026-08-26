@@ -1,0 +1,12 @@
+Item,Reference,Manufacturer Part,Description,Qty,Est Unit USD
+1,U1,STM32G474RET6,Control MCU,1,5.10
+2,U2,SX1262IMLTRT,Sub-GHz radio,1,4.90
+3,U3,DW3110,Qorvo UWB transceiver,1,8.80
+4,U4,DRV8876,Door motor driver,1,2.40
+5,U5,AS5600,Magnetic angle sensor,1,1.80
+6,U6,VL53L1X,Threshold ToF sensor,1,6.90
+7,ACT1,Low-energy door opener,24V assisted opener,1,62.00
+8,LOCK1,12V strike,Electric strike,1,18.00
+9,LED1,SK6812 strip,Threshold guidance LEDs,1,7.00
+10,CAP1,15F supercap,Brownout ride-through,1,6.00
+11,PCB,Custom,4-layer PCB,1,9.00

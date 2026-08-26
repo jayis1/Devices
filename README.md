@@ -90,6 +90,7 @@ These aren't single chips on a board. Each device system here is:
 | 56 | PeriodSync | 5 (Home Hub, TempPatch, FlowClip, Relief Belt, Strip Reader Dock) | Menstrual Health & Pain Relief | AI-powered menstrual health, pain relief, and leak-prevention system — skin-temp + HRV physiology, garment saturation forecasting, adaptive heat/haptics, optical hormone-strip quantification, heavy-flow and low-iron risk coaching |
 | 57 | FoodAllergySync | 5 (Hub, Meal Scanner, Strip Reader Dock, SafeLunch Beacon, EpiPen Guard) | Food Allergy Safety | AI-powered food allergy safety, contamination prevention, and anaphylaxis preparedness system — ingredient OCR+barcode parsing, surface allergen strip quantification, lunchbox safe-meal verification, injector carry/temperature/expiry monitoring, and exposure-risk forecasting |
 | 58 | MoldSync | 5 (Hub, Room Sentinel×N, Vent Controller×M, Plumbing Interlock, Inspection Wand) | Home Moisture & Mold Prevention | AI-powered whole-home moisture, condensation, and mold prevention system — dew-point-aware wall sensing, hidden leak classification, automated fan/dehumidifier control, branch water shutoff, and guided thermal/moisture inspections |
+| 59 | MobilitySync | 5 (Mobility Hub, Smart Walker, Transfer Mat, Doorway Controller, Wearable Band) | Home Mobility & Accessibility | AI-powered home mobility assistance and transfer safety system — smart walker anti-runaway braking, pressure-sensed transfer coaching, automatic door assist, fatigue forecasting, and caregiver-ready accessibility analytics |
 
 ## Structure
 

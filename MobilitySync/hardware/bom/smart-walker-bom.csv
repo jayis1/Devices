@@ -1,0 +1,15 @@
+Item,Reference,Manufacturer Part,Description,Qty,Est Unit USD
+1,U1,nRF5340-QKAA,Nordic BLE MCU,1,6.90
+2,U2,SX1262IMLTRT,Sub-GHz radio,1,4.90
+3,U3,DW3110,Qorvo UWB transceiver,1,8.80
+4,U4,BMI270,6-axis IMU,1,1.80
+5,U5,U6,HX711,24-bit load-cell ADC,2,0.60
+6,U7,VL53L5CX,8x8 ToF sensor,1,13.00
+7,U8,DRV2605L,Haptic driver,1,1.70
+8,U9-U10,BTS7960,Brake half-bridge modules,2,8.50
+9,SENS1-4,TAL220,Handle force/load sensors,4,4.80
+10,ENC1-2,Hall quadrature encoder,Wheel encoder assemblies,2,6.00
+11,PSU,24V->5V buck,Power module,1,4.50
+12,PCB,Custom,4-layer PCB,1,19.00
+13,HARNESS,Assorted,Walker cable harness and connectors,1,32.00
+14,BRAKE1-2,Fail-safe brake,24V electromagnet brakes,2,78.00

@@ -1,0 +1,12 @@
+Item,Reference,Manufacturer Part,Description,Qty,Est Unit USD
+1,U1,nRF52840-QIAA,Nordic BLE MCU,1,4.20
+2,U2,MAX86176,PPG/SpO2 AFE,1,5.80
+3,U3,BMI270,IMU,1,1.80
+4,U4,TMP117,Temp sensor,1,1.70
+5,U5,DRV2605L,Haptic driver,1,1.70
+6,U6,MCP73831,LiPo charger,1,0.60
+7,U7,MAX17048,Fuel gauge,1,1.10
+8,BAT1,250mAh LiPo,Battery,1,4.80
+9,MOTOR1,LRA 10mm,Haptic actuator,1,1.50
+10,PCB,Custom,4-layer flex-rigid PCB,1,12.00
+11,STRAP,Silicone strap,Wearable enclosure/strap,1,11.00

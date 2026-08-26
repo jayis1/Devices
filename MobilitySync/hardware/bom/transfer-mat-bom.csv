@@ -1,0 +1,12 @@
+Item,Reference,Manufacturer Part,Description,Qty,Est Unit USD
+1,U1,ESP32-S3-WROOM-1-N16R8,Wi-Fi/BLE module,1,5.80
+2,U2,IWR6843AOP,mmWave radar,1,18.00
+3,U3,SX1262IMLTRT,Sub-GHz radio,1,4.90
+4,U4,ADS7953SBDBT,12-bit SPI ADC,1,6.20
+5,U5-U8,CD74HC4067,16-channel mux,4,0.70
+6,U9,NAU7802,Load-cell ADC,1,1.50
+7,U10,SHT41,Temp/RH sensor,1,2.20
+8,LC1-4,50kg load cell,Corner load cells,4,5.50
+9,FSR,Custom matrix,16x16 force-sensing sheet,1,58.00
+10,PSU,12V adapter,Power brick,1,14.00
+11,PCB,Custom,4-layer PCB,1,16.00
