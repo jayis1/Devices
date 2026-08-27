@@ -1,0 +1,11 @@
+Item,Qty,Reference,Description,Manufacturer Part Number
+1,1,U1,Raspberry Pi Compute Module 4 4GB 32GB,RPI-CM4-40320032
+2,1,U2,RP2040 microcontroller,SC0914
+3,1,U3,Semtech SX1262 868MHz transceiver,SX1262IMLTRT
+4,1,U4,Quectel BG95-M3 LTE modem,BG95-M3
+5,1,U5,RTC RV-3028-C7,RV-3028-C7
+6,1,U6,INA219 current monitor,INA219AIDCNR
+7,1,DISP1,5in DSI touchscreen generic,DSI-800X480-5
+8,1,PSU1,12V to 5V 5A buck module,MP1584EN-MOD
+9,1,PSU2,3.3V buck regulator,TPS54331DR
+10,2,BAT1-2,18650 Li-ion cells NCR18650B,NCR18650B

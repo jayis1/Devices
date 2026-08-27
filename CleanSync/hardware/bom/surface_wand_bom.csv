@@ -1,0 +1,11 @@
+Item,Qty,Reference,Description,Manufacturer Part Number
+1,1,U1,ESP32-S3-WROOM-1-N16R8,ESP32-S3-WROOM-1-N16R8
+2,1,U2,RP2040 microcontroller,SC0914
+3,1,CAM1,OV5640 5MP camera module,OV5640-AF
+4,1,U3,AS7341 spectral sensor,AS7341-DLGT
+5,1,U4,OPT4048 color/light sensor,OPT4048DTSR
+6,1,U5,VL53L1X ToF sensor,VL53L1CXV0FY/1
+7,1,U6,BQ25895 charger,BQ25895RTWR
+8,1,U7,MAX17048 fuel gauge,MAX17048G+T10
+9,1,BAT1,21700 Li-ion cell,INR21700-50E
+10,1,DISP1,2.8in IPS touchscreen,ST7789-2.8-TOUCH

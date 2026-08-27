@@ -1,0 +1,11 @@
+Item,Qty,Reference,Description,Manufacturer Part Number
+1,1,U1,STM32WL55JC MCU+radio,STM32WL55JCIx
+2,1,U2,PM1006K particulate sensor,PM1006K
+3,1,U3,SHT41 temp/humidity sensor,SHT41I-AD1B-R3
+4,1,U4,LD2410B mmWave presence sensor,LD2410B
+5,1,U5,VEML6035 ambient light sensor,VEML6035
+6,1,U6,LIS2DW12 accelerometer,LIS2DW12TR
+7,1,U7,SGP40 VOC sensor optional,SGP40-D-R4
+8,1,U8,3.3V buck regulator,TPS62740DSSR
+9,2,BAT1-2,AA Li-FeS2 cells,E91SBP-2
+10,1,J1,USB-C power connector,TYPE-C-16P
