@@ -92,6 +92,7 @@ These aren't single chips on a board. Each device system here is:
 | 58 | MoldSync | 5 (Hub, Room Sentinel×N, Vent Controller×M, Plumbing Interlock, Inspection Wand) | Home Moisture & Mold Prevention | AI-powered whole-home moisture, condensation, and mold prevention system — dew-point-aware wall sensing, hidden leak classification, automated fan/dehumidifier control, branch water shutoff, and guided thermal/moisture inspections |
 | 59 | MobilitySync | 5 (Mobility Hub, Smart Walker, Transfer Mat, Doorway Controller, Wearable Band) | Home Mobility & Accessibility | AI-powered home mobility assistance and transfer safety system — smart walker anti-runaway braking, pressure-sensed transfer coaching, automatic door assist, fatigue forecasting, and caregiver-ready accessibility analytics |
 | 60 | CleanSync | 4 (Hub Gateway, Dirt Sentinel×N, Robot Dock Controller, Surface Wand) | Home Cleaning & Hygiene | AI-powered whole-home cleaning orchestration and hygiene system — room-level dirt sensing, robot dock auto-service, fluorescence-based surface verification, slip-risk forecasting, and supply-aware cleaning optimization |
+| 61 | RoutineSync | 4 (Hub Gateway, Doorway Dock, Focus Beacon, Object Tag×N) | Executive Function & ADHD Support | AI-powered executive-function and daily-routine support system — doorway item verification, UWB locate-anything tags, room focus-state coaching, adaptive low-friction nudges, and 7-day routine drift forecasting |
 
 ## Structure
 

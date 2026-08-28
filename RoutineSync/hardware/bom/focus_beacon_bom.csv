@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,Manufacturer,MPN,Approx_Unit_USD
+1,1,U1,ESP32-C6-WROOM-1,Main SoC,Espressif,ESP32-C6-WROOM-1-N8,4.90
+2,1,U2,LD2410B,24GHz mmWave presence sensor,Hi-Link,HLK-LD2410B,6.20
+3,1,U3,SGP40,VOC sensor,Sensirion,SGP40-D-R4,3.10
+4,1,U4,TSL2591,Ambient light sensor,AMS,TSL25911FN,2.60
+5,1,U5,ICS-43434,I2S microphone,TDK InvenSense,ICS-43434,1.90
+6,1,U6,DRV2605L,Haptic driver,Texas Instruments,DRV2605L,1.70
+7,1,LED1,16x SK6812 ring,Light cue ring,Worldsemi,SK6812-16RING,4.80
+8,1,RELAY1,2-channel relay module,Lamp/fan switching,Songle,SRD-05VDC-SL-C,2.40
+9,1,BUZ1,mini speaker,Audio prompt,CUI,CPT-9019S-SMT,0.80
+10,1,CON1,USB-C receptacle,Power input,Amphenol,12401610E4-2A,0.75

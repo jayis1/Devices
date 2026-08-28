@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,Manufacturer,MPN,Approx_Unit_USD
+1,1,U1,nRF52840-QIAA,Main MCU,Nordic,nRF52840-QIAA-R7,5.20
+2,1,U2,DWM3000,UWB ranging transceiver,Qorvo,DWM3000,14.50
+3,1,U3,LIS2DW12,3-axis accelerometer,ST,LIS2DW12TR,0.95
+4,1,U4,MCP73831,LiPo charger,Microchip,MCP73831T-2ACI/OT,0.45
+5,1,BAT1,150mAh LiPo,Rechargeable battery,EEMB,LP401230,2.80
+6,1,BUZ1,Magnetic buzzer,Locate output,Mallory,PS-1420Q,0.65
+7,1,LED1,RGB micro LED,Locate light,Worldsemi,WS2812-2020,0.18
+8,1,SW1,Tact switch,User button,Omron,B3U-1000P,0.20
+9,1,CON1,Pogo pin pad,Charging dock interface,Mill-Max,0900-0-15-20-75-14-11-0,0.90
+10,1,LDO1,TLV75533P,3.3V LDO,Texas Instruments,TLV75533PDBVR,0.32

@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,Manufacturer,MPN,Approx_Unit_USD
+1,1,U1,ESP32-S3-WROOM-1-N16R8,Main SoC,Espressif,ESP32-S3-WROOM-1-N16R8,6.80
+2,1,U2,DWM3000,UWB transceiver,Qorvo,DWM3000,14.50
+3,1,U3,HX711,Load-cell ADC,AoSong,HX711,0.55
+4,1,U4,PN532,NFC reader,NXP,PN5321A3HN/C106,4.80
+5,1,U5,VL53L1X,ToF presence sensor,ST,VL53L1CXV0FY/1,4.20
+6,1,DISP1,2.9in e-paper,Checklist display,Waveshare,2.9in-epaper-b,17.00
+7,4,LC1-LC4,5kg half-bridge load cell,Tray weight sensing,Sparkfun,TAL220,3.50
+8,1,LED1,SK6812 bar,Status light,Worldsemi,SK6812MINI-E,2.20
+9,1,BUZ1,12mm piezo buzzer,Audio cue,CUI,CEM-1203,0.60
+10,1,PS1,12V/2A adapter,Power supply,Mean Well,GST25A12-P1J,9.00

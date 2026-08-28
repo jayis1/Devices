@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,Manufacturer,MPN,Approx_Unit_USD
+1,1,U1,RP2040,Supervisory MCU,Raspberry Pi,SC0914,1.20
+2,1,U2,Raspberry Pi CM4 4GB 32GB,Compute module,Raspberry Pi,CM4104032,85.00
+3,1,U3,nRF52840 module,BLE coprocessor,Nordic,NINA-B306,11.50
+4,1,U4,DWM3001C,UWB anchor module,Qorvo,DWM3001CDK,18.00
+5,1,U5,MP1584EN,5V buck regulator,MPS,MP1584EN,1.10
+6,1,U6,TPS62172,3.3V buck regulator,Texas Instruments,TPS62172DSGR,1.80
+7,1,U7,BQ25713,UPS charger controller,Texas Instruments,BQ25713RSNR,5.20
+8,1,DISP1,5in DSI touchscreen,Local UI,Waveshare,SKU-17739,45.00
+9,2,BAT1-BAT2,18650 protected cell,UPS battery,Panasonic,NCR18650B,6.00
+10,1,SENS1,INA219,current monitor,Texas Instruments,INA219AIDCNR,1.40
