@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,Raspberry Pi CM4 4GB 32GB eMMC,Main compute module
+2,1,U2,RP2040,Supervisor MCU
+3,1,U3,SX1262IMLTRT,Sub-GHz radio
+4,1,U4,Quectel EG25-G,Cellular modem
+5,1,U5,INA219AIDCNR,Power monitor
+6,1,U6,DS3231SN,RTC
+7,1,DISP1,7in DSI touchscreen,Local dashboard panel
+8,1,PSU1,12V 5A adapter,Primary power source
+9,2,BAT1-2,18650 Li-ion cell,UPS ride-through
+10,1,ANT1,868MHz SMA antenna,Radio antenna

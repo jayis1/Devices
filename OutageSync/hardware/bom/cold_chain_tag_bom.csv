@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,nRF52840,QFN BLE MCU
+2,1,U2,SX1262,Sub-GHz radio
+3,1,U3,TMP117AIDRVR,Precision temperature sensor
+4,1,U4,SHT45-AD1B-R2,Humidity sensor
+5,1,SW1,Reed switch,Door-open sensing
+6,1,BAT1,CR2477 or AAA holder,Primary battery
+7,1,LED1,SK6812MINI,Status LED
+8,1,ANT1,868MHz flex antenna,Internal radio antenna

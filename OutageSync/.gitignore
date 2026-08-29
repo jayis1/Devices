@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+artifacts/
+calibration_profile.json
+software/dashboard/outagesync.db
+software/dashboard/__pycache__/
+software/ml-pipeline/__pycache__/

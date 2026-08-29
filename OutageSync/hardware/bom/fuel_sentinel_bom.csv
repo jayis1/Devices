@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,ESP32-S3-WROOM-1,Main MCU
+2,1,U2,SX1262,Sub-GHz radio
+3,1,U3,SCD41,CO2 sensor
+4,1,U4,MICS-6814,Gas sensor array
+5,1,U5,IIS2DLPC,Accelerometer
+6,1,U6,JSN-SR04T,Ultrasonic fuel level sensor
+7,1,U7,TMP235,Analog temperature sensor
+8,1,RLY1,Omron G5LE,Generator inhibit relay
+9,1,STB1,12V LED strobe,Warning indicator
+10,1,PSU1,12V->5V buck converter,Primary power supply

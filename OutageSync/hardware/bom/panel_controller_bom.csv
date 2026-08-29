@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,STM32G474RET6,Industrial control MCU
+2,1,U2,ADE9153A,Energy metering AFE
+3,1,U3,MAX3485ESA+,Isolated RS-485 transceiver interface
+4,4,CT1-4,SCT-013-000,Current transformers
+5,4,K1-4,Schneider A9C20732,Branch contactors
+6,2,RLY1-2,Omron G2R-2-SN,Transfer/generator permissive relays
+7,1,PSU1,Mean Well MDR-20-24,DIN rail supply
+8,1,ISO1,5V/3kV DC-DC,Logic isolation supply
+9,1,ENC1,DIN rail enclosure,Panel mount enclosure
+10,1,ANT1,868MHz whip antenna,Panel radio antenna

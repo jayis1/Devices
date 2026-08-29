@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,ESP32-C6-MINI-1,Wi-Fi/BLE MCU
+2,1,U2,ATM90E26-YU-B,Single-phase energy meter
+3,1,K1,Hongfa HFE10-L/12-L2ST,16A latching relay
+4,1,PSU1,IRM-05-5,Isolated AC-DC module
+5,1,F1,10A thermal fuse,Protection fuse
+6,1,MOV1,14D471K,Surge suppressor
+7,1,SW1,Tactile switch,Manual override
+8,1,ANT1,868MHz PCB antenna,Sub-GHz path or connector
