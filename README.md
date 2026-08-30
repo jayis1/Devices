@@ -94,6 +94,7 @@ These aren't single chips on a board. Each device system here is:
 | 60 | CleanSync | 4 (Hub Gateway, Dirt Sentinel×N, Robot Dock Controller, Surface Wand) | Home Cleaning & Hygiene | AI-powered whole-home cleaning orchestration and hygiene system — room-level dirt sensing, robot dock auto-service, fluorescence-based surface verification, slip-risk forecasting, and supply-aware cleaning optimization |
 | 61 | RoutineSync | 4 (Hub Gateway, Doorway Dock, Focus Beacon, Object Tag×N) | Executive Function & ADHD Support | AI-powered executive-function and daily-routine support system — doorway item verification, UWB locate-anything tags, room focus-state coaching, adaptive low-friction nudges, and 7-day routine drift forecasting |
 | 62 | OutageSync | 5 (Resilience Hub, Panel Controller, Cold Chain Tag×N, Critical Outlet Node×M, Fuel & Air Sentinel) | Home Outage Resilience | AI-powered home outage resilience and backup orchestration system — grid-quality forecasting, smart load shedding, fridge/freezer/medicine cold-chain protection, generator safety interlocks, and staged restoration guidance |
+| 63 | DrainSync | 5 (Hub Gateway, Under-Sink Sentinel×N, Floor Drain Guard×M, Main Stack Monitor, Backwater Actuator) | Home Drain Health & Sewer Backup Prevention | AI-powered drain health and sewer backup prevention system — acoustic flow fingerprinting, dry-trap and H2S detection, clog forecasting, main-stack pressure monitoring, and automatic backwater valve protection |
 
 ## Structure
 

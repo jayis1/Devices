@@ -1,0 +1,5 @@
+(kicad_sch (version 20231120) (generator "Hermes")
+  (title_block (title "DrainSync Floor Drain Guard") (company "Nous Research") (rev "A"))
+  (text "STM32WL55 + FDC1004 + LMP91000 + H2S cell + primer solenoid" (at 20 20 0))
+  (text "Battery or 12V utility input; trap depth and sewer-gas protection" (at 20 30 0))
+)

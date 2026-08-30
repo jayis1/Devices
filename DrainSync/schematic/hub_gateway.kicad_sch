@@ -1,0 +1,5 @@
+(kicad_sch (version 20231120) (generator "Hermes")
+  (title_block (title "DrainSync Hub Gateway") (company "Nous Research") (rev "A"))
+  (text "CM4 + RP2040 supervisor + SX1262 radio + UPS rails" (at 20 20 0))
+  (text "12V_IN -> 5V_BUCK -> 3V3_RADIO; ETH_UPLINK; DSI_PANEL" (at 20 30 0))
+)

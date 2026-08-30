@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Manufacturer,Notes
+1,1,U1,ESP32-S3-WROOM-1-N16R8,Espressif,Main SoC
+2,1,U2,SX1262,Semtech,Sub-GHz radio
+3,1,MIC1,ICS-43434,TDK/InvenSense,I2S MEMS microphone
+4,1,ACC1,ADXL355,Analog Devices,Low-noise accelerometer
+5,1,SENS1,SHT41,Sensirion,Temp/RH
+6,1,SENS2,SGP41,Sensirion,VOC / gas index
+7,1,TS1,DS18B20,Maxim,Pipe temperature probe
+8,1,MON1,INA219,Texas Instruments,Input current monitor
+9,1,PS1,TPS54202,Texas Instruments,5V buck
+10,1,REG1,AP2112K,Diodes Inc,3V3 regulator

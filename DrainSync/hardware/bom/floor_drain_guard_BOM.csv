@@ -1,0 +1,10 @@
+Item,Qty,Reference,Part,Manufacturer,Notes
+1,1,U1,STM32WL55JC,STMicroelectronics,MCU + radio
+2,1,U2,FDC1004,Texas Instruments,Capacitance ADC
+3,1,U3,LMP91000,Texas Instruments,Electrochemical sensor AFE
+4,1,SENS1,3SP-H2S-50,SPEC Sensors,H2S sensor
+5,1,SENS2,SGP40,Sensirion,VOC sensor
+6,1,SENS3,SHT31,Sensirion,Temp/RH
+7,1,VALVE1,12V NC primer solenoid,Generic,Trap primer pulse
+8,1,FLOW1,YF-S401,Seeed,Primer flow verify
+9,1,PWR1,4xAA holder,Keystone,Battery option

@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Manufacturer,Notes
+1,1,U1,nRF52840-QIAA,Nordic Semiconductor,BLE + MCU
+2,1,U2,SX1262,Semtech,Sub-GHz radio
+3,1,SENS1,JSN-SR04T,Generic,Waterproof ultrasonic level sensor
+4,1,SENS2,ABP2LANT001PG2A3,Honeywell,Differential pressure transducer
+5,1,SENS3,TMP117,Texas Instruments,Precision temperature
+6,1,SENS4,LIS2DW12,STMicroelectronics,Motion/vibration
+7,2,BAT,18650 3400mAh,Panasonic,Rechargeable cells
+8,1,CHG1,BQ24074,Texas Instruments,Battery charger

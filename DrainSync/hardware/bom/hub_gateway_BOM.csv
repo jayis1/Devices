@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Manufacturer,Notes
+1,1,U1,Raspberry Pi Compute Module 4 4GB 32GB,Raspberry Pi,Main compute
+2,1,U2,RP2040,QFN-56,Raspberry Pi,Supervisor MCU
+3,1,U3,SX1262,Semtech,868 MHz radio
+4,1,U4,INA219AIDCNR,Texas Instruments,Rail monitor
+5,1,U5,RV-3028-C7,Micro Crystal,RTC
+6,1,DISP1,4.3in DSI capacitive LCD,Generic,Local dashboard
+7,1,PS1,12V 3A AC adapter,Mean Well,System input
+8,1,BAT1,LiFePO4 UPS HAT 4-cell,Generic,Backup power

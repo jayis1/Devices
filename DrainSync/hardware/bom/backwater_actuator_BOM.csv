@@ -1,0 +1,10 @@
+Item,Qty,Reference,Part,Manufacturer,Notes
+1,1,U1,STM32G474RET6,STMicroelectronics,Actuator MCU
+2,1,U2,SX1262,Semtech,Radio
+3,1,DRV1,DRV8873,Texas Instruments,24V H-bridge
+4,1,SENS1,AS5600,AMS,Magnetic position encoder
+5,1,SENS2,INA240A1,Texas Instruments,Motor current shunt amplifier
+6,2,SW1/SW2,Reed limit switch,Coto,End stops
+7,1,M1,24V DC gearmotor,Generic,Valve motion
+8,1,PWR1,24V DIN rail PSU,Mean Well,Primary power
+9,1,BAT1,LiFePO4 6Ah pack,Bioenno,Emergency power

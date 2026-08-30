@@ -1,0 +1,5 @@
+(kicad_sch (version 20231120) (generator "Hermes")
+  (title_block (title "DrainSync Main Stack Monitor") (company "Nous Research") (rev "A"))
+  (text "nRF52840 + SX1262 + JSN-SR04T + ABP2 pressure sensor" (at 20 20 0))
+  (text "Cleanout level, pressure surge, and battery-backed monitoring" (at 20 30 0))
+)

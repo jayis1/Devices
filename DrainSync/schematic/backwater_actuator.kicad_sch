@@ -1,0 +1,5 @@
+(kicad_sch (version 20231120) (generator "Hermes")
+  (title_block (title "DrainSync Backwater Actuator") (company "Nous Research") (rev "A"))
+  (text "STM32G474 + DRV8873 + AS5600 + current shunt + 24V gearmotor" (at 20 20 0))
+  (text "Manual override clutch, LiFePO4 backup, isolated RS-485 service port" (at 20 30 0))
+)
