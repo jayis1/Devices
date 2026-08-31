@@ -95,6 +95,7 @@ These aren't single chips on a board. Each device system here is:
 | 61 | RoutineSync | 4 (Hub Gateway, Doorway Dock, Focus Beacon, Object Tag×N) | Executive Function & ADHD Support | AI-powered executive-function and daily-routine support system — doorway item verification, UWB locate-anything tags, room focus-state coaching, adaptive low-friction nudges, and 7-day routine drift forecasting |
 | 62 | OutageSync | 5 (Resilience Hub, Panel Controller, Cold Chain Tag×N, Critical Outlet Node×M, Fuel & Air Sentinel) | Home Outage Resilience | AI-powered home outage resilience and backup orchestration system — grid-quality forecasting, smart load shedding, fridge/freezer/medicine cold-chain protection, generator safety interlocks, and staged restoration guidance |
 | 63 | DrainSync | 5 (Hub Gateway, Under-Sink Sentinel×N, Floor Drain Guard×M, Main Stack Monitor, Backwater Actuator) | Home Drain Health & Sewer Backup Prevention | AI-powered drain health and sewer backup prevention system — acoustic flow fingerprinting, dry-trap and H2S detection, clog forecasting, main-stack pressure monitoring, and automatic backwater valve protection |
+| 64 | PregnancySync | 5 (Hub Gateway, Belly Band, Smart BP Cuff, Strip Reader Dock, Sleep Pad) | Prenatal Health & Pregnancy Support | AI-powered prenatal maternal-fetal health and daily pregnancy support system — reduced fetal movement guidance, preeclampsia risk tracking, urine strip intelligence, sleep-position coaching, and clinician-ready trend exports |
 
 ## Structure
 

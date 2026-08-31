@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,RP2040,Main MCU
+2,1,U2,AS7341,10-channel spectral sensor
+3,1,U3,HX711,Load-cell ADC
+4,1,U4,ESP32-C3-MINI-1,Wi-Fi coprocessor
+5,1,DISP1,2.13 inch e-ink panel,User prompt display
+6,1,D1,365 nm LED,UV strip illumination
+7,1,D2,470 nm LED,Blue strip illumination
+8,1,D3,525 nm LED,Green strip illumination
+9,1,D4,630 nm LED,Red strip illumination
+10,1,D5,850 nm LED,NIR strip illumination

@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,ESP32-S3-WROOM-1-N16R8,Main wireless MCU
+2,1,U2,ADS1292R,2-channel biopotential AFE
+3,1,U3,BMI270,6-axis IMU
+4,1,U4,TMP117,Precision temperature sensor
+5,1,U5,DRV2605L,Haptic driver
+6,1,U6,BQ24074,Li-ion charger/power-path
+7,1,U7,MAX17048,Fuel gauge
+8,1,U8,SX1262,Sub-GHz transceiver
+9,1,BAT1,1200 mAh LiPo,Battery pack
+10,2,E1-E2,Ag/AgCl textile electrode,Abdominal sensing electrodes

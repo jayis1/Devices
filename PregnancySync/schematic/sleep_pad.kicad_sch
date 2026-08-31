@@ -1,0 +1,8 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (paper "A4")
+  (title_block (title "PregnancySync Sleep Pad") (company "Nous Research") (comment 1 "STM32WL55JC + NAU7802"))
+  (lib_symbols)
+  (sheet_instances (path "/" (page "1")))
+)

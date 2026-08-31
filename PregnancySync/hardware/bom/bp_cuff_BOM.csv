@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,nRF52840,QFN BLE MCU
+2,1,U2,MPX5050DP,Pressure transducer
+3,1,U3,LIS2DW12,Motion artifact IMU
+4,1,U4,SX1262,Sub-GHz transceiver
+5,1,M1,6V diaphragm pump,Cuff inflation pump
+6,2,V1-V2,3V solenoid valve,Deflation and dump valves
+7,1,U5,MCP6002,Analog front end op-amp
+8,1,BAT1,2x18650 battery holder,Portable supply
+9,1,J1,USB-C receptacle,Charging and service
+10,1,MECH1,Adult cuff bladder,Inflatable cuff assembly

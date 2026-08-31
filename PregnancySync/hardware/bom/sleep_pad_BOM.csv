@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,STM32WL55JC,MCU with integrated Sub-GHz radio
+2,1,U2,NAU7802,24-bit ADC for BCG channels
+3,4,S1-S4,Piezo film strip,BCG/respiration sensing
+4,1,U3,SHT41,Temperature/humidity sensor
+5,1,BAT1,4xAA battery holder,Primary battery power
+6,1,J1,5V barrel input,Wall-power option
+7,8,F1-F8,Force strip cell,Posture matrix element
+8,1,U4,TPS63031,Buck-boost regulator,Stable 3V3 rail
+9,1,MECH1,Foam underlay sheet,Sensor isolation layer
+10,1,MECH2,Bed shaker puck,Gentle reposition cue output

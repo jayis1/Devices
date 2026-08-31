@@ -1,0 +1,8 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (paper "A4")
+  (title_block (title "PregnancySync Strip Reader Dock") (company "Nous Research") (comment 1 "RP2040 + AS7341 + HX711"))
+  (lib_symbols)
+  (sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description
+1,1,U1,Raspberry Pi CM4 4GB 32GB eMMC,Main compute module
+2,1,U2,RP2040,Supervisor MCU
+3,1,U3,SX1262,Sub-GHz transceiver
+4,1,U4,Quectel EG915U,LTE Cat-1 modem
+5,1,U5,INA219,Rail current monitor
+6,1,U6,DS3231M,RTC
+7,1,U7,5 inch DSI touchscreen,Local HMI
+8,1,BAT1,LiFePO4 UPS HAT,Backup power
+9,1,J1,12V DC jack,Primary power input
+10,1,ANT1,868 MHz SMA antenna,Long-range radio antenna
