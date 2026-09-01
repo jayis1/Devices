@@ -1,0 +1,13 @@
+{
+  "model": "DelayGraph",
+  "samples": 320,
+  "late_rate": 0.578,
+  "mean_eta_delta_minutes": 8.38,
+  "mean_route_minutes": 49.17,
+  "high_risk_threshold": 0.6,
+  "features": [
+    "eta_delta_minutes",
+    "route_minutes",
+    "departure_in_minutes"
+  ]
+}

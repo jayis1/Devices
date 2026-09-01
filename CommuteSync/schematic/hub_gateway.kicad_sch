@@ -1,0 +1,6 @@
+(kicad_sch (version 20231120) (generator "Hermes Agent")
+  (paper "A3")
+  (title_block (title "CommuteSync Hub Gateway") (company "jayis1 / Devices"))
+  (text "CM4 compute module linked to RP2040 supervisor over UART; RP2040 drives SX1262 over SPI0; EG915U on USB/UART; INA219 + DS3231 on I2C0; 12V input to UPS HAT with 5V and 3V3 rails.")
+  (text "Key nets: VIN_12V, UPS_5V, SYS_3V3, SPI0_MOSI, SPI0_MISO, SPI0_SCK, SX1262_NSS, I2C0_SDA, I2C0_SCL, UART_HEARTBEAT_TX, UART_HEARTBEAT_RX, LTE_USB_D+, LTE_USB_D-.")
+)

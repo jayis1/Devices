@@ -1,0 +1,20 @@
+{
+  "entry_dock": {
+    "key_tray_empty_g": 20,
+    "bag_hook_present_g": 800,
+    "badge_confirm_timeout_s": 4,
+    "uwb_presence_cm": 45
+  },
+  "bag_tag": {
+    "tamper_threshold": 0.62,
+    "separation_alert_m": 4.0
+  },
+  "mobility_beacon": {
+    "pm25_warn_ug_m3": 28.0,
+    "vibration_warn_rms": 1.05
+  },
+  "desk_dock": {
+    "left_behind_timeout_s": 120,
+    "tray_present_g": 500
+  }
+}

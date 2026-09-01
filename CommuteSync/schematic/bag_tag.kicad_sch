@@ -1,0 +1,6 @@
+(kicad_sch (version 20231120) (generator "Hermes Agent")
+  (paper "A4")
+  (title_block (title "CommuteSync Bag Tag") (company "jayis1 / Devices"))
+  (text "nRF52840 MCU; DW3000 UWB over SPI; LIS2DW12 on I2C; ATECC608B secure element on I2C; vibration motor via MOSFET; CR2450 or LiPo power path to 3V0 rail; optional 868 MHz daughtercard on UART/SPI header.")
+  (text "Key nets: VBAT, SYS_3V0, SPI_MOSI, SPI_MISO, SPI_SCK, DW3000_CS, I2C_SDA, I2C_SCL, SEC_WAKE, IMU_INT, MOTOR_GATE, SWDIO, SWCLK.")
+)

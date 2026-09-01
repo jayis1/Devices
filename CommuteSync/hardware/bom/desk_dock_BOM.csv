@@ -1,0 +1,9 @@
+Item,Manufacturer Part,Description,Qty,Approx Unit Cost USD
+MCU,RP2040,Supervisory MCU,1,1.20
+Wi-Fi Coprocessor,ESP32-C3-MINI-1,Cloud uplink and BLE,1,2.90
+UWB,Qorvo DW3110/DW3000,Arrival anchor,1,7.20
+Load Cell ADC,HX711,Tray sensing,1,0.80
+Display,2.13in e-ink panel,Low-power status UI,1,8.50
+NFC Reader,PN532 optional,Badge/tag workflow reuse,1,4.80
+USB-C Sink,CH224K,Power entry,1,0.60
+Misc,Tray load cell/enclosure/passives,Mechanical and passive parts,1,16.00

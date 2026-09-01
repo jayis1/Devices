@@ -1,0 +1,10 @@
+Item,Manufacturer Part,Description,Qty,Approx Unit Cost USD
+MCU,ESP32-S3-WROOM-1-N16R8,Main controller,1,6.50
+UWB,Qorvo DW3110/DW3000,Precise ranging transceiver,1,7.20
+Sub-GHz Radio,SX1262IMLTRT,868 MHz radio,1,4.10
+NFC Reader,PN532,Cards and badge verification,1,4.80
+Load Cell ADC,HX711,Key tray sensing,2,0.80
+ToF Sensor,VL53L1X,Doorway occupancy timing,1,4.70
+Speaker Amp,MAX98357A,Audio cue output,1,2.10
+USB-C PD Sink,CH224K,Power entry,1,0.60
+Misc,Load cells/connectors/enclosure,Mechanical and passive parts,1,22.00

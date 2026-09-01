@@ -1,0 +1,6 @@
+(kicad_sch (version 20231120) (generator "Hermes Agent")
+  (paper "A3")
+  (title_block (title "CommuteSync Mobility Beacon") (company "jayis1 / Devices"))
+  (text "ESP32-C6 MCU; MAX-M10S GNSS on UART; ICM-42688-P and BME688 on I2C; SPS30 on UART; SX1262 on SPI; automotive 12V or 2S Li-ion input to 5V buck then 3V3 logic rail; optional CAN transceiver footprint.")
+  (text "Key nets: VIN_12V, BATT_2S, BUCK_5V, SYS_3V3, UART_GNSS_TX, UART_GNSS_RX, UART_SPS30_TX, UART_SPS30_RX, I2C_SDA, I2C_SCL, SPI_MOSI, SPI_MISO, SPI_SCK, SX1262_NSS, CAN_TX, CAN_RX.")
+)

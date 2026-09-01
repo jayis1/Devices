@@ -1,0 +1,10 @@
+Item,Manufacturer Part,Description,Qty,Approx Unit Cost USD
+MCU,ESP32-C6-WROOM-1,Main connected controller,1,4.80
+GNSS,u-blox MAX-M10S,Low-power GNSS receiver,1,11.50
+IMU,ICM-42688-P,6-axis motion sensor,1,2.40
+Air Sensor,Sensirion SPS30,PM1/PM2.5/PM10,1,34.00
+Gas Sensor,BME688,VOC/temp/humidity,1,14.00
+Sub-GHz Radio,SX1262IMLTRT,868 MHz fallback radio,1,4.10
+Buck Regulator,LM2596 module or custom buck,Vehicle power conversion,1,2.00
+Battery Pack,2S 18650 holder,Portable option,1,9.00
+Misc,Connectors/IP54 enclosure/passives,Mechanical and passive parts,1,20.00

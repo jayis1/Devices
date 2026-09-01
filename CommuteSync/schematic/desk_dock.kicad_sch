@@ -1,0 +1,6 @@
+(kicad_sch (version 20231120) (generator "Hermes Agent")
+  (paper "A4")
+  (title_block (title "CommuteSync Desk Dock") (company "jayis1 / Devices"))
+  (text "RP2040 supervisory MCU with ESP32-C3 Wi-Fi coprocessor; DW3000 UWB on SPI; HX711 load cell front end; optional PN532 NFC; 2.13 inch e-ink display on SPI1; USB-C 5V power input.")
+  (text "Key nets: VBUS_5V, SYS_3V3, SPI0_MOSI, SPI0_MISO, SPI0_SCK, DW3000_CS, HX711_DT, HX711_SCK, UART_WIFI_TX, UART_WIFI_RX, EINK_CS, EINK_DC, EINK_BUSY.")
+)

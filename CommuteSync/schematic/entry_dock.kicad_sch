@@ -1,0 +1,6 @@
+(kicad_sch (version 20231120) (generator "Hermes Agent")
+  (paper "A3")
+  (title_block (title "CommuteSync Entry Dock") (company "jayis1 / Devices"))
+  (text "ESP32-S3 central MCU; DW3000 and SX1262 share SPI with dedicated chip selects; PN532 on UART; dual HX711 load cells on GPIO pairs; VL53L1X on I2C; MAX98357A audio on I2S; USB-C 5V to 3V3 buck.")
+  (text "Key nets: VBUS_5V, SYS_3V3, SPI_MOSI, SPI_MISO, SPI_SCK, DW3000_CS, SX1262_NSS, PN532_TX, PN532_RX, HX711_KEY_DT, HX711_HOOK_DT, I2C_SDA, I2C_SCL, I2S_BCLK, I2S_DOUT.")
+)

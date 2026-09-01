@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+software/dashboard/__pycache__/
+software/ml-pipeline/__pycache__/
+scripts/__pycache__/

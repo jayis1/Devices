@@ -1,0 +1,9 @@
+Item,Manufacturer Part,Description,Qty,Approx Unit Cost USD
+MCU,nRF52840-QIAA,Low-power BLE MCU,1,5.40
+UWB,Qorvo DW3110/DW3000,Precise separation ranging,1,7.20
+IMU,LIS2DW12TR,Low-power accelerometer,1,1.10
+Secure Element,ATECC608B,Identity and attestation,1,0.80
+Battery,CR2450 or 300mAh LiPo,Primary power,1,1.40
+Motor,8mm coin vibration motor,Haptic alerting,1,1.20
+Radio Daughtercard,CC1101 module,Optional 868 MHz bridge,1,2.80
+Misc,PCB/clip/enclosure/passives,Mechanical and passive parts,1,9.50

@@ -1,0 +1,10 @@
+Item,Manufacturer Part,Description,Qty,Approx Unit Cost USD
+Compute Module,Raspberry Pi CM4 4GB/32GB,Main Linux compute module,1,70.00
+Supervisor MCU,RP2040,Watchdog and radio scheduler,1,1.20
+Sub-GHz Radio,SX1262IMLTRT,868 MHz long-range transceiver,1,4.10
+LTE Modem,Quectel EG915U,Cat-1 cellular backup,1,18.00
+Power Monitor,INA219AIDCNR,Current and bus monitor,1,1.30
+RTC,DS3231SN,Temperature-compensated RTC,1,2.10
+UPS Battery,LiFePO4 18650 1500mAh,Backup energy store,4,6.00
+Display,Generic 4.3in DSI Touch,Local hub UI,1,38.00
+Misc,Connectors/regulators/enclosure,Passive and mechanical parts,1,35.00
