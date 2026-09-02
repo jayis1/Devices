@@ -1,0 +1,8 @@
+Item,Qty,Reference,Manufacturer Part,Description
+1,1,U1,Raspberry Pi CM4 4GB/32GB,Main compute module
+2,1,U2,RP2040,Supervisory MCU
+3,1,U3,SX1262IMLTRT,Sub-GHz radio
+4,1,U4,Quectel EG25-G,LTE modem
+5,1,U5,TPS54302,5V buck regulator
+6,1,BT1,18650 Holder x2,UPS cells
+7,1,DS1,5in DSI touch,Local dashboard display

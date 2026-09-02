@@ -1,0 +1,18 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (uuid "vent-controller-sheet")
+  (paper "A3")
+  (title_block
+    (title "SickDaySync Vent Controller")
+    (company "jayis1 / Devices")
+    (comment 1 "STM32G0B1 airflow controller with relays, DRV8871 motor bridge, SDP31 differential pressure, SHT45, and RS-485.")
+    (comment 2 "Top-level capture for architecture handoff"))
+  (lib_symbols)
+  (sheet_instances)
+  (symbol (lib_id "Device:U") (at 50 50 0) (unit 1)
+    (property "Reference" "U1" (at 50 45 0))
+    (property "Value" "Vent Controller" (at 50 55 0)))
+  (text "Main rails: 12V, 5V, 3V3" (at 20 20 0))
+  (text "Key nets and buses documented in README + docs/architecture.md" (at 20 30 0))
+)

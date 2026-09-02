@@ -1,0 +1,7 @@
+{
+  "model_name": "recovery_clock",
+  "samples": 128,
+  "average_label": 91.3134,
+  "threshold": 80.3558,
+  "notes": "Synthetic recovery phase estimator."
+}

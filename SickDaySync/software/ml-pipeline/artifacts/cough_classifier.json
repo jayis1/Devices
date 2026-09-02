@@ -1,0 +1,7 @@
+{
+  "model_name": "cough_classifier",
+  "samples": 120,
+  "average_label": 0.5695,
+  "threshold": 0.6549,
+  "notes": "Synthetic cough burden scorer."
+}

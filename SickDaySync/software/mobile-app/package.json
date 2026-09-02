@@ -1,0 +1,11 @@
+{
+  "name": "sickdaysync-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.tsx",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  }
+}

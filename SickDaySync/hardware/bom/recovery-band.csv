@@ -1,0 +1,8 @@
+Item,Qty,Reference,Manufacturer Part,Description
+1,1,U1,nRF52840,QFN SoC
+2,1,U2,MAXM86161,PPG/SpO2 front-end
+3,1,U3,MAX30208,Body temperature sensor
+4,1,U4,BMI270,6-axis IMU
+5,1,U5,DRV2605L,Haptic driver
+6,1,BT1,180mAh LiPo,Battery
+7,1,U6,MCP73831,LiPo charger

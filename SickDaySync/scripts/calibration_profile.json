@@ -1,0 +1,8 @@
+{
+  "room_id": "bedroom-a",
+  "co2_offset_ppm": -18,
+  "humidity_offset_pct": 1.4,
+  "pressure_zero_pa": -0.3,
+  "bottle_tare_g": 412.0,
+  "band_skin_temp_offset_c": 0.18
+}

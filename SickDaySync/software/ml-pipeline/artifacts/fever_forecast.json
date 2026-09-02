@@ -1,0 +1,7 @@
+{
+  "model_name": "fever_forecast",
+  "samples": 96,
+  "average_label": 38.1819,
+  "threshold": 38.9456,
+  "notes": "Synthetic 6-hour fever forecast."
+}

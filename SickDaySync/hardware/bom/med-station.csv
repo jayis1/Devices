@@ -1,0 +1,8 @@
+Item,Qty,Reference,Manufacturer Part,Description
+1,1,U1,RP2040,Controller MCU
+2,1,U2,SX1262IMLTRT,Sub-GHz radio
+3,1,U3,PN532,NFC reader
+4,2,U4-U5,HX711,Load cell ADCs
+5,1,U6,MLX90614,IR thermometer dock sensor
+6,1,DS1,2.9in e-paper,Medication timeline display
+7,1,RL1,Songle SRD relay,Nebulizer/heat-pad control

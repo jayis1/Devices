@@ -1,0 +1,7 @@
+{
+  "model_name": "spread_score",
+  "samples": 160,
+  "average_label": 85.6715,
+  "threshold": 77.1044,
+  "notes": "Synthetic household contagion spread score."
+}

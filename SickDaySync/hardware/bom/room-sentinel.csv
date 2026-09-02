@@ -1,0 +1,8 @@
+Item,Qty,Reference,Manufacturer Part,Description
+1,1,U1,ESP32-S3-WROOM-1,Main Wi-Fi/BLE SoC
+2,1,U2,SX1262IMLTRT,Sub-GHz radio
+3,1,U3,SCD41,CO2 sensor
+4,1,U4,SEN55,PM/VOC/temp/RH sensor
+5,1,U5,BGT60LTR11AIP,60 GHz presence radar
+6,2,MIC1-MIC2,ICS-43434,I2S microphones
+7,1,DS1,2.9in e-paper,Room status display

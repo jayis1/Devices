@@ -1,0 +1,8 @@
+Item,Qty,Reference,Manufacturer Part,Description
+1,1,U1,STM32G0B1CCT6,Control MCU
+2,1,U2,SX1262IMLTRT,Sub-GHz radio
+3,1,U3,SDP31,Differential pressure sensor
+4,1,U4,SHT45,Humidity sensor
+5,1,U5,MAX3485,RS-485 transceiver
+6,1,U6,DRV8871,Actuator H-bridge
+7,4,K1-K4,Omron G5Q,10A relay outputs

@@ -1,0 +1,11 @@
+{
+  "patient_id": "demo-child",
+  "risk_level": "amber",
+  "spread_score": 61.2,
+  "hydration_risk": 43.8,
+  "fever_forecast": 38.6,
+  "actions": [
+    "Increase fresh-air exchange or HEPA mode in the assigned sick room.",
+    "Offer fluids now and recheck intake within 30 minutes."
+  ]
+}

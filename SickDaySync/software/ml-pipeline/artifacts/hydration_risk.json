@@ -1,0 +1,7 @@
+{
+  "model_name": "hydration_risk",
+  "samples": 144,
+  "average_label": 36.0386,
+  "threshold": 34.2367,
+  "notes": "Synthetic dehydration risk estimator."
+}
