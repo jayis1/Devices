@@ -1,0 +1,13 @@
+Item,Qty,Reference,Part,Notes,UnitCostUSD
+1,1,U1,Raspberry Pi CM4 Lite 2GB,Edge Linux compute,55.00
+2,1,U2,RP2040,Supervisor MCU,1.20
+3,1,U3,SX1262IMLTRT,868MHz radio,4.80
+4,1,U4,MCP2515-I/ST,CAN controller,1.90
+5,1,U5,TJA1051T/3,CAN transceiver,1.10
+6,1,U6,Quectel EG25-G,LTE/GNSS modem,48.00
+7,1,U7,INA219AIDCNR,Rail monitor,1.30
+8,1,U8,DS3231SN,RTC,2.10
+9,1,J1,Automotive 12V harness,Input cable,6.50
+10,1,PS1,LiFePO4 backup pack,Emergency runtime,22.00
+11,1,K1,12V siren relay,Alarm driver,2.20
+12,1,D1,SMBJ24A,Load-dump TVS,0.70

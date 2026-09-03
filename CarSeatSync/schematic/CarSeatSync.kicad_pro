@@ -1,0 +1,23 @@
+{
+  "board": {},
+  "boards": [],
+  "cvpcb": {},
+  "libraries": {},
+  "meta": {
+    "filename": "CarSeatSync.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {},
+  "pcbnew": {},
+  "schematic": {
+    "legacy_lib_dir": "",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      }
+    }
+  },
+  "text_variables": {
+    "SYSTEM": "CarSeatSync"
+  }
+}

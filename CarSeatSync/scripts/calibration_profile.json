@@ -1,0 +1,10 @@
+{
+  "seat_model": "generic-convertible-seat",
+  "recommended_tension_n": 30.0,
+  "min_pass_tension_n": 24.0,
+  "target_clip_ratio": 0.58,
+  "allowed_clip_band": [
+    0.45,
+    0.7
+  ]
+}

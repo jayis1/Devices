@@ -1,0 +1,8 @@
+Item,Qty,Reference,Part,Notes,UnitCostUSD
+1,1,U1,RP2040,Main MCU,1.20
+2,1,U2,SX1262IMLTRT,868MHz radio,4.80
+3,1,U3,DW3000,UWB ranging,6.90
+4,1,U4,PN532,NFC reader,3.40
+5,1,DISP1,2.13in e-paper,Status display,13.50
+6,1,BT1,18650 cell,Backup power,3.00
+7,1,J1,USB-C receptacle,Primary power,0.45

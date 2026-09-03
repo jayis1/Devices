@@ -1,0 +1,15 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (paper "A4")
+  (title_block
+    (title "CarSeatSync Child Band")
+    (company "jayis1 / Devices")
+    (comment 1 "Reference schematic notes for CarSeatSync")
+  )
+  (text "Core silicon: nRF5340, MAX86176, TMP117, LIS2DW12, DRV2605L" (at 20 20 0) (effects (font (size 1.27 1.27))))
+  (text "Primary power: 160mAh LiPo, charger, 1V8/3V3 rails" (at 20 28 0) (effects (font (size 1.27 1.27))))
+  (text "Primary buses: I2C, GPIO, PWM" (at 20 36 0) (effects (font (size 1.27 1.27))))
+  (text "Major peripherals: PPG optics, haptic motor, skin temp" (at 20 44 0) (effects (font (size 1.27 1.27))))
+  (text "Protection: TVS, reverse polarity, test pads, programming header." (at 20 52 0) (effects (font (size 1.27 1.27))))
+)

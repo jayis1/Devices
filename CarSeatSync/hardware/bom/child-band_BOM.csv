@@ -1,0 +1,8 @@
+Item,Qty,Reference,Part,Notes,UnitCostUSD
+1,1,U1,nRF5340-QKAA,Wireless MCU,6.20
+2,1,U2,MAX86176,PPG AFE,5.90
+3,1,U3,TMP117AIDRVR,Skin temp,1.75
+4,1,U4,LIS2DW12TR,Low-power accelerometer,0.95
+5,1,U5,DRV2605L,Haptic driver,1.20
+6,1,BT1,160mAh LiPo,Rechargeable cell,2.80
+7,1,M1,Coin haptic motor,Gentle alerts,0.90

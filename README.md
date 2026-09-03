@@ -98,6 +98,7 @@ These aren't single chips on a board. Each device system here is:
 | 64 | PregnancySync | 5 (Hub Gateway, Belly Band, Smart BP Cuff, Strip Reader Dock, Sleep Pad) | Prenatal Health & Pregnancy Support | AI-powered prenatal maternal-fetal health and daily pregnancy support system — reduced fetal movement guidance, preeclampsia risk tracking, urine strip intelligence, sleep-position coaching, and clinician-ready trend exports |
 | 65 | CommuteSync | 5 (Hub Gateway, Entry Dock, Bag Tag, Mobility Beacon, Desk Dock) | Daily Commuting & Mobility | AI-powered daily commuting orchestration and safety system — forgotten-item prevention, lateness forecasting, route exposure scoring, bag/bike theft detection, and destination leave-behind protection |
 | 66 | SickDaySync | 5 (Care Hub, Recovery Band, Room Sentinel×N, Med Station, Vent Controller×M) | Home Illness Recovery | AI-powered home illness recovery and household contagion-control system — wearable vitals, cough and air-quality sensing, medication/hydration verification, room isolation control, and fever/dehydration/spread forecasting |
+| 67 | CarSeatSync | 5 (Vehicle Hub, SafeLatch Clip, Cabin Sentinel, Child Band, Handoff Beacon) | Child Vehicle Safety | AI-powered infant and child vehicle safety system — hot-car prevention, harness misuse detection, caregiver handoff verification, cabin distress sensing, and multi-stage emergency escalation |
 
 ## Structure
 

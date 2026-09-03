@@ -1,0 +1,15 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (paper "A4")
+  (title_block
+    (title "CarSeatSync Cabin Sentinel")
+    (company "jayis1 / Devices")
+    (comment 1 "Reference schematic notes for CarSeatSync")
+  )
+  (text "Core silicon: ESP32-S3, AMG8833, SCD41, SGP41, BME688" (at 20 20 0) (effects (font (size 1.27 1.27))))
+  (text "Primary power: 5V input, 3V3 buck" (at 20 28 0) (effects (font (size 1.27 1.27))))
+  (text "Primary buses: I2C, I2S, Wi-Fi/BLE" (at 20 36 0) (effects (font (size 1.27 1.27))))
+  (text "Major peripherals: Thermal array, MEMS mic, debug USB-C" (at 20 44 0) (effects (font (size 1.27 1.27))))
+  (text "Protection: TVS, reverse polarity, test pads, programming header." (at 20 52 0) (effects (font (size 1.27 1.27))))
+)

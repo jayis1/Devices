@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+.pytest_cache/
+software/ml-pipeline/artifacts/
+software/mobile-app/node_modules/

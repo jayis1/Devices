@@ -1,0 +1,38 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+trip = [
+    {
+        'child_id': 'child-demo',
+        'vehicle_id': 'vehicle-demo',
+        'node': 'safelatch-clip',
+        'ignition_on': True,
+        'child_present': True,
+        'buckle_closed': True,
+        'caregiver_nearby': True,
+        'strap_tension_n': 31.0,
+        'chest_clip_ratio': 0.57,
+        'cabin_temp_c': 25.1,
+        'heat_slope_c_per_min': 0.02,
+    },
+    {
+        'child_id': 'child-demo',
+        'vehicle_id': 'vehicle-demo',
+        'node': 'vehicle-hub',
+        'ignition_on': False,
+        'child_present': True,
+        'buckle_closed': True,
+        'caregiver_nearby': False,
+        'bag_present': False,
+        'handoff_complete': False,
+        'cabin_temp_c': 39.4,
+        'heat_slope_c_per_min': 0.43,
+        'cry_score': 0.55,
+    }
+]
+
+out = Path(__file__).resolve().parent / 'demo_output.json'
+out.write_text(json.dumps(trip, indent=2) + '\n')
+print(json.dumps({'events': len(trip), 'output': str(out)}))

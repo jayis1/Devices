@@ -1,0 +1,8 @@
+Item,Qty,Reference,Part,Notes,UnitCostUSD
+1,1,U1,ESP32-S3-WROOM-1,Main wireless MCU,4.90
+2,1,U2,AMG8833,Thermal array,18.00
+3,1,U3,SCD41,CO2 sensor,14.00
+4,1,U4,SGP41,VOC/NOx sensor,4.10
+5,1,U5,BME688,Gas/pressure backup,5.50
+6,1,U6,ICS-43434,I2S microphone,1.80
+7,1,J1,USB-C receptacle,Power/debug,0.45

@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Notes,UnitCostUSD
+1,1,U1,nRF52840-QIAA,Wireless MCU,5.40
+2,1,U2,HX711,Load-cell ADC,0.55
+3,1,U3,TMP117AIDRVR,Temperature sensor,1.75
+4,1,U4,MMC5983MA,Magnetometer,1.60
+5,1,S1,Reed switch,Buckle detect,0.35
+6,1,MECH1,20kg strain element,Harness tension,3.20
+7,1,BT1,CR2450 battery,Primary cell,0.85
+8,1,U5,Energy-harvest PMIC,Optional strap charger,3.60

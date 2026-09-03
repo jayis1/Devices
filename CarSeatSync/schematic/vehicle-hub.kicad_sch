@@ -1,0 +1,15 @@
+(kicad_sch
+  (version 20231120)
+  (generator "Hermes Agent")
+  (paper "A4")
+  (title_block
+    (title "CarSeatSync Vehicle Hub")
+    (company "jayis1 / Devices")
+    (comment 1 "Reference schematic notes for CarSeatSync")
+  )
+  (text "Core silicon: Raspberry Pi CM4, RP2040, SX1262, MCP2515, EG25-G" (at 20 20 0) (effects (font (size 1.27 1.27))))
+  (text "Primary power: 12V automotive in, 5V buck, 3V3 LDO, LiFePO4 backup" (at 20 28 0) (effects (font (size 1.27 1.27))))
+  (text "Primary buses: SPI, I2C, UART, CAN, USB2" (at 20 36 0) (effects (font (size 1.27 1.27))))
+  (text "Major peripherals: Siren relay, RGB tower, GNSS/LTE, supervisor link" (at 20 44 0) (effects (font (size 1.27 1.27))))
+  (text "Protection: TVS, reverse polarity, test pads, programming header." (at 20 52 0) (effects (font (size 1.27 1.27))))
+)
