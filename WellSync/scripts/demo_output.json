@@ -1,0 +1,23 @@
+[
+  {
+    "node_id": "inline-water-quality-1",
+    "kind": "water_quality",
+    "metrics": {
+      "ph": 6.21,
+      "turbidity_ntu": 4.6,
+      "orp_mv": 168,
+      "pressure_kpa": 398
+    },
+    "timestamp": "2026-09-04T12:08:54.353585+00:00"
+  },
+  {
+    "node_id": "weather-1",
+    "kind": "weather",
+    "metrics": {
+      "rain_mm": 34,
+      "soil_deep_pct": 42,
+      "dry_spell_days": 0
+    },
+    "timestamp": "2026-09-04T12:08:54.353616+00:00"
+  }
+]

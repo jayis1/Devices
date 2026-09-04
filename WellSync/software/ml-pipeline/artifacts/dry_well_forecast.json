@@ -1,0 +1,16 @@
+{
+  "model": "dry_well_forecast_v1",
+  "samples": 180,
+  "warning_days": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11
+  ]
+}

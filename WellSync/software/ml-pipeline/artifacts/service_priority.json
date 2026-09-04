@@ -1,0 +1,11 @@
+{
+  "model": "service_priority_v1",
+  "samples": 220,
+  "action_counts": {
+    "lab_test": 76,
+    "shock_chlorination": 0,
+    "filter_change": 52,
+    "pump_service": 92,
+    "uv_lamp_replace": 0
+  }
+}

@@ -1,0 +1,9 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,nRF52840,BLE MCU,4.4
+2,1,S1,TMP117,Temperature sensor,2.4
+3,1,S2,OPT3001,Light sensor,2.1
+4,1,S3,PN532,NFC reader,4.8
+5,1,S4,Hall flow switch,Faucet pulse input,3.5
+6,1,BAT1,2000mAh Li-ion,Battery,8
+7,1,U2,MCP73831,Li-ion charger,0.6
+8,1,ENC1,Under-sink enclosure,Splash resistant housing,7

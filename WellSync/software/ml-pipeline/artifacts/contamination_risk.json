@@ -1,0 +1,10 @@
+{
+  "model": "contamination_risk_v1",
+  "samples": 240,
+  "mean_risk": 0.532,
+  "thresholds": {
+    "watch": 0.34,
+    "treat": 0.58,
+    "do_not_drink": 0.8
+  }
+}

@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,ESP32-S3-WROOM-1,Wi-Fi/BLE MCU,5.5
+2,1,U2,ADE7953,Energy metering IC,6.8
+3,1,U3,ADS1115,16-bit ADC,1.9
+4,1,U4,SX1262,868 MHz transceiver,6.5
+5,2,S1-S2,0-10 bar pressure transducer,Pressure tank and discharge pressure,16
+6,1,K1,24V contactor relay,Opto-isolated pump interlock,14
+7,1,U5,0-10V isolated DAC,VFD analog control,11
+8,1,PS1,24V to 5V converter,Panel power stage,9
+9,1,F1,Inline fuse holder,Protection,2
+10,1,ENC1,DIN control enclosure,Mechanical housing,15

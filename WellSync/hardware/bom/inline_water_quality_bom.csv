@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,STM32L476RGT6,Low-power MCU,8.5
+2,1,U2,ADS1220,24-bit ADC,5.2
+3,1,U3,MAX3485,RS-485 transceiver,1.4
+4,1,S1,Atlas EZO-pH,pH interface board,45
+5,1,S2,Atlas EZO-EC,EC/TDS interface board,45
+6,1,S3,Atlas EZO-ORP,ORP interface board,45
+7,1,S4,SEN0189,Turbidity sensor,12
+8,1,S5,0-10 bar 4-20mA transducer,Pressure sensor,16
+9,1,S6,PT1000 probe,Temperature probe,6
+10,1,ENC1,IP65 enclosure,Wet-area enclosure,12

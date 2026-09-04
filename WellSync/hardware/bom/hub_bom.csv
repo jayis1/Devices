@@ -1,0 +1,11 @@
+Item,Qty,Reference,Part,Description,ApproxUnitUSD
+1,1,U1,Raspberry Pi CM4 Lite 4GB,Edge compute module,75
+2,1,U2,RP2040,Supervisor MCU,1.2
+3,1,U3,SX1262,868 MHz transceiver,6.5
+4,1,U4,Quectel EG25-G,LTE/GNSS modem,58
+5,1,U5,ATECC608,Secure element,1.8
+6,1,U6,DS3231,RTC,2.1
+7,1,U7,INA219,Rail monitor,1.5
+8,1,PWR1,12V to 5V buck 4A,DIN rail power stage,11
+9,1,BAT1,LiFePO4 2S pack,Backup battery,26
+10,1,ENC1,DIN enclosure,Hub enclosure,18

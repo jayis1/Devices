@@ -1,0 +1,10 @@
+{
+  "model": "pump_failure_v1",
+  "samples": 240,
+  "max_risk": 0.99,
+  "features": [
+    "starts_per_hour",
+    "cavitation_score",
+    "pressure_rise_kpa"
+  ]
+}
