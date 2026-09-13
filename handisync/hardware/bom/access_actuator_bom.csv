@@ -1,0 +1,7 @@
+Designator,Part number,Manufacturer,Qty,Role
+U1,STM32G0B1CBT6,ST,1,compute
+U2,DRV8876,TI,1,component
+U3,SX1262,Semtech,1,component
+M1,12V linear actuator,IP65 100mm,1,component
+SW1,mushroom E-stop NC,Schneider,1,component
+F1,5A blade fuse,Littelfuse,1,component

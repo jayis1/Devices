@@ -1,0 +1,7 @@
+Designator,Part number,Manufacturer,Qty,Role
+U1,nRF52840-QIAA,Nordic,1,compute
+U2,ICM-42688-P,TDK,1,component
+U3,DRV2605L,TI,1,component
+U4,MCP73831,Microchip,1,component
+BT1,LiPo 500mAh,JST-PH,1,component
+S1,FSR 0-20kg,Interlink 402,1,component

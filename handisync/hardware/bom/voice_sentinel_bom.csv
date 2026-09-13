@@ -1,0 +1,6 @@
+Designator,Part number,Manufacturer,Qty,Role
+U1,ESP32-S3-WROOM-1,Espressif,1,compute
+U2,INMP441,InvenSense,1,component
+U3,IWRL6432BOOST,TI,1,component
+U4,SX1262,Semtech,1,component
+SW1,mic power slide switch,C&K,1,component

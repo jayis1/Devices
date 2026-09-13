@@ -1,0 +1,7 @@
+Designator,Part number,Manufacturer,Qty,Role
+U1,ESP32-C6-WROOM-1,Espressif,1,compute
+PS1,IRM-05-5,Mean Well,1,component
+K1,16A certified relay,Finder 40.52,1,component
+CT1,SCT-013-000,YHDC,1,component
+U2,TMP117,TI,1,component
+F1,1A time-delay fuse,Littelfuse,1,component

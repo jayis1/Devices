@@ -100,6 +100,7 @@ These aren't single chips on a board. Each device system here is:
 | 66 | SickDaySync | 5 (Care Hub, Recovery Band, Room Sentinel×N, Med Station, Vent Controller×M) | Home Illness Recovery | AI-powered home illness recovery and household contagion-control system — wearable vitals, cough and air-quality sensing, medication/hydration verification, room isolation control, and fever/dehydration/spread forecasting |
 | 67 | CarSeatSync | 5 (Vehicle Hub, SafeLatch Clip, Cabin Sentinel, Child Band, Handoff Beacon) | Child Vehicle Safety | AI-powered infant and child vehicle safety system — hot-car prevention, harness misuse detection, caregiver handoff verification, cabin distress sensing, and multi-stage emergency escalation |
 | 68 | WellSync | 5 (Well Hub Gateway, Inline Water Quality Node, Pump & Pressure Controller, Tap Sentinel, Watershed Weather Sentinel) | Private Well Water Safety | AI-powered private well water safety, treatment, and supply resilience system — inline chemistry, pump health, watershed contamination prediction, under-sink treatment verification, and do-not-drink advisories |
+| 69 | HandiSync | 5 (Assist Hub, Smart Grip×N, Voice & Gesture Sentinel×N, Appliance Dock×M, Access Actuator×M) | Daily-Living Accessibility | Local-first assistive control system — wearable effort/tremor sensing, privacy-preserving enrolled voice + pointing intents, force-limited drawer/cabinet access, and hardware-interlocked approved appliance control |
 
 ## Structure
 

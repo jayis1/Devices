@@ -1,0 +1,6 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      HANDISYNC_API_TOKEN: ${HANDISYNC_API_TOKEN:?set_a_token}

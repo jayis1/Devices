@@ -1,0 +1,6 @@
+Designator,Part number,Manufacturer,Qty,Role
+U1,ESP32-S3-WROOM-1,Espressif,1,compute
+U2,SX1262,Semtech,1,component
+U3,ATECC608B,Microchip,1,component
+DS1,2.9in e-paper,Waveshare,1,component
+PS1,TPS63070,TI,1,component
