@@ -1,0 +1,9 @@
+Designator,Qty,MPN,Description
+U1,1,nRF52840-QIAA,Bluetooth SoC
+U2,1,BMI270,6-axis IMU
+U3,1,TMP117AIDRVR,Temperature sensor
+U4,1,MCP73831T-2ACI/OT,LiPo charger
+U5,1,TPS62743YFPR,Buck regulator
+U6,1,MAX17048G+T10,Fuel gauge
+U7,1,SX1262IMLTRT,Optional Sub-GHz radio
+BT1,1,LP803040,1000mAh LiPo

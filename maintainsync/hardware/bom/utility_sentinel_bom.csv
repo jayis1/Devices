@@ -1,0 +1,9 @@
+Designator,Qty,MPN,Description
+U1,1,STM32G0B1CBT6,Main MCU
+U2,1,ESP32-C6-WROOM-1,Wi-Fi commissioning MCU
+U3,1,SX1262IMLTRT,Sub-GHz transceiver
+U4,1,TLP291-4,Opto-isolated dry contact driver
+U5,1,TPS5430DDAR,12V to 5V buck
+CT1,1,SCT-013-000,Non-invasive current transformer
+SW1,1,KEY-SWITCH-SPST,Hardware arm key
+SW2,1,ESTOP-NC,Local stop switch

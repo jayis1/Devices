@@ -1,0 +1,8 @@
+Designator,Qty,MPN,Description
+U1,1,CM4102032,Raspberry Pi Compute Module 4 2GB Wi-Fi
+U2,1,ESP32-S3-WROOM-1,Radio co-processor
+U3,1,SX1262IMLTRT,LoRa transceiver
+U4,1,ATECC608B-MAHDA,Secure element
+U5,1,TPS2115ADRBR,Power mux
+DISP1,1,Waveshare-2.9-EPD,2.9 inch e-paper
+BAT1,1,LiFePO4-6V4,UPS pack

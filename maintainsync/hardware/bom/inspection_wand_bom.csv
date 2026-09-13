@@ -1,0 +1,8 @@
+Designator,Qty,MPN,Description
+U1,1,ESP32-S3-WROOM-1,Wi-Fi SoC
+U2,1,MLX90640ESF-BAB,Thermal array
+U3,1,VL53L5CXV0GC/1,8x8 ToF
+U4,1,OV5640-AF,5MP camera module
+U5,1,PN5321A3HN/C106,NFC controller
+U6,1,BQ24074RGTR,LiPo power-path charger
+BT1,1,LP603450,1200mAh LiPo

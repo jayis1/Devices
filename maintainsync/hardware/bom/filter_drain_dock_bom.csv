@@ -1,0 +1,8 @@
+Designator,Qty,MPN,Description
+U1,1,ESP32-C6-WROOM-1,Wi-Fi/802.15.4 SoC
+U2,1,SDP810-500PA,Differential pressure sensor
+U3,1,SHT45-AD1B-R2,Temperature humidity sensor
+U4,1,SX1262IMLTRT,Sub-GHz transceiver
+U5,1,MP1584EN,12V to 5V buck
+U6,1,AP2112K-3.3TRG1,3.3V LDO
+LS1,1,FS-IR02,Condensate float switch

@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      MAINTAINSYNC_API_TOKEN: ${MAINTAINSYNC_API_TOKEN:?set_a_secret}
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports: ["1883:1883"]
