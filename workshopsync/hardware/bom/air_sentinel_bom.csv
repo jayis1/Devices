@@ -1,0 +1,6 @@
+Reference,Quantity,Part Number,Manufacturer,Description,Package,Notes,Author
+U1,1,ESP32-C6-WROOM-1,Espressif,Wi-Fi 6/BLE MCU,Module,3.3V,jayis1
+U2,1,SCD41-D-R2,Sensirion,CO2 sensor,Module,Temperature/humidity included,jayis1
+U3,1,SPS30,Sensirion,Particulate sensor,Module,Airflow path required,jayis1
+U4,1,SGP40-D-R4,Sensirion,VOC sensor,DFN,Humidity compensation required,jayis1
+U5,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver,QFN,Regional radio configuration required,jayis1

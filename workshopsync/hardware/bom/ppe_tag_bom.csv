@@ -1,0 +1,6 @@
+Reference,Quantity,Part Number,Manufacturer,Description,Package,Notes,Author
+U1,1,nRF52840-QIAA-R,Nordic Semiconductor,BLE MCU,AQFN,3.0V,jayis1
+U2,1,BMI270,Bosch,6-axis IMU,LGA,Activity/proximity proxy,jayis1
+U3,1,DRV2605L,Texas Instruments,Haptic driver,DSBGA,Optional haptic acknowledgement,jayis1
+U4,1,TPS62743YFPR,Texas Instruments,3V buck converter,DSBGA,Coin-cell low quiescent current,jayis1
+BAT1,1,CR2477,Panasonic,Lithium coin cell,Holder,Replaceable battery,jayis1

@@ -1,0 +1,17 @@
+{
+  "system": "WorkshopSync",
+  "slug": "workshopsync",
+  "author": "jayis1",
+  "protocol_version": 1,
+  "transport": "SX1262 Sub-GHz TDMA star with BLE 5.3 PPE provisioning",
+  "nodes": [
+    {"id": 1, "name": "workshop-hub", "soc": "Raspberry Pi CM4 + ESP32-S3", "supply": "5V USB-C + UPS", "role": "coordinate"},
+    {"id": 16, "name": "tool-dock", "soc": "STM32G0B1", "supply": "isolated 12V", "role": "observe"},
+    {"id": 32, "name": "air-sentinel", "soc": "ESP32-C6", "supply": "5V USB-C", "role": "observe"},
+    {"id": 48, "name": "ppe-tag", "soc": "nRF52840", "supply": "CR2477", "role": "observe"},
+    {"id": 64, "name": "bench-mat", "soc": "RP2040", "supply": "5V USB-C", "role": "observe"}
+  ],
+  "telemetry": {"required": ["node_id", "seq", "epoch", "kind", "quality"], "quality_values": ["ok", "stale", "fault", "calibrating"]},
+  "topics": {"telemetry": "workshopsync/v1/{node_id}/telemetry", "command": "workshopsync/v1/{node_id}/command"},
+  "safety": {"mains_switching": false, "tool_start_stop": false, "machine_interlock": false, "command_ttl_seconds_max": 30, "stale_is_healthy": false}
+}

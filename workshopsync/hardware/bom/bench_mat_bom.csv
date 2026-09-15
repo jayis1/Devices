@@ -1,0 +1,6 @@
+Reference,Quantity,Part Number,Manufacturer,Description,Package,Notes,Author
+U1,1,RP2040,Raspberry Pi,Dual-core MCU,QFN-56,3.3V,jayis1
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver,QFN,Regional radio configuration required,jayis1
+U3,1,AP2112K-3.3TRG1,Diodes Inc,3.3V regulator,SOT-23-5,500mA max,jayis1
+S1,1,FSR406,Interlink Electronics,Force sensing resistor,Strip,One per pressure zone,jayis1
+U4,1,TLP291-4,Isocom,Optocoupler,SO-16,E-stop state input isolation,jayis1

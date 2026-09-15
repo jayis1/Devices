@@ -1,0 +1,1 @@
+# Standard-library training smoke test; no third-party runtime dependency. Authored by jayis1.

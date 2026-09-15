@@ -1,0 +1,6 @@
+Reference,Quantity,Part Number,Manufacturer,Description,Package,Notes,Author
+U1,1,STM32G0B1CBT6,STMicroelectronics,Arm Cortex-M0+ MCU,LQFP-48,3.3V,jayis1
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver,QFN,Regional radio configuration required,jayis1
+U3,1,ADXL355BEZ,Analog Devices,Low-noise accelerometer,LGA,Tool vibration features,jayis1
+CT1,1,SCT-013-000,YHDC,Split-core current transformer,Clamp,Install only by qualified person,jayis1
+U4,1,AP2112K-3.3TRG1,Diodes Inc,3.3V regulator,SOT-23-5,500mA max,jayis1

@@ -102,6 +102,7 @@ These aren't single chips on a board. Each device system here is:
 | 68 | WellSync | 5 (Well Hub Gateway, Inline Water Quality Node, Pump & Pressure Controller, Tap Sentinel, Watershed Weather Sentinel) | Private Well Water Safety | AI-powered private well water safety, treatment, and supply resilience system — inline chemistry, pump health, watershed contamination prediction, under-sink treatment verification, and do-not-drink advisories |
 | 69 | HandiSync | 5 (Assist Hub, Smart Grip×N, Voice & Gesture Sentinel×N, Appliance Dock×M, Access Actuator×M) | Daily-Living Accessibility | Local-first assistive control system — wearable effort/tremor sensing, privacy-preserving enrolled voice + pointing intents, force-limited drawer/cabinet access, and hardware-interlocked approved appliance control |
 | 70 | MaintainSync | 5 (Maintain Hub, Condition Tag×N, Inspection Wand, Utility Sentinel×M, Filter & Drain Dock×M) | Predictive Home Maintenance | Local-first predictive home maintenance system — appliance vibration baselines, guided thermal inspections, filter and drain health, leak-fusion evidence, explainable maintenance cards, and hardware-keyed damage-prevention interlocks |
+| 71 | WorkshopSync | 5 (Workshop Hub, Tool Dock×N, Air Sentinel×N, PPE Tag, Bench Mat) | Home Workshop Safety | Local-first workshop readiness and cleanliness guidance — tool-dock sensing, dust/air telemetry, PPE acknowledgement, bench organization, and explainable advisory cards without machine control |
 
 ## Structure
 

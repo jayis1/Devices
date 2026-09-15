@@ -1,0 +1,6 @@
+Reference,Quantity,Part Number,Manufacturer,Description,Package,Notes,Author
+U1,1,CM4102032,Raspberry Pi,Raspberry Pi Compute Module 4 2GB Wi-Fi,Module,Local service host,jayis1
+U2,1,ESP32-S3-WROOM-1,Espressif,Radio watchdog coprocessor,Module,3.3V,jayis1
+U3,1,SX1262IMLTRT,Semtech,Sub-GHz LoRa transceiver,QFN,Regional radio configuration required,jayis1
+U4,1,TPS2115ADRBR,Texas Instruments,Power mux,VSON,Adapter/UPS selection,jayis1
+F1,1,MF-R300,Bourns,3A resettable fuse,Radial,5V input protection,jayis1
