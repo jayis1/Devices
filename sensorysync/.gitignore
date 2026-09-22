@@ -1,0 +1,10 @@
+# Authored by jayis1
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+build/
+.env
+model-baseline.json
+*.kicad_prl
+*-backups/

@@ -1,0 +1,6 @@
+Reference,Part Number,Description,Quantity,Voltage/Package,Notes
+U1,STM32G0B1CBT6,Cortex-M0+ MCU,1,1.7-3.6 V,Prototype candidate; verify lifecycle
+U2,SX1262IMLTRT,Sub-GHz transceiver,1,1.8-3.7 V,Prototype candidate; verify lifecycle
+Q1,AO3400A,N MOSFET LED PWM,1,30 V,SELV output only
+Q2,AO3400A,N MOSFET fan enable,1,30 V,SELV output only
+U3,AP2112K-3.3TRG1,3.3 V LDO,1,2.5-6 V,Prototype candidate; verify lifecycle

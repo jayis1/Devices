@@ -1,0 +1,6 @@
+Reference,Part Number,Description,Quantity,Voltage/Package,Notes
+U1,ESP32-C6-WROOM-1-N8,Wi-Fi/802.15.4 MCU,1,3.3 V,Prototype candidate; verify lifecycle
+U2,SX1262IMLTRT,Sub-GHz transceiver,1,1.8-3.7 V,Prototype candidate; verify lifecycle
+U3,SCD41-D-R2,CO2 sensor,1,2.4-5.5 V,Prototype candidate; verify lifecycle
+U4,VEML7700-TT,Ambient light sensor,1,2.5-3.6 V,Prototype candidate; verify lifecycle
+U5,INMP441ACEZ-R7,I2S microphone,1,1.8-3.3 V,Prototype candidate; verify lifecycle

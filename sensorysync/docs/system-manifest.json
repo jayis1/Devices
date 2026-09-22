@@ -1,0 +1,18 @@
+{
+  "system": "SensorySync",
+  "slug": "sensorysync",
+  "author": "jayis1",
+  "version": "0.1.0",
+  "protocol_version": 1,
+  "transport": "SX1262 Sub-GHz TDMA star; BLE 5.3 provisioning",
+  "topic_template": "sensorysync/v1/{node_id}/{channel}",
+  "nodes": [
+    {"id": 1, "name": "sensory-hub", "soc": "Raspberry Pi CM4 + ESP32-S3", "role": "coordinate", "supply": "USB-C 5 V"},
+    {"id": 16, "name": "room-beacon", "soc": "ESP32-C6", "role": "observe", "supply": "USB-C 5 V"},
+    {"id": 32, "name": "comfort-band", "soc": "nRF52840", "role": "observe", "supply": "CR2477"},
+    {"id": 48, "name": "ambient-controller", "soc": "STM32G0B1", "role": "act", "supply": "USB-C 5 V"},
+    {"id": 64, "name": "quiet-pod", "soc": "RP2040", "role": "act", "supply": "USB-C 5 V"}
+  ],
+  "command_ttl_seconds_max": 30,
+  "safety": {"mains_switching": false, "medical_device": false, "local_manual_override": true, "stale_is_healthy": false}
+}

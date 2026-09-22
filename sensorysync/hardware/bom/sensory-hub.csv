@@ -1,0 +1,5 @@
+Reference,Part Number,Description,Quantity,Voltage/Package,Notes
+U1,Raspberry Pi CM4102000,Compute Module 4 2 GB RAM,1,5 V,Prototype candidate; verify lifecycle
+U2,ESP32-S3-WROOM-1-N16R8,Wi-Fi/radio coprocessor,1,3.3 V,Prototype candidate; verify lifecycle
+U3,SX1262IMLTRT,Sub-GHz transceiver,1,1.8-3.7 V,Prototype candidate; verify lifecycle
+U4,TPS2115ADRBR,Power mux,1,2.8-5.5 V,Prototype candidate; verify lifecycle

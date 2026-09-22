@@ -1,0 +1,6 @@
+Reference,Part Number,Description,Quantity,Voltage/Package,Notes
+U1,nRF52840-QIAA-R,BLE MCU,1,1.7-5.5 V,Prototype candidate; verify lifecycle
+U2,BMI270,IMU,1,1.71-3.6 V,Prototype candidate; verify lifecycle
+U3,TPS62743YFPR,Buck regulator,1,2.2-5.5 V,Prototype candidate; verify lifecycle
+BT1,CR2477,Coin cell,1,3 V,Prototype candidate; verify lifecycle
+SW1,EVQ-P7A01P,Tactile switch,1,Low voltage,Prototype candidate; verify lifecycle
