@@ -1,0 +1,5 @@
+Component,Quantity,Description,Manufacturer Part Number,Datasheet,Author
+MCU,1,Bluetooth LE SoC,nRF52840-QIAA-R,https://www.nordicsemi.com/,jayis1
+Radio,1,Sub-GHz transceiver,SX1262IMLTRT,https://www.semtech.com/,jayis1
+Display,1,2.13 inch e-paper display,GDEH0213B72,https://www.good-display.com/,jayis1
+Battery,1,3V lithium coin cell,CR2477,https://www.panasonic-batteries.com/,jayis1

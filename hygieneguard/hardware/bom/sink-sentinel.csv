@@ -1,0 +1,5 @@
+Component,Quantity,Description,Manufacturer Part Number,Datasheet,Author
+MCU,1,Wi-Fi 6 MCU module,ESP32-C6-WROOM-1-N8,https://www.espressif.com/,jayis1
+Radio,1,Sub-GHz transceiver,SX1262IMLTRT,https://www.semtech.com/,jayis1
+Flow sensor,1,Hall-effect water flow sensor,YF-S201,https://components101.com/,jayis1
+Temperature humidity,1,I2C sensor,SHTC3,https://sensirion.com/,jayis1

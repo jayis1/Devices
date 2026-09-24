@@ -1,0 +1,3 @@
+# Sink Sentinel connection notes
+
+ESP32-C6 GPIO6/7 I2C connects to SHTC3 at 0x70 with 4.7 k pull-ups. YF-S201 open-collector pulse output enters GPIO2 through a 3.3 V-safe optocoupler/transistor interface. Leak strip feeds GPIO0 ADC through a high-impedance divider. SX1262 uses GPIO10 NSS, GPIO11 MOSI, GPIO12 MISO, GPIO13 SCK, GPIO5 DIO1. Keep 5 V plumbing-adjacent wiring isolated from 3.3 V logic; enclosure remains outside splash zones.

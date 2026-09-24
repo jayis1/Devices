@@ -1,0 +1,5 @@
+Component,Quantity,Description,Manufacturer Part Number,Datasheet,Author
+MCU,1,ARM Cortex-M0+ MCU,STM32G0B1CBT6,https://www.st.com/,jayis1
+Radio,1,Sub-GHz transceiver,SX1262IMLTRT,https://www.semtech.com/,jayis1
+Load-cell ADC,1,24-bit bridge ADC,HX711,https://www.aviaic.com/,jayis1
+Temperature sensor,1,High accuracy I2C sensor,TMP117AIDR,https://www.ti.com/,jayis1

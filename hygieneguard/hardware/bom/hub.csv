@@ -1,0 +1,4 @@
+Component,Quantity,Description,Manufacturer Part Number,Datasheet,Author
+Compute module,1,Raspberry Pi CM4 2GB Wi-Fi,CM4102000,https://www.raspberrypi.com/products/compute-module-4/,jayis1
+Radio MCU,1,Wi-Fi 6 ESP32-C6 module,ESP32-C6-WROOM-1-N8,https://www.espressif.com/,jayis1
+Sub-GHz radio,1,LoRa transceiver,SX1262IMLTRT,https://www.semtech.com/,jayis1

@@ -1,0 +1,3 @@
+# Hygiene Hub connection notes
+
+CM4 IO board receives protected 5 V/3 A USB-C input. CM4 UART0 GPIO14 TX/GPIO15 RX connects through 3.3 V UART to ESP32-C6 gateway. CM4 Ethernet connects to an isolated RJ45 magjack. ESP32-C6 SPI2 GPIO10/11/12/13 plus GPIO5 DIO1 connects to SX1262; use a 50-ohm antenna trace and keep-out. A 5 V fuse, reverse-polarity MOSFET, 3.3 V buck, and 100 nF decoupling per IC are required.
