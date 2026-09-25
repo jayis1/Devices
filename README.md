@@ -105,6 +105,7 @@ These aren't single chips on a board. Each device system here is:
 | 71 | WorkshopSync | 5 (Workshop Hub, Tool Dock×N, Air Sentinel×N, PPE Tag, Bench Mat) | Home Workshop Safety | Local-first workshop readiness and cleanliness guidance — tool-dock sensing, dust/air telemetry, PPE acknowledgement, bench organization, and explainable advisory cards without machine control |
 | 72 | SensorySync | 5 (Sensory Hub, Room Beacon×N, Comfort Band, Ambient Controller, Quiet Pod) | Sensory Accessibility | Local-first sensory-accessible space regulation — private room-condition awareness, explicit comfort requests, bounded SELV light/fan/pink-noise controls, and explainable overload cards |
 | 73 | HygieneGuard | 4 (Hygiene Hub, Sink Sentinel×N, Smart Dispenser×N, Door Beacon×N) | Household Hygiene | Local-first hand-hygiene station readiness — soap and sink telemetry, voluntary routine feedback, refill guidance, and privacy-preserving household maintenance cards |
+| 74 | TactileSync | 5 (Tactile Hub, Haptic Band, Room Anchor×N, Door Navigator, Appliance Marker×N) | Deafblind Accessibility | Local-first deafblind home orientation and communication — UWB room confidence, user-owned tactile event cues, physical appliance markers, and privacy-preserving household coordination |
 
 ## Structure
 

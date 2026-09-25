@@ -1,0 +1,6 @@
+Ref,Qty,Description,Manufacturer Part Number,Package,Notes
+U1,1,BLE SoC,nRF52840-QIAA,AQFN,Anchor controller
+U2,1,UWB transceiver,DW3000,QFN,Use approved RF layout
+U3,1,Low IQ buck,TPS62743YFPR,DSBGA,AA to 3.3 V
+B1,2,Lithium AA cell,L91,AA,Primary cells only
+SW1,1,Tactile switch,TL3301AF160QG,SMT,Pair/reset

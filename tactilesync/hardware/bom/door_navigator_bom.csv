@@ -1,0 +1,6 @@
+Ref,Qty,Description,Manufacturer Part Number,Package,Notes
+U1,1,Wi-Fi and BLE module,ESP32-C6-WROOM-1,N/A,Door node
+U2,1,Haptic driver,DRV2605LDSGR,WSON,ERM/LRA driver
+U3,1,3.3 V buck,AP63203WU-7,TSOT-23-6,USB-C input
+S1,1,Reed switch,MK24-A-3,TH,Door state
+M1,1,Linear resonant actuator,C10-100,Wire,Route cue

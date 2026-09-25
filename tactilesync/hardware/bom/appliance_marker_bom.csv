@@ -1,0 +1,6 @@
+Ref,Qty,Description,Manufacturer Part Number,Package,Notes
+U1,1,BLE SoC,nRF52840-QIAA,AQFN,Marker controller
+U2,1,Haptic driver,DRV2605LDSGR,WSON,Load-switched
+U3,1,Load switch,TPS22916CYFPR,DSBGA,Haptic rail only
+B1,1,Coin cell,CR2477,Cell,1000 mAh nominal
+SW1,1,Sealed tactile switch,KMR231GLFS,SMT,Physical acknowledge

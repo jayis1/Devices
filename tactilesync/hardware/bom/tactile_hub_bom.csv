@@ -1,0 +1,7 @@
+Ref,Qty,Description,Manufacturer Part Number,Package,Notes
+U1,1,Compute module,Raspberry Pi CM4,SO-DIMM,2 GB Lite suitable
+U2,1,Wi-Fi and BLE module,ESP32-C6-WROOM-1,N/A,Coordinator coprocessor
+U3,1,2 A buck regulator,TPS62130RGTR,VQFN,5 V to 3.3 V
+J1,1,USB-C receptacle,USB4105-GF-A,TH,Power input only
+F1,1,Resettable fuse,MF-R250,TH,2.5 A hold
+SW1,1,Tactile switch,TL3301AF160QG,SMT,Commissioning
