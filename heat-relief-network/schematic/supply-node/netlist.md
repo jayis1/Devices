@@ -1,0 +1,1 @@
+Netlist design note (not a KiCad schematic): ESP32-C6-WROOM-1 3.3 V module; HX711 DOUT/SCK on GPIO4/5; optical beam receiver on GPIO10. Protected Li-ion cell and regulator must support radio burst current. Verify load-cell mounting and beam alignment during calibration.

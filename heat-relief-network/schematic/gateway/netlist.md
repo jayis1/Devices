@@ -1,0 +1,1 @@
+Netlist design note (not a KiCad schematic): ESP32-S3-WROOM-1-N8 powered by certified 5 V USB supply into 3.3 V regulator; I2C status display on GPIO8/9; UART debug GPIO43/44. Keep antenna clearance per module guide. No mains wiring.

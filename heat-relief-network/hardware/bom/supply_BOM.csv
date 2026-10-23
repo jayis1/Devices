@@ -1,0 +1,4 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD_est,Source
+U1,1,ESP32-C6-WROOM-1,Espressif,ESP32-C6-WROOM-1,Wi-Fi/BLE MCU module,module,3.20,manufacturer product page; estimate
+U2,1,HX711,Avia Semiconductor,HX711,24-bit load-cell ADC,SSOP-16,0.60,manufacturer product page; estimate
+LS1,1,Load cell 5 kg,Generic,verify before procurement,water vessel load measurement,bar,8.00,prototype estimate

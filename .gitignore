@@ -2,3 +2,15 @@
 _generate_mobilitysync.py
 create_moldsync.py
 generate_outagesync.py
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+.env
+.env.*
+!.env.example
+build/
+*.bak
+*-backups/
+*.kicad_prl
+fp-info-cache

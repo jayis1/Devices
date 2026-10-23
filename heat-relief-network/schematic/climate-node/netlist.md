@@ -1,0 +1,1 @@
+Netlist design note (not a KiCad schematic): ESP32-C6-WROOM-1 3.3 V module; SHT31-DIS-B and SCD41 share I2C on GPIO6/7 with 3.3 V pull-ups; protected 1-cell battery input through regulator. Verify module pins and sensor startup current before PCB layout.
