@@ -111,6 +111,7 @@ These aren't single chips on a board. Each device system here is:
 | 77 | LibraryLoop | 3 (Site Hub, Seat Cluster×N, Doorway Counter) | Public Library Shared Spaces | Privacy-first, offline-capable anonymous seat availability and aggregate study-space utilization for walk-in public libraries |
 | 78 | ToolShare | 4 (Hub, Shelf Scale×2, Intake Station) | Community Tool Libraries | Local-first tool availability and staff-entered return coordination without borrower tracking |
 | 79 | FrostLine | 4+ (Site Hub, Air Sentinel×2+, Surface Probe×1+) | Winter Walkway Safety | Local-first microclimate and surface-condition inspection advisories for icy pedestrian routes; human inspection remains mandatory |
+| 80 | QueueKind | 3 (Hub/Display, Door Counter, Desk Button) | Public-Service Queue Access | Privacy-first local wait-band estimates from anonymous doorway counts and staff-declared service completions |
 
 ## Structure
 

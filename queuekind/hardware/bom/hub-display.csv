@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Est_Unit_USD
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi Ltd,SC0510,Local BLE/Wi-Fi hub,15
+DS1,1,5-inch HDMI display,Generic,VERIFY,Public estimate display; verify power draw and enclosure,30
+PS1,1,Certified 5V USB supply,Generic,VERIFY,Supply sized to display and hub after measurement,12

@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Est_Unit_USD
+U1,1,ESP32-C6 development module,Espressif Systems,ESP32-C6-DEVKITC-1,USB-powered BLE-capable development board; verify pin mapping,18
+S1-S2,2,IR break-beam pair,Generic,VERIFY,5V optical pair; verify receiver output voltage and range,8
+R1-R2,2,Input conditioning parts,Generic,VERIFY,Interface receiver outputs to 3.3V GPIO after measurement,1
+D1,1,Status LED,Generic,VERIFY,Indicator and current-limiting resistor,0.2
