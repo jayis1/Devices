@@ -1,0 +1,6 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,Unit Cost USD (est),Notes
+U1,1,Nordic Semiconductor,nRF52840 module BLE,Radio MCU module,Module,8.00,Exact certified module/antenna SKU to verify
+U2,1,Maxim Integrated,DS18B20,Digital temperature probe,TO-92 probe assembly,4.00,Use genuine sealed probe; 1-Wire pull-up
+S1,1,Generic,Reed switch,Door state switch,Assembly,0.50,
+BZ1,1,Generic,3V piezo buzzer,Local advisory alarm,Assembly,1.00,Transistor driver if current requires
+B1,2,Generic,AA alkaline cell,Primary battery,AA,0.60,No charging

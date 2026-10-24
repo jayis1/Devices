@@ -1,0 +1,6 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,Unit Cost USD (est),Notes
+U1,1,Espressif,ESP32-C3-MINI-1,Intake interface MCU,Module,3.50,Wi-Fi off in normal mode
+LS1,1,Generic,5kg single-point load cell,Receipt scale,Bar/beam,5.00,Capacity depends on platform
+U2,1,Avia Semiconductor,HX711,Load-cell ADC,SOIC-16,0.70,Verify carrier
+DS1,1,Generic,2.4in SPI LCD,Volunteer interface,Module,3.00,Touch not required
+J1,1,Generic,USB-C-5V,Power connector,USB-C,1.00,Certified external supply

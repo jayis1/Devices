@@ -1,0 +1,4 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,Unit Cost USD (est),Notes
+U1,1,Espressif,ESP32-S3-WROOM-1-N8,Wi-Fi/BLE hub module,Module,6.00,Verify antenna variant
+J1,1,Generic,USB-C-5V,Power connector,USB-C,1.00,Certified external supply
+D1,1,Generic,LED-STATUS,Status LED,0603,0.10,
