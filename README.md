@@ -110,6 +110,7 @@ These aren't single chips on a board. Each device system here is:
 | 76 | PantryLink | 4+ (Site Hub, Shelf Scale×N, Fridge Sentinel, Intake Dock) | Community Food Access | Local-first pantry inventory and refrigerator monitoring for volunteer-run food-sharing sites; coarse availability, no recipient tracking |
 | 77 | LibraryLoop | 3 (Site Hub, Seat Cluster×N, Doorway Counter) | Public Library Shared Spaces | Privacy-first, offline-capable anonymous seat availability and aggregate study-space utilization for walk-in public libraries |
 | 78 | ToolShare | 4 (Hub, Shelf Scale×2, Intake Station) | Community Tool Libraries | Local-first tool availability and staff-entered return coordination without borrower tracking |
+| 79 | FrostLine | 4+ (Site Hub, Air Sentinel×2+, Surface Probe×1+) | Winter Walkway Safety | Local-first microclimate and surface-condition inspection advisories for icy pedestrian routes; human inspection remains mandatory |
 
 ## Structure
 

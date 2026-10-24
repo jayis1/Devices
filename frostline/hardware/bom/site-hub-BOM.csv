@@ -1,0 +1,7 @@
+ref,qty,part_number,manufacturer,description,unit_cost_usd,supplier
+U1,1,Raspberry Pi Pico W,Raspberry Pi,RP2040 Wi-Fi dev board,7,authorized reseller
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz LoRa transceiver IC; requires RF matching and regional antenna,9,authorized reseller
+U3,1,DS3231M+,Analog Devices,RTC module/IC,4,authorized reseller
+D1,1,0603 LED,Generic,Status indicator,0.2,commodity
+PS1,1,5V 1A USB-C supply,Generic,certified isolated adapter,8,approved supply
+PCB1,1,Prototype PCB,Generic,custom PCB estimate,12,prototype fabrication

@@ -1,0 +1,8 @@
+ref,qty,part_number,manufacturer,description,unit_cost_usd,supplier
+U1,1,STM32L072KZ,STMicroelectronics,STM32L0 MCU exact package verify pin mapping,5,authorized reseller
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz LoRa transceiver IC; requires RF matching and regional antenna,9,authorized reseller
+U3,1,MAX31865,Analog Devices,RTD-to-digital converter,5,authorized reseller
+RTD1,1,PT1000 class B probe,Generic,stainless contact RTD assembly,8,verify probe insulation
+B1,1,Protected 18650 2600mAh,Protected cell supplier,Li-ion cell pack,8,authorized reseller
+SOL1,1,1W solar panel,Generic,small panel with charge controller,6,verify charging design
+PCB1,1,Prototype PCB,Generic,custom PCB estimate,7,prototype fabrication
