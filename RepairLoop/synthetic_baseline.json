@@ -1,0 +1,10 @@
+{
+  "features": [
+    "occupancy",
+    "tool_present"
+  ],
+  "rule": "ready = 1 - occupancy",
+  "train_rows": 80,
+  "evaluation_rows": 20,
+  "synthetic": true
+}

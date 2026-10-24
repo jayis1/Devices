@@ -1,0 +1,4 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCostUSD_est,Supplier
+U1,1,Espressif,ESP32-C6-WROOM-1-N8,Wi-Fi/BLE module,Module,TBD,manufacturer/distributor
+U2,1,Generic,TBD,Air quality sensor module (select exact part),Module,TBD,TBD
+J1,1,Generic,TBD,USB 5V input and protection,Connector,TBD,TBD

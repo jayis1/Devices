@@ -1,0 +1,4 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCostUSD_est,Supplier
+U1,1,Nordic Semiconductor,nRF52840, BLE SoC/module variant to select,Module,TBD,manufacturer/distributor
+U2,1,Generic,TBD,HX711 load-cell interface module,Module,TBD,TBD
+J1,1,Generic,TBD,USB 5V input and protection,Connector,TBD,TBD
