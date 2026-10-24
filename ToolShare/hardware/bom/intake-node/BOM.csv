@@ -1,0 +1,6 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Notes
+U1,1,ESP32-C6 module,Espressif,ESP32-C6-WROOM-1,Wi-Fi/BLE MCU module,module,,Board-level design; verify variant
+U2,1,PN532 NFC module,NXP,PN532,13.56MHz NFC reader,module,,Confirm board interface and voltage
+S1,2,Momentary button,Various,TBD-verify,Staff event buttons,through-hole,,Non-latching
+D1,1,LED,Various,TBD-verify,Status indicator,through-hole,,Include series resistor
+J1,1,USB 5V supply,Various,TBD-verify,regulated supply,USB,,Use certified supply

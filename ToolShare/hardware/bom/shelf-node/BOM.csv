@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Notes
+U1,1,ESP32-C6 module,Espressif,ESP32-C6-WROOM-1,Wi-Fi/BLE MCU module,module,,Board-level design; verify variant
+U2,1,HX711 breakout,Various,HX711,24-bit load-cell ADC,module,,Logic level compatibility verify
+S1,1,5kg load cell,Various,TBD-verify,Bar load sensor,bar,,Select mechanical format to suit bay
+J1,1,USB 5V supply,Various,TBD-verify,regulated supply,USB,,Use certified supply
