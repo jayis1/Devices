@@ -108,6 +108,7 @@ These aren't single chips on a board. Each device system here is:
 | 74 | TactileSync | 5 (Tactile Hub, Haptic Band, Room Anchor×N, Door Navigator, Appliance Marker×N) | Deafblind Accessibility | Local-first deafblind home orientation and communication — UWB room confidence, user-owned tactile event cues, physical appliance markers, and privacy-preserving household coordination |
 | 75 | Heat Relief Network | 3 (Site Gateway, Climate Node, Supply Node) | Community Heat Resilience | Privacy-preserving cooling-site readiness monitoring for indoor climate and drinking-water availability |
 | 76 | PantryLink | 4+ (Site Hub, Shelf Scale×N, Fridge Sentinel, Intake Dock) | Community Food Access | Local-first pantry inventory and refrigerator monitoring for volunteer-run food-sharing sites; coarse availability, no recipient tracking |
+| 77 | LibraryLoop | 3 (Site Hub, Seat Cluster×N, Doorway Counter) | Public Library Shared Spaces | Privacy-first, offline-capable anonymous seat availability and aggregate study-space utilization for walk-in public libraries |
 
 ## Structure
 

@@ -1,0 +1,6 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Supplier,Notes
+U1,1,ESP32-C6-MINI-1,Espressif,Wi-Fi/BLE/802.15.4 module,module,5.00,Espressif store,Exact antenna variant required
+U2,1,VL53L1CXV0FY/1,STMicroelectronics,Time-of-flight ranging sensor,LGA-12,6.00,DigiKey,Estimate; ambient/installation validation
+U3,1,MAX3485ESA+,Analog Devices,3.3V RS-485 transceiver,SOIC-8,2.20,DigiKey,Estimate
+J1,1,USB-C- receptacle generic,Multiple,USB-C connector,TH,1.00,Distributor,5V only
+C1-C3,3,100nF X7R,Multiple,Local bypass capacitor,0603,0.10,Distributor,Estimate

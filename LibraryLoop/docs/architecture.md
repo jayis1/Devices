@@ -1,0 +1,7 @@
+# Architecture and design constraints
+
+The hub aggregates four-seat clusters and optional aggregate doorway counts. Seat occupancy is a local threshold classification with a validity bit; doorway estimates are for trend comparison only. Neither subsystem tracks people. The RP2040 is selected for low-cost local polling; ESP32-C6 is only on the doorway node for its 3.3 V Wi-Fi/BLE-capable module, with Wi-Fi disabled unless provisioned. RS-485 is chosen for inexpensive multi-drop wiring; bus termination at both physical ends, biasing at one point, twisted pair, common reference, and transient protection are required. Building wiring topology and cable length must be reviewed at the site.
+
+Hub behavior is local-first. Missing node for 90 seconds -> its seats show unknown; backend or WAN outage -> local view remains available, bounded 24-hour aggregate queue, visible gap marker when full. Power loss -> no data is asserted current. Default system is read-only; no seat assignment, access control, evacuation, or staff performance monitoring. Occupancy count does not equal people count.
+
+Threat assumptions: physical bus can be accessed by maintenance personnel; prototype messages are unauthenticated. Do not expose raw bus or demo API to the Internet. Production work requires per-node identity, authenticated message integrity, TLS, role-based access, retention/deletion enforcement, accessibility review, EMC/radio certification, and an independent privacy assessment.

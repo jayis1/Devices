@@ -1,0 +1,8 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Supplier,Notes
+U1,1,PICO-W, Raspberry Pi Ltd,RP2040 Wi-Fi development board,module,8.00,Adafruit,Estimate; variant check
+U2,1,MAX3485ESA+,Analog Devices,3.3V RS-485 transceiver,SOIC-8,2.20,DigiKey,Verify protection/termination design
+D1,1,SM712,Semtech,RS-485 TVS protection,SOIC-8,1.50,DigiKey,Estimate
+J1,1,USB-C- receptacle generic,Multiple,USB-C power connector,TH,1.00,Distributor,Board connector
+DS1,1,SSD1306-0.96,Multiple,OLED status display,I2C module,5.00,Adafruit,Estimate
+C1-C3,3,100nF X7R,Multiple,Local bypass capacitor,0603,0.10,Distributor,Estimate
+R1,1,120R 1%,Multiple,Selectable bus termination,0805,0.05,Distributor,Estimate

@@ -1,0 +1,7 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Supplier,Notes
+U1,1,RP2040, Raspberry Pi Ltd,RP2040 module or Pico board,module,6.00,Adafruit,Exact board/module TBD verify pin access
+U2,1,ADS1115IDGSR,Texas Instruments,4-channel 16-bit ADC,VSSOP-10,2.50,DigiKey,Address 0x48
+U3,1,MAX3485ESA+,Analog Devices,3.3V RS-485 transceiver,SOIC-8,2.20,DigiKey,Estimate
+S1-S4,4,FSR 402,Interlink Electronics,Force sensing resistor,film,6.00,Distributor,1.50 each estimate; calibration required
+R1-R4,4,10k 1%,Multiple,Divider resistors,0603,0.20,Distributor,Estimate; confirm divider direction
+J1,1,6P terminal block,Multiple,Power and RS-485 connector,TH,1.00,Distributor,Estimate

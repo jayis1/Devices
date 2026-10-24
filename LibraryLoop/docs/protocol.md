@@ -1,0 +1,5 @@
+# LibraryLoop wire protocol v1
+
+All multi-byte values are little-endian. Frame size is exactly 20 bytes. Offsets: 0 version (u8=1), 1 kind (u8: 1 seat aggregate, 2 doorway aggregate), 2 node ID (u8), 3 reserved (zero), 4 sequence (u16, wraps modulo 65536), 6 occupied bitmask (u16), 8 valid bitmask (u16), 10 uptime seconds (u32), 14–17 reserved (zero), 18 CRC-16/CCITT-FALSE (u16 over bytes 0–17, init 0xffff, poly 0x1021, xorout 0). Occupied bits must be a subset of valid bits; unknown sensors have valid=0. The 20-byte record is carried inside a Modbus RTU register payload; the mapping and address straps are conceptual pending bus implementation.
+
+Frames do not include a timestamp; hub receipt time is authoritative. Sequence is per-node, boot-scoped (boot resets sequence); production needs a boot counter or session ID to prevent collisions across restarts. Duplicate suppression and stale status are requirements, not implemented in the C library. CRC is not authentication. Physical access to the isolated RS-485 bus is assumed. MQTT maps decoded aggregates to the JSON contract in api.md; never publish raw per-person events.
