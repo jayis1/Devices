@@ -1,5 +1,7 @@
 # Approach node connection reference (not a KiCad schematic)
 
+Documented by jayis1.
+
 | Ref | Part | Connections |
 |---|---|---|
 | U1 | MDBT50Q nRF52840 module | VDD/GND; clear/block inputs P0.11/P0.12; tilt P0.13; LED P0.15 |

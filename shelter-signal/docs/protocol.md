@@ -1,5 +1,7 @@
 # Protocol v1
 
+Documented by jayis1.
+
 Transport is intended as a BLE GATT notification: one 20-byte frame per event. Little-endian fields. `firmware/common/protocol.h` is normative.
 
 | Offset | Bytes | Field |

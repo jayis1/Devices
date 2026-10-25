@@ -1,5 +1,7 @@
 # ShelterSignal
 
+Invented and documented by [jayis1](https://github.com/jayis1).
+
 Local-first, privacy-preserving readiness network for public transit shelters. It helps a transit-maintenance crew find actionable problems—failed lighting, water pooling, damaged seating, blocked step-free approaches—without monitoring passengers or claiming that a shelter is safe.
 
 ## Product brief

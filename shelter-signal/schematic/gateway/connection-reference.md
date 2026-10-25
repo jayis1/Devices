@@ -1,5 +1,7 @@
 # Gateway connection reference (not a KiCad schematic)
 
+Documented by jayis1.
+
 Conceptual pin/net list only; no KiCad library mapping, ERC or PCB exists.
 
 | Ref | Part | Connections |

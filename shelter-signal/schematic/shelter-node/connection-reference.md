@@ -1,5 +1,7 @@
 # Shelter node connection reference (not a KiCad schematic)
 
+Documented by jayis1.
+
 | Ref | Part | Connections |
 |---|---|---|
 | U1 | MDBT50Q nRF52840 module | VDD/GND; I2C SDA P0.26, SCL P0.27; light ADC P0.04; contact P0.11 |
