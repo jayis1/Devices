@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,Unit_Cost_USD,Supplier
+U1,1,RP2040,Raspberry Pi,RP2040,QFN56 gateway MCU,QFN56,1.00,Estimate
+U2,1,ESP32-C6-MINI-1,Espressif,ESP32-C6-MINI-1,Wi-Fi and BLE module,module,4.50,Estimate
+U3,1,USB-C connector,Generic,NA,Power connector,SMT,0.60,Estimate
+U4,1,QSPI flash,Generic,NA,2MB storage,SOIC8,0.70,Estimate
+Power,1,5V adapter,Generic,NA,Certified external adapter,external,8.00,Estimate
+PCB,1,Prototype PCB,Generic,NA,Unrouted design allowance,custom,4.00,Estimate

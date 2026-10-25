@@ -119,6 +119,7 @@ These aren't single chips on a board. Each device system here is:
 || 85 | [CurbCue](./curbcue/) | 4 (Hub, Curb Node×N, Crossing Button, Route Beacon) | Accessible Sidewalk Maintenance | Local-first detection of blocked curb ramps and sidewalk hazards with accessible, human-verified maintenance routing |
 || 86 | [LiftLink](./liftlink/) | 3 (Site Hub, Lift Sentinel×N, Landing Beacon) | Accessible Transit Reliability | Privacy-first, advisory elevator availability and accessible-route disruption reporting for transit stations; never controls lift machinery |
 || 87 | [MealBridge](./mealbridge/) | 4 (Hub, Shelf Scale, Fridge Sentinel, Pantry Station) | Shared-Kitchen Coordination | Local-first shared pantry inventory and spoilage reminders from anonymous weight and temperature events; no occupant tracking or appliance control |
+|| 88 | [RefillReady](./refill-ready/) | 3 (Fixture Flow Node, Site Gateway, Path-Check Node) | Public Drinking-Water Fixture Readiness | Local-first public bottle-refill station fault reports and manual accessibility-path checks without visitor tracking or water-quality claims |
 
 ## Structure
 

@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,Unit_Cost_USD,Supplier
+U1,1,nRF52840 module,Raytac,MDBT50Q-RX,BLE MCU module,module,8.50,Estimate
+U2,1,LIS2DH12TR,ST,LIS2DH12TR,3-axis accelerometer,12LGA,2.20,Estimate
+U3,1,Li-ion cell 1000mAh,Generic,NA,Protected cell,cell,5.00,Estimate
+U4,1,Charger module,Generic,NA,USB charging/protection,board,3.00,Estimate
+S1,1,Push button,Generic,NA,User inspection input,THT,0.20,Estimate
+PCB,1,Prototype PCB,Generic,NA,Unrouted design allowance,custom,5.00,Estimate

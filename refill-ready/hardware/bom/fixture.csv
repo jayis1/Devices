@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,Unit_Cost_USD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,BLE MCU module,module,4.20,Distributor estimate
+U2,1,YF-S201,Generic,YF-S201,Flow sensor (potable certification unverified),inline,5.50,Distributor estimate
+J1,1,USB 5V supply,Generic,NA,Certified external supply,external,5.00,Estimate
+R1,2,Resistor 10k,Generic,0603,Pullup/current limiting,0603,0.05,Estimate
+S1,1,Leak switch,Generic,NA,Normally-open contact,external,1.00,Estimate
+PCB,1,Prototype PCB,Generic,NA,Unrouted design allowance,custom,3.00,Estimate
