@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,nRF52840 module,Nordic Semiconductor,nRF52840,module,Low-power BLE SoC module; verify certified carrier,8.00,estimate verify
+S1,1,Reed switch,Generic,NA,through-hole,Normally-open position contact,1.00,estimate
+BT1,1,AA alkaline cell,Generic,LR6,cell,Two cells required in series,1.00,estimate each

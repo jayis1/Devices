@@ -1,0 +1,6 @@
+#include "protocol.h"
+uint16_t cs_crc16(const uint8_t *p, size_t n) { uint16_t c=0xffff; while(n--){ c^=(uint16_t)*p++<<8; for(int i=0;i<8;i++) c=(c&0x8000)?(uint16_t)((c<<1)^0x1021):(uint16_t)(c<<1); } return c; }
+static void put16(uint8_t*p,uint16_t v){p[0]=(uint8_t)v;p[1]=(uint8_t)(v>>8);} static void put32(uint8_t*p,uint32_t v){put16(p,(uint16_t)v);put16(p+2,(uint16_t)(v>>16));}
+static uint16_t get16(const uint8_t*p){return (uint16_t)(p[0]|((uint16_t)p[1]<<8));} static uint32_t get32(const uint8_t*p){return (uint32_t)get16(p)|((uint32_t)get16(p+2)<<16);}
+size_t cs_encode(uint8_t*out,size_t cap,uint8_t type,uint16_t node,uint16_t seq,uint32_t up,const uint8_t*payload,uint8_t n){ if(!out||n>CS_MAX_PAYLOAD||(!payload&&n)||cap<(size_t)CS_HEADER_SIZE+n+2)return 0; out[0]=0xa5;out[1]=0x5a;out[2]=1;out[3]=type;put16(out+4,node);put16(out+6,seq);put32(out+8,up);out[12]=n;for(unsigned i=0;i<n;i++)out[13+i]=payload[i];put16(out+13+n,cs_crc16(out,13+n));return 15+n; }
+int cs_decode(const uint8_t*in,size_t n,uint8_t*t,uint16_t*node,uint16_t*seq,uint32_t*up,const uint8_t**p,uint8_t*plen){if(!in||n<15||in[0]!=0xa5||in[1]!=0x5a||in[2]!=1||in[12]>CS_MAX_PAYLOAD||n!=(size_t)15+in[12]||get16(in+n-2)!=cs_crc16(in,n-2))return 0;if(t)*t=in[3];if(node)*node=get16(in+4);if(seq)*seq=get16(in+6);if(up)*up=get32(in+8);if(p)*p=in+13;if(plen)*plen=in[12];return 1;}

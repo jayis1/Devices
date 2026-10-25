@@ -114,6 +114,7 @@ These aren't single chips on a board. Each device system here is:
 | 80 | QueueKind | 3 (Hub/Display, Door Counter, Desk Button) | Public-Service Queue Access | Privacy-first local wait-band estimates from anonymous doorway counts and staff-declared service completions |
 | 81 | RepairLoop | 4 (Hub, Bench Sensor, Tool Dock, Air Sentinel) | Community Repair Spaces | Local-first anonymous repair-bench readiness, shared-tool presence, and ventilation status for volunteer-run repair spaces |
 | 82 | ParkPulse | 3 (Site Gateway, Fountain Sentinel, Bin Sentinel) | Public Park Maintenance | Privacy-preserving fountain-flow and waste-bin condition monitoring with local maintenance triage |
+| 83 | [CommonSignal](./commonsignal/) | 4 (Hub, Route Sentinel, Equipment Tag, Climate Node) | Community Room Readiness | Anonymous opening checklist for route clearance, shared equipment, and room comfort |
 
 ## Structure
 

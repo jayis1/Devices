@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,ESP32-C6-WROOM-1,Espressif,ESP32-C6-WROOM-1,module,Wi-Fi/BLE MCU module,5.00,estimate verify
+U2,1,SHT31-DIS-B,Sensirion,SHT31-DIS-B,DFN,Temperature and RH sensor,4.00,estimate verify
+J1,1,USB 5V supply,Generic,NA,external,Enclosed supply,8.00,estimate

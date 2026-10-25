@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,Raspberry Pi Pico W,Raspberry Pi,SC0918,module,RP2040 hub module with CYW43439,10.00,estimate verify
+U2,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,UART radio coprocessor concept only,3.00,estimate verify
+J1,1,USB 5V supply,Generic,NA,external,Certified enclosed supply,8.00,estimate
