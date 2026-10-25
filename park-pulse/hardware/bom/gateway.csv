@@ -1,0 +1,4 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Approx_Unit_USD,Supplier_Link_or_Note
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi,Gateway SBC,Board,15.0,candidate; availability varies
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz radio module implementation,Module,8.0,candidate module requires region review
+P1,1,USB-C 5V supply,Generic certified,SELV power supply,Supply,8.0,certified supply only

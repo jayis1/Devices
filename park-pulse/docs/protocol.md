@@ -1,0 +1,3 @@
+# Radio protocol v1
+
+Little-endian fixed frame: version u8 (=1), node_id u16, sequence u32, type u8, value_milli u32, uptime_s u32, crc16_ccitt u16 over preceding 16 bytes (total 18). Types: 1 fountain_flow_ml_min, 2 fountain_leak (0/1000), 3 bin_fill_permille, 4 health. Units are explicit; timestamps are gateway receive UTC plus node uptime. Sequence increments on each transmission; receiver drops duplicate/older sequence per node, marks gaps, and expires telemetry after 30 minutes. CRC is error detection only, not authentication. Radio commands are deliberately absent. Regional radio power/duty-cycle configuration is a deployment responsibility.

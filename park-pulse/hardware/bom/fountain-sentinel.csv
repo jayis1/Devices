@@ -1,0 +1,5 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Approx_Unit_USD,Supplier_Link_or_Note
+U1,1,ESP32-C6-MINI-1,Espressif,MCU module,Module,4.5,candidate; verify
+U2,1,SX1262IMLTRT,Semtech,Sub-GHz transceiver,QFN,3.2,candidate; regional design
+S1,1,FS300A,YF-S201 compatible vendor,Pulse flow sensor,Inline,5.0,candidate; validate water contact
+B1,1,IFR18650-15E,EVE Energy,LiFePO4 cell,18650,6.0,candidate; protected pack required

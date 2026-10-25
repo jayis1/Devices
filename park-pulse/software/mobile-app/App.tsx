@@ -1,0 +1,1 @@
+import React from "react"; import { SafeAreaView, Text } from "react-native"; export default function App(){ return <SafeAreaView><Text>ParkPulse — demo steward status. Connect to a configured API to view site telemetry.</Text></SafeAreaView>; }
