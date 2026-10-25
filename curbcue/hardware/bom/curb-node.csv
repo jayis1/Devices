@@ -1,0 +1,7 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD,Source
+U1,1,XIAO-nRF52840,Seeed Studio,nRF52840 module board,Module,12.00,manufacturer product page estimate
+U2,1,NAU7802? HX711,Avia Semiconductor,24-bit load cell ADC breakout,SOIC-16,4.00,representative; verify module
+U3,1,LIS3DH,STMicroelectronics,3-axis accelerometer,3x3 LGA,3.00,manufacturer
+S1,1,HBM-10KG,HBM,10kg strain-gauge load cell,bar,8.00,representative
+B1,1,18650 protected 3000mAh,Multiple,protected cell,18650,8.00,representative
+U4,1,MCP73831T-2ACI/OT,Microchip,Li-ion charger, SOT-23-5,1.00,manufacturer

@@ -1,0 +1,3 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD,Source
+U1,1,XIAO-nRF52840,Seeed Studio,nRF52840 module,Module,12.00,manufacturer estimate
+S1,1,IP67 momentary switch,Multiple,weatherproof report button,panel,4.00,representative

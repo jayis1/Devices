@@ -1,0 +1,5 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD,Source
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi,Hub SBC,board,15.00,manufacturer MSRP estimate
+U2,1,CSR8510A10,Qualcomm,USB BLE adapter,USB module,8.00,representative
+D1,1,SSD1680 2.9in e-paper module,Good Display,local status display,module,15.00,representative
+P1,1,USB-C 5V 2A supply,Multiple,isolated external supply,adapter,10.00,representative
