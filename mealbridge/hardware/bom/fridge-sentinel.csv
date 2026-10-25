@@ -1,0 +1,3 @@
+Ref,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi MCU module,module,3.00,Distributor
+U2,1,Texas Instruments,TMP117,Temperature sensor,WSON-6,5.00,Distributor
