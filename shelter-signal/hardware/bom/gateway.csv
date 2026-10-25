@@ -1,0 +1,8 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,ESP32-S3-WROOM-1,Espressif,ESP32-S3-WROOM-1-N8,Module,Wi-Fi and BLE module,7.50,manufacturer page
+J1,1,USB-C receptacle,Generic,USB-C-16P,Connector,5V input connector; implementation unverified,1.20,estimate
+U2,1,OLED 0.96 inch I2C,Generic,SSD1306-096,Module,Optional status display,3.80,estimate
+D1,1,Status LED,Lite-On,LTST-C190KGKT,LED,Status indicator,0.20,manufacturer page
+F1,1,Resettable fuse,Littelfuse,1206L050,1206,USB input protection,0.50,manufacturer page
+C1,2,MLCC 10uF,TDK,C2012X5R1A106K,0805,Input decoupling,0.30,manufacturer page
+J2,1,Enclosure,Generic,IP54-BOX,Enclosure,Indoor lab enclosure only,21.00,estimate

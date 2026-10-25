@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,nRF52840 module,Raytac,MDBT50Q-1MV2,Module,BLE module; verify carrier pinout,9.50,manufacturer catalog
+U2,1,BME280,Bosch,BME280,LGA-8,Temperature and humidity context only,3.50,manufacturer catalog
+Q1,1,Phototransistor,Everlight,PT15-21C/TR8,0603,Relative light sensing,0.30,manufacturer catalog
+SW1,1,Reed switch,Standex,MK04-1A66B-500W,Through-hole,Optional enclosure contact,1.20,manufacturer catalog
+BT1,1,AA holder,Keystone,2462,Holder,Two primary AA cells,1.50,manufacturer catalog
+U3,1,3V regulator,TI,TPS7A0230PDBVR,SOT-23-5,Low-IQ regulator; verify input range,1.20,manufacturer catalog

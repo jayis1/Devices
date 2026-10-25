@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD,Source
+U1,1,nRF52840 module,Raytac,MDBT50Q-1MV2,Module,BLE module; verify carrier pinout,9.50,manufacturer catalog
+SW1-SW2,2,Sealed momentary switch,Generic,IP67-PUSH,Switch,Staff clear/blocked declaration,2.00,estimate
+S1,1,Tilt switch,Comus,CL-SW-100,Through-hole,Enclosure tilt indication,0.90,manufacturer catalog
+BT1,1,AA holder,Keystone,2462,Holder,Two primary AA cells,1.50,manufacturer catalog
+U2,1,3V regulator,TI,TPS7A0230PDBVR,SOT-23-5,Low-IQ regulator; verify input range,1.20,manufacturer catalog
+D1,1,LED,Lite-On,LTST-C190KGKT,LED,User feedback,0.20,manufacturer catalog

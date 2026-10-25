@@ -1,0 +1,6 @@
+#include "protocol.h"
+uint16_t ss_crc16(const uint8_t *data,size_t len){uint16_t c=0xffffu;if(!data&&len)return 0;for(size_t i=0;i<len;i++){c^=(uint16_t)data[i]<<8;for(unsigned b=0;b<8;b++)c=(c&0x8000u)?(uint16_t)((c<<1)^0x1021u):(uint16_t)(c<<1);}return c;}
+static void put32(uint8_t*p,uint32_t v){for(unsigned i=0;i<4;i++)p[i]=(uint8_t)(v>>(8u*i));}
+static uint32_t get32(const uint8_t*p){uint32_t v=0;for(unsigned i=0;i<4;i++)v|=(uint32_t)p[i]<<(8u*i);return v;}
+int ss_encode(const ss_message_t*m,uint8_t out[SS_FRAME_SIZE]){if(!m||!out||m->version!=SS_VERSION||m->kind<SS_LIGHT||m->kind>SS_HEARTBEAT)return -1;out[0]=m->version;out[1]=m->kind;out[2]=(uint8_t)m->node_id;out[3]=(uint8_t)(m->node_id>>8);put32(out+4,m->sequence);put32(out+8,m->age_s);put32(out+12,(uint32_t)m->value);uint16_t c=ss_crc16(out,16);out[16]=(uint8_t)c;out[17]=(uint8_t)(c>>8);out[18]=out[19]=0;return 0;}
+int ss_decode(const uint8_t*f,size_t n,ss_message_t*m){if(!f||!m||n!=SS_FRAME_SIZE||f[0]!=SS_VERSION||f[1]<SS_LIGHT||f[1]>SS_HEARTBEAT||f[18]||f[19])return -1;uint16_t c=(uint16_t)f[16]|((uint16_t)f[17]<<8);if(ss_crc16(f,16)!=c)return -2;m->version=f[0];m->kind=f[1];m->node_id=(uint16_t)f[2]|((uint16_t)f[3]<<8);m->sequence=get32(f+4);m->age_s=get32(f+8);m->value=(int32_t)get32(f+12);return 0;}
