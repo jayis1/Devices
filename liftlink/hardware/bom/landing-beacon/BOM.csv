@@ -1,0 +1,8 @@
+Ref,Part,MPN,Qty,Unit cost est.,Notes
+U1,XIAO nRF52840,Seeed XIAO nRF52840,1,12.00,Verify exact revision
+SW1,Sealed pushbutton,Generic momentary,1,2.00,Debounce in firmware
+BT1,AA holder,2-cell holder,1,2.00,Use regulated 3.3V supply
+BZ1,Piezo indicator,Low-voltage piezo,1,1.00,Confirmation only
+LED1,LED,Generic LED,1,0.10,Series resistor required
+R1,Resistor,1k ohm,1,0.05,LED current limiting
+U2,Regulator module,3.3V low-IQ module,1,4.00,Verify exact component

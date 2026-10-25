@@ -1,0 +1,3 @@
+# API contract
+
+`POST /events` accepts `{version:1,node_id:int,sequence:int,type:int,uptime_ms:int,status:int,confidence:int}` with strict bounds; duplicate `(node_id,sequence)` is idempotently acknowledged. `GET /sites/{site_id}/status` returns status, observed_at, freshness, confidence, and provenance (`sensor|staff|unknown`). Protect deployment with authentication and site-level authorization; the prototype endpoint is unauthenticated and must remain bound to a trusted local network until auth is added. Do not expose publicly. MQTT credentials are environment-provided; `.env.example` contains placeholders only.

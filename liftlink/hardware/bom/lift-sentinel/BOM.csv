@@ -1,0 +1,6 @@
+Ref,Part,MPN,Qty,Unit cost est.,Notes
+U1,XIAO nRF52840,Seeed XIAO nRF52840,1,12.00,Verify board revision/pinout
+S1,Reed switch,Generic sealed reed,1,2.00,Read-only external door-state sensing
+U2,LIS3DH,ST LIS3DH,1,4.00,I2C breakout variant TBD
+B1,Protected 18650 cell,Generic protected 18650,1,8.00,Capacity/current assumption requires validation
+U3,Regulator module,3.3V low-IQ module,1,4.00,Select and verify exact part before build

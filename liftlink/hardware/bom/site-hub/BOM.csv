@@ -1,0 +1,5 @@
+Ref,Part,MPN,Qty,Unit cost est.,Notes
+U1,Raspberry Pi Zero 2 W,Raspberry Pi Zero 2 W,1,15.00,Hub compute
+U2,BLE adapter,CSR8510A10-based USB adapter,1,8.00,Compatibility to verify
+DS1,E-paper display,2.9in SPI module SSD1680,1,15.00,Exact module variant TBD
+PS1,USB-C 5V supply,Certified 5V 2A supply,1,8.00,Use certified external adapter
