@@ -115,6 +115,7 @@ These aren't single chips on a board. Each device system here is:
 | 81 | RepairLoop | 4 (Hub, Bench Sensor, Tool Dock, Air Sentinel) | Community Repair Spaces | Local-first anonymous repair-bench readiness, shared-tool presence, and ventilation status for volunteer-run repair spaces |
 | 82 | ParkPulse | 3 (Site Gateway, Fountain Sentinel, Bin Sentinel) | Public Park Maintenance | Privacy-preserving fountain-flow and waste-bin condition monitoring with local maintenance triage |
 | 83 | [CommonSignal](./commonsignal/) | 4 (Hub, Route Sentinel, Equipment Tag, Climate Node) | Community Room Readiness | Anonymous opening checklist for route clearance, shared equipment, and room comfort |
+| 84 | [CivicRest](./CivicRest/) | 3 (Hub, Door Sentinel, Supply Scale) | Public Facility Readiness | Privacy-preserving restroom supply readiness and maintenance advisories |
 
 ## Structure
 

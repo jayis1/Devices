@@ -1,0 +1,2 @@
+# Wire protocol
+Version 1 little-endian: version:u8, type:u8 (telemetry=1/status=2/ack=3), node_id:u16, seq:u16, payload_len:u8 (0..64), payload, CRC16-CCITT-FALSE:u16 over header+payload. CRC detects corruption, not authentication. Reject unknown versions/types, wrong lengths, CRC failures. Production pairing/security is unimplemented. Retry at most 3 times with randomized backoff and deduplicate (node_id,seq).

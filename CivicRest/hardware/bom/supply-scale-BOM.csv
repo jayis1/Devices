@@ -1,0 +1,3 @@
+Ref,Qty,Part,MPN,Manufacturer,Description,Unit_Price_USD,Source
+U1,1,ESP32-C3-MINI-1,ESP32-C3-MINI-1,Espressif,BLE/Wi-Fi module,4.00,Estimate 2026-10
+U2,1,NAU7802 breakout,TBD,TBD,Load-cell ADC breakout,8.00,Estimate 2026-10
