@@ -122,8 +122,8 @@ These aren't single chips on a board. Each device system here is:
 || 88 | [RefillReady](./refill-ready/) | 3 (Fixture Flow Node, Site Gateway, Path-Check Node) | Public Drinking-Water Fixture Readiness | Local-first public bottle-refill station fault reports and manual accessibility-path checks without visitor tracking or water-quality claims |
 || 89 | [ShelterSignal](./shelter-signal/) | 3 (Site Gateway, Shelter Node, Approach Check Node) | Transit Shelter Readiness | Privacy-preserving condition evidence and staff-declared step-free approach checks for maintenance triage; no passenger tracking or safety certification |
 || 90 | [CivicCharge](./civiccharge/) | 3+ (Site Gateway, Outlet Monitor×N) | Public Charging Access | Local-first shared charging-outlet readiness and staff maintenance triage; no visitor tracking or mains control |
-||| 91 | [AEDReady](./aed-ready/) | 3+ (Site Gateway, Cabinet Sentinel×N, Inspection Beacon) | Community AED Readiness | Local-first cabinet access, environmental excursion, and staff inspection-status reminders; no medical-device function or emergency dispatch |
-||| 92 | [SpinShare](./SpinShare/) | 3 (Room Gateway, Machine Sensor×2) | Shared Laundry | Local-first shared laundry machine availability advisories from vibration and door sensors; no appliance control or occupant tracking |
+|| 91 | [AEDReady](./aed-ready/) | 3+ (Site Gateway, Cabinet Sentinel×N, Inspection Beacon) | Community AED Readiness | Local-first cabinet access, environmental excursion, and staff inspection-status reminders; no medical-device function or emergency dispatch |
+|| 92 | [SpinShare](./SpinShare/) | 3 (Room Gateway, Machine Sensor×2) | Shared Laundry | Local-first shared laundry machine availability advisories from vibration and door sensors; no appliance control or occupant tracking |
 
 ## Structure
 
