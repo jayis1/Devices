@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Notes
+U1,1,Raspberry-Pi-Zero-2-W,Raspberry Pi,Site gateway computer,module,15.00,Estimate; confirm stock
+PS1,1,Listed-USB-5V,Listed supplier,Certified USB power supply,external,8.00,Country-specific approval
+SD1,1,Generic-microSD-32GB,Generic,Storage card,microSD,8.00,Use endurance-rated media
+CASE1,1,Generic-Pi-Zero-Case,Generic,Gateway enclosure,enclosure,9.00,Allow ventilation and BLE

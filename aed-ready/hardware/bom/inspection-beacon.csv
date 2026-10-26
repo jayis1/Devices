@@ -1,0 +1,6 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE module,module,4.00,Verify exact antenna variant
+SW1,1,Generic-Momentary,Generic,Staff confirmation button,through-hole,0.50,No public-facing control
+BZ1,1,Generic-Piezo,Generic,Low-volume confirmation buzzer,through-hole,0.60,Optional; disable at quiet hours
+D1,1,Generic-LED,Generic,Status LED,0603,0.10,
+PS1,1,Listed-USB-5V,Listed supplier,Certified 5V USB power supply,external,8.00,Use locally approved supply

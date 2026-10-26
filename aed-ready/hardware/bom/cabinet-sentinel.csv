@@ -1,0 +1,8 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,UnitCost_USD,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE module,module,4.00,Verify exact antenna variant and module design guide
+U2,1,TMP117,Texas Instruments,Digital temperature sensor, WSON-6,3.50,Board breakout acceptable for prototype
+S1,1,Generic-NC-Reed,Generic,Normally closed magnetic contact,lead,1.00,Select environment-appropriate contact
+BT1,1,Generic-2AA,Generic,2-cell AA holder,holder,1.50,Cells not included
+U3,1,TPS7A0233PDBVR,Texas Instruments,3.3V low-IQ LDO,SOT-23-5,1.00,Check dropout and peak load
+D1,1,Generic-LED,Generic,Status LED,0603,0.10,With series resistor
+R1,1,Generic-1K,Generic,LED series resistor,0603,0.02,

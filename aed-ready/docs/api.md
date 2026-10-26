@@ -1,0 +1,3 @@
+# MQTT/API contract (future adapter)
+
+Optional broker contract proposal: each enrolled node may publish status to `aedready/v1/site/{site_id}/cabinet/{node_id}/status`. Use TLS, certificate verification, per-node credentials, topic ACLs, bounded payloads and facility-controlled retention. Anonymous publication and remote commands are forbidden. The current backend has no MQTT client, authentication, persistence or deployment configuration; do not expose it beyond localhost.

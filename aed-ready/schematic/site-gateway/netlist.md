@@ -1,0 +1,3 @@
+# Site gateway conceptual netlist — no custom PCB
+
+Raspberry Pi Zero 2 W powered only from a listed 5 V USB supply and microSD. BLE provided by onboard radio; local Ethernet/Wi-Fi uplink optional. Do not connect the gateway electrically to the AED or cabinet power. Use an enclosure that preserves radio performance and ventilation. No KiCad schematic is applicable to the off-the-shelf gateway assembly.
