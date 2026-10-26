@@ -1,0 +1,9 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCostUSD,Source
+U1,1,Nordic Semiconductor,nRF52840,2.4GHz BLE SoC module,E73 module,8.00,Estimate distributor listing
+U2,1,STMicroelectronics,LIS3DH,3-axis accelerometer,LGA-16,2.00,Estimate distributor listing
+SW1,1,Generic,Reed switch,Door state sensor,encapsulated,1.50,Estimate
+B1,1,Generic,Protected Li-ion 1000mAh,Rechargeable cell, pouch,7.00,Estimate
+U3,1,Generic,Li-ion charger with NTC,Charging module,board,3.00,Estimate
+U4,1,Generic,3.3V low-Iq regulator,Regulator,SOT-23,1.00,Estimate
+J1,1,Generic,SWD test pads,Programming pads,PCB pads,0.20,Estimate
+R/C,1,Generic,Passives and protection,Pullups decoupling fuse TVS,0603,2.00,Estimate

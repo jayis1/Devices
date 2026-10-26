@@ -1,0 +1,6 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCostUSD,Source
+U1,1,Raspberry Pi Ltd,Zero 2 W,Gateway SBC,board,20.00,Estimate distributor listing
+PS1,1,Generic,USB-C 5V 1A,SELV supply,external,6.00,Estimate
+J1,1,Generic,MicroSD 16GB,Storage,card,5.00,Estimate
+LED1,1,Generic,LED and 1k resistor,Status indicator,THT,0.20,Estimate
+BOX1,1,Generic,Insulated enclosure,Gateway enclosure,plastic,5.00,Estimate

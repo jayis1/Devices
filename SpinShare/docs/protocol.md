@@ -1,0 +1,5 @@
+# Protocol v1
+
+BLE telemetry is a little-endian fixed 16-byte record: version u8 (=1), message type u8 (=1 telemetry), flags u8 (bit0 door open, bit1 battery low), node_id u16, sequence u16, uptime_seconds u32, vibration_rms_mg u16, battery_mV u16. Remaining/reserved bytes omitted; records with wrong version, type, or length are rejected. Sequence increments modulo 65536; gateway drops exact duplicates and reports gaps without treating them as data. Monotonic uptime is not wall-clock time. No control or command message exists in v1. Pair by physical button within a 60-second install window; require bonded encrypted BLE in production. Demonstration firmware does not implement authenticated production provisioning.
+
+Gateway MQTT (optional): `spinshare/v1/<site>/<node>/telemetry`, QoS 1, non-retained, JSON fields correspond to the record plus gateway receipt timestamp. A duplicate delivery is idempotent by node_id+sequence. Payload limit 256 bytes. Broker TLS and topic ACLs are deployment requirements, not implemented credentials. Retry with capped 1,2,4,8,16 s backoff and jitter; bounded latest-value cache only.

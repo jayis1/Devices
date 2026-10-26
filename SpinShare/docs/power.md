@@ -1,0 +1,3 @@
+# Power and deployment notes
+
+Sensor power path: protected single-cell Li-ion -> charger with cell temperature input -> 3.3 V low-quiescent regulator -> nRF52840 module and LIS3DH. Add reverse-polarity protection, input fuse/PTC, local 100 nF + 10 uF decoupling, and guarded USB/SWD pads. Battery estimate is engineering target only: 20 uA sleep + duty-cycled radio/sampling budget target 1 mA average; 1000 mAh / 1 mA = 1000 h (~41 days) ideal, with temperature, cell aging, and radio retries reducing it. Measure actual current before deployment. Gateway requires regulated 5 V/1 A USB-C supply. SELV equipment only; no appliance mains connection.
