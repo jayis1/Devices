@@ -1,0 +1,10 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD,Supplier,Notes
+U1,1,MDBT50Q-1M,Raytac,nRF52840 BLE module,Module,8.00,,Estimated prototype cost; verify sourcing
+U2,1,TMP117,Texas Instruments,Digital temperature sensor,WSON-6,2.50,,I2C 0x48
+U3,1,TBD,OPEN,Isolated AC measurement module,Module,25.00,,Must be selected and approved by qualified engineer; not a defined purchasable part
+U4,1,TBD,OPEN,Isolated current sensor interface,Module,12.00,,Selection and transfer function unresolved
+U5,1,TBD,OPEN,3.3V regulator,IC,1.00,,Select after module peak-current analysis
+SW1,1,TBD,Generic,Service pushbutton,Through-hole,0.50,,Large accessible actuator
+SW2,1,TBD,Generic,Enclosure microswitch,Through-hole,0.50,,Optional advisory tamper input
+D1,1,TBD,Generic,Status LED,0603,0.10,,Series resistor required
+J1,1,TBD,Generic,SWD and signal connector,Header,1.00,,Final connector pending review

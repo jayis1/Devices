@@ -121,6 +121,7 @@ These aren't single chips on a board. Each device system here is:
 || 87 | [MealBridge](./mealbridge/) | 4 (Hub, Shelf Scale, Fridge Sentinel, Pantry Station) | Shared-Kitchen Coordination | Local-first shared pantry inventory and spoilage reminders from anonymous weight and temperature events; no occupant tracking or appliance control |
 || 88 | [RefillReady](./refill-ready/) | 3 (Fixture Flow Node, Site Gateway, Path-Check Node) | Public Drinking-Water Fixture Readiness | Local-first public bottle-refill station fault reports and manual accessibility-path checks without visitor tracking or water-quality claims |
 || 89 | [ShelterSignal](./shelter-signal/) | 3 (Site Gateway, Shelter Node, Approach Check Node) | Transit Shelter Readiness | Privacy-preserving condition evidence and staff-declared step-free approach checks for maintenance triage; no passenger tracking or safety certification |
+|| 90 | [CivicCharge](./civiccharge/) | 3+ (Site Gateway, Outlet Monitor×N) | Public Charging Access | Local-first shared charging-outlet readiness and staff maintenance triage; no visitor tracking or mains control |
 
 ## Structure
 

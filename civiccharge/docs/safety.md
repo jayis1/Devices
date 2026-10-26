@@ -1,0 +1,5 @@
+# Safety, privacy, and security
+
+This is not an electrical safety tester and does not certify an outlet. Never use an unapproved design on building mains. Qualified electrical engineering review must select the isolated metering module, supply, creepage/clearance, overcurrent protection, wiring, connectors, fire enclosure, and jurisdictional approvals. No mains switching exists. On any failed or stale measurement report unknown.
+
+No cameras, microphones, occupancy sensing, or visitor identifiers. Optional MQTT is outbound-only and must use TLS, unique revocable credentials, and topic ACLs. Prototype has no production enrollment/authentication/signing; keep API on loopback. Never place credentials in source. Physical tamper flags are advisory. Applicable radio/electrical approvals depend on jurisdiction and module integration.

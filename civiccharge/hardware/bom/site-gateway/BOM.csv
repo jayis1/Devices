@@ -1,0 +1,6 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD,Supplier,Notes
+U1,1,SC0510,Raspberry Pi,Zero 2 W single-board computer,Board,15.00,,Approximate; confirm availability
+PS1,1,TBD,Certified supplier,Certified USB-C 5V 2.5A supply,Enclosed,12.00,,Select jurisdiction-approved model
+SD1,1,TBD,Generic,Quality microSD storage,Card,8.00,,Capacity sized to retention policy
+J1,1,TBD,Generic,USB OTG Ethernet adapter (optional),Adapter,10.00,,Optional wired uplink
+CASE1,1,TBD,Generic,Gateway enclosure,Enclosure,8.00,,Site-rated installation
