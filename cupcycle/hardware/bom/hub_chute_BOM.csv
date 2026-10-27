@@ -1,0 +1,9 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Unit_USD,Supplier
+U1,1,ESP32-C6-WROOM-1-N8,Espressif,Wi-Fi BLE 5.3 module,Module,4.50,Distributor
+DS1,1,SSD1306 OLED 128x64 module,Generic,Hub status display,I2C module,5.00,Distributor
+SW1-SW3,3,6x6mm tactile switch,Generic,Hub buttons,THT,0.15,Distributor
+J1,1,USB-C receptacle 16-pin,Generic,Hub power connector,SMD,0.45,Distributor
+U2,1,ESP32-C3-MINI-1-N4,Espressif,Chute Wi-Fi BLE module,Module,3.00,Distributor
+S1,1,IR break-beam sensor 5V open collector,Generic,Chute detection pair,Through-hole,2.50,Distributor
+U3,1,3.3V LDO 300mA,Generic,Chute module regulator,SOT-23-5,0.25,Distributor
+J2,1,USB-C receptacle 16-pin,Generic,Chute power connector,SMD,0.45,Distributor

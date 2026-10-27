@@ -1,0 +1,6 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,Unit_USD,Supplier
+U1,1,nRF52840 module, Nordic Semiconductor, BLE MCU module (exact module variant to select),Module,8.00,Distributor
+SW1-SW2,2,6x6mm tactile switch,Generic,Staff state buttons,THT,0.15,Distributor
+D1,1,Red LED 0603,Generic,Status indicator,0603,0.05,Distributor
+BT1,1,2xAA battery holder,Generic,Two alkaline AA cells,Holder,0.80,Distributor
+U2,1,3.3V low-Iq regulator,Generic,Protected 3.3V supply,SOT-23,0.30,Distributor

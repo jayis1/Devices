@@ -124,6 +124,7 @@ These aren't single chips on a board. Each device system here is:
 || 90 | [CivicCharge](./civiccharge/) | 3+ (Site Gateway, Outlet Monitor×N) | Public Charging Access | Local-first shared charging-outlet readiness and staff maintenance triage; no visitor tracking or mains control |
 || 91 | [AEDReady](./aed-ready/) | 3+ (Site Gateway, Cabinet Sentinel×N, Inspection Beacon) | Community AED Readiness | Local-first cabinet access, environmental excursion, and staff inspection-status reminders; no medical-device function or emergency dispatch |
 || 92 | [SpinShare](./SpinShare/) | 3 (Room Gateway, Machine Sensor×2) | Shared Laundry | Local-first shared laundry machine availability advisories from vibration and door sensors; no appliance control or occupant tracking |
+|| 93 | [CupCycle](./cupcycle/) | 3 (Site Hub, Return Chute, Wash Rack) | Reuse & Community Food Service | Local-first reusable-cup return counts and staff-confirmed wash-rack readiness; no patron tracking or sanitization claims |
 
 ## Structure
 
