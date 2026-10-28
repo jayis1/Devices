@@ -1,0 +1,4 @@
+ref,qty,manufacturer,mpn,description,package,unit_cost_usd_est,source
+U1,1,Espressif,ESP32-S3-WROOM-1-N8R8,Wi-Fi BLE gateway module,module,8.00,https://www.espressif.com/en/products/modules/esp32-s3
+J1,1,Amphenol,10118194-0001LF,USB-C receptacle,USB-C,0.60,manufacturer catalog
+D1,1,Littelfuse,SMF5.0A,TVS input protection,SMF,0.35,manufacturer datasheet

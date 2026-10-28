@@ -1,0 +1,4 @@
+ref,qty,manufacturer,mpn,description,package,unit_cost_usd_est,source
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi BLE module,module,3.20,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+U2,1,Texas Instruments,TMP117AIDRVR,temperature sensor,WSON-6,2.10,manufacturer datasheet
+J1,1,Harwin,M20-9990246,2x2 sensor connector,header,0.50,manufacturer catalog

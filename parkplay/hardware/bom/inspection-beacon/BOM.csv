@@ -1,0 +1,4 @@
+ref,qty,manufacturer,mpn,description,package,unit_cost_usd_est,source
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi BLE module,module,3.20,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+SW1,1,C&K,PTS645SL50SMTR92LFS,momentary acknowledge button,SMD,0.30,manufacturer catalog
+D1,1,Kingbright,APT2012LSECK/J3-PRV,red status LED,2012,0.12,manufacturer catalog

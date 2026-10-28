@@ -1,0 +1,4 @@
+ref,qty,manufacturer,mpn,description,package,unit_cost_usd_est,source
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi BLE module,module,3.20,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+U2,1,ST,LIS2DH12TR,3-axis accelerometer,LGA-12,1.10,manufacturer datasheet
+SW1,1,Generic,reed-switch,sealed contact sensor,reed,0.40,prototype estimate
