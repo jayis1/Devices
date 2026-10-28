@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Package,Function,Est_Unit_USD,Notes
+U1,1,nRF52840 module,Nordic,nRF52840,Module,BLE MCU,12,Select qualified module; estimate
+U2,1,Load-cell ADC,Nuvoton,NAU7802,SOIC-16,Bridge ADC,2,Estimate
+LS1,1,Load cell,Various,5kg load cell,bar,Aggregate shelf load,8,Estimate
+J1,1,USB connector,Various,USB-C,connector,Power,1,Estimate

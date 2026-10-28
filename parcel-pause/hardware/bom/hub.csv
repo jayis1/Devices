@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Package,Function,Est_Unit_USD,Notes
+U1,1,ESP32-S3-WROOM-1,Espressif,ESP32-S3-WROOM-1,module,Hub MCU Wi-Fi BLE,8,Estimate
+U2,1,SSD1306 OLED module,Various,SSD1306,0.96in module,Status display,6,Estimate
+J1,1,USB-C receptacle,Various,USB-C,connector,Power,1,Estimate
+U3,1,3V3 regulator,TI,TPS62162,SON,3V3 rail,2,Verify design

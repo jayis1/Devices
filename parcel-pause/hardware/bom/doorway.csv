@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Package,Function,Est_Unit_USD,Notes
+U1,1,nRF52840 module,Nordic, nRF52840,Module,BLE MCU,12,Select qualified module; estimate
+U2,1,ToF sensor,ST,VL53L1X,LGA,Anonymous ranging,5,Estimate
+BT1,2,AA alkaline cell,Various,AA,Cell,Power,1,Estimate each
+U3,1,3V3 regulator,TI,TPS62162,SON,Power conversion,2,Validate quiescent current
