@@ -1,0 +1,1 @@
+Hub firmware target is ESP32-S3-WROOM-1; GPIO8 drives a transistor-buffered buzzer (default off), GPIO9 drives LED via resistor. The hub-side BLE scanner, local queue, alarm and MQTT integration are a design specification, not implemented target firmware. See docs for failure policy.

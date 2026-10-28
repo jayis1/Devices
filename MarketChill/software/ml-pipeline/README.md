@@ -1,0 +1,1 @@
+Synthetic records only. `python train.py` writes a disposable CSV; no fitted model, field dataset, or performance claim is supplied. Deterministic local threshold alarm is the only operational policy.

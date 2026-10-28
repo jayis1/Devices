@@ -1,0 +1,1 @@
+# Local API scaffold. In-memory only; no MQTT broker connection or authentication is implemented. Run: `uvicorn main:app --host 127.0.0.1 --port 8000` from this directory. Keep bound to localhost; production requires auth, TLS, ACLs and persistence.

@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD
+U1,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU module,4.00
+S1,1,Reed switch,Standex-Meder, MK04-1A66B-500W,axial,Normally-closed door contact,1.50
+R1,1,Resistor 10k,Generic,0603,0603,Input protection/pull network,0.05
+BT1,1,AA holder 2-cell,Keystone,2462,holder,Primary battery holder,2.00

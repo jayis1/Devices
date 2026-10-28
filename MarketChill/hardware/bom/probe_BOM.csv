@@ -1,0 +1,6 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD
+U1,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU module,4.00
+U2,1,TMP117,Texas Instruments,TMP117AIDRVR,WSON-6,Digital temperature sensor,2.50
+R1-R2,2,Resistor 4.7k,Generic,0603,0603,I2C pullups,0.05
+C1-C2,2,Capacitor 100nF,Generic,0603,0603,Local decoupling,0.05
+BT1,1,AA holder 2-cell,Keystone,2462,holder,Primary battery holder,2.00

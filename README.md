@@ -126,6 +126,7 @@ These aren't single chips on a board. Each device system here is:
 || 92 | [SpinShare](./SpinShare/) | 3 (Room Gateway, Machine Sensor×2) | Shared Laundry | Local-first shared laundry machine availability advisories from vibration and door sensors; no appliance control or occupant tracking |
 || 93 | [CupCycle](./cupcycle/) | 3 (Site Hub, Return Chute, Wash Rack) | Reuse & Community Food Service | Local-first reusable-cup return counts and staff-confirmed wash-rack readiness; no patron tracking or sanitization claims |
 || 94 | [ParcelPause](./parcel-pause/) | 3 (Hub, Doorway Sensor, Shelf Node) | Shared Package-Room Operations | Anonymous shared package-room occupancy and shelf-capacity advisories; no recipient tracking, cameras, or access control |
+||| 95 | [MarketChill](./MarketChill/) | 3 (Hub, Probe Node, Door Node) | Market Vendor Cold Chain | Portable, local-first chilled-goods temperature excursion logging with door-event context and operator alarms; no autonomous food-safety decisions |
 
 ## Structure
 

@@ -1,0 +1,7 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD
+U1,1,ESP32-S3 module,Espressif,ESP32-S3-WROOM-1,module,Wi-Fi/BLE gateway MCU,6.00
+BZ1,1,Active buzzer,Generic,5V active buzzer,TH,Audible local alarm,1.00
+Q1,1,NPN transistor,onsemi,BC817-40,SC-70,Buzzer low-side driver,0.10
+R1-R2,2,Resistor,Generic,0603,0603,Base and LED current limit,0.05
+D1,1,LED,Generic,0603,0603,Status indicator,0.05
+J1,1,USB-C receptacle,Generic,USB-C-16P,SMD,5V power input,0.50
