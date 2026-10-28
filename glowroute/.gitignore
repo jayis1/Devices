@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+node_modules/
+*.pt
+*.onnx
+*-backups/
+*.kicad_prl
+fp-info-cache

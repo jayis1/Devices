@@ -1,0 +1,4 @@
+#include "protocol.h"
+uint16_t gr_crc16(const uint8_t *d,size_t n){uint16_t c=0xffff; for(size_t i=0;i<n;i++){c^=(uint16_t)d[i]<<8;for(int b=0;b<8;b++)c=(c&0x8000)?(uint16_t)((c<<1)^0x1021):(uint16_t)(c<<1);}return c;}
+int gr_encode(const gr_reading*r,uint8_t o[GR_FRAME_SIZE]){if(!r||!o||!r->node)return -1;o[0]=1;o[1]=r->node;for(int i=0;i<4;i++)o[2+i]=(uint8_t)(r->seq>>(24-8*i));o[6]=(uint8_t)(r->lux_milli>>8);o[7]=(uint8_t)r->lux_milli;uint16_t c=gr_crc16(o,8);o[8]=(uint8_t)(c>>8);o[9]=(uint8_t)c;return 0;}
+int gr_decode(const uint8_t*i,size_t n,gr_reading*r){if(!i||!r||n!=GR_FRAME_SIZE||i[0]!=1||i[1]==0)return -1;uint16_t c=gr_crc16(i,8);if(i[8]!=(uint8_t)(c>>8)||i[9]!=(uint8_t)c)return -2;r->node=i[1];r->seq=((uint32_t)i[2]<<24)|((uint32_t)i[3]<<16)|((uint32_t)i[4]<<8)|i[5];r->lux_milli=(uint16_t)((i[6]<<8)|i[7]);return 0;}

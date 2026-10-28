@@ -129,6 +129,8 @@ These aren't single chips on a board. Each device system here is:
 ||| 95 | [MarketChill](./MarketChill/) | 3 (Hub, Probe Node, Door Node) | Market Vendor Cold Chain | Portable, local-first chilled-goods temperature excursion logging with door-event context and operator alarms; no autonomous food-safety decisions |
 || 96 | [ReuseRelay](./reuse-relay/) | 3 (Site Hub, Staging Node, Pickup Node) | Apartment Reuse Coordination | Local-first, staff-approved move-out item offers and handoff coordination without resident tracking |
 
+| 97 | [GlowRoute](./glowroute/) | 3 (Gateway, Pole Sentinel, Route Marker) | Community Walkway Lighting | Local-first, privacy-preserving pedestrian-light availability reporting for human inspection; no cameras or luminaire control |
+
 ## Structure
 
 Each device system lives in its own subfolder:

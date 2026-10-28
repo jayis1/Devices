@@ -1,0 +1,9 @@
+RefDes,Qty,MPN,Manufacturer,Description,Unit Cost USD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi BLE module,3.00,Distributor estimate
+U2,1,BH1750FVI,ROHM,Ambient light sensor,1.20,Distributor estimate
+BT1,1,Protected LiFePO4 600mAh module,Various,Battery with protection,6.00,Verify source
+U3,1,3V3 low-IQ regulator module,Various,Regulated supply,1.00,Verify source
+R1-R2,2,4.7k 1%,Various,I2C pull-up,0.02,Generic
+C1,1,100nF 16V X7R,Various,Decoupling,0.02,Generic
+D1/R3,2,LED + 1k resistor,Various,Status indicator,0.05,Generic
+J1/J2,2,Header set,Various,Power and programming,0.30,Generic
