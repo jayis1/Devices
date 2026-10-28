@@ -130,6 +130,7 @@ These aren't single chips on a board. Each device system here is:
 || 96 | [ReuseRelay](./reuse-relay/) | 3 (Site Hub, Staging Node, Pickup Node) | Apartment Reuse Coordination | Local-first, staff-approved move-out item offers and handoff coordination without resident tracking |
 
 | 97 | [GlowRoute](./glowroute/) | 3 (Gateway, Pole Sentinel, Route Marker) | Community Walkway Lighting | Local-first, privacy-preserving pedestrian-light availability reporting for human inspection; no cameras or luminaire control |
+|| 98 | [QuietPath](./quietpath/) | 4 (Site Hub, Acoustic Sentinel×3) | Community Noise Context | Local-first, privacy-preserving outdoor sound-level context for choosing relatively quieter walking routes; no audio recording or compliance claims |
 
 ## Structure
 

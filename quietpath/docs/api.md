@@ -1,0 +1,3 @@
+# Local API v1
+
+`POST /telemetry` accepts JSON `{version,node_id,sequence,epoch_minutes,leq_cdb,peak_cdb,flags}` with integer bounds from docs/protocol.md. Invalid payloads return 422. `GET /telemetry` returns latest accepted report per node; stale samples remain marked by their timestamp. `GET /health` returns process health only, not radio/site health. Demo runs on loopback and stores in memory; restart discards data. MQTT topic convention `quietpath/v1/telemetry/<node_id>` carries the same JSON; optional adapter must use TLS certificate verification, unique credentials, per-topic ACLs, bounded payloads, and no retained command topics. Production requires authentication, tenant authorization, rate limits, durable storage, retention enforcement, and audit logging.

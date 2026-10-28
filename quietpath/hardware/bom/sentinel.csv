@@ -1,0 +1,6 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,UnitCostUSD,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,module,4,Verify module pinout and strapping
+U2,1,I2S MEMS microphone,TDK InvenSense,INMP441,LGA,2,3.3V I2S; response requires calibration
+U3,1,LoRa transceiver module,Semtech,E22-900M30S,Ebyte module,8,Choose regional SKU and verify levels
+U4,1,3.3V LDO,Microchip,MCP1700-3302,SOT-23,0.6,Input protection and thermal review required
+Y1,1,Acoustic weather enclosure,Generic,IP-rated vented enclosure,assembly,8,Acoustic port must be characterized

@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,UnitCostUSD,Notes
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi,Zero 2 W,board,15,Hub compute; estimate
+U2,1,SX1262 radio module,Seeed Studio,Ebyte E22-900M30S,module,18,Select regional SKU; verify interface
+J1,1,USB-C 5V supply,Generic,USB-C 5V,assembly,8,Certified external adapter

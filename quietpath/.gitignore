@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+synthetic.csv
+calibration-*.json
+.env
+node_modules/
