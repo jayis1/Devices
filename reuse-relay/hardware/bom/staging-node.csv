@@ -1,0 +1,9 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,Unit cost (USD),Supplier,Notes
+U1,1,Espressif,ESP32-C6-WROOM-1,Wi-Fi/BLE MCU module,module,4,distributor,check variant/antenna
+U2,1,Avia Semiconductor,HX711,24-bit bridge ADC,SOP-16 breakout,2,distributor,confirm module output level
+LS1,1,TAL220,5kg load cell,bar type,5kg,4,distributor,mechanical platform required
+SW1,1,Generic,Reed switch,contact sensor,through-hole,1,distributor,door/lid context only
+BT1,1,Generic,Protected 18650 cell,Li-ion cell,18650,7,distributor,only with approved holder/charger
+PCB1,1,TBD-equivalent,custom,prototype PCB,2-layer,8,PCB fab,engineering review required
+R1/C1/C2,1 lot,Generic,passives,LED resistor and decoupling,0402/0603,1,distributor,values TBD at schematic capture
+TOTAL,,,,,,27,,Indicative only

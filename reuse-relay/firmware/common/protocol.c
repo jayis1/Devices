@@ -1,0 +1,6 @@
+#include "protocol.h"
+static void put32(uint8_t *p, uint32_t v) { p[0]=(uint8_t)v; p[1]=(uint8_t)(v>>8); p[2]=(uint8_t)(v>>16); p[3]=(uint8_t)(v>>24); }
+static uint32_t get32(const uint8_t *p) { return (uint32_t)p[0]|((uint32_t)p[1]<<8)|((uint32_t)p[2]<<16)|((uint32_t)p[3]<<24); }
+uint16_t rr_crc16(const uint8_t *data, size_t len) { uint16_t crc=0xFFFFu; for(size_t i=0;i<len;i++){ crc^=(uint16_t)data[i]<<8; for(unsigned b=0;b<8;b++) crc=(crc&0x8000u)?(uint16_t)((crc<<1)^0x1021u):(uint16_t)(crc<<1); } return crc; }
+int rr_encode(const rr_message_t *m, uint8_t out[RR_FRAME_SIZE]) { if(!m||!out||m->type<1||m->type>4)return -1; out[0]=0x52;out[1]=0x52;out[2]=RR_VERSION;out[3]=m->type;put32(out+4,m->node_id);put32(out+8,m->sequence);put32(out+12,(uint32_t)m->value_mg);out[16]=m->flags;uint16_t c=rr_crc16(out,17);out[17]=(uint8_t)c;out[18]=(uint8_t)(c>>8);return 0; }
+int rr_decode(const uint8_t *in,size_t n,rr_message_t *m) { if(!in||!m||n!=RR_FRAME_SIZE||in[0]!=0x52||in[1]!=0x52||in[2]!=RR_VERSION||in[3]<1||in[3]>4)return -1;uint16_t c=rr_crc16(in,17);if(in[17]!=(uint8_t)c||in[18]!=(uint8_t)(c>>8))return -2;m->type=in[3];m->node_id=get32(in+4);m->sequence=get32(in+8);m->value_mg=(int32_t)get32(in+12);m->flags=in[16];return 0; }

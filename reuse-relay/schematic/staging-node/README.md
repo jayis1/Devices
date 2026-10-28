@@ -1,0 +1,3 @@
+# Schematic specifications — capture pending
+
+These are netlist/pin assignment references, not KiCad schematics and not validated for manufacture. Hub is an off-the-shelf Pi Zero 2 W setup; no custom schematic. Node connectors: J1 battery/protected 3.0–4.2 V; U1 3.3 V ESP32-C6 module; U2 HX711 on 3.3 V; J2 load cell E+/E-/A+/A-; J3 button/reed to ground with internal pull-up; D1 status LED via 1 kΩ resistor. Decoupling: 100 nF close to U1/U2 and 10 µF bulk on regulated 3V3. Provide accessible USB-UART programming/debug pads, reset/boot controls, reverse-polarity protection and a reviewed battery charger/protection design before PCB. Validate exact GPIO choices and module pin functions before capture.
