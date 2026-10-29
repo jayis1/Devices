@@ -138,6 +138,7 @@ These aren't single chips on a board. Each device system here is:
 || 103 | [CommonShelf](./commonshelf/) | 5 (Gateway, Shelf Scale×2, Fridge Sentinel, Intake Dock) | Community Food Access | Local-first volunteer pantry stock and refrigerator-excursion coordination without recipient tracking or food-safety claims |
 ||| 104 | [FilterShare](./filter-share/) | 3+ (Gateway, PM Sentinel, Loan Dock×N) | Community Air-Cleaner Lending | Anonymous portable HEPA cleaner availability and filter-service coordination with contextual site-level particulate observations |
 || 105 | [TreeTender](./tree-tender/) | 3+ (Site Gateway, Root Probe×N, Weather Node) | Community Urban Forestry | Local-first street-tree soil and weather observations coordinated into human-confirmed volunteer watering visits; no automated irrigation or tree-health claims |
+|| 106 | [PrintShare](./printshare/) | 3 (Gateway, Printer Observer, Filament Sentinel) | Community Workshop 3D Printing | Local-first anonymous printer readiness and filament-storage context; no printer control, user tracking, or print-quality claims |
 
 ## Structure
 

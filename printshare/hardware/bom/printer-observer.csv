@@ -1,0 +1,5 @@
+ref,part,manufacturer_part_number,qty,unit_cost_usd,total_usd
+U1,nRF52840 development board,Adafruit 4062,1,25.00,25.00
+Q1,Phototransistor,TEPT5700,1,1.00,1.00
+R1,Resistor 10k 1%,Yageo RC0603FR-0710KL,1,0.05,0.05
+S1,Reed switch,Standex MK04,1,1.50,1.50
