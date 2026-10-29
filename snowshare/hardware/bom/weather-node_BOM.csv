@@ -1,0 +1,7 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,Wi-Fi MCU module,module,5-8,Unverified estimate
+U2,1,DS18B20,Analog Devices,DS18B20+,1-Wire temperature probe,TO-92,2-5,Unverified estimate
+S1,1,Tipping bucket rain gauge,Generic,Reed-switch type,Precipitation tip counter,mechanical,8-15,Unverified estimate
+R1,1,Resistor,Yageo,RC0603FR-074K7L,4.7k 1-Wire pull-up,0603,0.01-0.05,Unverified estimate
+R2,1,Resistor,Yageo,RC0603FR-071KL,GPIO pull-up,0603,0.01-0.05,Unverified estimate
+J1,1,Header,Generic,2.54mm-1x04,Programming and sensor header,TH,0.1-0.5,Unverified estimate

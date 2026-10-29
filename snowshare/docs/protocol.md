@@ -1,0 +1,5 @@
+# SnowShare telemetry protocol v1
+
+Application payload is UTF-8 JSON, max 512 bytes: `version` integer 1, `node_id` 1–32 ASCII alphanumeric/hyphen, `seq` uint32, `timestamp` UTC RFC3339 string, `kind` enum `ramp|weather`, `values` object with bounded numeric telemetry. MQTT topic: `snowshare/v1/<site>/<node_id>/telemetry`; site and node topic segments must be validated and escaped by client code. QoS 1; duplicate sequence numbers are idempotently discarded; older sequence numbers rejected. Retained telemetry is prohibited. Broker ACL permits each device to publish only its own topic; staff API is separate. TLS required on shared networks. Provision unique credentials out of band and revoke on loss; no default shared key. CRC16-CCITT-FALSE is used only by the portable serial frame helper and does not replace TLS/authentication.
+
+Portable frame: byte 0 version (1), byte 1 message type, bytes 2–3 payload length little-endian (0..512), payload, then CRC16 little-endian over header and payload; maximum total 518 bytes. Parser rejects short, oversized, wrong-version, and bad-CRC frames. No actuator messages exist.
