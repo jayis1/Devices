@@ -1,0 +1,1 @@
+**Node startup sample for ESP-IDF integration.** Not a standalone build: board adapters, Wi-Fi/MQTT provisioning, sensor drivers, target configuration, OTA, and protocol serialization are not implemented in this prototype. Pin/interface definitions are in `../../docs/architecture.md`.

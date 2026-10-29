@@ -1,0 +1,5 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD_est,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE module,Module,4.00,Check antenna variant and carrier datasheet
+U2,1,HX711,Avia Semiconductor,24-bit load-cell ADC,SOIC-16,1.50,Verify module supply and logic voltage
+LS1,1,1kg strain gauge load cell,Generic,Four-wire bridge sensor,Bar,5.00,Mechanical fixture and calibration required
+J1,1,USB-C- receptacle,Generic,5V USB power connector,Connector,1.00,Carrier must implement safe USB input

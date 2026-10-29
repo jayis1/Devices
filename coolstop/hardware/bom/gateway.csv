@@ -1,0 +1,4 @@
+Ref,Qty,MPN,Manufacturer,Description,Package,UnitCostUSD_est,Notes
+U1,1,ESP32-S3-WROOM-1-N8,Espressif,Wi-Fi/BLE module,Module,8.00,Verify module antenna variant and carrier design
+D1,1,SSD1306,Solomon Systech,128x64 OLED module,Module,4.00,Module vendor/pinout varies; verify 3.3V logic
+J1,1,USB-C- receptacle,Generic,5V USB power/data connector,Connector,1.00,Use correctly designed protected carrier
