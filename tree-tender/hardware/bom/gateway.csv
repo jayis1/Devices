@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCost_USD,Supplier
+U1,1,Wi-Fi BLE MCU module,Espressif,ESP32-S3-WROOM-1,Module,Wi-Fi/BLE gateway MCU,7.00,indicative
+J1,1,USB-C connector,Generic,USB-C-16P,Connector,5V power input,1.00,indicative
+D1,1,Status LED,Kingbright,APT2012,LED,Gateway status,0.20,indicative
+SW1,1,Tactile switch,Omron,B3U-1000P,Switch,User acknowledgement,0.30,indicative

@@ -1,0 +1,5 @@
+# API and local development
+
+FastAPI endpoints: `GET /health`; `POST /sites/{site}/observations` (validated v1 observation); `GET /sites/{site}/observations?limit=100`; `POST /sites/{site}/nodes/{node}/visits?note=...`; `GET /sites/{site}/visits`. SQLite file is `treetender.db` by default; set `DATABASE_PATH` to relocate it. This prototype API has no user authentication or tenant authorization; bind to localhost or a trusted test network only. Production deployment must add authenticated site-scoped authorization, TLS, retention/deletion administration, rate limits, and auditing.
+
+MQTT bridge is separate: install dashboard requirements and set `MQTT_HOST`, `MQTT_USERNAME`, `MQTT_PASSWORD`, `TREE_TENDER_SITE`, optional `MQTT_PORT` (default 8883) and `API_BASE_URL`; run `python mqtt_bridge.py`. It verifies broker certificates using the system trust store and forwards to the API. Broker ACLs must restrict the bridge to the site's observation topic. Do not run against production until credentials, ACLs, retries and operational monitoring have been reviewed. Broker/API end-to-end integration has not been exercised in this repository.

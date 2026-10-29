@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+node_modules/
+*.tflite
+*.pt
+software/ml-pipeline/synthetic.csv
+*.kicad_prl
+*-bak
+*.lck
+fp-info-cache
