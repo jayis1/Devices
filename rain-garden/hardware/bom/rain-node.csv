@@ -1,0 +1,4 @@
+ref,part,manufacturer,mpn,qty,notes
+U1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,1,Wi-Fi sensor node
+S1,Tipping bucket rain gauge,Generic,Reed-switch output,1,Contact closure requires debounce
+R1,Pull-up resistor,Generic,10k ohm,1,GPIO input conditioning

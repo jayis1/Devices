@@ -1,0 +1,4 @@
+ref,part,manufacturer,mpn,qty,notes
+U1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,1,Wi-Fi sensor node
+S1,Capacitive soil probe,DFRobot,SEN0193,1,Analog moisture proxy; calibrate locally
+J1,USB-C power breakout,Generic,USB-C 5V breakout,1,SELV supply

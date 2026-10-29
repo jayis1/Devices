@@ -1,0 +1,4 @@
+ref,part,manufacturer,mpn,qty,notes
+U1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,1,Wi-Fi sensor node
+S1,Waterproof ultrasonic module,Generic,JSN-SR04T,1,Echo requires verified 3.3V-safe interface
+Q1,Resistor divider/interface,Generic,10k/20k resistors,1,Validate echo voltage and timing

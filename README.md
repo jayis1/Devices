@@ -133,6 +133,7 @@ These aren't single chips on a board. Each device system here is:
 || 98 | [QuietPath](./quietpath/) | 4 (Site Hub, Acoustic Sentinel×3) | Community Noise Context | Local-first, privacy-preserving outdoor sound-level context for choosing relatively quieter walking routes; no audio recording or compliance claims |
 || 99 | [ParkPlay](./parkplay/) | 4 (Gateway, Equipment Tag, Surface Sentinel, Inspection Beacon) | Community Playground Readiness | Privacy-preserving playground condition context and human-inspection prioritization; advisory only, never safety certification |
 || 100 | [CoolStop](./coolstop/) | 3 (Gateway, Climate Node, Supply Node) | Community Heat Relief | Local-first cooling-site room-condition and drinking-water stock readiness observations; no visitor tracking, health diagnosis, water-quality claims, or safety certification |
+|| 101 | [RainGarden](./rain-garden/) | 4 (Gateway, Soil Node×N, Basin Node, Rain Node) | Community Stormwater Stewardship | Local-first rain-garden soil, ponding, and rainfall observations for human maintenance triage; no drainage control or flood-safety claims |
 
 ## Structure
 

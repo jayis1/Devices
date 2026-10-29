@@ -1,0 +1,4 @@
+ref,part,manufacturer,mpn,qty,notes
+U1,ESP32-S3 module,Espressif,ESP32-S3-WROOM-1-N8,1,Gateway MCU/Wi-Fi
+DS1,0.96 inch OLED,Generic,SSD1306 I2C module,1,3.3V logic verify module
+J1,USB-C receptacle,Generic,USB-C breakout,1,5V SELV input
