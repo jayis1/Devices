@@ -1,0 +1,4 @@
+Ref,Part,MPN,Manufacturer,Qty,Unit price USD,Notes
+U1,ESP32-C3 dev module,ESP32-C3-DevKitM-1,Espressif,1,8,USB powered prototype
+U2,CO2 sensor,SCD41,Sensirion,1,25,I2C address 0x62
+U3,Temperature RH sensor,SHT31-DIS-B,Sensirion,1,6,I2C address 0x44

@@ -1,0 +1,3 @@
+Ref,Part,MPN,Manufacturer,Qty,Unit price USD,Notes
+U1,nRF52840 module,Raytac MDBT50Q-1MV2,Raytac,1,12,Verify module carrier pinout
+S1,Magnetic reed switch,MC-38 or equivalent,Generic,1,2,Door contact only

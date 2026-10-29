@@ -1,0 +1,3 @@
+Ref,Part,MPN,Manufacturer,Qty,Unit price USD,Notes
+U1,ESP32-S3 DevKitC-1,ESP32-S3-DevKitC-1,Espressif,1,12,Hub prototype; USB powered
+J1,USB-C cable,Generic USB-C,Generic,1,3,5 V supply
