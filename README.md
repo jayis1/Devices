@@ -135,6 +135,7 @@ These aren't single chips on a board. Each device system here is:
 || 100 | [CoolStop](./coolstop/) | 3 (Gateway, Climate Node, Supply Node) | Community Heat Relief | Local-first cooling-site room-condition and drinking-water stock readiness observations; no visitor tracking, health diagnosis, water-quality claims, or safety certification |
 || 101 | [RainGarden](./rain-garden/) | 4 (Gateway, Soil Node×N, Basin Node, Rain Node) | Community Stormwater Stewardship | Local-first rain-garden soil, ponding, and rainfall observations for human maintenance triage; no drainage control or flood-safety claims |
 || 102 | [SnowShare](./snowshare/) | 4 (Gateway, Ramp Node×N, Weather Node) | Community Winter Accessibility | Local-first post-snow sidewalk clearing task coordination from curbside observations and staff-confirmed work; no safe-route claims |
+|| 103 | [CommonShelf](./commonshelf/) | 5 (Gateway, Shelf Scale×2, Fridge Sentinel, Intake Dock) | Community Food Access | Local-first volunteer pantry stock and refrigerator-excursion coordination without recipient tracking or food-safety claims |
 
 ## Structure
 

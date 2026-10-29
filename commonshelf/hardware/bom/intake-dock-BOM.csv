@@ -1,0 +1,4 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,UnitCostUSD
+U1,1,RP2040, Raspberry Pi,RP2040,MCU,1.00
+SW1,1,tactile button,Omron,B3F-1000,Volunteer input,0.30
+J1,1,USB-C receptacle,Generic,USB-C-16P,Power/data,0.80

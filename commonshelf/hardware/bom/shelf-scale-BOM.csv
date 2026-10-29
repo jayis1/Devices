@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,UnitCostUSD
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1-N4,Wi-Fi/BLE module,3.50
+U2,1,HX711,Avia, HX711,24-bit bridge ADC,0.80
+LS1,1,5kg load cell,Generic,5KG-BAR,Strain gauge bar,4.00
+PS1,1,5V USB supply,Mean Well,GS06E-1P1J,External SELV adapter,9.00

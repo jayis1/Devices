@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,UnitCostUSD
+U1,1,nRF52840 module,Raytac, MDBT50Q-RX, BLE module,8.00
+U2,1,TMP117,Texas Instruments,TMP117AIDRVR,Temperature sensor,2.20
+SW1,1,reed switch,Standex,Meder MK04,Door state,1.50
+B1,1,protected Li-ion,Generic,18650-protected,Cell with protection,6.00
