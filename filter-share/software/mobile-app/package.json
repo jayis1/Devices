@@ -1,0 +1,1 @@
+{"name":"filter-share-mobile","version":"0.1.0","private":true,"main":"App.tsx","scripts":{"typecheck":"tsc --noEmit"},"dependencies":{"react":"*","react-native":"*"},"devDependencies":{"typescript":"*"}}

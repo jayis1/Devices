@@ -1,0 +1,5 @@
+Ref,Qty,MPN,Manufacturer,Description,Unit Cost USD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE MCU module,3.00,Distributor estimate
+SW1-SW2,2,PTS645, C&K,Sealed confirm and service buttons,1.20,Distributor estimate
+S1-S2,2,Reed contact,Generic,Loaner presence input,2.00,Generic
+D1,1,LTST-C190KGKT,Lite-On,Status LED,0.20,Distributor estimate

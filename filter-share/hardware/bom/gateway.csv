@@ -1,0 +1,6 @@
+Ref,Qty,MPN,Manufacturer,Description,Unit Cost USD,Supplier
+U1,1,ESP32-S3-WROOM-1-N8,Espressif,Gateway Wi-Fi and ESP-NOW module,8.00,Distributor estimate
+J1,1,USB-C-16P,Generic,USB power connector,1.00,Generic
+D1,1,LTST-C190KGKT,Lite-On,Green status LED,0.20,Distributor estimate
+R1,1,RC0603FR-071KL,Yageo,LED resistor 1 kohm,0.05,Distributor estimate
+U2,1,AP2112K-3.3,Diodes Inc,3.3V regulator,0.50,Distributor estimate

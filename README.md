@@ -136,6 +136,7 @@ These aren't single chips on a board. Each device system here is:
 || 101 | [RainGarden](./rain-garden/) | 4 (Gateway, Soil Node×N, Basin Node, Rain Node) | Community Stormwater Stewardship | Local-first rain-garden soil, ponding, and rainfall observations for human maintenance triage; no drainage control or flood-safety claims |
 || 102 | [SnowShare](./snowshare/) | 4 (Gateway, Ramp Node×N, Weather Node) | Community Winter Accessibility | Local-first post-snow sidewalk clearing task coordination from curbside observations and staff-confirmed work; no safe-route claims |
 || 103 | [CommonShelf](./commonshelf/) | 5 (Gateway, Shelf Scale×2, Fridge Sentinel, Intake Dock) | Community Food Access | Local-first volunteer pantry stock and refrigerator-excursion coordination without recipient tracking or food-safety claims |
+||| 104 | [FilterShare](./filter-share/) | 3+ (Gateway, PM Sentinel, Loan Dock×N) | Community Air-Cleaner Lending | Anonymous portable HEPA cleaner availability and filter-service coordination with contextual site-level particulate observations |
 
 ## Structure
 

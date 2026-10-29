@@ -1,0 +1,6 @@
+Ref,Qty,MPN,Manufacturer,Description,Unit Cost USD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE MCU module,3.00,Distributor estimate
+U2,1,SPS30,Sensirion,Particulate matter sensor,48.00,Distributor estimate
+U3,1,AP2112K-3.3,Diodes Inc,3.3V regulator,0.50,Distributor estimate
+J1,1,USB-C-16P,Generic,5V power connector,1.00,Generic
+D1,1,LTST-C190KGKT,Lite-On,Status LED,0.20,Distributor estimate
