@@ -1,0 +1,4 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Description,UnitCost,Source
+U1,1,XIAO nRF52840,Sense,XIAO nRF52840,Seeed Studio,module,BLE controller,$12,Seeed
+S1-S6,6,Reed switch,ORD series,TE Connectivity,through-hole,Tool presence switch,$1.20,Distributor estimate
+BT1,1,Protected LiPo,LP103450,Generic,cell,1000mAh protected battery,$8,Estimate

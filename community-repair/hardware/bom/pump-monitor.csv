@@ -1,0 +1,5 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Description,UnitCost,Source
+U1,1,XIAO nRF52840,Sense,XIAO nRF52840,Seeed Studio,module,BLE controller,$12,Seeed
+U2,1,3-axis accelerometer,LIS3DH,STMicroelectronics,LGA-16,Motion context sensor,$3,Distributor estimate
+P1,1,Analog pressure transducer,verify sealed model,Generic,fixture-mounted,0-1.2MPa sensor,$12,Selection required
+BT1,1,Protected LiPo,LP103450,Generic,cell,1000mAh protected battery,$8,Estimate
