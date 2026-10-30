@@ -143,6 +143,7 @@ These aren't single chips on a board. Each device system here is:
 || 108 | [SpokeSense](./spokesense/) | 3 (Hub, Wheel Sensor, Stand Gauge) | Bicycle Maintenance | Local-first stationary bicycle maintenance observations for guided service checks; no roadworthiness claims or bicycle control |
 ||| 109 | [SeedShare](./seedshare/) | 3 (Gateway, Storage Node, Intake Dock) | Community Seed Libraries | Local-first seed-packet storage context and volunteer-confirmed inventory events; no borrower tracking or seed-viability claims |
 | 110 | [PollinatorPatch](./pollinator-patch/) | 3 (Site Gateway, Bed Probe×N, Bloom Check-in) | Community Pollinator Gardens | Local-first bed moisture context and volunteer-entered bloom observations for garden stewardship; no species, biodiversity, or pollinator-health claims |
+|| 111 | [ChargeShare](./charge-share/) | 3 (Hub, Bay Monitor×2) | Shared Charging Access | Anonymous low-voltage USB output availability and maintenance context for community charging bays; no user tracking, mains control, or safety certification |
 
 ## Structure
 

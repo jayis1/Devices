@@ -1,0 +1,3 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCost_USD_est,Supplier
+U1,1,ESP32-S3-DevKitC-1,Espressif,ESP32-S3-DevKitC-1,Wi-Fi/BLE hub dev board,module/devkit,13,estimate
+PS1,1,USB 5V adapter,TBD,TBD-verify,Approved SELV hub supply,external,8,estimate

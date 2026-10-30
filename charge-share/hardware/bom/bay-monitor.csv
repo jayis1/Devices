@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCost_USD_est,Supplier
+U1,1,ESP32-C3-DevKitM-1,Espressif,ESP32-C3-DevKitM-1,Wi-Fi/BLE MCU development board,module/devkit,10,estimate
+U2,1,INA219 breakout,Texas Instruments,INA219,Voltage/current monitor breakout,breakout,5,estimate
+J1,1,USB-C inline breakout,TBD,TBD-verify,Rated inline USB-C VBUS measurement connector,board,4,estimate
+PS1,1,USB 5V adapter,TBD,TBD-verify,Approved SELV supply sized for bay load,external,8,estimate
