@@ -1,0 +1,4 @@
+Ref,Qty,Manufacturer,MPN,Description,UnitCost_USD,Supplier
+U1,1,Espressif,ESP32-C3-DevKitM-1,Development board,8,Indicative retail
+SW1-SW2,2,C&K,PTS645,User buttons,0.6,Indicative retail
+D1,1,Generic,2.13in-e-paper-TBD,Optional panel controller unresolved,8,Indicative retail

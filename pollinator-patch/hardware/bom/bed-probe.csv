@@ -1,0 +1,5 @@
+Ref,Qty,Manufacturer,MPN,Description,UnitCost_USD,Supplier
+U1,1,Espressif,ESP32-C3-DevKitM-1,Development board,8,Indicative retail
+S1,1,Generic,Capacitive-soil-probe-v1,3.3V analog probe,3,Indicative retail
+T1,1,Analog Devices,DS18B20,1-Wire temperature sensor,2,Indicative retail
+R1-R2,2,Generic,100k-1pct,ADC divider resistors,0.1,Indicative retail

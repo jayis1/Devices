@@ -1,0 +1,9 @@
+# Local secrets and generated artifacts only
+.env
+*.db
+__pycache__/
+*.py[cod]
+node_modules/
+build/
+*.pt
+*.onnx

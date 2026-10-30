@@ -1,0 +1,5 @@
+Ref,Qty,Manufacturer,MPN,Description,UnitCost_USD,Supplier
+U1,1,Espressif,ESP32-S3-DevKitC-1,Development board,12,Indicative retail
+D1,1,Kingbright,WP7113ID,Status LED,0.2,Indicative retail
+R1,1,Generic,330R,LED resistor,0.05,Indicative retail
+SW1,1,C&K,PTS645,Enrollment button,0.4,Indicative retail
