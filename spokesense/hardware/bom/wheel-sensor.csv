@@ -1,0 +1,5 @@
+RefDes,Qty,Value/Description,Manufacturer,MPN,Package,Unit Cost USD
+U1,1,ESP32-C3 development board,Espressif,ESP32-C3-DevKitM-1,Module/dev board,10.00
+U2,1,BMI270 6-axis IMU, Bosch,BMI270,LGA breakout,8.00
+S1,1,Wheel magnet reed switch,Generic,NO-reed-switch,Through-hole,1.00
+J1,1,USB cable and protected supply,Generic,5V-USB-0.5A,USB,5.00
