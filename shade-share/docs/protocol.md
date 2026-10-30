@@ -1,0 +1,5 @@
+# Wire protocol v1
+
+Transport: regional LoRa point-to-gateway; EU deployments use a compliant EU868 channel plan and US deployments US915, configured to local rules. Payloads are 14 bytes, big-endian: version u8 (=1), node_id u32, sequence u16, kind u8, value signed i16, battery millivolts u16, CRC-16/CCITT-FALSE u16 (poly 0x1021, init 0xffff; CRC over first 12 bytes). Kinds: 1 shade state (0 unavailable, 1 available, 2 unknown), 2 tamper (0/1), 3 surface temperature in centi-degrees C, 4 heartbeat (value ignored).
+
+Gateway rejects bad length/version/CRC, duplicate or older sequence, and values outside configured sensor bounds. A status expires after 15 minutes. Sender retries at most three times with capped exponential backoff and random jitter; gateway acknowledgement is an application-level response. Sequence wraps modulo 65536; deployments should reset identity only during service. Payload CRC detects accidental corruption and is NOT authentication/encryption. Production use requires per-device keys, AEAD, replay window, credential rotation and signed update/recovery design; none is implemented here. No OTA or commands are defined.

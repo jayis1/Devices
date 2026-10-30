@@ -1,0 +1,1 @@
+{"name":"shadeshare-mobile-stub","version":"0.1.0","private":true,"description":"UI concept only; not connected to live hardware","main":"App.js","scripts":{"check":"node --check App.js"}}

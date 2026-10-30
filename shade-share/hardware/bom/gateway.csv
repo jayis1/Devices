@@ -1,0 +1,4 @@
+RefDes,Part,MPN,Manufacturer,Qty,UnitCostUSD,Supplier,Notes
+U1,RP2040 module,RP2040, Raspberry Pi,1,8,Representative distributor,Module carrier required
+U2,LoRa modem,RAK3172,RAKwireless,1,18,Representative distributor,Regional configuration required
+J1,USB-C 5V supply,USB-C-5V,Generic,1,5,Representative,No mains wiring

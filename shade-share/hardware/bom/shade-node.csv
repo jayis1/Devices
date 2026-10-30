@@ -1,0 +1,6 @@
+RefDes,Part,MPN,Manufacturer,Qty,UnitCostUSD,Supplier,Notes
+U1,MCU,STM32L031K6T6,STMicroelectronics,1,3,Representative distributor,3.3V MCU
+U2,LoRa module,RFM95W-868S2,HopeRF,1,8,Representative distributor,868MHz variant; use region-appropriate module
+S1,Reed switch,ORD series equivalent,Littelfuse,1,1,Representative distributor,State sensing
+S2,Tilt switch,SW-200D equivalent,Generic,1,1,Representative distributor,Tamper context
+BT1,AA holder,2xAA holder,Generic,1,2,Representative,Primary cells not included

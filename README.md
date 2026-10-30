@@ -145,6 +145,7 @@ These aren't single chips on a board. Each device system here is:
 | 110 | [PollinatorPatch](./pollinator-patch/) | 3 (Site Gateway, Bed Probe×N, Bloom Check-in) | Community Pollinator Gardens | Local-first bed moisture context and volunteer-entered bloom observations for garden stewardship; no species, biodiversity, or pollinator-health claims |
 || 111 | [ChargeShare](./charge-share/) | 3 (Hub, Bay Monitor×2) | Shared Charging Access | Anonymous low-voltage USB output availability and maintenance context for community charging bays; no user tracking, mains control, or safety certification |
 || 112 | [BusPulse](./buspulse/) | 3 (Gateway, Display Observer, Power/Weather Node) | Transit Stop Maintenance | Local-first anonymous passenger-information display and site-power maintenance telemetry; no passenger tracking or arrival-time claims |
+| 113 | [ShadeShare](./shade-share/) | 3 (Site Gateway, Shade Node×N, Surface Node×N) | Community Heat Resilience | Local-first public-shade availability and surface-temperature observations for human-maintained cooling-site directories; no visitor tracking or health/safety claims |
 
 ## Structure
 

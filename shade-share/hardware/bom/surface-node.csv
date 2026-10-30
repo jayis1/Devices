@@ -1,0 +1,5 @@
+RefDes,Part,MPN,Manufacturer,Qty,UnitCostUSD,Supplier,Notes
+U1,MCU,STM32L031K6T6,STMicroelectronics,1,3,Representative distributor,3.3V MCU
+U2,LoRa module,RFM95W-868S2,HopeRF,1,8,Representative distributor,868MHz variant; use region-appropriate module
+RT1,NTC thermistor,NTCLE100E3103JB0,Vishay,1,1,Representative distributor,Use calibrated divider and thermal contact
+BT1,AA holder,2xAA holder,Generic,1,2,Representative,Primary cells not included
