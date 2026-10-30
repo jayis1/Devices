@@ -1,0 +1,3 @@
+#define PIN_PRIMARY 0
+#define PIN_SECONDARY 1
+#define PIN_SERVICE 2
