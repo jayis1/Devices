@@ -1,0 +1,3 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,UnitCostUSD,Source
+U1,1,ESP32-S3 dev board,Espressif,ESP32-S3-DevKitC-1,USB development gateway,12.00,manufacturer product page
+U2,1,SX1276 module,Semtech,SX1276,915 MHz radio module; verify carrier variant,8.00,manufacturer product page

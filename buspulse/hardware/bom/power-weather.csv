@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,UnitCostUSD,Source
+U1,1,STM32L072 board,ST,STM32L072CZT6,Low-power MCU board,9.00,manufacturer product page
+U2,1,SX1276 module,Semtech,SX1276,915 MHz radio module; verify carrier variant,8.00,manufacturer product page
+U3,1,TMP117,Texas Instruments,TMP117AIDRVR,Digital temperature sensor,2.00,manufacturer product page
