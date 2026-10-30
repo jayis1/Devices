@@ -141,6 +141,7 @@ These aren't single chips on a board. Each device system here is:
 || 106 | [PrintShare](./printshare/) | 3 (Gateway, Printer Observer, Filament Sentinel) | Community Workshop 3D Printing | Local-first anonymous printer readiness and filament-storage context; no printer control, user tracking, or print-quality claims |
 || 107 | [AirShare](./airshare/) | 3 (Site Hub, Room Sentinel, Doorway Context Node) | Shared Indoor Air Context | Anonymous shared-room CO2, temperature, humidity, and door-context observations for building maintenance triage; no occupant tracking, HVAC control, or health claims |
 || 108 | [SpokeSense](./spokesense/) | 3 (Hub, Wheel Sensor, Stand Gauge) | Bicycle Maintenance | Local-first stationary bicycle maintenance observations for guided service checks; no roadworthiness claims or bicycle control |
+||| 109 | [SeedShare](./seedshare/) | 3 (Gateway, Storage Node, Intake Dock) | Community Seed Libraries | Local-first seed-packet storage context and volunteer-confirmed inventory events; no borrower tracking or seed-viability claims |
 
 ## Structure
 

@@ -1,0 +1,3 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier,SupplierPN
+U1,1,Espressif,ESP32-C3-DevKitM-1, BLE sensor controller development board,Module board,8,Generic,ESP32-C3-DevKitM-1
+U2,1,Sensirion,SHT31-DIS-B,Temperature humidity sensor,DFN-8 breakout,5,Generic,SHT31-DIS-B

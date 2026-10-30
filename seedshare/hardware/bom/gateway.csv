@@ -1,0 +1,4 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier,SupplierPN
+U1,1,Espressif,ESP32-S3-DevKitC-1,Wi-Fi BLE gateway development board,Module board,12,Generic,ESP32-S3-DevKitC-1
+D1,1,Kingbright,WP7113ID,Red status LED,5mm,0.2,Generic,WP7113ID
+SW1,1,C&K,PTS645,Enrollment button,THT,0.4,Generic,PTS645

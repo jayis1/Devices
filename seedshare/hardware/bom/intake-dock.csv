@@ -1,0 +1,5 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier,SupplierPN
+U1,1,Espressif,ESP32-C3-DevKitM-1, BLE dock controller development board,Module board,8,Generic,ESP32-C3-DevKitM-1
+U2,1,Avia,NAU7802,24-bit load-cell ADC,IC breakout,6,Generic,NAU7802
+BZ1,1,Any,5kg load cell,Strain gauge bridge,Bar,8,Generic,5KG-load-cell
+J1,1,Generic,UART-QR-module,QR scanner serial module,Module,6,Generic,UART-QR
