@@ -1,0 +1,6 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Est. Unit Cost USD,Notes
+U1,1,ESP32-C6 module,ESP32-C6-MINI-1,Espressif,Module,4.00,Verify module variant and antenna clearance
+U2,1,Humidity temperature sensor,SHT40-AD1B-R2,Sensirion,DFN,1.80,I2C 0x44
+U3,1,ADC ADS1115,ADS1115IDGSR,Texas Instruments,VSSOP-10,1.60,I2C 0x48
+J1,1,Wetness electrode,Custom capacitive electrode,TBD,PCB,1.00,Corrosion-resistant isolated electrode design required
+R1-R2,2,I2C pull-up 4k7,RC0603FR-074K7L,Yageo,0603,0.02,To 3V3

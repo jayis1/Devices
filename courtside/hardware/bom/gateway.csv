@@ -1,0 +1,5 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Est. Unit Cost USD,Notes
+U1,1,ESP32-S3 module,ESP32-S3-WROOM-1-N8,Espressif,Module,6.00,Gateway; module pinout must be verified
+J1,1,USB-C receptacle,TYPE-C-31-M-12,GCT,Connector,0.80,5V input only
+D1,1,LED,LTST-C191KGKT,Lite-On,0603,0.10,Status LED; series resistor required
+R1,1,Resistor 1k,RC0603FR-071KL,Yageo,0603,0.02,LED current limit

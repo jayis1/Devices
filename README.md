@@ -148,6 +148,7 @@ These aren't single chips on a board. Each device system here is:
 | 113 | [ShadeShare](./shade-share/) | 3 (Site Gateway, Shade Node×N, Surface Node×N) | Community Heat Resilience | Local-first public-shade availability and surface-temperature observations for human-maintained cooling-site directories; no visitor tracking or health/safety claims |
 | 114 | [CommunityRepair](./community-repair/) | 3 (Gateway, Tool Dock, Pump Monitor) | Public Bicycle Repair Infrastructure | Local-first public repair-stand tool-presence and pump-test context for human maintenance triage; no rider tracking or roadworthiness claims |
 | 115 | [BookDrop Watch](./bookdrop-watch/) | 3 (Gateway, Chute Sentinel, Bin Scale) | Public Library Returns | Local-first after-hours book-return chute blockage and receiving-bin capacity advisories; no patron or circulation tracking |
+| 116 | [CourtSide](./courtside/) | 3 (Gateway, Surface Sentinel, Inspection Beacon) | Public Recreation | Local-first public court surface observations and staff-confirmed maintenance context; no visitor tracking or playability claims |
 
 ## Structure
 

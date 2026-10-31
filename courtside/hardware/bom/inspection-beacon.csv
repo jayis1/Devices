@@ -1,0 +1,3 @@
+Ref,Qty,Part,MPN,Manufacturer,Package,Est. Unit Cost USD,Notes
+U1,1,nRF52840 module,Raytac MDBT50Q-1MV2,Raytac,Module,6.00,Verify vendor antenna and NFC support
+SW1,1,Sealed momentary switch,PTS645SM43SMTR92 LFS,C&K,SMD,0.35,Human inspection event
