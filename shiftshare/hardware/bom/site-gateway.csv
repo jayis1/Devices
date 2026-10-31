@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Description
+U1,1,Raspberry Pi Pico W, Raspberry Pi,SC0918,RP2040 Wi-Fi board
+DS1,1,SSD1306 OLED 128x64,Generic,UNSPECIFIED,I2C status display
+SW1-SW3,3,Tactile switch,Generic,UNSPECIFIED,Staff confirmation buttons

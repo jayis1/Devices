@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Description
+U1,1,XIAO nRF52840,Seeed Studio,102010448,BLE MCU module
+U2,1,NAU7802 breakout,Adafruit,4538,24-bit bridge ADC breakout
+LS1,1,5 kg load cell,Generic,UNSPECIFIED,Platform load measurement
+S1,1,Magnetic reed switch,Generic,UNSPECIFIED,Door context input

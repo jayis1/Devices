@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Description
+U1,1,XIAO nRF52840,Seeed Studio,102010448,BLE MCU module (verify revision)
+U2,1,MAX4466 microphone amplifier breakout,Adafruit,1063,Envelope-level acoustic sensor; no audio capture
+J1,1,USB-C protected supply module,Generic,UNSPECIFIED,Prototype power input; select documented protected module before build

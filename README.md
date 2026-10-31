@@ -149,6 +149,7 @@ These aren't single chips on a board. Each device system here is:
 | 114 | [CommunityRepair](./community-repair/) | 3 (Gateway, Tool Dock, Pump Monitor) | Public Bicycle Repair Infrastructure | Local-first public repair-stand tool-presence and pump-test context for human maintenance triage; no rider tracking or roadworthiness claims |
 | 115 | [BookDrop Watch](./bookdrop-watch/) | 3 (Gateway, Chute Sentinel, Bin Scale) | Public Library Returns | Local-first after-hours book-return chute blockage and receiving-bin capacity advisories; no patron or circulation tracking |
 | 116 | [CourtSide](./courtside/) | 3 (Gateway, Surface Sentinel, Inspection Beacon) | Public Recreation | Local-first public court surface observations and staff-confirmed maintenance context; no visitor tracking or playability claims |
+| 117 | [ShiftShare](./shiftshare/) | 3 (Gateway, Room Sentinel, Supply Dock) | Community Rest-Site Readiness | Privacy-first local room-availability context for rotating-shift workers; no visitor tracking, reservations, or safety claims |
 
 ## Structure
 
