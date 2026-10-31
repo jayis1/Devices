@@ -1,0 +1,10 @@
+reference,manufacturer,manufacturer_part_number,description,qty,notes
+U1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE module with ESP32-C3,1,Module not bare MCU; verify antenna keepout
+U2,NXP,PN5321A3HN,13.56MHz NFC controller,1,Module-level design recommended; confirm breakout voltage interface
+U3,Analog Devices,MAX98357AETE+,I2S class-D mono amplifier,1,Verify thermal and output filter guidance
+J1,Amphenol,10118194-0001LF,USB Type-C receptacle,1,5V input; pair with compliant external SELV adapter
+SP1,Generic,8R-2W,8 ohm 2W speaker,1,Use sealed outdoor-rated acoustic assembly
+SW1,APEM,AV1620P324Q04,Large momentary pushbutton,1,Verify exact actuator/seal rating
+F1,Bourns,MF-MSMF110/16-2,Resettable fuse,1,Check hold/trip current vs audio peak
+D1,Diodes Inc,SS14,Schottky reverse-polarity protection,1,Power loss budget to be measured
+C1,C2,Various,100uF low-ESR and 100nF ceramic decoupling,1 each,Place at amplifier and module supply pins

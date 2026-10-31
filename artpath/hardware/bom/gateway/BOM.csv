@@ -1,0 +1,5 @@
+reference,manufacturer,manufacturer_part_number,description,qty,notes
+U1,Raspberry Pi,SC0510,Pi Zero 2 W single-board gateway,1,Wi-Fi and BLE; local prototype only
+PS1,Generic,USB-C-5V-2A,Compliant external SELV 5V 2A supply,1,Region-approved listed supply required
+LED1,Lite-On,LTST-C190KGKT,Green status LED,1,Use series resistor sized for GPIO
+R1,Yageo,RC0603FR-071KL,1k ohm resistor,1,LED current limiting candidate

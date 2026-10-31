@@ -154,6 +154,7 @@ These aren't single chips on a board. Each device system here is:
 | 119 | [CacheReady](./cacheready/) | 3 (Hub, Cabinet Sentinel, Utility Sentinel) | Community Emergency Supply Readiness | Local-first shared emergency-cache condition observations and staff-confirmed inspection reminders; no visitor tracking, supply verification, or emergency dispatch |
 | 120 | [CookShare](./cookshare/) | 3 (Gateway, Station Observer×2) | Shared Kitchen Readiness | Local-first advisory shared cooking-station state from low-voltage supply observations; no occupant tracking or appliance control |
 | 121 | [DrainWatch](./drainwatch/) | 4 (Gateway, Inlet Node×2, Rain Node) | Community Drain Maintenance | Local-first curb-inlet water-level and rainfall context for human inspection prioritization; no flood prediction or infrastructure control |
+| 122 | [ArtPath](./artpath/) | 3 (Gateway, Artwork Station×N, Context Node) | Community Arts Accessibility | Local-first tactile and audio interpretation for public-art trails; no visitor tracking or navigation claims |
 
 ## Structure
 

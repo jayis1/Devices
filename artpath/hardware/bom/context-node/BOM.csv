@@ -1,0 +1,6 @@
+reference,manufacturer,manufacturer_part_number,description,qty,notes
+U1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE module with ESP32-C3,1,Module not bare MCU; validate board pin mapping
+U2,Sensirion,SHT40-AD1B-R2,Digital temperature and humidity sensor,1,I2C 0x44
+J1,Amphenol,10118194-0001LF,USB Type-C receptacle,1,5V SELV input
+U3,Texas Instruments,TPS62160DSGR,3.3V buck regulator,1,Confirm input/output components per datasheet
+C1,C2,Various,10uF ceramic input/output capacitors,2,Select voltage rating and derating

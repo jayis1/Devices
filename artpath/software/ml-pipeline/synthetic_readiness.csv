@@ -1,0 +1,3 @@
+node_id,revision,fault_count,ready_label
+fixture-01,demo-1,0,1
+fixture-02,demo-1,1,0
