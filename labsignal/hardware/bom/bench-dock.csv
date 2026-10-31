@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit Price USD (estimate),Source
+U1,1,Raspberry Pi Pico W,Raspberry Pi,RP2040 Wi-Fi development module,module,6.00,raspberrypi.com
+SW1,1,TS-1187A-B-A-B,Generic,Normally-open tactile button,through-hole,0.15,estimate
+SW2,2,SMT reed switch,Generic,Normally-open stock presence inputs,SMD,0.30,estimate
+J1,1,USB Micro-B,Generic,5V power connector,connector,0.50,estimate

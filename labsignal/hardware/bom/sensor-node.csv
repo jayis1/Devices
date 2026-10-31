@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit Price USD (estimate),Source
+U1,1,Raspberry Pi Pico W,Raspberry Pi,RP2040 Wi-Fi development module,module,6.00,raspberrypi.com
+U2,1,INA219,Texas Instruments,Current/voltage monitor breakout,board,4.00,ti.com
+U3,1,ADS1115,Texas Instruments,16-bit ADC breakout,board,5.00,ti.com
+J1,1,USB Micro-B,Generic,5V power connector,connector,0.50,estimate

@@ -1,0 +1,4 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit Price USD (estimate),Source
+U1,1,Raspberry Pi Pico W,Raspberry Pi,RP2040 Wi-Fi development module,module,6.00,raspberrypi.com
+U2,1,SX1262 module (regional variant),Semtech-compatible module vendor,Sub-GHz radio module,module,9.00,verify supplier
+J1,1,USB Micro-B,Generic,5V power connector,connector,0.50,estimate

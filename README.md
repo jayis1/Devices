@@ -150,6 +150,7 @@ These aren't single chips on a board. Each device system here is:
 | 115 | [BookDrop Watch](./bookdrop-watch/) | 3 (Gateway, Chute Sentinel, Bin Scale) | Public Library Returns | Local-first after-hours book-return chute blockage and receiving-bin capacity advisories; no patron or circulation tracking |
 | 116 | [CourtSide](./courtside/) | 3 (Gateway, Surface Sentinel, Inspection Beacon) | Public Recreation | Local-first public court surface observations and staff-confirmed maintenance context; no visitor tracking or playability claims |
 | 117 | [ShiftShare](./shiftshare/) | 3 (Gateway, Room Sentinel, Supply Dock) | Community Rest-Site Readiness | Privacy-first local room-availability context for rotating-shift workers; no visitor tracking, reservations, or safety claims |
+| 118 | [LabSignal](./labsignal/) | 3 (Gateway, Sensor Node, Bench Dock) | Community Science Labs | Local-first shared instrument readiness and calibration-context reminders for volunteer-run science labs; no student tracking or measurement-validity claims |
 
 ## Structure
 
