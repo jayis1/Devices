@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD_est,Supplier
+U1,1,Pico W,Raspberry Pi,PICO-W,Module,RP2040 Wi-Fi gateway controller,6.00,DigiKey
+U2,1,SX1262 module,Semtech,SX1262,Module,Regional LoRa radio module,12.00,Seeed
+D1,1,LED,Kingbright,APT2012,0603,Status indicator,0.10,DigiKey
+J1,1,USB supply,Generic,USB-5V,Assembly,Certified extra-low-voltage USB supply,5.00,Local supplier

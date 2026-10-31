@@ -1,0 +1,6 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD_est,Supplier
+U1,1,Pico W,Raspberry Pi,PICO-W,Module,RP2040 Wi-Fi module,6.00,DigiKey
+U2,1,BME280 breakout,Bosch,BME280,Board,Temperature humidity pressure context,8.00,Adafruit
+U3,1,SX1262 module,Semtech,SX1262,Module,Regional LoRa radio module,12.00,Seeed
+S1,1,Tipping bucket gauge,Generic,Reed-contact-gauge,Assembly,Rain pulse input,15.00,Weather supplier
+R1,1,10k resistor,Yageo,RC0603FR-0710KL,0603,Contact pull-up,0.05,DigiKey

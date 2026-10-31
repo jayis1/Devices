@@ -153,6 +153,7 @@ These aren't single chips on a board. Each device system here is:
 | 118 | [LabSignal](./labsignal/) | 3 (Gateway, Sensor Node, Bench Dock) | Community Science Labs | Local-first shared instrument readiness and calibration-context reminders for volunteer-run science labs; no student tracking or measurement-validity claims |
 | 119 | [CacheReady](./cacheready/) | 3 (Hub, Cabinet Sentinel, Utility Sentinel) | Community Emergency Supply Readiness | Local-first shared emergency-cache condition observations and staff-confirmed inspection reminders; no visitor tracking, supply verification, or emergency dispatch |
 | 120 | [CookShare](./cookshare/) | 3 (Gateway, Station Observer×2) | Shared Kitchen Readiness | Local-first advisory shared cooking-station state from low-voltage supply observations; no occupant tracking or appliance control |
+| 121 | [DrainWatch](./drainwatch/) | 4 (Gateway, Inlet Node×2, Rain Node) | Community Drain Maintenance | Local-first curb-inlet water-level and rainfall context for human inspection prioritization; no flood prediction or infrastructure control |
 
 ## Structure
 

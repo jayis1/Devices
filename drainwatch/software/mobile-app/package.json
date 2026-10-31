@@ -1,0 +1,1 @@
+{"name":"drainwatch-mobile-stub","version":"0.1.0","private":true,"description":"UI-only React Native concept stub; not tested or production-ready","main":"index.js","dependencies":{"react":"18.3.1","react-native":"0.76.9"}}

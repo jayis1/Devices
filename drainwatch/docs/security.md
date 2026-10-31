@@ -1,0 +1,3 @@
+# Threat model and operations
+
+Prototype assets are low-resolution infrastructure observations plus site/node IDs. Potential risks include spoofed or replayed radio frames, unauthorized API reads/writes, physical tampering, and misleading stale measurements. Current CRC is not cryptographic protection; API has no authentication; MQTT is not implemented. Keep API on loopback/trusted host only. Before field use, add authenticated per-device radio messages, key provisioning/revocation, transport TLS, per-site API roles, broker ACLs, update signing, retention/deletion policy and audit logging. No command channel is present; preserve human inspection as authority.

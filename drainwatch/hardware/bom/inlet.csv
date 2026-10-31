@@ -1,0 +1,8 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,UnitCostUSD_est,Supplier
+U1,1,Pico W,Raspberry Pi,PICO-W,Module,RP2040 Wi-Fi module,6.00,DigiKey
+U2,1,VL53L0X breakout,STMicroelectronics,VL53L0X,Board,ToF distance sensor module,8.00,Adafruit
+U3,1,SX1262 module,Semtech,SX1262,Module,Regional LoRa radio module,12.00,Seeed
+B1,1,Protected 18650 cell,Generic,Protected-18650,Cell,Protected single-cell battery assembly,8.00,Local supplier
+PS1,1,3.3 V regulator,Texas Instruments,TPS63020,IC,Buck-boost regulator candidate,4.00,Mouser
+R1,2,100k resistor,Yageo,RC0603FR-07100KL,0603,Battery divider pair,0.05,DigiKey
+D1,1,LED,Kingbright,APT2012,0603,Status indicator,0.10,DigiKey
