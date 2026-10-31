@@ -1,0 +1,4 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Notes
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi Ltd,SC0510,Gateway computer,Board,15.00,Indicative only
+U2,1,RFM95W,HopeRF,RFM95W-915S2,Sub-GHz radio,module,5.00,Regional variant required
+U3,1,MicroSD card,Generic,TBD,Storage,Card,8.00,Industrial endurance recommended

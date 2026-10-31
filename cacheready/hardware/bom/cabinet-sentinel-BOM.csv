@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE MCU module,module,4.00,Confirm antenna variant
+U2,1,TMP117,Texas Instruments,TMP117AIDRVR,Digital temperature sensor,WSON-6,2.50,Verify address strap
+SW1,1,Reed switch,Generic,TBD,Door state switch,Through-hole,1.00,Select enclosure-compatible part
+U3,1,RFM95W,HopeRF,RFM95W-915S2,Sub-GHz radio,module,5.00,Regional variant required

@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Notes
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE MCU module,module,4.00,Confirm antenna variant
+U2,1,INA219,Texas Instruments,INA219AIDCNR,Low-voltage current/power monitor,SOT-23-8,1.50,Low-voltage DC only
+U3,1,SHT40,Sensirion,SHT40-AD1B-R2,Temperature/humidity sensor,DFN,2.00,Confirm suffix/footprint
+U4,1,RFM95W,HopeRF,RFM95W-915S2,Sub-GHz radio,module,5.00,Regional variant required
