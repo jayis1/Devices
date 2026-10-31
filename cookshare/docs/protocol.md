@@ -1,0 +1,5 @@
+# Observer frame v1
+
+All integers little-endian; 16-byte fixed frame, max frame 32. Bytes: magic C5 51; version u8 (=1); type u8; node_id u32; sequence u16; state u8 (0 unknown, 1 idle, 2 active); flags u8; sample_mA u16 (FFFF unavailable); CRC-16/CCITT-FALSE u16 over first 14 bytes. Codec in `firmware/common/protocol.c`; never transmit C struct memory. CRC detects corruption only, not authentication/replay. Node ID is provisioned out-of-band (not implemented). Receiver rejects duplicate/old modular sequence; reboot resets sequence in this prototype, so secure session/replay persistence remains a deployment requirement. Radio proposal: ESP-NOW 2.4 GHz unicast; vendor transport, encryption, acknowledgements, retry, channel selection and regulatory testing not implemented.
+
+Gateway JSON fields: schema_version=1, node_id, sequence, state, sample_mA or null, observed_at UTC ISO-8601. Proposed MQTT topic `cookshare/v1/site/{site_id}/station/{node_id}/state`; no MQTT bridge supplied. Broker requires TLS and per-site ACL in any deployment.

@@ -1,0 +1,6 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier,Notes
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi MCU module,Module,3.00-5.00,Distributor,Verify revision and antenna clearance
+U2,1,Texas Instruments,INA219AIDCNR,Current monitor,SOT-23-8,1.00-2.50,Distributor,Verify voltage and shunt dissipation
+J1,1,Generic,USB-C-16P,USB-C receptacle,Connector,0.20-0.80,Distributor,5V input only
+SW1,1,Generic,Reed switch,Context input,Through-hole,0.10-1.00,Distributor,No interlock
+F1,1,Generic,PTC resettable fuse,Input protection,Through-hole,0.10-0.50,Distributor,Select after review

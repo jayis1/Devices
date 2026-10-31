@@ -152,6 +152,7 @@ These aren't single chips on a board. Each device system here is:
 | 117 | [ShiftShare](./shiftshare/) | 3 (Gateway, Room Sentinel, Supply Dock) | Community Rest-Site Readiness | Privacy-first local room-availability context for rotating-shift workers; no visitor tracking, reservations, or safety claims |
 | 118 | [LabSignal](./labsignal/) | 3 (Gateway, Sensor Node, Bench Dock) | Community Science Labs | Local-first shared instrument readiness and calibration-context reminders for volunteer-run science labs; no student tracking or measurement-validity claims |
 | 119 | [CacheReady](./cacheready/) | 3 (Hub, Cabinet Sentinel, Utility Sentinel) | Community Emergency Supply Readiness | Local-first shared emergency-cache condition observations and staff-confirmed inspection reminders; no visitor tracking, supply verification, or emergency dispatch |
+| 120 | [CookShare](./cookshare/) | 3 (Gateway, Station Observer×2) | Shared Kitchen Readiness | Local-first advisory shared cooking-station state from low-voltage supply observations; no occupant tracking or appliance control |
 
 ## Structure
 

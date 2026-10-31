@@ -1,0 +1,2 @@
+RefDes,Qty,Manufacturer,MPN,Description,Package,UnitCost_USD,Supplier,Notes
+U1,1,Espressif,ESP32-C6-DevKitC-1,Wi-Fi/ESP-NOW gateway board,DevKit,8.00-15.00,Espressif/distributor,Prototype; verify revision

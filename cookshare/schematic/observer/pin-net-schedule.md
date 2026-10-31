@@ -1,0 +1,2 @@
+# Observer pin/net schedule — schematic capture pending
+ESP32-C3-MINI-1 proposed: GPIO6 SDA ↔ INA219 SDA; GPIO7 SCL ↔ INA219 SCL; GPIO4 ↔ reed switch to GND; GPIO5 → 1 kΩ → LED → GND. 3V3 sensor logic. Measured input is isolated extra-low-voltage DC only; range/shunt dissipation require engineering review. USB 5V with resettable fuse, reverse-polarity protection, 10µF and 100nF decoupling. Confirm exact module pin mux and ERC before board. This is not a KiCad schematic.
