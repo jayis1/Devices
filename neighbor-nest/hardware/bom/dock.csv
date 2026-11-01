@@ -1,0 +1,5 @@
+Ref,Qty,Part,MPN,Manufacturer,Description,Unit_Cost_USD,Supplier
+U1,1,nRF52840 module,Raytac MDBT50Q-1MV2,Raytac,BLE MCU module,8.00,Indicative distributor
+D1,1,OLED module SSD1306,SSD1306 0.96in,Generic,I2C display,3.00,Indicative distributor
+SW1-SW3,3,Tactile switch,PTS645,C&K,Volunteer check-in buttons,0.25,Indicative distributor
+BT1,1,AA holder 2-cell,Keystone 2462,Keystone,2-cell battery holder,1.20,Indicative distributor

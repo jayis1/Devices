@@ -1,0 +1,7 @@
+# Architecture
+
+Prototype proposal for shared indoor plant-care coordination; no actuation. Hub: ESP32-C6-MINI-1, USB-C 5 V, BLE peripheral scanner, local SQLite spool/API. Probe: nRF52840 module, BLE advertiser, switched capacitive soil sensor + SHTC3 I2C ambient measurement, 2×AA. Dock: nRF52840 module, BLE advertiser on button event, three buttons and SSD1306 OLED, 2×AA. Hub receives observations and serves local display/API; optional MQTT uplink is advisory only. Mobile app is a mock UI.
+
+Interfaces/pins are defined in root README. Design assumptions: sensor rail and analog front end must be validated against the selected nRF52840 module; probe should sample only after settling and include ADC calibration. BLE payload maximum is bounded by protocol header. Hub monotonic time is authoritative; observations without valid time are marked unsynchronized. Hub outage loses live visibility but does not alter plant conditions; events are not buffered by sleeping nodes. No safety-critical or autonomous operation.
+
+Physical separation reflects planter distribution and separate human check-in location. No user identity is stored; visit confirmation is an aggregate event. Retention default: rolling 30 days on hub, configurable deletion. Network service must be private and authenticated before deployment.

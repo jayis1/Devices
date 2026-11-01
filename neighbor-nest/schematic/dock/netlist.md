@@ -1,0 +1,3 @@
+# Conceptual netlist: check-in dock
+
+Not KiCad capture or manufacturing package. nRF52840 module on 2×AA source; SSD1306 OLED on I2C SDA=P0.26/SCL=P0.27. Three active-low buttons connect P0.11, P0.12 and P0.14 with pull-ups. Status LED on a GPIO via current-limit resistor. Include local decoupling, programming header, battery monitor and antenna keepout. Validate exact module pin mapping before layout.

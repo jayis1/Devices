@@ -156,6 +156,7 @@ These aren't single chips on a board. Each device system here is:
 | 121 | [DrainWatch](./drainwatch/) | 4 (Gateway, Inlet Node×2, Rain Node) | Community Drain Maintenance | Local-first curb-inlet water-level and rainfall context for human inspection prioritization; no flood prediction or infrastructure control |
 | 122 | [ArtPath](./artpath/) | 3 (Gateway, Artwork Station×N, Context Node) | Community Arts Accessibility | Local-first tactile and audio interpretation for public-art trails; no visitor tracking or navigation claims |
 | 123 | [PlayShare](./play-share/) | 4 (Gateway, Rack Scale, Return Dock, Inspection Beacon) | Community Recreation Equipment | Local-first aggregate sports-equipment stock and return/inspection readiness for volunteer stewards; no borrower tracking or safety certification |
+| 124 | [NeighborNest](./neighbor-nest/) | 3 (Hub, Soil Probe×N, Check-in Dock) | Shared Indoor Plant Care | Local-first soil-condition observations and volunteer-confirmed care coordination for shared indoor plant collections; no automated watering or occupant tracking |
 
 ## Structure
 

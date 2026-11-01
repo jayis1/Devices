@@ -1,0 +1,6 @@
+Ref,Qty,Part,MPN,Manufacturer,Description,Unit_Cost_USD,Supplier
+U1,1,nRF52840 module,Raytac MDBT50Q-1MV2,Raytac,BLE MCU module,8.00,Indicative distributor
+U2,1,SHTC3,SHTC3,Sensirion,Temperature and humidity sensor,2.00,Indicative distributor
+S1,1,Capacitive soil probe,Generic capacitive v1.2,Generic,Analog moisture sensing element,1.50,Indicative distributor
+BT1,1,AA holder 2-cell,Keystone 2462,Keystone,2-cell battery holder,1.20,Indicative distributor
+R1,1,Load switch, TPS22910A,Texas Instruments,Switched sensor supply,0.35,Indicative distributor

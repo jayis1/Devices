@@ -1,0 +1,3 @@
+# Conceptual netlist: soil probe
+
+Not a KiCad schematic or manufacturing package. nRF52840 module powered from 2×AA via a regulator selected for the chosen module. SHTC3 on I2C SDA=P0.26/SCL=P0.27, pull-ups to module I/O rail. Capacitive probe analog output connects through an RC low-pass to AIN0/P0.02; sensor VCC controlled by P0.13 through a load switch. Add ADC input clamp/series resistor, decoupling, battery measurement divider, programming header and antenna keepout in schematic capture. Confirm all connections against exact module datasheet.

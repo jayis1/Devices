@@ -1,0 +1,3 @@
+# Conceptual netlist: hub
+
+Not a KiCad schematic or manufacturing package. USB-C VBUS feeds 3.3 V regulator; regulator supplies ESP32-C6 module and I2C OLED. ESP32-C6 GPIO6/7 connect OLED SDA/SCL with pull-ups to 3.3 V. GPIO8 drives status LED through resistor; GPIO9 uses pull-up and switch to ground. USB shield/chassis treatment and ESD protection require PCB review. USB-C CC resistors, decoupling and exact module footprint must be added in schematic capture.
