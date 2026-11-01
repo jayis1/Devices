@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit cost (est. USD),Source
+U1,1,ESP32-C3-MINI-1,Espressif,BLE gateway module,module,3.50,Manufacturer datasheet; verify variant
+U2,1,CP2102N,Silicon Labs,USB UART bridge,QFN-28,1.20,Manufacturer datasheet
+U3,1,AP2112K-3.3,Diodes Inc,3.3V regulator,SOT-23-5,0.20,Manufacturer datasheet; verify thermal design
+J1,1,USB-C power connector,Generic,5V input,USB-C,0.50,Prototype estimate

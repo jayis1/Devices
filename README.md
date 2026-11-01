@@ -157,6 +157,7 @@ These aren't single chips on a board. Each device system here is:
 | 122 | [ArtPath](./artpath/) | 3 (Gateway, Artwork Station×N, Context Node) | Community Arts Accessibility | Local-first tactile and audio interpretation for public-art trails; no visitor tracking or navigation claims |
 | 123 | [PlayShare](./play-share/) | 4 (Gateway, Rack Scale, Return Dock, Inspection Beacon) | Community Recreation Equipment | Local-first aggregate sports-equipment stock and return/inspection readiness for volunteer stewards; no borrower tracking or safety certification |
 | 124 | [NeighborNest](./neighbor-nest/) | 3 (Hub, Soil Probe×N, Check-in Dock) | Shared Indoor Plant Care | Local-first soil-condition observations and volunteer-confirmed care coordination for shared indoor plant collections; no automated watering or occupant tracking |
+| 125 | [TuneShare](./tuneshare/) | 4 (Gateway, Climate Node×N, Rack Node, Check-in Dock) | Community Music Rooms | Local-first shared-instrument bay and storage-climate context for volunteer stewards; no borrower tracking, instrument-condition diagnosis, or autonomous control |
 
 ## Structure
 

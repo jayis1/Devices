@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit cost (est. USD),Source
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE module with antenna,module,3.50,Manufacturer datasheet; verify variant
+Q1-Q8,8,TCST2103,Vishay,Optical interrupter,through-hole,0.80,Manufacturer datasheet; check package variant
+R1-R8,8,10k 1%,Generic,Phototransistor pull-up,0603,0.02,Prototype estimate
+J1,1,USB-C power connector,Generic,5V power only,USB-C,0.50,Prototype estimate

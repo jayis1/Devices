@@ -1,0 +1,5 @@
+RefDes,Qty,MPN,Manufacturer,Description,Package,Unit cost (est. USD),Source
+U1,1,ESP32-C3-MINI-1,Espressif,BLE node module,module,3.50,Manufacturer datasheet; verify variant
+D1,1,LED 0603,Generic,Status indicator,0603,0.05,Prototype estimate
+R1,1,1k 1%,Generic,LED current limit,0603,0.02,Prototype estimate
+J1,1,USB-C power connector,Generic,5V power input,USB-C,0.50,Prototype estimate
