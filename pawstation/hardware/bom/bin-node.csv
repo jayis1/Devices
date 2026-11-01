@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Supplier
+U1,1,ESP32-C3-MINI-1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE module,module,4.00,major distributors
+U2,1,VL53L0X,STMicroelectronics,VL53L0X,ToF ranging sensor,LGA,3.50,major distributors
+S1,1,Reed switch,Generic,REED-NO,Normally-open lid switch,through-hole,0.50,electronics suppliers
+BT1,2,AA alkaline cell,Generic,AA-ALK,Primary cell,AA,0.50,retail

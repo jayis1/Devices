@@ -1,0 +1,3 @@
+# PawStation protocol v1
+
+Events use bounded JSON objects (maximum 96 bytes at the BLE adapter boundary): version, node_id, monotonically increasing seq, kind, integer value, unit and UTC milliseconds. Percent fields range 0..100. Gateway rejects unknown versions, invalid units and duplicate `(node_id,seq)` pairs. Missing device time is represented as null and gateway receipt time is authoritative. BLE transport implementation, cryptographic authentication, replay resistance, acknowledgements/retry, pairing and signed OTA are not implemented; production deployment must implement them before public use. Upstream MQTT topic: `pawstation/<site_id>/events`, TLS and per-device authorization required.

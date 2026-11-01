@@ -1,0 +1,5 @@
+RefDes,Qty,Part,Manufacturer,MPN,Description,Package,UnitCostUSD,Supplier
+U1,1,nRF52810 module, Nordic Semiconductor,NRF52810-MODULE, BLE module,module,6.00,major distributors
+S1,1,Momentary button,Generic,SW-PUSH,Service confirmation button,through-hole,0.20,electronics suppliers
+D1,1,LED,Generic,LED-0603,Status indicator,0603,0.05,electronics suppliers
+BT1,1,CR2032,Generic,CR2032,Primary coin cell,coin,0.40,retail
