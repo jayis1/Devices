@@ -1,0 +1,8 @@
+{
+  "name": "waymark-mobile-stub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unbuilt React Native staff UI scaffold",
+  "scripts": {"start": "expo start"},
+  "dependencies": {"expo": "~51.0.0", "react": "18.2.0", "react-native": "0.74.0"}
+}

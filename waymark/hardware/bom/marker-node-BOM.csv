@@ -1,0 +1,7 @@
+ref,qty,mpn,manufacturer,description,package,unit_cost_usd_estimate,source
+U1,1,ESP32-C3-MINI-1,Espressif,Wi-Fi/BLE module,Module,TBD,manufacturer datasheet
+U2,1,VL53L0X,STMicroelectronics,ToF ranging sensor,LGA,TBD,manufacturer datasheet
+S1,1,TBD,TBD,Sealed momentary button,Through-hole,TBD,select for environment
+R1,1,TBD,TBD,Button pull-up resistor,0603,TBD,select after circuit review
+C1,1,TBD,TBD,Local decoupling capacitor,0603,TBD,select after circuit review
+B1,2,TBD,TBD,AA alkaline cells,AA,TBD,regional supplier

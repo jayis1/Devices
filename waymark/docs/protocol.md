@@ -1,0 +1,7 @@
+# Waymark event protocol v1 (DRAFT)
+
+Reference JSON event: `{"v":1,"node_id":"marker-001","seq":17,"kind":"marker_presence","value":1,"unit":"bool","utc_ms":0}`. `value` is boolean 0/1 for presence; optional `quality` 0–100; UTC zero means unavailable and gateway records receipt time. `kind` is `marker_presence` or `inspection_confirmed`. Identity is provisioned manually; production authentication is not implemented.
+
+Transport proposal: BLE manufacturer/service data advertisement from field nodes to gateway; gateway maps validated event to MQTT topic `waymark/<site>/events` over TLS with per-site credentials. MQTT is design-only in this prototype. Payload max 256 bytes; unknown versions, malformed JSON, unknown kind, invalid ranges rejected. Deduplicate node_id + seq; do not execute commands. Sequence wrap/reboot requires a persisted boot counter or gateway-side event-id strategy, still TBD. Never trust node wall clock; preserve receipt time. No replay-proof cryptographic authentication currently exists and deployment must remain non-production until added.
+
+Retry: gateway bounded durable queue, exponential backoff with cap; discard oldest only after explicit retention policy and log a loss counter. Nodes repeat latest state at low duty cycle; gateway deduplicates. No remote commands or retained command topics.

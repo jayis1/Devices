@@ -1,0 +1,5 @@
+# Safety and privacy
+
+Advisory maintenance context only; not a route planner, accessibility certification, or substitute for scheduled inspections. A missing/dirty marker may go undetected because of sensor drift, mounting changes, obstructions, radio loss or power depletion. Maintain ordinary accessible reporting channels and inspect independently.
+
+No cameras, audio, visitor identifiers, or movement histories. Node identifiers are infrastructure identifiers. Define retention and deletion with the operator before any deployment. Gateway/cloud outages do not control physical infrastructure. This prototype has no production device authentication, secure boot, signed OTA, API authorization or MQTT ACL implementation; do not expose it publicly or use sensitive data. Physical installation must not obstruct routes or tactile surfaces. Obtain accessibility and municipal review before field trials.
