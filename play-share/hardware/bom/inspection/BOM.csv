@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Unit cost USD estimate,Source
+U1,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU module,4-8,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+SW1,1,Large momentary button,Generic,Verify supplier,panel-mount,Staff-confirmed inspection event,1-5,Verify supplier
+D1,1,RGB LED,Generic,Verify supplier,through-hole,Status indication with current limiting,0.2-1,Verify supplier
+J1,1,USB 5V carrier,Generic,Verify supplier,board,Regulated 3V3 carrier and debug access,4-10,Estimate only

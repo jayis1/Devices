@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Unit cost USD estimate,Source
+U1,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU module,4-8,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+U2,1,HX711 load cell ADC,Avia, HX711,SOP-16,Load-cell converter module candidate,1-4,https://www.sparkfun.com/products/13879
+L1-L4,4,50 kg load cell,Generic,Verify supplier,bar,Platform load cells matched as a set,8-20,https://www.sparkfun.com/categories/308
+J1,1,USB 5V carrier,Generic,Verify supplier,board,Regulated 3V3 carrier and debug access,4-10,Estimate only

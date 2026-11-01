@@ -1,0 +1,5 @@
+Ref,Qty,Part,Manufacturer,MPN,Package,Description,Unit cost USD estimate,Source
+U1,1,ESP32-C3 module,Espressif,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU module,4-8,https://www.espressif.com/en/products/modules/esp32-c3-mini-1
+U2,1,Time-of-flight module,ST,VL53L0X,module,Short-range bin occupancy candidate,3-8,https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
+S1,1,Reed switch,Generic,Verify supplier,through-hole,Lid event context,0.2-1,Verify supplier
+J1,1,USB 5V carrier,Generic,Verify supplier,board,Regulated 3V3 carrier and debug access,4-10,Estimate only
