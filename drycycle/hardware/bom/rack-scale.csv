@@ -1,0 +1,6 @@
+Reference BOM only; verify exact module revisions and supplier substitutions before use.
+Item,Description,Quantity,Notes
+MCU,ESP32-C3-MINI-1,1,Module; verify antenna keepout and pin mapping
+ADC,HX711 breakout,1,Verify 3V3 logic compatibility
+Load cell,50 kg strain gauge half-bridge,4,Matched set; mechanical platform required
+Power,5 V regulated supply,1,Current limit and strain relief

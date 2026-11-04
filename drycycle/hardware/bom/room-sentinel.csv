@@ -1,0 +1,6 @@
+Reference BOM only; verify exact module revisions before use.
+Item,Description,Quantity,Notes
+MCU,ESP32-C3-MINI-1,1,Verify module pin mapping and RF keepout
+Sensor,Sensirion SHT31-D breakout,1,Check I2C pull-ups/logic level
+Power,AA cells and holder,2 cells,Runtime and protection unverified
+Enclosure,vented indoor enclosure,1,Keep away from direct moisture

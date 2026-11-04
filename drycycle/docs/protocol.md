@@ -1,0 +1,3 @@
+# Protocol v1
+
+Decoded event fields: version (uint8), node_id (enrolled identifier), seq (uint32), kind, value (signed integer), unit, utc_ms (uint64; zero unknown). Kinds and ranges: mass_g 0–50000 g, rh_bps 0–10000 basis points, temp_centi_c −4000..8500. Reject malformed, unknown-version, out-of-range, oversized (>192 byte) and duplicate events. Deduplication key `(node_id, seq)`; gateway receipt clock supplies local timestamp if sender time is unknown. Units are fixed and explicit. BLE wire framing, secure enrollment, key rotation, retries, and OTA are future work; unauthenticated prototype radio events must not be trusted for commands. No commands are defined in v1.
