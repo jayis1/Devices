@@ -1,0 +1,8 @@
+Reference,Description,Qty,Notes
+ESP32-C3-MINI-1,Espressif module,1,Verify antenna keepout and exact module revision
+SW1-SW3,Momentary normally-open buttons,3,Ready/busy/paused staff declaration
+D1,Diffused LED plus 1k resistor,1,GPIO indicator
+J1,USB-C receptacle,1,USB 5 V only; add CC resistors on custom PCB
+U1,3.3 V LDO >=500 mA,1,Input protection and thermal design required
+C1-C3,10uF and 100nF decoupling,3,Place per module/LDO datasheets
+F1,Resettable USB fuse,1,Select for enclosure and supply

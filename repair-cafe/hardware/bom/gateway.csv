@@ -1,0 +1,5 @@
+Reference,Description,Qty,Notes
+Raspberry Pi Pico W,RP2040/CYW43439 development board,1,USB powered; local SQLite host requires attached Linux computer in this prototype
+USB BLE adapter,Bluetooth Low Energy adapter,1,Host-dependent; validate BlueZ compatibility
+Certified USB supply,5V SELV supply,1,Use locally approved certified supply
+Enclosure,Non-conductive ventilated enclosure,1,Keep radio antenna clear

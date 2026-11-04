@@ -160,6 +160,7 @@ These aren't single chips on a board. Each device system here is:
 | 125 | [TuneShare](./tuneshare/) | 4 (Gateway, Climate Node×N, Rack Node, Check-in Dock) | Community Music Rooms | Local-first shared-instrument bay and storage-climate context for volunteer stewards; no borrower tracking, instrument-condition diagnosis, or autonomous control |
 | 126 | [PawStation](./pawstation/) | 4 (Gateway, Bag Node×N, Bin Node×N, Inspection Beacon) | Community Pet-Waste Station Readiness | Privacy-first bag-stock and bin-fill maintenance advisories for park stewards; no visitor tracking or automated dispensing |
 | 127 | [Waymark](./waymark/) | 3 (Gateway, Crossing Node×N, Service Beacon) | Community Public-Wayfinding Readiness | Local-first reports of damaged tactile wayfinding markers and accessible-route landmark availability, with human-confirmed inspection; no pedestrian tracking or navigation guarantee |
+| 128 | [RepairCafe](./repair-cafe/) | 3 (Gateway, Ticket Dock, Bench Beacon×N) | Community Repair Events | Local-first repair intake queue and volunteer-declared bench availability; no visitor tracking, tool monitoring, or appliance control |
 
 ## Structure
 
