@@ -1,0 +1,6 @@
+node,reference_design,qty,reference,notes
+room_beacon,nRF52840 module,1,U1,Variant and antenna implementation unverified
+room_beacon,Three-position switch,1,SW1,Manual availability selection
+room_beacon,RGB LED,1,D1,Current-limited via resistors
+room_beacon,Series resistor,3,R1-R3,Values selected from LED current and GPIO limits
+room_beacon,Protected battery module,1,BT1,Primary-cell charging prohibited

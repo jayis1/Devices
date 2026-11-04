@@ -162,6 +162,7 @@ These aren't single chips on a board. Each device system here is:
 | 127 | [Waymark](./waymark/) | 3 (Gateway, Crossing Node×N, Service Beacon) | Community Public-Wayfinding Readiness | Local-first reports of damaged tactile wayfinding markers and accessible-route landmark availability, with human-confirmed inspection; no pedestrian tracking or navigation guarantee |
 | 128 | [RepairCafe](./repair-cafe/) | 3 (Gateway, Ticket Dock, Bench Beacon×N) | Community Repair Events | Local-first repair intake queue and volunteer-declared bench availability; no visitor tracking, tool monitoring, or appliance control |
 | 129 | [DryCycle](./drycycle/) | 3 (Gateway, Rack Scale, Room Sentinel) | Indoor Laundry Drying | Local-first passive clothes-drying progress estimates from rack mass loss and room climate; advisory only, no appliance control |
+| 130 | [ChoreCue](./chorecue/) | 4 (Home Hub, Task Button×N, Supply Dock, Room Beacon) | Shared Household Routines | Local-first shared-household task coordination using explicit physical check-ins, refill cues, and household-agreed workload summaries; no cameras, microphones, occupant tracking, or automated judgments |
 
 ## Structure
 

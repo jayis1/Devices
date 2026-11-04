@@ -1,0 +1,4 @@
+node,reference_design,qty,reference,notes
+hub,Raspberry Pi 4 Model B,1,U1,Exact revision and supply margin verify before build
+hub,Enclosed USB-C 5V supply,1,PS1,Use approved commercial supply; no mains design included
+hub,BLE USB adapter,1,U2,Required for prototype if onboard BLE unavailable

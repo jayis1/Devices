@@ -1,0 +1,16 @@
+node,reference_design,qty,reference,notes
+hub,Raspberry Pi 4 Model B,1,U1,Exact revision and supply margin verify before build
+hub,Enclosed USB-C 5V supply,1,PS1,Use approved commercial supply; no mains design included
+hub,BLE USB adapter,1,U2,Required for prototype if onboard BLE unavailable
+button,nRF52840 module,1,U1,Variant and antenna implementation unverified
+button,Momentary switch,1,SW1,Normally open GPIO input; debounce in firmware
+button,LED plus series resistor,1,D1-R1,Current-limited status indicator
+button,Protected battery module,1,BT1,Primary-cell charging prohibited
+supply_dock,ESP32-C3 module,1,U1,Exact variant and antenna keep-out unverified
+supply_dock,Load cell 1kg,1,LS1,Mechanical fixture and accuracy require validation
+supply_dock,Load-cell ADC module,1,U2,Logic-level compatibility verify; reference only
+supply_dock,Enclosed USB 5V supply,1,PS1,No exposed mains wiring
+room_beacon,nRF52840 module,1,U1,Variant and antenna implementation unverified
+room_beacon,Three-position switch,1,SW1,Manual availability selection
+room_beacon,RGB LED plus resistors,1,D1-R3,Current-limited indicators
+room_beacon,Protected battery module,1,BT1,Primary-cell charging prohibited

@@ -1,0 +1,5 @@
+node,reference_design,qty,reference,notes
+supply_dock,ESP32-C3 module,1,U1,Exact variant and antenna keep-out unverified
+supply_dock,Load cell 1kg,1,LS1,Mechanical fixture and accuracy require validation
+supply_dock,Load-cell ADC module,1,U2,Logic-level compatibility verify; reference only
+supply_dock,Enclosed USB 5V supply,1,PS1,No exposed mains wiring

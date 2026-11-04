@@ -1,0 +1,6 @@
+node,reference_design,qty,reference,notes
+button,nRF52840 module,1,U1,Variant and antenna implementation unverified
+button,Momentary switch,1,SW1,Normally open GPIO input; debounce in firmware
+button,LED,1,D1,Current-limited via resistor
+button,Series resistor,1,R1,Value selected from LED current and GPIO limits
+button,Protected battery module,1,BT1,Primary-cell charging prohibited
