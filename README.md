@@ -164,6 +164,7 @@ These aren't single chips on a board. Each device system here is:
 | 129 | [DryCycle](./drycycle/) | 3 (Gateway, Rack Scale, Room Sentinel) | Indoor Laundry Drying | Local-first passive clothes-drying progress estimates from rack mass loss and room climate; advisory only, no appliance control |
 | 130 | [ChoreCue](./chorecue/) | 4 (Home Hub, Task Button×N, Supply Dock, Room Beacon) | Shared Household Routines | Local-first shared-household task coordination using explicit physical check-ins, refill cues, and household-agreed workload summaries; no cameras, microphones, occupant tracking, or automated judgments |
 | 131 | [WaterWise](./waterwise/) | 3 (Hub, Flow Node, Temperature Node) | Household Water Conservation | Local-first household water-use and hot-water wait feedback; sensor-only, no plumbing control |
+| 132 | [MoveMate](./movemate/) | 3 (Gateway, Room Beacon×N, Scan Dock) | Moving & Storage | Local-first labeled-box inventory and destination room wayfinding for household moves; explicit scans, no occupant tracking |
 
 ## Structure
 

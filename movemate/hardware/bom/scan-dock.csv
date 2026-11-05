@@ -1,0 +1,6 @@
+Ref,Qty,Part,Package,Notes
+U1,1,ESP32-C3-MINI-1,module,controller
+U2,1,UART 2D QR engine,module,verify UART voltage
+DS1,1,128x64 OLED,I2C module,3.3V logic
+SW1-SW3,3,tactile switch,through-hole,scan/confirm/back
+PS1,1,5V USB supply,external,certified supply

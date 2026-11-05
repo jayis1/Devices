@@ -1,0 +1,10 @@
+Ref,Qty,Part,Package,Notes
+U1,1,ESP32-C3-MINI-1,module,Wi-Fi/BLE MCU
+U2,1,SHTC3,DFN-8,optional room climate sensor
+U3,1,3.3V regulator,module,select after peak-current validation
+D1,1,LED,0603,status
+R1,1,1k resistor,0603,LED current limit
+R2-R3,2,4.7k resistor,0603,I2C pull-ups optional
+SW1,1,tactile switch,4.5x4.5mm,user input
+J1,1,USB-C receptacle,16-pin,5V/programming interface
+BT1,1,protected single-cell Li-ion,cell,charger module required; USB prototype preferred

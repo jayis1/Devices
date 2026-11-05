@@ -1,0 +1,4 @@
+Ref,Qty,Part,Package,Notes
+U1,1,Raspberry Pi Zero 2 W,board,local gateway
+PS1,1,5V 2A certified USB supply,external,region-approved supply
+SD1,1,microSD endurance card,card,capacity per deployment
