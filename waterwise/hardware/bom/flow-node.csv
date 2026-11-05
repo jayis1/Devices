@@ -1,0 +1,6 @@
+Reference, illustrative quantities; verify exact board/module before purchase.
+Reference,Description,Qty,Notes
+U1,Espressif ESP32-C3-DevKitM-1,1,development board
+S1,UART clamp-on flow sensor module,1,3.3V UART interface must be verified
+J1,4-pin keyed connector,1,5V/GND/TX/RX
+C1,100nF ceramic capacitor,1,local decoupling

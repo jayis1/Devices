@@ -1,0 +1,5 @@
+Reference,Description,Qty,Notes
+U1,nRF52840 development board,1,board variant to be selected
+U2,DS18B20 temperature probe,2,surface contact; not immersed
+R1,4.7kΩ resistor,1,1-Wire pull-up to 3.3V
+BT1,AA battery holder,1,2-cell; regulator compatibility TBD

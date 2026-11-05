@@ -1,0 +1,1 @@
+{"name":"waterwise-mobile-stub","version":"0.1.0","private":true,"scripts":{"start":"expo start"},"dependencies":{"expo":"*","react":"*","react-native":"*"}}
