@@ -1,0 +1,5 @@
+reference,component,qty,notes
+H1,Raspberry Pi Zero 2 W,1,5V gateway
+H2,HopeRF RFM95W matching regional band,1,verify local rules and antenna
+H3,USB-C 5V supply,1,certified external supply
+H4,microSD high-endurance,1,local database

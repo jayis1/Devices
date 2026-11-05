@@ -1,0 +1,6 @@
+reference,component,qty,notes
+I1,Raspberry Pi RP2040 development board,1,prototype
+I2,UART barcode scanner,1,volunteer-operated
+I3,Rotary encoder and buttons,1,explicit confirmation
+I4,HopeRF RFM95W regional variant,1,verify local rules and antenna
+I5,USB 5V supply,1,external supply

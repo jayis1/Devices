@@ -1,0 +1,6 @@
+reference,component,qty,notes
+S1,ESP32-C3-MINI-1,1,3.3V module
+S2,NAU7802,1,load-cell ADC
+S3,5kg load cell,1,mounting required
+S4,HopeRF RFM95W regional variant,1,verify local rules and antenna
+S5,USB 5V supply and 3.3V regulator,1,burst/thermal validation required
