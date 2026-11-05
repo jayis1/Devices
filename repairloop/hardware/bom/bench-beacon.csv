@@ -1,0 +1,8 @@
+reference,designator,part,qty,notes
+Gateway SBC,U1,Raspberry Pi Zero 2 W,1,Prototype; official supply and microSD separately verify
+Gateway supply,PS1,5V USB supply 2.5A,1,Certified external supply required
+Bench MCU,U1,ESP32-C3-MINI-1,1,Module; reference design and antenna keepout required
+Bench indicator,D1,WS2812B-compatible 5V RGB LED,1,Level compatibility verify; status only
+Bench buttons,SW1-SW2,Momentary normally-open switch,2,GPIO with pull-up
+Bench resistor,R1,330 ohm,1,LED data series
+Bench supply,PS1,5V USB supply,1,Current-limited external supply

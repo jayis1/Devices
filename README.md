@@ -165,6 +165,7 @@ These aren't single chips on a board. Each device system here is:
 | 130 | [ChoreCue](./chorecue/) | 4 (Home Hub, Task Button×N, Supply Dock, Room Beacon) | Shared Household Routines | Local-first shared-household task coordination using explicit physical check-ins, refill cues, and household-agreed workload summaries; no cameras, microphones, occupant tracking, or automated judgments |
 | 131 | [WaterWise](./waterwise/) | 3 (Hub, Flow Node, Temperature Node) | Household Water Conservation | Local-first household water-use and hot-water wait feedback; sensor-only, no plumbing control |
 | 132 | [MoveMate](./movemate/) | 3 (Gateway, Room Beacon×N, Scan Dock) | Moving & Storage | Local-first labeled-box inventory and destination room wayfinding for household moves; explicit scans, no occupant tracking |
+| 133 | [RepairLoop](./repairloop/) | 3 (Event Gateway, Bench Beacon×N, Ticket Dock) | Community Repair Events | Local-first anonymous repair-event ticket intake and volunteer-declared bench coordination; no visitor tracking or repair diagnosis |
 
 ## Structure
 
