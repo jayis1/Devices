@@ -1,0 +1,2 @@
+# Protocol v1
+Fields: version u8, type u8 (1 telemetry, 2 status, 3 fault), node ID u32 nonzero, sequence u32 monotonic, signed value i32, unit u8; CRC-16/CCITT-FALSE over serialized bytes. Values use documented scaled integers; weight g, distance mm, temperature centi-degrees C. BLE payload maximum 64 bytes. Ignore older sequence, reject unknown version/type. CRC is not authentication. Prototype pairing is not hardened.

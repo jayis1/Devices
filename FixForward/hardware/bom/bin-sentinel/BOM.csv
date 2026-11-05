@@ -1,0 +1,5 @@
+Ref,Qty,Manufacturer,Part,Description,Notes
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE module,Use documented reference design
+U2,1,ST,VL53L0X,Time-of-flight distance sensor,Breakout module
+U3,1,TI,TMP117,Temperature sensor,Breakout module
+SW1,1,Generic,Normally-open tactile switch,Pairing/service input,GPIO4

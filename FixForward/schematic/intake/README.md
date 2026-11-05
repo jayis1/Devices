@@ -1,0 +1,2 @@
+# Intake station connection ledger (not a KiCad schematic)
+ESP32-C3 module 3V3/GND; I2C GPIO8=SDA, GPIO9=SCL with 4.7k pullups to 3V3; NAU7802 breakout SDA/SCL, 3V3, GND; load cell E+/E-/A+/A- to breakout documented bridge terminals. OLED shares I2C only after address scan. Buttons GPIO4/5/6 to GND, internal pull-ups, debounce in firmware. USB 5V input to module carrier regulator. UART0 GPIO20/21 service.

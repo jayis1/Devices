@@ -1,0 +1,6 @@
+Ref,Qty,Manufacturer,Part,Description,Notes
+U1,1,Espressif,ESP32-C3-MINI-1,Wi-Fi/BLE module,Use documented reference design
+U2,1,Nuvoton,NAU7802,24-bit bridge ADC,Use breakout initially
+U3,1,Newhaven, NHD-0216K3Z,OLED display,Confirm I2C variant
+LS1,1,Generic,5kg load cell,Strain gauge bridge,Calibrate with known masses
+SW1-SW3,3,Generic,Normally-open tactile switch,User input,GPIO4/5/6

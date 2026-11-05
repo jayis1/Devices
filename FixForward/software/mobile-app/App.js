@@ -1,0 +1,2 @@
+import React from 'react'; import {SafeAreaView,Text,TextInput,Button} from 'react-native';
+export default function App(){const [id,setId]=React.useState(''); return <SafeAreaView><Text>FixForward — operator prototype (demo only)</Text><TextInput placeholder="Anonymous event ID" value={id} onChangeText={setId}/><Text>Inspect item and select route in the local dashboard. Never infer battery safety.</Text><Button title="Queue item (UI stub)" onPress={()=>{}}/></SafeAreaView>}
