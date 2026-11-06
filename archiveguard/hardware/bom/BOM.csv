@@ -1,0 +1,10 @@
+node,reference,quantity,manufacturer_part,candidate_description,notes
+gateway,U1,1,ESP32-C6-WROOM-1,Espressif wireless module,verify variant and antenna keepout
+gateway,U2,1,TPS62162,TI buck regulator candidate,verify input/output limits and passives
+gateway,J1,1,USB-C receptacle,5V input connector,add CC resistors and ESD after design review
+room_sentinel,U1,1,ESP32-C6-MINI-1,Espressif wireless module,verify exact variant
+room_sentinel,U2,1,SHT31-DIS,Sensirion temperature/RH sensor,confirm package and accuracy needs
+room_sentinel,U3,1,MCP1700-3302E,LDO candidate,verify load/transient margin
+shelf_probe,U1,1,ESP32-C6-MINI-1,Espressif wireless module,verify exact variant
+shelf_probe,U2,1,TMP117,TI digital temperature sensor,verify package and contact mounting
+shelf_probe,U3,1,MCP1700-3302E,LDO candidate,verify load/transient margin

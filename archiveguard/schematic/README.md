@@ -1,0 +1,3 @@
+# Candidate connection sheets (not KiCad CAD)
+
+No manufacturing schematics are supplied. Gateway: USB 5 V input to 3.3 V regulator; ESP32-C6 module powered at 3.3 V, UART0 exposed for programming, I²C GPIO6/7 to optional local sensor. Sentinel: protected-cell supply to regulated 3.3 V, ESP32-C6 module, SHT31 at 3.3 V on I²C GPIO6/7 with 4.7 kΩ pull-ups, UART0 programming header. Shelf probe: same MCU power/programming, TMP117 I²C address 0x48 on GPIO6/7. Check exact module pin mapping and boot straps against vendor datasheet before layout; these pin numbers are conceptual GPIO assignments only.

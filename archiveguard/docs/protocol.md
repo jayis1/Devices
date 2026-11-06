@@ -1,0 +1,3 @@
+# Architecture and protocol notes
+
+System is advisory monitoring for small collections. Measurement event is JSON v1: `{schema_version,site_id,node_id,seq,captured_at,temperature_c,relative_humidity_pct}`. `seq` increases per node; repeated (site,node,seq) is idempotent. UTC timestamp is device capture time; backend validates numeric bounds and schema version. Units are Celsius and percent RH. Authentication must occur at transport and API layers; identifiers do not authenticate a device. No commands or actuators are defined. Store only necessary measurements, establish retention/deletion policy before use.
