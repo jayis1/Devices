@@ -171,6 +171,7 @@ These aren't single chips on a board. Each device system here is:
 | 136 | [PowerBankLoop](./powerbank-loop/) | 3+ (Site Gateway, Loan Dock×N, Pack Tag×N) | Community Device Charging Access | Anonymous manual power-bank lending availability and equipment-health coordination; no borrower tracking, automated dispensing, or battery-safety claims |
 | 137 | [BirdGuard](./birdguard/) | 3+ (Gateway, Window Sentinel×N, Weather Sentinel) | Wildlife-Friendly Buildings | Local-first window-glass inspection and retrofit-marker maintenance observations; no cameras, collision detection, or wildlife-safety claims |
 | 138 | [ArchiveGuard](./archiveguard/) | 3+ (Gateway, Room Sentinel×N, Shelf Probe×N) | Community Archives | Local-first archival collection environment observations and staff inspection prompts; advisory only, no preservation certification or HVAC control |
+| 139 | [LineWise](./linewise/) | 3 (Gateway, Line Sentinel, Weather Sentinel) | Shared Outdoor Laundry | Local-first shared clothesline readiness and weather advisories; no resident tracking or clothesline control |
 
 ## Structure
 

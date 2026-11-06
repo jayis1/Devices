@@ -1,0 +1,9 @@
+node,ref,qty,manufacturer_part,description,notes
+gateway,U1,1,ESP32-C6-WROOM-1-N8,Espressif ESP32-C6 module,verify module variant and antenna
+gateway,J1,1,USB4105-GF-A,USB-C receptacle,5V input only
+line-sentinel,U1,1,nRF52840-MDK,Makerdiary nRF52840 module,reference dev module; verify pin mapping
+line-sentinel,U2,1,HX711,24-bit load-cell ADC,3.3V logic variant
+line-sentinel,S1,1,Generic 10kg strain gauge load cell,Load cell bridge,mechanics-specific; calibrate
+weather-sentinel,U1,1,ESP32-C3-WROOM-02,Espressif module,verify antenna option
+weather-sentinel,S1,1,Generic tipping-bucket rain gauge,Reed switch sensor,external cable protection required
+weather-sentinel,S2,1,Generic reed anemometer,Wind sensor,verify pulse-to-speed calibration
