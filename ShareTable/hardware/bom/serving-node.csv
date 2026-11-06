@@ -1,0 +1,5 @@
+node,manufacturer,part_number,qty,package,notes
+Serving,Espressif,ESP32-C3-MINI-1,1,module,3.3V logic; verify module variant
+Serving,Analog Devices,DS18B20+,1,TO-92,Powered three-wire probe; sanitation validated separately
+Serving,Generic,4.7k resistor,1,0603,GPIO4 pull-up to 3.3V
+Serving,Generic,Normally-open button,1,THT,GPIO5 to ground

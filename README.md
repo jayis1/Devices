@@ -172,6 +172,7 @@ These aren't single chips on a board. Each device system here is:
 | 137 | [BirdGuard](./birdguard/) | 3+ (Gateway, Window Sentinel×N, Weather Sentinel) | Wildlife-Friendly Buildings | Local-first window-glass inspection and retrofit-marker maintenance observations; no cameras, collision detection, or wildlife-safety claims |
 | 138 | [ArchiveGuard](./archiveguard/) | 3+ (Gateway, Room Sentinel×N, Shelf Probe×N) | Community Archives | Local-first archival collection environment observations and staff inspection prompts; advisory only, no preservation certification or HVAC control |
 | 139 | [LineWise](./linewise/) | 3 (Gateway, Line Sentinel, Weather Sentinel) | Shared Outdoor Laundry | Local-first shared clothesline readiness and weather advisories; no resident tracking or clothesline control |
+| 140 | [ShareTable](./ShareTable/) | 3 (Gateway, Serving Node, Return Node) | Community Meal-Service Coordination | Local-first aggregate serving observations and reusable-container return coordination; no diner tracking or food-safety claims |
 
 ## Structure
 

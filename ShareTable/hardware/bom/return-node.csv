@@ -1,0 +1,5 @@
+node,manufacturer,part_number,qty,package,notes
+Return, Raspberry Pi, RP2040,1,QFN-56,MCU IC requires external support circuitry
+Return,Avia Semiconductor,HX711,1,SOIC-16,Load-cell ADC
+Return,Generic,Load cell 5kg,1,bar,Choose platform and mount after mechanical test
+Return,Generic,USB 5V supply,1,external,1A supply

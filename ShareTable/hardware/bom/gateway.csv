@@ -1,0 +1,4 @@
+node,manufacturer,part_number,qty,package,notes
+Gateway,Espressif,ESP32-C3-MINI-1,1,module,Wi-Fi BLE module; verify module variant
+Gateway,Generic,USB-C receptacle,1,TH/SMT,5V input only; protect and fuse
+Gateway,Generic,3.3V regulator 1A,1,SOT-223,Select validated thermal design
