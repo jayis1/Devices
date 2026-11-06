@@ -1,0 +1,8 @@
+Item,Manufacturer,Part number,Qty,Notes,Estimated USD
+BLE module,Nordic Semiconductor,nRF52840-MDK,1,Reference module; verify exact module supply and antenna,18.00
+Fuel gauge,Maxim Integrated,MAX17048G+T10,1,Confirm pack voltage compatibility,2.50
+Temperature sensor,TI,TMP117AIDRVR,1,Pack surface observation only,1.80
+Status LED,Kingbright,APTD1608SURCK,1,Current limit resistor required,0.10
+Protected power bank,Certified vendor,Commercial USB power bank with protected low-voltage service rail,1,Do not open or modify cells; confirm vendor documentation,15.00
+Enclosure,Generic,Insulating tag enclosure,1,Non-obstructive attachment and thermal review,2.00
+Passives/connectors,Various,Assorted,1,Estimate only,2.00

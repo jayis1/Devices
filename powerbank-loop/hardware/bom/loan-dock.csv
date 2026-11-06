@@ -1,0 +1,10 @@
+Item,Manufacturer,Part number,Qty,Notes,Estimated USD
+MCU,Raspberry Pi,RP2040,1,Verify package and board design,1.00
+LoRa transceiver,Semtech,SX1262IMLTRT,1,RF layout and matching not designed,4.00
+Current monitor,TI,INA219AIDCNR,2,Prototype channel-group monitor; per-port granularity unresolved,2.20
+Temperature sensor,TI,TMP117AIDRVR,1,Board-level thermal placement review,1.80
+Power distribution module,Certified module vendor,USB-C 5V current-limited source module,4,Select certified module with per-port protection,24.00
+Regulator,TI,TPS62162DSGR,1,5V to 3V3 conversion,1.20
+Presence switches,Omron,D2F-L,4,Mechanical fit and pull circuit to verify,8.00
+Connectors and passives,Various,Assorted,1,Finalize after schematic capture,12.00
+Enclosure,Generic,Vented indoor cabinet enclosure,1,Review ventilation and fire requirements,20.00

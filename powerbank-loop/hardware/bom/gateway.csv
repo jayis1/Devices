@@ -1,0 +1,10 @@
+Item,Manufacturer,Part number,Qty,Notes,Estimated USD
+MCU radio gateway module,Espressif,ESP32-S3-WROOM-1-N8,1,Confirm antenna variant and module revision,5.50
+LoRa transceiver,Semtech,SX1262IMLTRT,1,868 MHz design requires matched RF network and antenna,4.00
+Display,Newhaven or equivalent,NHD-0216K3Z-FL-GBW-V3,1,Optional operator status display; verify interface,12.00
+Temperature sensor,TI,TMP117AIDRVR,1,Board-level sensor and thermal coupling review,1.80
+Regulator,TI,TPS62162DSGR,1,5V to 3V3 power conversion,1.20
+USB-C receptacle,Amphenol,12401610E4#2A,1,Verify footprint and mechanical retention,0.70
+Antenna,Taoglas,ANT-868-CW-HWR-SMA,1,Confirm regional installation and RF layout,5.00
+Passives and connectors,Various,Assorted,1,Estimate only; finalize after schematic,8.00
+Enclosure,Generic,ABS enclosure 120x80x40 mm,1,Indoor prototype,8.00
