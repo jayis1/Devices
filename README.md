@@ -169,6 +169,7 @@ These aren't single chips on a board. Each device system here is:
 | 134 | [FixForward](./FixForward/) | 4 (Gateway, Intake Station, Bin Sentinel×2+) | Community E-waste Reuse | Local-first staff-led intake, weighing, and routing coordination for repair, reuse, battery review, or certified recycling; sensors are advisory and no donor tracking or automated sorting |
 | 135 | [PantryPath](./pantrypath/) | 4+ (Site Hub, Shelf Scale×N, Fridge Sentinel, Intake Dock) | Community Fridge Coordination | Local-first anonymous shelf-change and temperature context with volunteer-confirmed stock updates; no visitor tracking or food-safety claims |
 | 136 | [PowerBankLoop](./powerbank-loop/) | 3+ (Site Gateway, Loan Dock×N, Pack Tag×N) | Community Device Charging Access | Anonymous manual power-bank lending availability and equipment-health coordination; no borrower tracking, automated dispensing, or battery-safety claims |
+| 137 | [BirdGuard](./birdguard/) | 3+ (Gateway, Window Sentinel×N, Weather Sentinel) | Wildlife-Friendly Buildings | Local-first window-glass inspection and retrofit-marker maintenance observations; no cameras, collision detection, or wildlife-safety claims |
 
 ## Structure
 

@@ -1,0 +1,8 @@
+reference,quantity,manufacturer_part,description,notes
+U1,1,ESP32-C3-MINI-1-N4,Espressif ESP32-C3 module,verify exact module pinout
+U2,1,BME280,Bosch temperature humidity pressure sensor,I2C address 0x76
+U3,1,VEML7700,Ambient light sensor,I2C address 0x10
+J1,1,USB-C receptacle,USB-C power connector,5 V only
+U4,1,3.3V regulator module,3.3 V regulator,500 mA minimum
+R1/R2,2,4.7k 1%,I2C pullups,3.3 V
+C1-C3,3,100nF ceramic,local decoupling,at modules

@@ -1,0 +1,5 @@
+reference,quantity,manufacturer_part,description,notes
+U1,1,Raspberry Pi Zero 2 W,Raspberry Pi gateway,Wi-Fi and BLE onboard
+U2,1,MicroSD 16GB,High-endurance storage,local SQLite
+J1,1,5V 2A USB supply,Regulated isolated SELV supply,approved supply only
+J2,1,USB cable,Power and setup,not field-weather rated
