@@ -1,0 +1,7 @@
+# Architecture and threat model
+
+Local-first topology: outdoor/window nodes -> BLE -> Pi gateway -> local FastAPI + SQLite -> optional TLS MQTT cloud -> React Native client via HTTPS on LAN/cloud. Mobile app has read-only telemetry and explicit user-initiated setpoint requests; authenticate at API boundary in deployment. This repository's demo API has no user authentication and must remain on loopback or a trusted isolated LAN. Do not expose it to the internet.
+
+Failure behavior: missing node produces stale badge; no inference from missing data. Gateway restart recovers bounded SQLite history. Internet loss disables cloud sync only. BLE loss holds shade motor output off; physical wall switch remains usable. Sensor out-of-range values are rejected. Gateway does not autonomously resume movement after reboot. Manual override is authoritative. Keep raw data locally; default retention 30 days, delete site database to erase. No occupant identity or audio/video is collected.
+
+Hardware commissioning checklist: confirm exact board revision/pin mux, sensor address straps, I2C pullups, motor driver current/thermal limits against the selected motor stall current, fuse and transient protection, limit-switch wiring, and enclosure ingress protection before energizing. Pin assignments in `schematic/` are design intent and must be checked against the purchased modules. No ERC, PCB DRC, EMC, or hardware-in-loop result is claimed.

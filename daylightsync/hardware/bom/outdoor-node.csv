@@ -1,0 +1,9 @@
+ref,qty,part,notes
+U1,1,nRF52840 module, BLE 5.x; module with antenna
+U2,1,VEML7700,Ambient light sensor
+U3,1,SHT31-DIS,Temperature humidity sensor
+SW1,1,Sealed reed switch,Rain context only
+BT1,1,Protected 18650 cell,Capacity selected after energy measurement
+U4,1,Solar power-path charger,Compatible with selected cell/panel
+U5,1,3.3V regulator,Low quiescent current
+C1-C3,3,100nF,Decoupling

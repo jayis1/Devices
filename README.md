@@ -173,6 +173,7 @@ These aren't single chips on a board. Each device system here is:
 | 138 | [ArchiveGuard](./archiveguard/) | 3+ (Gateway, Room Sentinel×N, Shelf Probe×N) | Community Archives | Local-first archival collection environment observations and staff inspection prompts; advisory only, no preservation certification or HVAC control |
 | 139 | [LineWise](./linewise/) | 3 (Gateway, Line Sentinel, Weather Sentinel) | Shared Outdoor Laundry | Local-first shared clothesline readiness and weather advisories; no resident tracking or clothesline control |
 | 140 | [ShareTable](./ShareTable/) | 3 (Gateway, Serving Node, Return Node) | Community Meal-Service Coordination | Local-first aggregate serving observations and reusable-container return coordination; no diner tracking or food-safety claims |
+| 141 | [DaylightSync](./daylightsync/) | 4 (Gateway, Window Sentinel×N, Shade Node×N, Outdoor Node) | Daylight & Glare Management | Local-first daylight availability and glare advisories with bounded low-voltage shade positioning; manual override always wins |
 
 ## Structure
 

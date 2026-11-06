@@ -1,0 +1,5 @@
+# Gateway BOM
+ref,qty,part,notes
+U1,1,Raspberry Pi Zero 2 W,Gateway SBC
+PS1,1,Certified 5V 2.5A USB supply,Gateway power
+SD1,1,16GB high-endurance microSD,Local database

@@ -1,0 +1,9 @@
+ref,qty,part,notes
+U1,1,ESP32-C3-WROOM-02,Window sentinel MCU/module
+U2,1,VEML7700,Ambient lux sensor breakout
+U3,1,SHT31-DIS,Temperature humidity sensor
+J1,1,USB-C receptacle,5V input; CC resistors required
+U4,1,3.3V regulator module,Rated for radio peak current
+R1-R2,2,4.7k,I2C pullups if absent on breakouts
+C1-C3,3,100nF,Decoupling
+C4,1,10uF,Rail bulk

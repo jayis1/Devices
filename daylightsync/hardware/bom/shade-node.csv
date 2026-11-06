@@ -1,0 +1,9 @@
+ref,qty,part,notes
+U1,1,ESP32-C3-WROOM-02,Shade controller
+U2,1,AS5600,Magnetic angle sensor and diametric magnet
+U3,1,DRV8871,12V DC motor H-bridge; verify current/thermal rating
+F1,1,Resettable fuse,Choose from measured motor stall current
+D1,1,TVS diode,12V motor transient suppression
+SW1-SW3,3,NC limit/override switches,Hardware stop path
+C1,1,100uF,VM bulk capacitor
+PS1,1,Certified isolated 12V SELV supply,Motor supply
