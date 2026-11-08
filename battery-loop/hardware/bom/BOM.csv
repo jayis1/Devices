@@ -1,0 +1,21 @@
+node,qty,item,notes
+home-gateway,1,Raspberry Pi Pico W,USB supply and cable excluded
+tray,1,ESP32-C3-MINI-1,Carrier PCB and enclosure excluded
+tray,1,NAU7802 breakout,Verify bridge supply and input range
+tray,4,1 kg bar load cell,Mechanical fixture and calibration required
+tray,1,VL53L0X breakout,One presence zone
+tray,1,5V-to-3V3 regulator,Select for ESP32-C3 peak current with margin
+tray,1,USB 5V input and cable,Use certified external adapter
+tray,1,reverse protection element,Size for input current
+tray,1,100nF + 10uF capacitors,Local bypass
+tray,1,load-cell connector,Keyed and strain-relieved
+ dock-observer,1,ESP32-C3-MINI-1,Carrier and enclosure excluded
+ dock-observer,1,VL53L0X breakout,One bay
+ dock-observer,1,2xAA holder and cells,Runtime not measured
+ dock-observer,1,low-Iq 3V3 regulator,Confirm BLE pulse load
+ dock-observer,1,button,Return action
+ dock-observer,1,reverse protection and bypass,100nF plus 10uF
+return-beacon,1,nRF52810 module,Verify exact module variant and antenna
+return-beacon,1,CR2032 holder and cell,Candidate only; pulse/runtime untested
+return-beacon,1,button and LED + resistor,User input and status indicator
+return-beacon,1,100nF capacitor,Local bypass

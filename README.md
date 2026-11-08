@@ -174,6 +174,7 @@ These aren't single chips on a board. Each device system here is:
 | 139 | [LineWise](./linewise/) | 3 (Gateway, Line Sentinel, Weather Sentinel) | Shared Outdoor Laundry | Local-first shared clothesline readiness and weather advisories; no resident tracking or clothesline control |
 | 140 | [ShareTable](./ShareTable/) | 3 (Gateway, Serving Node, Return Node) | Community Meal-Service Coordination | Local-first aggregate serving observations and reusable-container return coordination; no diner tracking or food-safety claims |
 | 141 | [DaylightSync](./daylightsync/) | 4 (Gateway, Window Sentinel×N, Shade Node×N, Outdoor Node) | Daylight & Glare Management | Local-first daylight availability and glare advisories with bounded low-voltage shade positioning; manual override always wins |
+| 142 | [BatteryLoop](./battery-loop/) | 4 (Home Gateway, Tray Scale, Dock Observer, Return Beacon) | Household Rechargeable-Battery Readiness | Passive cell-presence and return-to-charger observations; no charger control or battery-health claims |
 
 ## Structure
 

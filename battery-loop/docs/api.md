@@ -1,0 +1,5 @@
+# API and event contract
+
+POST `/events` accepts JSON `{v,node,seq,kind,slot?,value,unit,time_ms?}`. Required: version 1, node identifier (1–31 printable chars), integer sequence ≥0, recognized kind and unit/value. `slot_mass_g`: finite 0–500 and unit `g`; `bay_present` and `return_pressed`: boolean and unit `bool`. Unknown fields are tolerated for forward-compatible additions; unknown versions/kinds and invalid data return 422. Maximum request body is 512 bytes. The prototype has no authentication; bind to loopback only. The intended MQTT topic is `batteryloop/<site>/events`; an MQTT adapter is not implemented. Any deployment must use TLS and per-device credentials. No retained command topics are used.
+
+SQLite stores validated events with server receipt time. `(node,seq)` is unique and duplicates are idempotently ignored. API does not claim device receipt or physical state. `GET /events` returns recent validated records; stale age must be interpreted by clients. No secrets belong in the repository.
