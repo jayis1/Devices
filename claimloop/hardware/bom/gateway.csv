@@ -1,0 +1,3 @@
+reference,part,quantity,notes
+U1,Raspberry Pi Pico W,1,RP2040 gateway development board; 5V USB; wireless/certification details verify per region
+J1,USB micro-B cable and compliant 5V supply,1,External supply; no mains circuitry on board

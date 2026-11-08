@@ -1,0 +1,1 @@
+{"name":"claimloop-mobile-stub","version":"0.1.0","private":true,"description":"UI contract stub; not a runnable or authenticated app","scripts":{"typecheck":"tsc --noEmit"},"dependencies":{"react":"*","react-native":"*"},"devDependencies":{"typescript":"*"}}

@@ -1,0 +1,6 @@
+reference,part,quantity,notes
+U1,ESP32-C3-MINI-1,1,3.3V module; use vendor reference design and antenna keepout
+S1,Normally-closed reed switch,1,Mount to shelf door; GPIO input with pull-up
+R1,1k resistor,1,Status LED current limiting
+U2,3.3V regulator with >=500mA transient headroom,1,Input from certified USB 5V; thermal check required
+J1,USB-C receptacle with CC resistors or tested module,1,5V supply only

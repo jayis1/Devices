@@ -1,0 +1,8 @@
+reference,part,quantity,notes
+U1,ESP32-C3-MINI-1,1,3.3V module; use vendor reference design and antenna keepout
+U2,HX711 breakout,1,3.3V logic compatible; check module regulator/level compatibility
+U3,Single-point load cell 5kg,1,bridge wiring and calibration required
+S1,Momentary normally-open switch,1,GPIO to ground; verify pin strapping for carrier
+R1,1k resistor,1,Status LED current limiting
+U4,3.3V regulator with >=500mA transient headroom,1,Input from certified USB 5V; thermal check required
+J1,USB-C receptacle with CC resistors or tested module,1,5V supply only
