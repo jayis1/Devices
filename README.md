@@ -179,6 +179,7 @@ These aren't single chips on a board. Each device system here is:
 | 144 | [RackWise](./rackwise/) | 4+ (Site Gateway, Rack Observer×2+, Context Node) | Community Bicycle Parking | Local-first anonymous rack-availability bands with freshness status; no bike/visitor identity, reservations, security, or guaranteed spaces |
 | 145 | [MendMate](./mendmate/) | 3 (Hub, Swatch Reader, Tool Station) | Clothing Repair & Reuse | Local-first repair notebook with relative fabric-swatch readings and sewing-supply awareness; no automated sewing, fabric diagnosis, or repair-safety claims |
 | 146 | [ShowerShare](./showershare/) | 3 (Gateway, Stall Sentinel, Water Sentinel) | Shared-Use Facilities | Local-first shower-stall context and maintenance readiness observations; no occupant identity, plumbing control, or hygiene claims |
+| 147 | [MealMate](./meal-mate/) | 4 (Hub, Shelf Scale×2, Fridge Context) | Household Meal Preparation | Explicit household prep coordination and uncertain ingredient-change suggestions; no occupant tracking, food-safety claims, or appliance control |
 
 ## Structure
 

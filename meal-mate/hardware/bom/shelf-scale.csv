@@ -1,0 +1,6 @@
+Node,Item,Qty,Notes
+Shelf scale,ESP32-S3-WROOM-1,1,Module variant and antenna layout require review
+Shelf scale,NAU7802 breakout,1,Prototype ADC board
+Shelf scale,50 kg load cell,4,Bridge wiring per selected vendor datasheet
+Shelf scale,5 V listed adapter,1,No custom mains circuitry
+Shelf scale,Enclosure and platform,1,Mechanical design not supplied

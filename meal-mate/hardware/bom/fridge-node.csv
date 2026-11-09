@@ -1,0 +1,6 @@
+Node,Item,Qty,Notes
+Fridge context,ESP32-C3 module,1,Module variant to verify
+Fridge context,SHT31 sensor breakout,1,Address 0x44
+Fridge context,Reed switch,1,Door context only
+Fridge context,AA alkaline cells,2,Prototype supply; no charging
+Fridge context,Enclosure and wiring,1,Environmental suitability not evaluated
