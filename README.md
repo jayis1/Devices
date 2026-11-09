@@ -177,6 +177,7 @@ These aren't single chips on a board. Each device system here is:
 | 142 | [BatteryLoop](./battery-loop/) | 4 (Home Gateway, Tray Scale, Dock Observer, Return Beacon) | Household Rechargeable-Battery Readiness | Passive cell-presence and return-to-charger observations; no charger control or battery-health claims |
 | 143 | [ClaimLoop](./claimloop/) | 3 (Gateway, Intake Tray, Shelf Node) | Community Lost Property | Staff-mediated lost-property intake context and shelf observations; no visitor tracking, public item descriptions, or automated ownership decisions |
 | 144 | [RackWise](./rackwise/) | 4+ (Site Gateway, Rack Observer×2+, Context Node) | Community Bicycle Parking | Local-first anonymous rack-availability bands with freshness status; no bike/visitor identity, reservations, security, or guaranteed spaces |
+| 145 | [MendMate](./mendmate/) | 3 (Hub, Swatch Reader, Tool Station) | Clothing Repair & Reuse | Local-first repair notebook with relative fabric-swatch readings and sewing-supply awareness; no automated sewing, fabric diagnosis, or repair-safety claims |
 
 ## Structure
 

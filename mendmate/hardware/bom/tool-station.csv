@@ -1,0 +1,7 @@
+Item,Manufacturer part/reference,Qty,Notes
+MCU module,Espressif ESP32-C3-MINI-1,1,Wi-Fi telemetry prototype
+Load-cell ADC,Avia Semiconductor HX711 module,1,Use documented bridge wiring
+Load cell,Generic 5kg single-point strain-gauge load cell,1,Tray capacity is an unvalidated assumption
+Reed switch,Normally-open magnetic contact,1,Drawer state only
+USB supply,Certified 5V 1A SELV supply,1,No battery operation in prototype
+Tray,Nonconductive thread tray,1,Load cell mechanically isolated

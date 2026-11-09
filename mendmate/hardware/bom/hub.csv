@@ -1,0 +1,5 @@
+Item,Manufacturer part/reference,Qty,Notes
+Single-board computer,Raspberry Pi Zero 2 W,1,Wi-Fi local coordinator; verify regional radio approvals
+Storage,MicroSDHC 16GB endurance-rated,1,OS and prototype local service
+Power supply,Certified USB 5V 2A SELV,1,No exposed mains wiring
+Enclosure,Nonconductive ventilated enclosure,1,Allow thermal clearance

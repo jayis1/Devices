@@ -1,0 +1,8 @@
+Item,Manufacturer part/reference,Qty,Notes
+MCU module,Espressif ESP32-C3-MINI-1,1,Verify module variant and antenna keepout
+Spectral sensor breakout,Adafruit AS7341 breakout (PID 4698),1,3.3V interface; verify pullups
+USB supply,Certified 5V 1A SELV supply,1,No battery operation in prototype
+LED,Generic visible LED,1,Series resistor 330 ohm
+Switch,Momentary normally-open,1,Scan trigger
+Resistor,330 ohm,1,LED current limit
+Enclosure,Opaque optical reader enclosure,1,Geometry must be characterized
