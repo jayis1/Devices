@@ -1,0 +1,6 @@
+Reference only; acquire named board and verify supply requirements.
+Reference,Manufacturer,Part number,Qty,Notes
+Gateway SBC,Raspberry Pi,Raspberry Pi Zero 2 W,1,Local coordinator; exact regional power adapter required
+Power supply,Approved supplier,5 V USB SELV supply,1,Current rating per board documentation
+Storage,Approved supplier,microSD card,1,Industrial/high-endurance preferred
+Broker,Mosquitto,Eclipse Mosquitto,1,Software package; TLS/ACL configuration required

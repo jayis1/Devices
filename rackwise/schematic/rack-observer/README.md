@@ -1,0 +1,3 @@
+# Rack observer wiring reference (not a KiCad schematic)
+
+ESP32-C3-MINI-1 module on 3.3 V. Use an isolated 5 V adapter and a 3.3 V regulator with at least 500 mA transient capability; common ground. GPIO4 = bay 0 receiver, GPIO5 = bay 1, GPIO6 = bay 2, GPIO7 = bay 3; GPIO8 = status LED through 1 kΩ. Receivers must be open-drain-compatible, pulled up to 3.3 V with 10 kΩ; verify the selected break-beam receiver output type before connection. Add ESD protection and series resistance in production. Avoid boot-strapping pins. These assignments are a design proposal and have not been checked against a target module datasheet or ESP-IDF build. One optical pair per bay; alignment and pedestrian cross-traffic require field calibration.

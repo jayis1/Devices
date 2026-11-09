@@ -1,0 +1,1 @@
+Raspberry Pi Zero 2 W gateway wiring: supply power only through the board's documented 5 V input. Ethernet/Wi-Fi and GPIO are not required for the logical prototype; use Wi-Fi for private-site MQTT only after configuring TLS and broker ACLs. No relay or mains wiring. This is a deployment/wiring note, not a KiCad schematic or electrical design.

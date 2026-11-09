@@ -1,0 +1,10 @@
+Reference parts only; verify exact modules and local availability before purchase.
+Reference,Manufacturer,Part number,Qty,Notes
+MCU module,Espressif,ESP32-C3-MINI-1,1,3.3 V Wi-Fi module; module variant and antenna layout require review
+Optical break-beam pair,Generic,To be selected,4 pairs,3.3 V-compatible open-drain receiver required
+Regulator,TI,To be selected,1,5 V to 3.3 V; >=500 mA transient capability
+Decoupling capacitor,Generic,100 nF X7R,2,Place at module and sensor supply
+Bulk capacitor,Generic,100 uF low-ESR,1,Verify transient response
+Pull-up resistor,Generic,10 kΩ 1%,4,Receiver lines to 3.3 V
+LED resistor,Generic,1 kΩ 1%,1,Status LED current limit
+ESD protector,TI,To be selected,4 channels,Production input protection; part selection pending

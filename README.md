@@ -176,6 +176,7 @@ These aren't single chips on a board. Each device system here is:
 | 141 | [DaylightSync](./daylightsync/) | 4 (Gateway, Window Sentinel×N, Shade Node×N, Outdoor Node) | Daylight & Glare Management | Local-first daylight availability and glare advisories with bounded low-voltage shade positioning; manual override always wins |
 | 142 | [BatteryLoop](./battery-loop/) | 4 (Home Gateway, Tray Scale, Dock Observer, Return Beacon) | Household Rechargeable-Battery Readiness | Passive cell-presence and return-to-charger observations; no charger control or battery-health claims |
 | 143 | [ClaimLoop](./claimloop/) | 3 (Gateway, Intake Tray, Shelf Node) | Community Lost Property | Staff-mediated lost-property intake context and shelf observations; no visitor tracking, public item descriptions, or automated ownership decisions |
+| 144 | [RackWise](./rackwise/) | 4+ (Site Gateway, Rack Observer×2+, Context Node) | Community Bicycle Parking | Local-first anonymous rack-availability bands with freshness status; no bike/visitor identity, reservations, security, or guaranteed spaces |
 
 ## Structure
 
