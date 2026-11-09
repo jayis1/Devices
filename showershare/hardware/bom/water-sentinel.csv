@@ -1,0 +1,5 @@
+reference,description,qty,notes
+ESP32-C3-DevKitM-1,Water sensor development board,1,verify exact module revision
+DS18B20,Surface temperature sensor,1,insulated surface mounting; not immersed
+Clamp-on-pulse-meter,Non-invasive flow pulse sensor,1,verify output isolation and voltage
+USB5V-1A,Certified isolated USB supply,1,external certified adapter

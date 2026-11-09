@@ -1,0 +1,6 @@
+reference,description,qty,notes
+ESP32-C3-DevKitM-1,Stall sensor development board,1,verify exact module revision
+Reed-switch,Door state magnet switch,1,low-voltage contact only
+HX711-breakout,Load-cell ADC module,1,ensure output is 3.3V-compatible
+Load-cell-20kg,Platform load sensor,1,mechanical platform design required
+USB5V-1A,Certified isolated USB supply,1,external certified adapter

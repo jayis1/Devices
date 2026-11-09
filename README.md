@@ -178,6 +178,7 @@ These aren't single chips on a board. Each device system here is:
 | 143 | [ClaimLoop](./claimloop/) | 3 (Gateway, Intake Tray, Shelf Node) | Community Lost Property | Staff-mediated lost-property intake context and shelf observations; no visitor tracking, public item descriptions, or automated ownership decisions |
 | 144 | [RackWise](./rackwise/) | 4+ (Site Gateway, Rack Observer×2+, Context Node) | Community Bicycle Parking | Local-first anonymous rack-availability bands with freshness status; no bike/visitor identity, reservations, security, or guaranteed spaces |
 | 145 | [MendMate](./mendmate/) | 3 (Hub, Swatch Reader, Tool Station) | Clothing Repair & Reuse | Local-first repair notebook with relative fabric-swatch readings and sewing-supply awareness; no automated sewing, fabric diagnosis, or repair-safety claims |
+| 146 | [ShowerShare](./showershare/) | 3 (Gateway, Stall Sentinel, Water Sentinel) | Shared-Use Facilities | Local-first shower-stall context and maintenance readiness observations; no occupant identity, plumbing control, or hygiene claims |
 
 ## Structure
 

@@ -1,0 +1,3 @@
+reference,description,qty,notes
+ESP32-C6-DevKitM-1,Gateway development board,1,verify exact module revision
+USB5V-1A,Certified isolated USB supply,1,external certified adapter
