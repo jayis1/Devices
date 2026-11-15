@@ -1,0 +1,6 @@
+Item,Manufacturer_Part,Qty,Notes
+ESP32-C3-MINI-1,Espressif ESP32-C3-MINI-1,1,3.3V module; verify module carrier
+NAU7802 breakout,NAU7802-based module,1,Confirm 3.3V-safe I2C
+10kg half-bridge load cell,Generic matched set,4,Form full bridge; mechanical validation needed
+USB supply,Certified 5V supply,1,Protected input recommended
+LED,Generic green LED,1,330 ohm series resistor

@@ -1,0 +1,4 @@
+Item,Manufacturer_Part,Qty,Notes
+Raspberry Pi Zero 2 W,Raspberry Pi Zero 2 W,1,5V USB; local gateway prototype
+microSD card,Industrial-rated 32GB,1,Storage durability not yet validated
+5V USB supply,Certified regulated 5V supply,1,Size for measured peak current

@@ -181,6 +181,7 @@ These aren't single chips on a board. Each device system here is:
 | 146 | [ShowerShare](./showershare/) | 3 (Gateway, Stall Sentinel, Water Sentinel) | Shared-Use Facilities | Local-first shower-stall context and maintenance readiness observations; no occupant identity, plumbing control, or hygiene claims |
 | 147 | [MealMate](./meal-mate/) | 4 (Hub, Shelf Scale×2, Fridge Context) | Household Meal Preparation | Explicit household prep coordination and uncertain ingredient-change suggestions; no occupant tracking, food-safety claims, or appliance control |
 | 148 | [BorrowBench](./borrowbench/) | 4 (Site Hub, Tool Dock×N, Return Scale, Inspection Beacon) | Community Tool Libraries | Local-first checkout/return and inspection workflow for shared tools using explicit staff actions and passive dock presence; no borrower surveillance or automated safety certification |
+| 149 | [DishLoop](./dishloop/) | 3 (Site Hub, Rack Sentinel, Return Gate) | Shared-Kitchen Reusable Dish Circulation | Local-first aggregate rack and return-flow context with staff-confirmed wash-batch handoffs; no diner tracking, appliance control, or sanitation claims |
 
 ## Structure
 

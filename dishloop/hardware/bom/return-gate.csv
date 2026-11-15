@@ -1,0 +1,6 @@
+Item,Manufacturer_Part,Qty,Notes
+ESP32-C3-MINI-1,Espressif ESP32-C3-MINI-1,1,3.3V module; verify module carrier
+IR break-beam sensor,Generic 5V modulated pair,1,Receiver open-collector output required
+Momentary button,Generic normally-open,1,GPIO to GND
+LED,Generic green LED,1,330 ohm series resistor
+USB supply,Certified 5V supply,1,Protected input recommended
