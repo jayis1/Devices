@@ -1,0 +1,5 @@
+reference,description,qty,notes
+U1,ESP32-C3-MINI-1,1,3V3 BLE/Wi-Fi module
+U2,NAU7802 breakout,1,Check bridge excitation and logic voltage
+S1-S4,5 kg half-bridge load cell,4,Wire as one full bridge; verify polarity and capacity
+J1,5V USB input,1,Listed supply; fuse custom board

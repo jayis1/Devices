@@ -1,0 +1,7 @@
+reference,description,qty,notes
+U1,ESP32-C3-MINI-1,1,3V3 BLE/Wi-Fi module
+U2,PN532 NFC module,1,Confirm I2C address and logic voltage for chosen breakout
+S1,Reed switch,1,Tool presence transition only
+D1,WS2812B,1,3V3 data compatibility must be validated
+R1,330 ohm resistor,1,LED data series
+J1,5V USB input,1,Listed supply; add fuse and reverse protection on custom board

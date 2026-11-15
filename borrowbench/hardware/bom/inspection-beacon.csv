@@ -1,0 +1,6 @@
+reference,description,qty,notes
+U1,ESP32-C3-MINI-1,1,3V3 BLE node
+S1,Momentary normally-open button,1,Explicit human inspection confirmation
+D1,WS2812B,1,Local status indication only
+R1,330 ohm resistor,1,LED data series
+J1,5V USB input,1,Listed supply

@@ -1,0 +1,1 @@
+Reference parts, not procurement-verified. Prices/availability omitted. Confirm exact carrier-board pinout and module electrical requirements before assembly.

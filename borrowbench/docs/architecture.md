@@ -1,0 +1,5 @@
+# Architecture and operation
+
+Staff scans a tool's passive NFC asset tag and explicitly records checkout/return in the local interface. Dock-presence observations and aggregate return weight help highlight unresolved changes but never identify a person or make lending decisions. Inspection is staff-attested by physical button; the beacon is not a safety test. Hub remains functional on the site LAN without internet; local SQLite stores idempotent events. Configure retention and deletion locally. Optional cloud forwarding is future work and must use MQTT/TLS, site-scoped ACLs and explicit operator opt-in.
+
+Failure behavior: sensor loss produces stale/unknown state, not an inferred checkout; duplicate sequence IDs are idempotent; hub outage means staff use paper procedure and reconcile later; network loss leaves local API available. No equipment is electronically locked or energized. Network/cloud/ML is never safety-critical. Operational deployment requires authenticated staff access, access logging, backup/restore tests and a documented data-retention policy.
