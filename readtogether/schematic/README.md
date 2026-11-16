@@ -1,0 +1,1 @@
+Reference design notes only; not KiCad schematics and not fabrication data. See docs/hardware.md for explicit pin and power assumptions. Each node requires datasheet review, schematic capture, ERC, PCB layout, and bench validation before construction.

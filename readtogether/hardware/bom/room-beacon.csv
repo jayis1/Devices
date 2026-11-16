@@ -1,0 +1,5 @@
+Ref,Part,Manufacturer,MPN,Qty,Notes
+U1,BLE module,Murata,MDBT50Q-RX,1,nRF52840 module
+DS1,E-paper display,Good Display,GDEH0213B73,1,2.13-inch; driver compatibility to confirm
+SW1,Tactile button,C&K,PTS645 series,1,Reminder acknowledgement
+BT1,Li-ion battery pack,Generic,3.7V protected pack,1,Prototype only; peak panel current not measured

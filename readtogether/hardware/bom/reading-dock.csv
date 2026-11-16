@@ -1,0 +1,7 @@
+Ref,Part,Manufacturer,MPN,Qty,Notes
+U1,Wi-Fi/BLE MCU module,Espressif,ESP32-C3-MINI-1,1,3.3V logic; check revision pinout
+U2,NFC controller,Adafruit,PN532 breakout,1,I2C mode; breakout board variant must be fixed before build
+SW1,Tactile pushbutton,C&K,PTS645 series,1,Large accessible button
+BZ1,Piezo buzzer,TDK,PS1240P02BT,1,Use transistor driver; verify drive requirements
+D1,RGB LED,Kingbright,APFA3010 series,1,Use current limiting
+J1,USB-C breakout,Generic,5V input,1,5V external supply; no charging

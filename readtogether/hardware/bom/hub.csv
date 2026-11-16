@@ -1,0 +1,4 @@
+Ref,Part,Manufacturer,MPN,Qty,Notes
+U1,Single-board computer,Raspberry Pi,Zero 2 W,1,Wi-Fi edge hub
+J1,USB-C 5V supply,Generic,5V 2A,1,Certified external supply
+S1,microSD card,Generic,32GB high endurance,1,Local database storage

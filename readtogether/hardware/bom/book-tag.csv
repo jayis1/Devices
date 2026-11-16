@@ -1,0 +1,6 @@
+Ref,Part,Manufacturer,MPN,Qty,Notes
+U1,BLE module,Murata,MDBT50Q-RX,1,nRF52840; verify exact module variant and antenna clearance
+SW1,Tactile pushbutton,C&K,PTS645 series,1,Manual check-in
+D1,RGB LED,Kingbright,APFA3010 series,1,Use current-limiting resistors
+BT1,CR2477 holder,Keystone,3000,1,Cell not included; secure enclosure
+R1-R3,LED resistor,Generic,1k ohm,3,Adjust after optical test
