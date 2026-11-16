@@ -183,6 +183,7 @@ These aren't single chips on a board. Each device system here is:
 | 148 | [BorrowBench](./borrowbench/) | 4 (Site Hub, Tool Dock×N, Return Scale, Inspection Beacon) | Community Tool Libraries | Local-first checkout/return and inspection workflow for shared tools using explicit staff actions and passive dock presence; no borrower surveillance or automated safety certification |
 | 149 | [DishLoop](./dishloop/) | 3 (Site Hub, Rack Sentinel, Return Gate) | Shared-Kitchen Reusable Dish Circulation | Local-first aggregate rack and return-flow context with staff-confirmed wash-batch handoffs; no diner tracking, appliance control, or sanitation claims |
 | 150 | [ReadTogether](./readtogether/) | 4 (Family Hub, Book Tag×N, Reading Dock, Room Beacon) | Family Literacy & Reading Routines | Privacy-first shared reading routine support with explicit page-turn/check-in events, accessible audio cues, and household-owned progress; no microphones, cameras, child scoring, or cloud-required operation |
+| 151 | [GreaseLoop](./greaseloop/) | 4 (Home Hub, Kitchen Dock, Storage Sentinel, Collection App) | Household Used-Cooking-Oil Collection | Local-first sealed-container mass tracking, leak-tray context, and manual community collection handoffs; no plumbing control, oil heating, or occupant tracking |
 
 ## Structure
 

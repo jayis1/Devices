@@ -1,0 +1,12 @@
+ref,qty,part,description,notes
+U1,1,ESP32-C3-MINI-1,Wi-Fi/BLE MCU module,ESP32-C3-MINI-1-N4 selected variant verify land pattern
+U2,1,HX711,24-bit load-cell ADC,3.3V operation
+J1,1,4-pin 2.54mm,Load cell connector,Bridge excitation and differential sense
+J2,1,USB-C receptacle,5V power input,Use certified external isolated supply
+U3,1,AP2112K-3.3,3.3V LDO,Check thermal/current and dropout for chosen load
+R1,1,10k 1%,Reed pull-up,3.3V GPIO9
+SW1,1,6x6mm tactile,Deposit confirm button,GPIO8 to ground
+SW2,1,Reed switch,Container lid indication,Normally open to ground
+C1-C4,4,100nF X7R,Local decoupling,Place at IC supply pins
+C5,1,10uF X7R,3.3V bulk capacitor,Verify derating
+DS1,1,0.96in OLED I2C,Optional status display,3.3V logic address 0x3C

@@ -1,0 +1,8 @@
+ref,qty,part,description,notes
+U1,1,nRF52840 module,BLE 5 MCU module,Choose module with certified RF design and matching footprint
+U2,1,TMP117,Digital temperature sensor,I2C address 0x48 ADD0=GND
+R1,1,100k 1%,Leak electrode series resistor,ADC GPIO2 protection
+R2,1,100k 1%,Leak divider pulldown,Calibrate wet/dry readings
+C1,1,100nF X7R,Sensor bypass,At TMP117 supply pins
+BT1,1,CR2477 holder,Optional battery source,Runtime and pulse capability unverified
+J1,1,2-pin,Leak sensor connector,Low voltage resistive strip
