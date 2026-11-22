@@ -1,0 +1,1 @@
+Firmware is not implemented for this node. Target integration contract: ESP-IDF on ESP32-C3-MINI-1; isolated dry-contact input GPIO4, indicator GPIO5, pairing button GPIO9. Requires authenticated provisioning, bounded event queue, persisted sequence, watchdog, and verified isolation module before any prototype deployment.

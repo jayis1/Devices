@@ -1,0 +1,1 @@
+Firmware is not implemented for this node. Target integration contract: ESP-IDF on ESP32-C3-MINI-1; receive UART from an enclosed isolated SELV metering module at GPIO20, transmit on GPIO21 with level compatibility confirmed, indicator GPIO5. Do not connect to mains or use an exposed CT circuit.

@@ -1,0 +1,1 @@
+Gateway deployment is not packaged. Intended target is Raspberry Pi Zero 2 W; run a local MQTT broker and FastAPI service only after configuring access controls. The sample API is in-memory, unauthenticated, and suitable only for localhost tests.

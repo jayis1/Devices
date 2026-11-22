@@ -1,0 +1,14 @@
+node,reference_part,qty,notes
+EVSE Observer,ESP32-C3-MINI-1,1,Wi-Fi MCU module; prototype selection
+EVSE Observer,5V certified USB supply,1,External supply; not included in PCB
+EVSE Observer,isolated dry-contact input module,1,Exact part/isolation rating must be selected and verified
+EVSE Observer,1k resistor,1,GPIO5 LED current limiting
+EVSE Observer,status LED,1,GPIO5 indicator
+Home Load Observer,ESP32-C3-MINI-1,1,Wi-Fi MCU module; prototype selection
+Home Load Observer,certified enclosed isolated SELV metering module,1,Part TBD; do not substitute exposed mains circuitry
+Home Load Observer,5V certified USB supply,1,External supply
+Home Load Observer,1k resistor,1,GPIO5 LED current limiting
+Home Load Observer,status LED,1,GPIO5 indicator
+Gateway,Raspberry Pi Zero 2 W,1,Local coordination and API
+Gateway,microSD card,1,Capacity selected for retention needs
+Gateway,5V USB supply,1,Certified external supply
