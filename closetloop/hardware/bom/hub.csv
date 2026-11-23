@@ -1,0 +1,4 @@
+# ref,node,part,qty,notes
+U1,Hub,Raspberry Pi Zero 2 W,1,Wi-Fi gateway
+U2,Hub,BLE 5 USB adapter,1,compatible Linux adapter
+PS1,Hub,certified USB 5 V supply,1,regional approval required

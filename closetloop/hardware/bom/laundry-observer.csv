@@ -1,0 +1,5 @@
+# ref,node,part,qty,notes
+U1,Laundry observer,ESP32-C3-MINI-1,1,BLE node
+U2,Laundry observer,LIS3DH,1,"I2C accelerometer, exterior mount"
+SW1,Laundry observer,reed switch,1,door context only
+J1,Laundry observer,USB-C 5 V receptacle,1,"power only; no appliance electrical connection"

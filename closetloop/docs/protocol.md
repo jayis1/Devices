@@ -1,0 +1,3 @@
+# Local event contract
+
+Version 1 is a bounded JSON event; field names and allowed `kind` values are listed in the root README and enforced by backend. UUID event_id provides idempotency; seq is per-node monotonic and uint32. The BLE transport carries the same logical record, maximum 512 encoded bytes. Hub receipt time is authoritative when utc_ms is absent/invalid, and quality indicates uncertainty. Reject unknown schema versions; never execute commands from MQTT. Per-household credentials, TLS, pairing, replay protection, deletion/retention policy, and secure OTA are production prerequisites not implemented in this prototype.

@@ -1,0 +1,1 @@
+Project setup is a reference only. Create an isolated Python environment and install software/dashboard/requirements.txt; do not expose the unauthenticated prototype API on public networks. No credentials are supplied.

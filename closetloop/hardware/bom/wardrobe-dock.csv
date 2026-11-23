@@ -1,0 +1,6 @@
+# ref,node,part,qty,notes
+U1,Wardrobe dock,ESP32-C3-MINI-1,1,3.3 V BLE/Wi-Fi module
+U2,Wardrobe dock,PN532 NFC module,1,I2C breakout; verify logic voltage
+SW1,Wardrobe dock,momentary pushbutton,2,worn and repair events
+D1,Wardrobe dock,LED plus 1k resistor,1,status
+J1,Wardrobe dock,USB-C 5 V receptacle,1,power only

@@ -1,0 +1,3 @@
+# Architecture and data handling
+
+Wardrobe and repair docks accept explicit button/NFC interaction; laundry observer samples cabinet vibration and reed state without opening or electrically connecting to an appliance. BLE nodes feed a local hub; bounded event queue supports offline operation. Backend API stores household event history in SQLite; optional MQTT deployment requires TLS and per-device authorization. This sample API has no authentication and must remain on localhost/trusted development networks. User can opt out of cloud sync and delete local database. No analytics identify residents; item IDs are local random aliases.

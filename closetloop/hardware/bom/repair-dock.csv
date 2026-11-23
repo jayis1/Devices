@@ -1,0 +1,5 @@
+# ref,node,part,qty,notes
+U1,Repair dock,nRF52840 module,1,BLE 5; exact variant TBD
+SW1-3,Repair dock,momentary pushbutton,3,repair/mended/retired
+U2,Repair dock,3.3 V regulator,1,from USB 5 V; verify load
+J1,Repair dock,USB-C 5 V receptacle,1,power only

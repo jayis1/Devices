@@ -187,6 +187,7 @@ These aren't single chips on a board. Each device system here is:
 | 152 | [ChargePlan](./chargeplan/) | 3 (Gateway, EVSE Observer, Home Load Observer) | Household EV Charging Observability | Local-first charging-session and household-load context with tariff-based suggestions; observers only, no EVSE control or savings claims |
 | 153 | [QuietHours](./quiet-hours/) | 3 (Hub, Room Sentinel, Doorway Beacon) | Shared-Home Quiet Coordination | Local-first, consent-based quiet-window coordination using audio-level estimates only; no audio recording, sound classification, or enforcement claims; prototype specification |
 | 154 | [UmbrellaLink](./umbrellalink/) | 3 (Gateway, Lending Dock, Return Dock) | Community Umbrella Sharing | Anonymous local-first umbrella availability and return coordination from slot switches; no borrower tracking, locks, or weather-safety claims |
+| 155 | [ClosetLoop](./closetloop/) | 4 (Home Hub, Wardrobe Dock, Laundry Observer, Repair Dock) | Clothing Care & Repair | Local-first clothing-care task coordination from explicit NFC check-ins, laundry observation, and repair confirmations; no appliance control or wearer tracking |
 
 ## Structure
 
