@@ -1,0 +1,18 @@
+# UmbrellaLink BOM
+
+Per dock node, indicative quantities. Confirm exact footprints and supply before purchasing.
+
+| Ref | Qty | Description | Part / alternative |
+|---|---:|---|---|
+| U1 | 1 | MCU module | ESP32-C6-WROOM-1-N8 |
+| U2 | 1 | 868 MHz FSK radio | HopeRF RFM69HCW-868S2 |
+| U3 | 1 | 3.3 V regulator, >=500 mA | AP2112K-3.3 |
+| SW1-SW4 | 4 | Slot switch | Omron D2F-L or equivalent |
+| D1-D4 | 4 | Indicator LED | 3 mm generic |
+| R1-R4 | 4 | LED resistor, 1 kΩ | 1% resistor |
+| R5-R8 | 4 | Pull-up, 10 kΩ | 1% resistor |
+| C1-C4 | 4 | Switch filter, 100 nF | Ceramic |
+| C5 | 1 | Bulk decoupling, 10 µF | Ceramic, voltage rating >=6.3 V |
+| J1 | 1 | 5 V USB power input | USB-C receptacle with CC resistors |
+
+Gateway BOM: Raspberry Pi Zero 2 W ×1, RFM69HCW-868S2 ×1, certified 5 V/2.5 A USB supply ×1. Sensor switch quantities scale with installed slots. BOM is a concept list, not a procurement-ready approved vendor list.

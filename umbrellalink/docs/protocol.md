@@ -1,0 +1,3 @@
+# Protocol v1
+
+Envelope JSON fields: v (integer, exactly 1), node (known site node ID), seq (uint32), kind (`slots`), free and total (integers, 0 <= free <= total <= 4), uptime_s (uint32). UTF-8 encoded payload maximum 192 bytes. Units are counts and seconds. Missing/extra semantic fields are rejected by decoder. The current host prototype validates syntax and ranges; radio framing, CRC, MAC, ACK, and retransmission integration remain target work. Gateway ACKs sequence only after validation. Sender retries at most three times with bounded randomized backoff. Duplicate `(node,seq)` is idempotent; older sequence numbers do not supersede current state. Timestamp is gateway receive time, never a node wall clock.
