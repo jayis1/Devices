@@ -1,0 +1,8 @@
+Ref,Part,Qty,Package,Notes
+U1,ESP32-C3-MINI-1,1,module,Confirm exact module revision and antenna keepout
+U2,INMP441,1,LGA,Digital MEMS mic; calibration required
+DS1,SSD1306 128x64 OLED module,1,module,I2C 0x3C; verify 3.3V logic
+SW1,6x6 mm tactile switch,1,THT,User acknowledge
+C1,100nF ceramic,2,0603,Local decoupling
+C2,10uF ceramic,1,0805,3V3 bulk decoupling
+J1,USB-C development board connector,1,board,5V input; certified supply

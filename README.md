@@ -185,6 +185,7 @@ These aren't single chips on a board. Each device system here is:
 | 150 | [ReadTogether](./readtogether/) | 4 (Family Hub, Book Tag×N, Reading Dock, Room Beacon) | Family Literacy & Reading Routines | Privacy-first shared reading routine support with explicit page-turn/check-in events, accessible audio cues, and household-owned progress; no microphones, cameras, child scoring, or cloud-required operation |
 | 151 | [GreaseLoop](./greaseloop/) | 4 (Home Hub, Kitchen Dock, Storage Sentinel, Collection App) | Household Used-Cooking-Oil Collection | Local-first sealed-container mass tracking, leak-tray context, and manual community collection handoffs; no plumbing control, oil heating, or occupant tracking |
 | 152 | [ChargePlan](./chargeplan/) | 3 (Gateway, EVSE Observer, Home Load Observer) | Household EV Charging Observability | Local-first charging-session and household-load context with tariff-based suggestions; observers only, no EVSE control or savings claims |
+| 153 | [QuietHours](./quiet-hours/) | 3 (Hub, Room Sentinel, Doorway Beacon) | Shared-Home Quiet Coordination | Local-first, consent-based quiet-window coordination using audio-level estimates only; no audio recording, sound classification, or enforcement claims; prototype specification |
 
 ## Structure
 

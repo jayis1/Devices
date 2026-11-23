@@ -1,0 +1,5 @@
+# Protocol v1
+
+Transport: BLE GATT; gateway integration to MQTT is planned and not implemented. UTF-8 JSON examples in this document define the semantic payload only, not a BLE wire encoding. Fields: `v` integer version (1), `id` provisioned node identifier, `seq` unsigned monotonic counter, `t` Unix seconds or zero when unsynchronized, `kind` `level|mode|ack`, and kind-specific data. Level has `db10` integer estimate in 0.1 dB units, clamped 0..1200. Mode has `quiet` boolean. Acknowledgements echo `seq`.
+
+Receiver rejects unknown versions, missing fields, negative values, invalid identifiers, and duplicate/out-of-order sequence numbers. Queues are bounded to the newest 16 readings; readings older than 30 seconds expire. Retries are capped at three with randomized 200–1000 ms backoff. These rules are specified but not yet implemented in firmware. Commands are advisory mode selection only and expire after 60 seconds. Provisioning uses no production-grade authentication in this prototype; never expose it to untrusted radios.

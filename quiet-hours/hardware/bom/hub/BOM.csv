@@ -1,0 +1,5 @@
+Ref,Part,Qty,Package,Notes
+U1,Raspberry Pi Zero 2 W,1,board,Wi-Fi/BLE gateway; exact regional SKU
+PS1,USB-C 5V 2.5A supply,1,external,Certified supply; no mains wiring in project
+SD1,MicroSD 16GB endurance-rated,1,card,Local database; retention and backup required
+CASE1,Pi Zero enclosure,1,enclosure,Allow ventilation and radio clearance

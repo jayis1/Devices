@@ -1,0 +1,6 @@
+Ref,Part,Qty,Package,Notes
+U1,nRF52840 module,1,module,Select module with certified RF design and antenna keepout
+D1,RGB LED common anode,1,0603,1k series resistors each color; verify brightness
+SW1-SW2,Tactile switch,2,THT,Quiet and override
+R1-R3,1k resistor,3,0603,LED current limiting
+J1,USB development board,1,board,USB power; protected LiPo only with proper charger
