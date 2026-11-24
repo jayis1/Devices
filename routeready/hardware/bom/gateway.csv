@@ -1,0 +1,5 @@
+Item,Qty,Reference,Notes
+Raspberry Pi Pico W,1,SC0918,RP2040 + CYW43439 module board
+USB 5V supply,1,Certified 5V 2A supply,Gateway power
+USB cable,1,USB-A to micro-USB,Gateway power/data
+MicroSD adapter,1,Optional,Only if gateway design adds storage

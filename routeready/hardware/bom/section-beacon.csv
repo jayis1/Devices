@@ -1,0 +1,8 @@
+Item,Qty,Reference,Notes
+ESP32-C3-MINI-1,1,Espressif ESP32-C3-MINI-1,Verify module variant and reference design
+3-position maintained switch,1,SP3T low-voltage switch,Physical section status
+LED,1,Generic indicator LED,Select appropriate current limit resistor
+Resistor 1k,1,Generic 1k 1%,LED current limiting
+USB 5V supply,1,Certified 5V 1A,Gateway/beacon supply
+3V3 regulator,1,AP2112K-3.3 or equivalent,Confirm peak current and thermal margin
+Decoupling capacitors,2,100nF + 10uF,Place near module supply pins

@@ -1,0 +1,6 @@
+Item,Qty,Reference,Notes
+ESP32-C3-MINI-1,1,Espressif ESP32-C3-MINI-1,Verify module variant and reference design
+PN532 NFC module,1,Adafruit PN532 breakout or equivalent,Select 3V3 I2C-compatible variant
+Tactile button,1,Normally-open momentary,GPIO pull-up
+Pullup resistors 4.7k,2,Generic 4.7k 1%,I2C pullups to 3V3
+USB 5V supply,1,Certified 5V 1A,No battery

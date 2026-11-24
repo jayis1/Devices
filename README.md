@@ -190,6 +190,7 @@ These aren't single chips on a board. Each device system here is:
 | 155 | [ClosetLoop](./closetloop/) | 4 (Home Hub, Wardrobe Dock, Laundry Observer, Repair Dock) | Clothing Care & Repair | Local-first clothing-care task coordination from explicit NFC check-ins, laundry observation, and repair confirmations; no appliance control or wearer tracking |
 | 156 | [HomeReady](./homeready/) | 4 (Home Hub, Kit Tag Dock, Cache Check-in, Entry Checklist) | Household Emergency-Kit Readiness | Local-first household supply inventory and manual inspection reminders; no emergency prediction, dispatch, access control, or safety certification |
 | 157 | [ListenLink](./listenlink/) | 3 (Venue Hub, Receiver Dock, Room Beacon) | Community Venue Accessibility | Local-first assistive-listening equipment readiness context; no audio capture/transmission, listener tracking, or accessibility compliance claims |
+| 158 | [RouteReady](./routeready/) | 3+ (Gym Gateway, Section Beacon×N, Setter Dock) | Climbing-Gym Operations | Staff-declared climbing-wall section status and route-setting coordination; no route safety assessment, visitor tracking, or equipment control |
 
 ## Structure
 
