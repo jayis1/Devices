@@ -1,0 +1,5 @@
+Reference,Part,Qty,Notes
+U1,nRF52840 module,1,antenna and supply per module datasheet
+SW1,Tactile toggle,1,staff transmitter-state input
+D1,Low-current LED,1,status
+BT1,CR2032 holder,1,validate pulse-current and battery life

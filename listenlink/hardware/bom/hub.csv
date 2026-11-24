@@ -1,0 +1,5 @@
+Reference,Part,Qty,Notes
+U1,ESP32-C6-MINI-1,1,verify exact module pinout
+J1,USB-C receptacle,1,5V power and UART programming
+U2,3.3V regulator,1,size after measured Wi-Fi peak
+C1-C3,100nF ceramic,3,local decoupling
