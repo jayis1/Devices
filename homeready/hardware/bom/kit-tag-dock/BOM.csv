@@ -1,0 +1,6 @@
+ref,qty,manufacturer,part_number,description,notes
+U1,1,Espressif,ESP32-C3-MINI-1,MCU module,Verify module revision
+U2,1,Elechouse,PN532 V4,NFC reader module,I2C at 3.3V logic only
+SW1-SW2,2,Generic, momentary,User buttons,Active low with pullups
+D1,1,Generic,LED,Status LED,Series resistor required
+PS1,1,Certified supply,USB 5V 1A,Power,3.3V regulation per module design

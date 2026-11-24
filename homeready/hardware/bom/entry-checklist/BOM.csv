@@ -1,0 +1,5 @@
+ref,qty,manufacturer,part_number,description,notes
+U1,1,Espressif,ESP32-C3-MINI-1,MCU module,Verify module revision
+DS1,1,Good Display,GDEH029A1,2.9 inch e-paper,Verify controller/revision and peak current
+SW1-SW2,2,Generic,momentary,Buttons,Active low with pullups
+PS1,1,Certified supply,USB 5V 1A,Power,3.3V regulation per module design

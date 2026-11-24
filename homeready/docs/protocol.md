@@ -1,0 +1,2 @@
+# Protocol v1
+UTF-8 JSON event object, max 384 bytes, BLE GATT transport. Required fields: version=1, node_id, seq (uint32), event_id (UUID), kind, item_id, quantity (nonnegative integer); expiry_date and utc_ms optional. Unknown versions/kinds, malformed fields, stale sequence, and duplicate event IDs are rejected or idempotently ignored. CRC is not authentication. Production identity, encryption, replay protection across reboot, and key rotation are not implemented.

@@ -1,0 +1,2 @@
+# Local API (prototype)
+`POST /events` accepts JSON event envelopes (maximum 384 encoded bytes); `GET /events` returns locally recorded events. The included FastAPI starter validates only envelope bounds and event ID presence. It uses memory storage, has no authentication, durable restart recovery, rate limiting, or MQTT connection. Bind to loopback during development. Do not expose on a network without implementing authorization and persistence.
