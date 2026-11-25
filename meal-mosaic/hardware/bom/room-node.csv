@@ -1,0 +1,6 @@
+Reference, candidate parts; pricing and stock not checked.
+Item,Manufacturer,MPN,Qty,Package/notes
+MCU module,Espressif,ESP32-C3-MINI-1,1,Module
+Temperature/RH sensor,Sensirion,SHT31-DIS-B,1,DFN-8
+Button,Generic,momentary NO,1,Panel mount
+USB supply,Generic,regulated 5V supply,1,Certified external adapter

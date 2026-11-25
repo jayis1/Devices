@@ -1,0 +1,7 @@
+# Architecture and assembly notes
+
+Start with USB-powered development boards and sealed enclosures mounted away from wash splash and food contact. Serving and return nodes require mechanically isolated load cells, strain relief, overload stops, and a known-weight calibration routine. Room node should be placed away from direct sun, cooking exhaust, and vents. Do not install in a way that blocks accessible routes. Bring each node online individually; log node ID, observed advertising interval, RSSI and calibrated scale offset. Scale calibration and radio coverage are site-specific, not certified.
+
+Gateway runs on USB power, scans advertisements, validates protocol frames, writes local observations, and optionally forwards to API. Current code does not implement scanner, persistence, BLE provisioning or sync. There are no actuators. Network failure should leave local observations available and show stale status; queue persistence is a deployment requirement. Cloud API is a single-site prototype and must not be exposed publicly without TLS, authentication, authorization, retention controls, backups and rate limits.
+
+Risks: load-cell drift, bumped fixtures, changing container tare, moisture ingress, radio loss, gateway shutdown, incorrect volunteer event entry. Mitigation: mark data advisory, provide manual check-in/override, show age/unknown state, inspect/calibrate regularly, and never equate low mass with service completion.

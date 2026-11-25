@@ -191,6 +191,7 @@ These aren't single chips on a board. Each device system here is:
 | 156 | [HomeReady](./homeready/) | 4 (Home Hub, Kit Tag Dock, Cache Check-in, Entry Checklist) | Household Emergency-Kit Readiness | Local-first household supply inventory and manual inspection reminders; no emergency prediction, dispatch, access control, or safety certification |
 | 157 | [ListenLink](./listenlink/) | 3 (Venue Hub, Receiver Dock, Room Beacon) | Community Venue Accessibility | Local-first assistive-listening equipment readiness context; no audio capture/transmission, listener tracking, or accessibility compliance claims |
 | 158 | [RouteReady](./routeready/) | 3+ (Gym Gateway, Section Beacon×N, Setter Dock) | Climbing-Gym Operations | Staff-declared climbing-wall section status and route-setting coordination; no route safety assessment, visitor tracking, or equipment control |
+| 159 | [MealMosaic](./meal-mosaic/) | 4 (Gateway, Serving Node, Return Node, Room Node) | Community Meal Operations | Local-first volunteer coordination for serving-line stock, reusable-container returns, and room context; no diner tracking, food-safety claims, or appliance control |
 
 ## Structure
 

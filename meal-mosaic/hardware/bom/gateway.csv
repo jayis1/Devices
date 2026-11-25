@@ -1,0 +1,4 @@
+Reference; pricing and stock not checked.
+Item,Manufacturer,MPN,Qty,Package/notes
+Gateway board,Espressif,ESP32-C3-DevKitM-1,1,USB powered evaluation board
+Status LED,Generic,LED + 1k resistor,1,3.3 V GPIO
