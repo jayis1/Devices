@@ -1,0 +1,3 @@
+reference,part,quantity,notes
+U1,Raspberry Pi Pico W (RP2040/CYW43439 module),1,USB-powered dev board
+U2,VL53L0X time-of-flight sensor breakout,1,Exact breakout/voltage variant to be selected and verified

@@ -1,0 +1,3 @@
+# CarePath schematic status
+
+No KiCad project/schematic is provided. This directory records a preliminary net intent only; it is explicitly not a fabrication package. Proposed Entry node: Pico W 3V3 rail powers reed/button pullups; reed between GP2 and GND, button between GP3 and GND. Proposed Approach node: VL53L0X breakout VCC per exact breakout specification, SDA GP4 and SCL GP5 with pull-ups to 3V3, common ground. Verify selected breakout voltage tolerance, pullups, I2C address, regulator, connector polarity, decoupling, antenna keepout, enclosure and programming access before creating a real schematic. No ERC/DRC has been run.

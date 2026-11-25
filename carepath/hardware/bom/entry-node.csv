@@ -1,0 +1,5 @@
+reference,part,quantity,notes
+U1,Raspberry Pi Pico W (RP2040/CYW43439 module),1,USB-powered dev board
+SW1,Magnetic reed switch,1,Contact rating and enclosure installation to be verified
+SW2,Momentary normally-open pushbutton,1,Staff inspection input
+R1-R2,10 kohm resistor,2,Input pullups; check board internal pullup configuration

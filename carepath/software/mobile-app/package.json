@@ -1,0 +1,1 @@
+{"name":"carepath-operator-prototype","version":"0.1.0","private":true,"description":"UI contract placeholder; requires Expo app shell","scripts":{"typecheck":"tsc --noEmit"},"dependencies":{"react":"*","react-native":"*"},"devDependencies":{"typescript":"*"}}

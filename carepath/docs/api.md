@@ -1,0 +1,3 @@
+# API contract (prototype)
+
+Loopback-only FastAPI service. GET /health returns a prototype marker. POST /observations validates the v1 JSON envelope (entry needs door_open + staff_check; approach needs clearance_mm), rejects duplicate/out-of-order per-node sequence with 409, and returns acceptance. GET /status reports advisory state. Prototype is in-memory, does not authenticate callers, does not enforce time freshness yet, and does not connect MQTT. Do not expose it to a network. Production requires TLS, account/device identity, per-site authorization, bounded rate/retention, expiry handling, and documented migration/version policy.
