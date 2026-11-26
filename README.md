@@ -193,6 +193,7 @@ These aren't single chips on a board. Each device system here is:
 | 158 | [RouteReady](./routeready/) | 3+ (Gym Gateway, Section Beacon×N, Setter Dock) | Climbing-Gym Operations | Staff-declared climbing-wall section status and route-setting coordination; no route safety assessment, visitor tracking, or equipment control |
 | 159 | [MealMosaic](./meal-mosaic/) | 4 (Gateway, Serving Node, Return Node, Room Node) | Community Meal Operations | Local-first volunteer coordination for serving-line stock, reusable-container returns, and room context; no diner tracking, food-safety claims, or appliance control |
 | 160 | [CarePath](./carepath/) | 3 (Hub, Entry Node, Approach Node) | Venue Accessibility Operations | Local-first step-free entrance condition observations with staff inspection prompts; advisory only, no visitor tracking, access control, or compliance claims |
+| 161 | [CaptionBridge](./caption-bridge/) | 4 (Room Hub, Mic Sentinel×2, Display Client) | Community Meeting Accessibility | Local-first operator-mediated live caption workflow for small meetings; no stored audio, speaker identification, or guaranteed transcription |
 
 ## Structure
 

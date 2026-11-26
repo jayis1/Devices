@@ -1,0 +1,4 @@
+Reference,Qty,Description,Manufacturer / MPN,Notes
+U1,1,Raspberry Pi 4 Model B 2GB,Raspberry Pi SC0193,Prototype compute; verify supply requirements
+PS1,1,Official 5.1V USB-C supply,Raspberry Pi SC0824,Use region-approved supply
+CASE1,1,Pi 4 enclosure,Open hardware vendor,Thermal suitability to be checked

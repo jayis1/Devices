@@ -1,0 +1,4 @@
+Reference,Qty,Description,Manufacturer / MPN,Notes
+U1,1,Raspberry Pi Pico W,Raspberry Pi SC0918,Prototype MCU; verify current board revision and SDK support
+MIC1,1,I2S MEMS microphone,Knowles SPH0645LM4H-B,Design candidate; breakout not specified and board support unverified
+PS1,1,USB 5V supply,Region-approved USB supply,One per sentinel; USB-only prototype
