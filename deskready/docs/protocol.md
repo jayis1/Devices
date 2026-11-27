@@ -1,0 +1,3 @@
+# Event protocol v1
+
+UTF-8 JSON object, max 512 bytes, fields: `v` integer 1; `node` 1–24 ASCII identifier; `seq` unsigned 32-bit monotonic sequence per node boot; `kind` short event name; `ready` boolean operator declaration; `uptime_s` seconds. Gateway rejects duplicate/non-increasing sequence per node (current in-memory implementation), unsupported version, and invalid schema. Retries may resend identical event; gateway replies accepted or 409. Current C encoder emits bounded JSON but does not escape arbitrary strings; IDs/kinds must be restricted to alphanumeric, underscore, hyphen. Production requires boot ID, persistent counters, authentication, replay protection and BLE provisioning. CRC is not security. No compatibility guarantee beyond v1.

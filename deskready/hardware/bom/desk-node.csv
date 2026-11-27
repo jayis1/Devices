@@ -1,0 +1,6 @@
+ref,quantity,description,manufacturer_part,notes
+U1,1,Wi-Fi/BLE module,ESP32-C3-MINI-1,Confirm module revision and footprint
+U2,1,Current/voltage monitor,INA219AIDCNR,Only for isolated limited test fixture; optional
+SW1,1,Momentary button,Generic tactile,Ready check-in
+J1,1,USB-C receptacle,Generic USB-C,5 V power only; protection required
+U3,1,3.3 V regulator,TBD,Select after measured peak-current budget

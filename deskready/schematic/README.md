@@ -1,0 +1,3 @@
+# Schematic status
+
+No native KiCad schematic is included. These are connection-level reference notes only; do not fabricate from this document. Desk node: ESP32-C3 module, USB 5 V input, regulated 3.3 V logic, GPIO4 button to GND with pull-up, UART0 programming pads; optional comparator input GPIO5. Room node: ESP32-C3 module, SHT31-DIS-B at 3.3 V, I2C SDA6/SCL7 and pull-ups. Add connector ESD protection, decoupling, test points, and module antenna keep-out in a reviewed schematic. Validate exact module pin mapping, regulator transient/thermal ratings, USB protection and electrical isolation before build. No mains connections.

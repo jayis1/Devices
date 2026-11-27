@@ -1,0 +1,4 @@
+ref,quantity,description,manufacturer_part,notes
+U1,1,Single-board computer,Raspberry Pi Zero 2 W,Gateway prototype
+PS1,1,5 V USB supply,USB supply,Use certified supply appropriate to deployment
+SD1,1,microSD card,Generic,Local event storage; industrial endurance preferred
