@@ -1,0 +1,3 @@
+Reference,Quantity,Description,Notes
+U1,1,Raspberry Pi Zero 2 W,Gateway SBC; supply and enclosure verify separately
+J1,1,Regulated USB supply,Use vendor-recommended supply; prototype only

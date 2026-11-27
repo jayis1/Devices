@@ -1,0 +1,6 @@
+Reference,Quantity,Description,Notes
+U1,1,ESP32-C6-DevKitC-1,USB-powered board; verify revision
+SW1,1,Normally-open momentary switch,GPIO9 to GND
+D1,1,LED,GPIO8 indicator
+R1,1,1 kOhm resistor,Series current limit
+J1,1,USB-C cable/5V supply,Isolated compliant supply

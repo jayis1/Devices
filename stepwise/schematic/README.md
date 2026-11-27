@@ -1,0 +1,3 @@
+# StepWise Reference Schematics
+
+Prototype electrical reference only, not KiCad-native files or fabrication outputs. Two identical node designs: USB 5 V powers the ESP32-C6 development board; GPIO9 uses internal pull-up and a normally-open button to GND; GPIO8 drives an LED through 1 kΩ to GND. Board provides regulator, reset, boot and USB-UART interface. Validate exact board revision, GPIO capability and electrical limits against Espressif documentation before assembly. No mains, battery, actuator, or external sensor connections.

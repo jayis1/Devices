@@ -1,0 +1,3 @@
+# Event protocol v1
+
+Topic: `stepwise/v1/events/<node_id>`. JSON object keys: `version` (integer 1), `node_id` (provisioned identifier), `sequence` (unsigned integer, monotonic per node), `status` (`clear` or `needs_attention`), `created_at` (UTC RFC3339; informational only). Hub validates node identity, enums, bounds and sequence; malformed, unknown and stale/replayed events are rejected. QoS 1 duplicates are de-duplicated by node ID + sequence. Do not use retained MQTT commands; this system has no command channel. MQTT TLS and per-device credentials are mandatory for deployment; CRC is not authentication.

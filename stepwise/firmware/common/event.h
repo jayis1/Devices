@@ -1,0 +1,8 @@
+#ifndef STEPWISE_EVENT_H
+#define STEPWISE_EVENT_H
+#define STEPWISE_PROTOCOL_VERSION 1
+#define STEPWISE_EVENT_CLEAR "clear"
+#define STEPWISE_EVENT_ATTENTION "needs_attention"
+#define STEPWISE_BUTTON_GPIO 9
+#define STEPWISE_LED_GPIO 8
+#endif
