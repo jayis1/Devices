@@ -1,0 +1,6 @@
+Item,Qty,Manufacturer part number,Notes
+MCU dev board,1,Espressif ESP32-C6-DevKitC-1,USB powered; exact revision verify
+Momentary button,1,Generic 12mm tact switch,GPIO9 to GND
+LED,1,Generic red LED,GPIO8 through 1k resistor
+Resistor,1,Yageo RC0805FR-071KL,1 kohm
+USB supply,1,Certified 5V USB supply,Indoor isolated supply

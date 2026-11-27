@@ -1,0 +1,7 @@
+Weather node design draft
+=========================
+5V USB -> ESP32-C6-DevKitC-1 onboard regulator -> 3V3 MCU
+GPIO6 SDA/GPIO7 SCL -> SHT31 breakout (3V3, address 0x44)
+GPIO9 <- normally-open rain contact -> GND (internal pull-up)
+USB-UART/debug via development board USB connector
+No battery, mains connection, or actuator. Verify breakout pull-ups and voltage; reference only, not a KiCad schematic.
