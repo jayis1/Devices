@@ -1,0 +1,6 @@
+#include "protocol.h"
+static uint16_t crc16(const uint8_t *p,size_t n){uint16_t c=0xffffu;for(size_t i=0;i<n;i++){c^=(uint16_t)p[i]<<8;for(unsigned b=0;b<8;b++)c=(c&0x8000u)?(uint16_t)((c<<1)^0x1021u):(uint16_t)(c<<1);}return c;}
+static void put32(uint8_t*p,uint32_t v){p[0]=(uint8_t)v;p[1]=(uint8_t)(v>>8);p[2]=(uint8_t)(v>>16);p[3]=(uint8_t)(v>>24);}
+static uint32_t get32(const uint8_t*p){return (uint32_t)p[0]|((uint32_t)p[1]<<8)|((uint32_t)p[2]<<16)|((uint32_t)p[3]<<24);}
+size_t rb_encode(const rb_packet_t*p,uint8_t*o,size_t cap){if(!p||!o||p->payload_len>RB_MAX_PAYLOAD)return 0;size_t n=18u+p->payload_len;if(cap<n)return 0;o[0]=RB_VERSION;o[1]=p->type;o[2]=p->node_id;o[3]=p->payload_len;put32(o+4,p->boot_id);put32(o+8,p->sequence);put32(o+12,p->uptime_s);for(size_t i=0;i<p->payload_len;i++)o[16+i]=p->payload[i];uint16_t c=crc16(o,16u+p->payload_len);o[16+p->payload_len]=(uint8_t)c;o[17+p->payload_len]=(uint8_t)(c>>8);return n;}
+int rb_decode(const uint8_t*d,size_t n,rb_packet_t*o){if(!d||!o||n<18u||d[0]!=RB_VERSION||d[3]>RB_MAX_PAYLOAD||n!=18u+d[3])return 0;uint16_t c=crc16(d,n-2u);if(d[n-2u]!=(uint8_t)c||d[n-1u]!=(uint8_t)(c>>8))return 0;o->type=d[1];o->node_id=d[2];o->payload_len=d[3];o->boot_id=get32(d+4);o->sequence=get32(d+8);o->uptime_s=get32(d+12);for(size_t i=0;i<o->payload_len;i++)o->payload[i]=d[16+i];return 1;}

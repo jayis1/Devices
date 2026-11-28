@@ -1,0 +1,6 @@
+Reference,Description,Qty,Notes
+U1,ESP32-C6 module,1,Exact module and antenna variant to be selected
+U2,SX1262 SPI radio module,1,Regional band variant; reference design required
+J1,USB-C power receptacle,1,5V only; no USB PD assumption
+U3,3.3V regulator,1,Size for measured Wi-Fi and TX peaks
+D1,Status LED,1,Series resistor per chosen supply

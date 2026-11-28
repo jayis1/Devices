@@ -1,0 +1,7 @@
+Reference,Description,Qty,Notes
+U1,ESP32-C3 module,1,Verify module GPIO map
+U2,SX1262 radio module,1,Regional band variant
+S1,Ultrasonic distance module,1,Select weather-protected model; characterize dead zone
+R1-R2,Echo divider resistors,2,Only if echo output exceeds MCU logic rail
+U3,5V to 3.3V regulator,1,Size for radio/sensor peak current
+J1,Protected low-voltage input,1,Outdoor connector with strain relief

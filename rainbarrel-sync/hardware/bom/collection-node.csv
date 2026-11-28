@@ -1,0 +1,7 @@
+Reference,Description,Qty,Notes
+U1,ESP32-C3 module,1,Verify sleep current
+U2,SX1262 radio module,1,Regional band variant
+S1,Tipping-bucket rain gauge with reed output,1,Calibration per gauge documentation
+R1,Pull-up resistor,1,Value selected for cable length and power
+C1,Debounce capacitor,1,Verify pulse timing
+BT1,Protected battery pack,1,Chemistry and protection selected before build

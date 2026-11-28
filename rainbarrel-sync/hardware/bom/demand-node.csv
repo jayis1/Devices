@@ -1,0 +1,6 @@
+Reference,Description,Qty,Notes
+U1,ESP32-C3 module,1,Verify sleep current
+U2,SX1262 radio module,1,Regional band variant
+S1,Low-voltage pulse flow sensor,1,Exact model and wetted materials TBD
+U3,3.3V regulator,1,Sensor supply per datasheet
+J1,Low-voltage sealed connector,1,No mains interface

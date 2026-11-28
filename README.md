@@ -197,6 +197,7 @@ These aren't single chips on a board. Each device system here is:
 | 162 | [StepWise](./stepwise/) | 3 (Home Hub, Landing Beacon×2) | Household Route Readiness | Local-first manual stairway-condition check-ins with freshness status; advisory only, no safety certification or actuator control |
 | 163 | [ParkKeys](./parkkeys/) | 3 (Site Hub, Instrument Station, Weather Node) | Community Music Access | Local-first public-piano condition reports and steward maintenance context; no audio capture, automated repair decision, or safety certification |
 | 164 | [DeskReady](./deskready/) | 3+ (Gateway, Desk Node×N, Room Node) | Community Computer Labs | Local-first shared workstation readiness check-ins and room context; no user tracking, screen capture, or computer control |
+| 165 | [RainBarrel Sync](./rainbarrel-sync/) | 4 (Gateway, Tank Node, Collection Node, Demand Node) | Rainwater Harvesting | Local-first rainwater capacity, collection, and garden-demand observations; advisory only, no plumbing control or water-quality claims |
 
 ## Structure
 
